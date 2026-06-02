@@ -15,38 +15,59 @@
     <meta name="twitter:image" content="/assets/images/og-image.jpg">
     
     <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230f172a%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 font-family=%22system-ui, sans-serif%22 font-weight=%22600%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 font-family=%22system-ui, sans-serif%22 font-weight=%22600%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
     
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ink: { DEFAULT: '#0b1120', light: '#151d32', muted: '#1e293b' },
+                        cream: { DEFAULT: '#f8f6f1', dark: '#ebe8e1' },
+                        brand: { DEFAULT: '#0d9488', dark: '#0f766e', light: '#5eead4', warm: '#d97706' }
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
         
         :root {
-            --primary: #0f172a;
+            --ink: #0b1120;
+            --ink-light: #151d32;
+            --cream: #f8f6f1;
+            --brand: #0d9488;
+            --brand-dark: #0f766e;
+            --brand-warm: #d97706;
+            --text: #1e293b;
+            --text-muted: #64748b;
         }
         
         body {
-            font-family: 'Inter', system_ui, sans-serif;
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--cream);
         }
         
         .heading-font {
-            font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif;
+            font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
             font-weight: 600;
             letter-spacing: -0.025em;
         }
 
         .section {
-            scroll-margin-top: 80px;
+            scroll-margin-top: 88px;
         }
 
         .tier-card {
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         .tier-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 25px 30px -8px rgb(0 0 0 / 0.12), 0 10px 12px -6px rgb(0 0 0 / 0.1);
+            transform: translateY(-4px);
+            box-shadow: 0 25px 30px -8px rgb(11 17 32 / 0.12), 0 10px 12px -6px rgb(11 17 32 / 0.08);
         }
 
         .nav-link {
@@ -54,18 +75,73 @@
         }
         
         .nav-link:hover {
-            color: #0f766e;
+            color: var(--brand);
         }
 
-        .accent {
-            color: #0f766e;
+        .btn-primary {
+            background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%);
         }
 
-        .pricing-number {
-            font-feature-settings: "ss02";
+        .btn-primary:hover {
+            background: linear-gradient(135deg, var(--ink) 0%, var(--brand-dark) 100%);
         }
 
-        /* Sleek Mobile Experience */
+        /* Hero */
+        .hero-mesh {
+            background:
+                radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13, 148, 136, 0.22), transparent 55%),
+                radial-gradient(ellipse 50% 40% at 100% 50%, rgba(217, 119, 6, 0.08), transparent 50%),
+                radial-gradient(ellipse 40% 50% at 0% 80%, rgba(13, 148, 136, 0.1), transparent 45%),
+                var(--ink);
+        }
+
+        .hero-grid {
+            background-image:
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 48px 48px;
+            mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+        }
+
+        .hero-glow {
+            animation: heroPulse 8s ease-in-out infinite;
+        }
+
+        @keyframes heroPulse {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 0.75; transform: scale(1.05); }
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #5eead4 0%, #0d9488 50%, #fbbf24 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Portfolio */
+        .portfolio-card {
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px -12px rgb(11 17 32 / 0.2);
+        }
+
+        .portfolio-preview {
+            aspect-ratio: 16 / 10;
+        }
+
+        .portfolio-scroll {
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .portfolio-scroll > * {
+            scroll-snap-align: start;
+        }
+
         html, body {
             max-width: 100%;
             overflow-x: hidden;
@@ -75,19 +151,36 @@
             .safe-bottom {
                 padding-bottom: max(12px, env(safe-area-inset-bottom));
             }
-            
-            /* Better touch feedback */
-            a:active, button:active {
-                opacity: 0.85;
+
+            body.has-mobile-cta {
+                padding-bottom: 5.5rem;
             }
             
-            /* Improve readability on small screens */
-            h1, .heading-font {
-                line-height: 1.1;
+            a:active, button:active {
+                opacity: 0.88;
+            }
+            
+            .hero-title {
+                font-size: clamp(2.25rem, 9vw, 3.5rem);
+                letter-spacing: -0.04em;
+                line-height: 1.05;
+            }
+
+            .portfolio-scroll {
+                padding-left: 1.25rem;
+                padding-right: 1.25rem;
+                margin-left: -1.25rem;
+                margin-right: -1.25rem;
             }
         }
 
-        /* Mobile Menu Animation */
+        @media (prefers-reduced-motion: reduce) {
+            .hero-glow, .tier-card, .portfolio-card {
+                animation: none;
+                transition: none;
+            }
+        }
+
         #mobile-menu {
             animation: fadeIn 0.15s ease-out forwards;
         }
@@ -113,33 +206,34 @@
     }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-900 overflow-x-hidden">
+<body class="bg-cream text-ink-muted overflow-x-hidden has-mobile-cta">
     <!-- Navigation -->
-    <nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-5 md:px-6">
             <div class="flex justify-between items-center h-16 md:h-20">
                 <!-- Logo -->
                 <a href="index.html" class="flex items-center gap-x-3">
-                    <div class="w-8 h-8 md:w-9 md:h-9 bg-slate-900 rounded-2xl flex items-center justify-center">
+                    <div class="w-8 h-8 md:w-9 md:h-9 bg-ink rounded-2xl flex items-center justify-center ring-1 ring-white/10">
                         <span class="text-white font-bold text-xl md:text-2xl tracking-[-2px]">M</span>
                     </div>
-                    <span class="font-semibold text-xl md:text-2xl tracking-tighter">Mahoney Digital</span>
+                    <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
                 </a>
                 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center gap-x-8 text-sm">
-                    <a href="#tiers" class="nav-link font-medium text-slate-600 hover:text-slate-900">Packages</a>
-                    <a href="#how" class="nav-link font-medium text-slate-600 hover:text-slate-900">How it works</a>
+                    <a href="#work" class="nav-link font-medium text-slate-600 hover:text-ink">Work</a>
+                    <a href="#tiers" class="nav-link font-medium text-slate-600 hover:text-ink">Packages</a>
+                    <a href="#how" class="nav-link font-medium text-slate-600 hover:text-ink">How it works</a>
                 </div>
                 
                 <!-- Desktop CTAs -->
                 <div class="hidden md:flex items-center gap-x-3">
                     <a href="#contact" 
-                       class="inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-2xl border border-slate-300 hover:bg-slate-50 hover:border-slate-400 transition-colors">
+                       class="inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-2xl border border-slate-300 hover:bg-cream hover:border-slate-400 transition-colors">
                         Get in touch
                     </a>
                     <a href="plans/" 
-                       class="inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-2xl bg-emerald-900 text-white hover:bg-emerald-800 shadow-sm transition-all">
+                       class="btn-primary inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-2xl text-white shadow-md shadow-brand/20 transition-all">
                         See Support Plans
                     </a>
                 </div>
@@ -157,16 +251,17 @@
         <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/40 z-50 overflow-hidden" style="top: 4rem;">
             <div class="bg-white w-full shadow-xl">
                 <div class="px-5 py-6 flex flex-col gap-y-1 text-[15px]">
-                    <a href="#tiers" class="mobile-nav-link block font-medium text-slate-700 py-3 px-1 rounded-xl active:bg-slate-100">Packages</a>
-                    <a href="#how" class="mobile-nav-link block font-medium text-slate-700 py-3 px-1 rounded-xl active:bg-slate-100">How it works</a>
+                    <a href="#work" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Work</a>
+                    <a href="#tiers" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Packages</a>
+                    <a href="#how" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">How it works</a>
                     
                     <div class="pt-4 mt-2 border-t border-slate-100 flex flex-col gap-y-3">
                         <a href="#contact" 
-                           class="mobile-nav-link block font-semibold text-slate-700 py-3 px-1 rounded-xl active:bg-slate-100 hover:bg-slate-50">
+                           class="mobile-nav-link block font-semibold text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream hover:bg-cream">
                             Get in touch
                         </a>
                         <a href="plans/" 
-                           class="mt-1 inline-flex items-center justify-center px-5 py-3.5 text-sm font-semibold rounded-2xl bg-emerald-900 text-white active:bg-black shadow-sm">
+                           class="btn-primary mt-1 inline-flex items-center justify-center px-5 py-3.5 min-h-[48px] text-sm font-semibold rounded-2xl text-white shadow-sm">
                             See Plans
                         </a>
                     </div>
@@ -176,34 +271,124 @@
     </nav>
 
     <!-- Hero -->
-    <section class="max-w-5xl mx-auto px-5 md:px-6 pt-14 pb-20 md:pt-20 md:pb-24 text-center">
-        <div class="max-w-3xl mx-auto">
-            <div class="inline-flex items-center gap-x-2 bg-white border border-slate-200 rounded-3xl px-5 py-1.5 mb-8">
-                <div class="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                <span class="text-sm font-semibold tracking-wide text-slate-700">Now accepting new clients</span>
+    <section class="hero-mesh relative overflow-hidden">
+        <div class="hero-grid absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[min(600px,90vw)] h-[300px] bg-brand/20 rounded-full blur-[100px] hero-glow pointer-events-none" aria-hidden="true"></div>
+
+        <div class="relative max-w-7xl mx-auto px-5 md:px-6 pt-12 pb-16 md:pt-20 md:pb-24">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="inline-flex items-center gap-x-2 bg-white/10 border border-white/15 rounded-full px-4 py-2 mb-6 md:mb-8 backdrop-blur-sm">
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-light opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-light"></span>
+                        </span>
+                        <span class="text-sm font-medium text-slate-300">Now accepting new clients in Ohio</span>
+                    </div>
+
+                    <h1 class="hero-title heading-font text-white font-semibold mb-5 md:mb-6 md:text-[3.75rem] lg:text-[4.25rem] md:leading-[1.02] md:tracking-[-0.04em]">
+                        Websites that make<br>
+                        <span class="text-gradient">local businesses</span><br>
+                        look legit.
+                    </h1>
+
+                    <p class="text-lg md:text-xl text-slate-400 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+                        Stop overpaying for slow templates. Get a fast, mobile-first site with honest pricing — built for contractors, trades, and shops everyone else overlooks.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+                        <a href="#contact"
+                           class="btn-primary inline-flex items-center justify-center gap-x-2 px-8 py-4 min-h-[52px] text-base md:text-lg font-semibold rounded-2xl text-white shadow-lg shadow-brand/25 transition-all">
+                            Start a conversation
+                            <i class="fas fa-arrow-right text-sm"></i>
+                        </a>
+                        <a href="#work"
+                           class="inline-flex items-center justify-center gap-x-2 px-8 py-4 min-h-[52px] text-base md:text-lg font-semibold rounded-2xl border border-white/25 text-white hover:bg-white/10 transition-colors">
+                            See our work
+                        </a>
+                    </div>
+
+                    <p class="text-sm text-slate-500 mt-6">Clear pricing · No pressure · No surprises</p>
+                </div>
+
+                <!-- Hero visual: browser mockup -->
+                <div class="hidden sm:block relative lg:pl-4">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-4 bg-gradient-to-br from-brand/30 to-brand-warm/20 rounded-3xl blur-2xl opacity-60" aria-hidden="true"></div>
+                        <div class="relative bg-ink-light border border-white/10 rounded-2xl shadow-2xl overflow-hidden">
+                            <div class="flex items-center gap-2 px-4 py-3 bg-ink border-b border-white/5">
+                                <div class="flex gap-1.5">
+                                    <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
+                                    <span class="w-3 h-3 rounded-full bg-amber-500/80"></span>
+                                    <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
+                                </div>
+                                <div class="flex-1 mx-3 h-7 bg-white/5 rounded-lg flex items-center justify-center">
+                                    <span class="text-[10px] text-slate-500 tracking-wide">yourbusiness.com</span>
+                                </div>
+                            </div>
+                            <div class="p-5 space-y-4">
+                                <div class="h-24 rounded-xl bg-gradient-to-br from-brand-dark/40 to-brand/20 border border-brand/20 flex items-end p-4">
+                                    <div>
+                                        <div class="h-2 w-32 bg-white/40 rounded mb-2"></div>
+                                        <div class="h-2 w-48 bg-white/20 rounded"></div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2">
+                                    <div class="h-14 rounded-lg bg-white/5"></div>
+                                    <div class="h-14 rounded-lg bg-white/5"></div>
+                                    <div class="h-14 rounded-lg bg-white/5"></div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div class="h-9 flex-1 rounded-lg bg-brand/40"></div>
+                                    <div class="h-9 w-20 rounded-lg bg-white/10"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-4 -left-2 md:-left-6 bg-white rounded-2xl shadow-xl px-4 py-3 border border-cream-dark">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-brand/10 flex items-center justify-center text-brand">
+                                    <i class="fas fa-mobile-screen text-lg"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs font-bold text-ink uppercase tracking-wide">Mobile-first</div>
+                                    <div class="text-xs text-slate-500">Looks great on every phone</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute -top-2 -right-2 md:-right-4 bg-white rounded-2xl shadow-xl px-4 py-3 border border-cream-dark">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-brand-warm/10 flex items-center justify-center text-brand-warm">
+                                    <i class="fas fa-bolt text-lg"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs font-bold text-ink uppercase tracking-wide">Fast loading</div>
+                                    <div class="text-xs text-slate-500">Built for real customers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <h1 class="heading-font text-6xl sm:text-7xl md:text-[5.25rem] leading-[0.98] tracking-[-3.25px] md:tracking-[-3.5px] font-semibold mb-7">
-                Stop overpaying<br>for websites that<br>don’t work.
-            </h1>
-            
-            <p class="text-2xl text-slate-600 max-w-[620px] mx-auto mb-12 leading-tight">
-                Professional websites built for small local businesses that have been ignored or overcharged.
-            </p>
-            
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="plans/" 
-                   class="inline-flex items-center justify-center gap-x-3 px-9 py-[17px] text-lg font-semibold rounded-3xl bg-emerald-900 text-white shadow-sm hover:bg-emerald-800 hover:shadow active:bg-black transition-all">
-                    See Support Plans
-                    <i class="fas fa-arrow-right text-base"></i>
-                </a>
-                <a href="#contact" 
-                   class="inline-flex items-center justify-center gap-x-2 px-9 py-[17px] text-lg font-semibold rounded-3xl border border-slate-300 hover:bg-slate-100 transition-colors">
-                    Talk to me first
-                </a>
+
+            <!-- Stats strip -->
+            <div class="mt-14 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-4xl mx-auto lg:mx-0 lg:max-w-none">
+                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
+                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">$1,450+</div>
+                    <div class="text-xs text-slate-400 mt-1">Transparent starting price</div>
+                </div>
+                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
+                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">2–4 wks</div>
+                    <div class="text-xs text-slate-400 mt-1">Typical build timeline</div>
+                </div>
+                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
+                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">100%</div>
+                    <div class="text-xs text-slate-400 mt-1">Mobile-first design</div>
+                </div>
+                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
+                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">0</div>
+                    <div class="text-xs text-slate-400 mt-1">Long-term contracts</div>
+                </div>
             </div>
-            
-            <p class="text-sm text-slate-500 mt-8 tracking-wide">Clear pricing. No pressure. No surprises.</p>
         </div>
     </section>
 
@@ -220,7 +405,7 @@
     </section>
 
     <!-- Who We Serve -->
-    <section class="max-w-6xl mx-auto px-5 md:px-6 py-20 md:py-28 bg-slate-50 -mx-5 md:-mx-6 px-5 md:px-6 rounded-[3rem]">
+    <section class="max-w-6xl mx-auto px-5 md:px-6 py-20 md:py-28 bg-cream -mx-5 md:-mx-6 rounded-[2rem] md:rounded-[3rem]">
         <div class="text-center mb-10 md:mb-12">
             <div class="inline-block mb-3 px-4 py-1 bg-white rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">WHO WE SERVE</div>
             <h2 class="heading-font text-4xl font-semibold tracking-tight">Built for the businesses everyone else overlooks.</h2>
@@ -257,7 +442,7 @@
                 <div class="md:col-span-5">
                     <div class="inline-block mb-4 px-4 py-1 bg-slate-100 rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">MEET THE FOUNDER</div>
                     <h2 class="heading-font text-4xl md:text-[42px] font-semibold tracking-[-1.8px] leading-none mb-4">Hi, I’m Jeremy.</h2>
-                    <p class="text-emerald-700 font-medium text-sm tracking-wide">— Owner &amp; Lead Designer</p>
+                    <p class="text-brand-dark font-medium text-sm tracking-wide">— Owner &amp; Lead Designer</p>
                 </div>
                 <div class="md:col-span-7 text-[15.5px] md:text-[15.8px] text-slate-700 leading-relaxed">
                     <p>After seeing too many contractors, mechanics, and tradespeople pay thousands for websites that didn’t actually help their business, I decided to do things differently.</p>
@@ -268,8 +453,113 @@
         </div>
     </section>
 
+    <!-- Portfolio / Gallery -->
+    <section id="work" class="section bg-white border-y border-cream-dark py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-5 md:px-6">
+            <div class="text-center mb-10 md:mb-14">
+                <div class="inline-block mb-3 px-4 py-1 bg-cream rounded-full text-xs font-semibold tracking-widest text-slate-600 border border-cream-dark">RECENT WORK</div>
+                <h2 class="heading-font text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-ink mb-4">Sites built for real local businesses.</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Every project is custom — fast, mobile-first, and designed to turn visitors into calls and bookings.</p>
+            </div>
+
+            <!-- Desktop grid -->
+            <div class="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
+                <a href="examples/summit-comfort-hvac.html" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
+                    <div class="portfolio-preview relative overflow-hidden bg-gradient-to-br from-sky-950 via-slate-800 to-cyan-800/50">
+                        <div class="absolute inset-0 p-5 flex flex-col justify-end">
+                            <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">HVAC · Ross County</div>
+                            <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
+                        </div>
+                        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
+                            View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-slate-600 mb-4">Service-area pages, emergency CTA, and trust signals — built to capture seasonal and urgent leads.</p>
+                        <span class="inline-block text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Growth package</span>
+                    </div>
+                </a>
+
+                <a href="examples/riverside-lawn.html" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
+                    <div class="portfolio-preview relative overflow-hidden bg-gradient-to-br from-emerald-950 via-green-900 to-lime-800/40">
+                        <div class="absolute inset-0 p-5 flex flex-col justify-end">
+                            <div class="text-lime-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Landscaping</div>
+                            <div class="text-white font-semibold text-lg heading-font">Riverside Lawn &amp; Landscape</div>
+                        </div>
+                        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
+                            View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-slate-600 mb-4">Before/after gallery, seasonal promos, and quote forms — optimized for spring booking rushes.</p>
+                        <span class="inline-block text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Essential package</span>
+                    </div>
+                </a>
+
+                <a href="examples/mikes-mobile-mechanic.html" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
+                    <div class="portfolio-preview relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-orange-900/50">
+                        <div class="absolute inset-0 p-5 flex flex-col justify-end">
+                            <div class="text-orange-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Auto repair</div>
+                            <div class="text-white font-semibold text-lg heading-font">Mike's Mobile Mechanic</div>
+                        </div>
+                        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
+                            View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-slate-600 mb-4">Click-to-call hero, services list, and service-area map — simple and effective for mobile traffic.</p>
+                        <span class="inline-block text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Essential package</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Mobile: horizontal scroll -->
+            <div class="md:hidden portfolio-scroll flex gap-4 overflow-x-auto pb-4 -mx-5 px-5 snap-x">
+                <a href="examples/summit-comfort-hvac.html" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
+                    <div class="portfolio-preview bg-gradient-to-br from-sky-950 to-cyan-800/50 relative p-5 flex flex-col justify-end min-h-[180px]">
+                        <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">HVAC</div>
+                        <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-slate-600 mb-2">Emergency CTAs and service-area pages for lead capture.</p>
+                        <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
+                    </div>
+                </a>
+                <a href="examples/riverside-lawn.html" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
+                    <div class="portfolio-preview bg-gradient-to-br from-emerald-950 to-lime-800/40 relative p-5 flex flex-col justify-end min-h-[180px]">
+                        <div class="text-lime-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Landscaping</div>
+                        <div class="text-white font-semibold text-lg heading-font">Riverside Lawn</div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-slate-600 mb-2">Gallery and quote forms for seasonal booking.</p>
+                        <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
+                    </div>
+                </a>
+                <a href="examples/mikes-mobile-mechanic.html" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
+                    <div class="portfolio-preview bg-gradient-to-br from-slate-900 to-orange-900/50 relative p-5 flex flex-col justify-end min-h-[180px]">
+                        <div class="text-orange-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Auto</div>
+                        <div class="text-white font-semibold text-lg heading-font">Mike's Mobile Mechanic</div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-slate-600 mb-2">Mobile-first with click-to-call and service areas.</p>
+                        <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
+                    </div>
+                </a>
+            </div>
+            <p class="md:hidden text-center text-xs text-slate-400 mt-3">Swipe to browse · tap a card to open the example</p>
+
+            <div class="text-center mt-10 md:mt-12">
+                <p class="text-slate-600 mb-4">Your business could be next.</p>
+                <a href="#contact" class="btn-primary inline-flex items-center gap-x-2 px-8 py-3.5 min-h-[48px] text-sm font-semibold rounded-2xl text-white shadow-md transition-all">
+                    Discuss your project
+                    <i class="fas fa-arrow-right text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Pricing Tiers -->
-    <section id="tiers" class="max-w-7xl mx-auto px-5 md:px-6 py-20 md:py-24">
+    <section id="tiers" class="section max-w-7xl mx-auto px-5 md:px-6 py-20 md:py-24">
         <div class="text-center mb-12">
             <div class="inline-block mb-3 px-4 py-1 bg-slate-100 rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">PACKAGES</div>
             <h2 class="heading-font text-5xl font-semibold tracking-[-2.5px] mb-4">Three straightforward packages.</h2>
@@ -279,17 +569,17 @@
         <!-- Trust signals -->
         <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-600 mb-10 bg-white border border-slate-200 rounded-3xl py-4 px-8 max-w-fit mx-auto">
             <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-emerald-600"></i>
+                <i class="fas fa-check text-brand"></i>
                 <span class="font-medium">30–90 days of edits included</span>
             </div>
             <div class="hidden sm:block w-px h-3.5 bg-slate-200 self-center"></div>
             <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-emerald-600"></i>
+                <i class="fas fa-check text-brand"></i>
                 <span class="font-medium">No long-term contracts</span>
             </div>
             <div class="hidden sm:block w-px h-3.5 bg-slate-200 self-center"></div>
             <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-emerald-600"></i>
+                <i class="fas fa-check text-brand"></i>
                 <span class="font-medium">Clear pricing upfront</span>
             </div>
         </div>
@@ -310,23 +600,23 @@
                     
                     <div class="space-y-[13px] text-[14.5px]">
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Mobile-first professional design</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Homepage + up to 4 pages</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Contact form + business details</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Fast loading + basic SEO</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">30 days of edits after launch</span>
                         </div>
                     </div>
@@ -343,8 +633,8 @@
             </div>
 
             <!-- Growth -->
-            <div class="tier-card group bg-white border-2 border-emerald-900 rounded-3xl p-7 md:p-8 flex flex-col relative shadow-sm">
-                <div class="absolute -top-3 right-6 bg-emerald-900 text-white text-[10px] font-bold tracking-[1px] px-4 py-1 rounded-3xl">MOST POPULAR</div>
+            <div class="tier-card group bg-white border-2 border-brand-dark rounded-3xl p-7 md:p-8 flex flex-col relative shadow-sm">
+                <div class="absolute -top-3 right-6 bg-brand-dark text-white text-[10px] font-bold tracking-[1px] px-4 py-1 rounded-3xl">MOST POPULAR</div>
                 
                 <div class="flex-1">
                     <div class="flex items-baseline justify-between mb-2">
@@ -358,37 +648,37 @@
                     
                     <div class="space-y-[13px] text-[14.5px]">
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Conversion-focused design</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Homepage + 6–8 pages</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Strong messaging + lead forms</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Dedicated service pages</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Analytics + local SEO</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">60 days of edits after launch</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-emerald-900/20">
-                    <div class="text-xs uppercase tracking-[0.5px] text-emerald-800 mb-2">Most projects land at</div>
-                    <div class="font-semibold text-emerald-900 mb-4">$2,900 – $3,200</div>
+                <div class="mt-8 pt-6 border-t border-brand-dark/20">
+                    <div class="text-xs uppercase tracking-[0.5px] text-brand-dark mb-2">Most projects land at</div>
+                    <div class="font-semibold text-brand-dark mb-4">$2,900 – $3,200</div>
                     <a href="plans/growth-partner.html" 
-                       class="block w-full text-center bg-emerald-900 hover:bg-black text-white font-semibold py-3.5 rounded-2xl text-sm transition-colors">
+                       class="btn-primary block w-full text-center text-white font-semibold py-3.5 min-h-[44px] flex items-center justify-center rounded-2xl text-sm transition-colors">
                         Choose Growth
                     </a>
                 </div>
@@ -408,23 +698,23 @@
                     
                     <div class="space-y-[13px] text-[14.5px]">
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Fully custom design</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Unlimited pages &amp; features</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Deep strategy + custom work</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">Premium visuals &amp; UX</span>
                         </div>
                         <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-emerald-600 mt-[3px] text-sm"></i>
+                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
                             <span class="text-slate-700">90 days of edits + training</span>
                         </div>
                     </div>
@@ -444,14 +734,14 @@
         <p class="text-center text-sm text-slate-500 mt-8">Bundle with ongoing support and save 10–20% on your website project.</p>
 
         <div class="text-center mt-8">
-            <a href="plans/" class="inline-flex items-center text-emerald-700 hover:text-emerald-800 font-semibold">
+            <a href="plans/" class="inline-flex items-center text-brand-dark hover:text-brand-dark font-semibold">
                 See full support plan details and comparison →
             </a>
         </div>
     </section>
 
     <!-- How It Works -->
-    <section id="how" class="bg-slate-50 py-16 md:py-24">
+    <section id="how" class="section bg-cream py-16 md:py-24">
         <div class="max-w-5xl mx-auto px-5 md:px-6">
             <div class="text-center mb-10">
                 <div class="inline-block mb-3 px-4 py-1 bg-white rounded-2xl text-xs font-semibold tracking-widest text-slate-600 border border-slate-200">HOW IT WORKS</div>
@@ -459,23 +749,23 @@
             </div>
             
             <div class="grid md:grid-cols-4 gap-6">
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-emerald-900/30 transition-colors">
-                    <div class="text-emerald-700 text-xs font-bold tracking-[1.5px] mb-4">01</div>
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
+                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">01</div>
                     <h4 class="font-semibold text-lg tracking-tight mb-2">Quick call or text</h4>
                     <p class="text-sm text-slate-600 leading-snug">We talk about your business and what you actually need from a website.</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-emerald-900/30 transition-colors">
-                    <div class="text-emerald-700 text-xs font-bold tracking-[1.5px] mb-4">02</div>
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
+                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">02</div>
                     <h4 class="font-semibold text-lg tracking-tight mb-2">Clear proposal</h4>
                     <p class="text-sm text-slate-600 leading-snug">You get a straightforward quote with exact pricing and timeline — no guessing.</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-emerald-900/30 transition-colors">
-                    <div class="text-emerald-700 text-xs font-bold tracking-[1.5px] mb-4">03</div>
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
+                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">03</div>
                     <h4 class="font-semibold text-lg tracking-tight mb-2">We build it together</h4>
                     <p class="text-sm text-slate-600 leading-snug">You see progress and give feedback. No disappearing acts.</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-emerald-900/30 transition-colors">
-                    <div class="text-emerald-700 text-xs font-bold tracking-[1.5px] mb-4">04</div>
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
+                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">04</div>
                     <h4 class="font-semibold text-lg tracking-tight mb-2">Site goes live</h4>
                     <p class="text-sm text-slate-600 leading-snug">Full training included. Ongoing support available if you want it.</p>
                 </div>
@@ -507,49 +797,49 @@
                         <div>
                             <label class="block text-sm font-semibold text-slate-700 mb-2">Your Name</label>
                             <input type="text" name="name" required autocomplete="name"
-                                   class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-emerald-900 focus:ring-1 focus:ring-emerald-900/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
+                                   class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
                         </div>
                         <div>
                             <label class="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
                             <input type="tel" name="phone" required autocomplete="tel"
-                                   class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-emerald-900 focus:ring-1 focus:ring-emerald-900/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
+                                   class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
                         </div>
                     </div>
                     
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
                         <input type="email" name="email" required autocomplete="email"
-                               class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-emerald-900 focus:ring-1 focus:ring-emerald-900/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
+                               class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
                     </div>
                     
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-2">What kind of work do you do?</label>
                         <input type="text" name="business-type" placeholder="Plumbing, Mechanic, HVAC, Landscaping..." 
-                               class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-emerald-900 focus:ring-1 focus:ring-emerald-900/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
+                               class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
                     </div>
                     
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-2">Tell me a bit about what you’re looking for</label>
                         <textarea name="message" rows="5" required 
-                                  class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-emerald-900 focus:ring-1 focus:ring-emerald-900/30 outline-none text-[15px] placeholder:text-slate-400 resize-y transition-colors"></textarea>
+                                  class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 resize-y transition-colors"></textarea>
                     </div>
                     
                     <button type="submit" 
-                            class="w-full mt-3 py-4 bg-emerald-900 hover:bg-emerald-800 active:bg-black transition-all text-white font-semibold text-base tracking-[0.5px] rounded-3xl shadow-sm hover:shadow">
+                            class="btn-primary w-full mt-3 py-4 min-h-[52px] active:bg-ink transition-all text-white font-semibold text-base tracking-[0.5px] rounded-3xl shadow-sm hover:shadow">
                         SEND MESSAGE
                     </button>
                 </form>
 
                 <div class="mt-8 text-center text-sm text-slate-500 space-y-1">
-                    <div>Or email <a href="mailto:hello@mahoneydigital.net" class="underline hover:text-emerald-700">hello@mahoneydigital.net</a></div>
-                    <div>or call/text <a href="tel:6146365248" class="underline hover:text-emerald-700 font-medium">614-636-5248</a></div>
+                    <div>Or email <a href="mailto:hello@mahoneydigital.net" class="underline hover:text-brand-dark">hello@mahoneydigital.net</a></div>
+                    <div>or call/text <a href="tel:6146365248" class="underline hover:text-brand-dark font-medium">614-636-5248</a></div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 text-sm py-12">
+    <footer class="bg-ink text-slate-400 text-sm py-12">
         <div class="max-w-6xl mx-auto px-5 md:px-6">
             <div class="flex flex-col md:flex-row md:items-center justify-between gap-y-8">
                 <div>
@@ -580,11 +870,11 @@
     <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 px-4 py-3.5 z-40 safe-bottom shadow-[0_-2px_10px_rgb(0,0,0,0.03)]">
         <div class="flex gap-3">
             <a href="#contact" 
-               class="flex-1 text-center py-3 text-sm font-semibold rounded-2xl border border-slate-300 text-slate-700 active:bg-slate-50 transition-colors hover:bg-slate-50">
+               class="flex-1 text-center py-3 min-h-[44px] flex items-center justify-center text-sm font-semibold rounded-2xl border border-slate-300 text-slate-700 active:bg-cream transition-colors hover:bg-cream">
                 Get in touch
             </a>
             <a href="plans/" 
-               class="flex-1 text-center py-3 text-sm font-semibold rounded-2xl bg-emerald-900 text-white active:bg-black transition-colors shadow-sm">
+               class="btn-primary flex-1 text-center py-3 min-h-[44px] flex items-center justify-center text-sm font-semibold rounded-2xl text-white transition-colors shadow-sm">
                 See Plans
             </a>
         </div>

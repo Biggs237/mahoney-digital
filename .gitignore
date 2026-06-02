@@ -1,0 +1,17 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Env / secrets (never commit)
+.env
+.env.*
+
+# Logs
+*.log
