@@ -1,0 +1,9 @@
+Mahoney Digital - Email Signature Template (Deprecated)
+
+This is the old template. Use the finalized version instead:
+
+See Email_Signature_Final.txt for the recommended plain text, rich text, and HTML versions.
+
+See Email_Setup_Guide.md for full current instructions on Gmail vs Porkbun Webmail setup (Gmail integration is limited as of 2026).
+
+The signature is now standardized across all outreach materials.

@@ -1,0 +1,43 @@
+# Outreach - Mahoney Digital
+
+Local Chillicothe, OH small business outreach for Mahoney Digital.
+
+## Structure
+
+Each business folder contains:
+- `Contact.md` — Verified phone, email (if public), Facebook, address, website, notes
+- `Outreach_Draft.md` or `Scripts.md` — Ready-to-use email / call scripts, voicemail, and Facebook message versions
+- `Notes.md` — Status, dates, follow-up reminders, conversation notes
+
+## Current Leads (May/June 2026)
+
+**Status as of 2026-06-02: Email sent to Chillicothe Comfort Heating & Air (ccs45601@outlook.com). User confirmed "Sent!". No responses from prior emailed leads yet. Other leads stable (see details below).**
+
+1. **Payless Plumbing** — Email sent 2026-05-31 to fieldsjim1@gmail.com. No reply yet. Follow-up planned ~June 4-5.
+2. **Clemmons & Son Plumbing** — Call planned (no contact made yet).
+3. **Crall's One Stop Shop** — Call planned (no contact made yet).
+4. **Foster Farmstead Marketplace** — New natural living market (just opened late May 2026). Email sent June 1, 2026 to info@fosterfarmsteadmarketplace.com (primary). No reply yet. Follow-up planned in 4-5 days.
+
+**New leads (June 2026):**
+5. **Haulin' Grass LLC** — Lawn care & landscaping (Chillicothe). Email sent to haulingrassllc4@gmail.com. Monitor for reply.
+6. **Hanes Lawn Care** — Family-owned lawn care (Chillicothe/Ross County). Email to isaiahhanes01@icloud.com bounced/returned. No valid email. Use FB https://www.facebook.com/61587378341344 (draft in FB_Message_Draft.md) or phone (931) 698-9104 (script in Phone_Script.md). Use 614-636-5248 business line.
+7. **Chillicothe Comfort Heating & Air** — HVAC, heating, AC, plumbing. Email: ccs45601@outlook.com. Email sent 2026-06-02 (user confirmed "Sent!"). Sent_Email_2026-06-02.md created with full body and follow-up plan. Monitor for reply; follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ if needed.
+
+## Business Phone (Google Voice)
+**614-636-5248** — Use this number for all calls, voicemails, and when it appears on the website / signatures.
+
+Use the individual folders for all tracking. Update Notes.md after every interaction.
+
+**Follow-up drafts available** in Payless_Plumbing/Follow_Up_Email_Draft.md and Foster_Farmstead_Marketplace/Follow_Up_Email_Draft.md (ready to use if no responses by ~June 4-6).
+
+**Email Signature:** Final version locked in Email_Signature_Final.txt. Successfully implemented in Porkbun Webmail (HTML mode) - user confirmed it works and looks great. See Email_Setup_Guide.md. All current email drafts use it.
+
+Keep it honest, low-pressure, and local. No hype.
+
+**Current status note (2026-06-02):** Chillicothe Comfort email sent (user confirmed "Sent!"). All prior sent leads (Payless, Foster Farmstead, Haulin' Grass) still awaiting replies; Hanes using FB + phone fallback paths. Email signature solid in Porkbun Webmail. Detailed tracking maintained in individual folders + this README.
+
+**Current priorities:**
+- Monitor Chillicothe Comfort (sent 2026-06-02 to ccs45601@outlook.com) for reply. Follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ ~June 6-7 if needed.
+- Monitor all sent leads (Payless, Foster, Haulin') per their individual Notes.md and send polite follow-ups ~4-6 days out if needed.
+- Prep and start calls to Clemmons & Son Plumbing ((740) 775-3475) and Crall's One Stop Shop ((740) 774-3860) using the 614-636-5248 business line.
+- Log every interaction promptly in the relevant Notes.md (date, what was said/sent, clear next action).
