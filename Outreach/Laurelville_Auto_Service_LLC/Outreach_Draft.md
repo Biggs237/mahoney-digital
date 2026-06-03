@@ -1,7 +1,7 @@
 # Outreach Email Draft — Laurelville Auto Service LLC
 
 **Web score:** ~4/10 — GoDaddy builder site only  
-**To:** Laurelvilleauto@yahoo.com  
+**To:** Laurelvilleauto@yahoo.com — **sent 2026-06-03**  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Laurelville Auto Service — website help near Hocking Hills
 

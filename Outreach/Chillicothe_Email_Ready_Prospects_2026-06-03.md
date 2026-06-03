@@ -9,11 +9,9 @@ Send from **hello@mahoneydigital.net** · Log sends in each folder’s `Notes.md
 
 ## Ready to email now (verified email + weak web)
 
-| Priority | Business | Email | Phone | Web presence | Why Mahoney Digital fits |
-|----------|----------|-------|-------|--------------|--------------------------|
-| ★★★ | **Robert's / Allen's Handyman Services** (Robert Allen) | allenshandymanservices18@gmail.com | (740) 253-3415 | **Ueni** free template only (`allen-s-handyman-services.ueniweb.com`) | Generic builder site; custom local site + SEO beats template |
+_None in Chillicothe trades queue — see restaurant/regional lists below._
 
-**Folders:** `Roberts_Allens_Handyman_Services` — **`Outreach_Draft.md`** ready. (Scott's and BMG sent 2026-06-03.)
+**Recently sent:** Scott's, BMG, Robert's Handyman (2026-06-03).
 
 ---
 
@@ -29,6 +27,8 @@ Send from **hello@mahoneydigital.net** · Log sends in each folder’s `Notes.md
 | BMG Property Services | bmgpropertyservices5@gmail.com | Placeholder/template site | Sent 2026-06-03 |
 | First Capital Nutrition | firstcapitalnutrition@yahoo.com | Menustic only — no owned site | Sent 2026-06-03 |
 | The Coop Chillicothe | contact@thecoopchillicothe.com | Template site — polish angle | Sent 2026-06-03 |
+| Robert's Handyman | allenshandymanservices18@gmail.com | Ueni template only | Sent 2026-06-03 |
+| Laurelville Auto Service | Laurelvilleauto@yahoo.com | GoDaddy builder | Sent 2026-06-03 |
 
 ---
 
@@ -69,10 +69,10 @@ See `EMAILS_FROM_FACEBOOK.md` for harvest workflow.
 
 ## Suggested send order (this week)
 
-1. **Robert's Handyman** — email ready, weak Ueni site (`Roberts_Allens_Handyman_Services/Outreach_Draft.md`)  
-2. ~~**The Coop**~~ — sent 2026-06-03
+1. **Fire & Stone** or **The Lunch Box** — emails on file (drafts ready)  
+2. ~~**Robert's Handyman**~~ · ~~**Laurelville Auto**~~ — sent 2026-06-03
 3. While logged into Facebook: harvest Casto's + Southern Ohio + Taylor Brothers + Fire & Stone emails  
-4. Follow-ups (~June 7 if no reply): Payless, Haulin', Comfort, Foster, Scott's, BMG, First Capital Nutrition, **The Coop**
+4. Follow-ups (~June 7 if no reply): Payless, Haulin', Comfort, Foster, Scott's, BMG, First Capital, The Coop, **Robert's**, **Laurelville Auto**
 
 ---
 

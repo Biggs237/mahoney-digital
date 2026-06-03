@@ -1,7 +1,7 @@
 # Outreach Email Draft — Robert's Handyman Services
 
 **Web score:** ~3/10 — Ueni template site only (allen-s-handyman-services.ueniweb.com)  
-**To:** allenshandymanservices18@gmail.com  
+**To:** allenshandymanservices18@gmail.com — **sent 2026-06-03**  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Robert's Handyman — website help from Chillicothe
 

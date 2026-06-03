@@ -13,7 +13,7 @@ Each ★★★ lead below has a folder with `Contact.md`, `Notes.md`, `Outreach_
 
 | Priority | Business | Town | Folder | Contact | Web score | Why |
 |----------|----------|------|--------|---------|-----------|-----|
-| ★★★ | **Laurelville Auto Service LLC** | Laurelville | `Laurelville_Auto_Service_LLC` | **Laurelvilleauto@yahoo.com** · (740) 332-2486 | 4/10 | GoDaddy builder only — email on site |
+| ~~Laurelville Auto Service LLC~~ | Laurelville | `Laurelville_Auto_Service_LLC` | Sent 2026-06-03 |
 | ★★★ | **Baughman Lawncare LLC** | Circleville / Amanda | `Baughman_Lawncare_LLC` | (614) 578-2220 · BBB/Facebook | 3/10 | **baughmanlawncare.com dead** — listings point to broken domain |
 | ★★★ | **Goodwin's Family Restaurant** | Circleville | `Goodwins_Family_Restaurant` | (740) 474-1238 | 3/10 | **goodwinsfamilyrestaurant.com dead** — FB + directories only |
 
@@ -56,7 +56,7 @@ Each ★★★ lead below has a folder with `Contact.md`, `Notes.md`, `Outreach_
 
 ## Suggested send order (when you’re back)
 
-1. **Laurelville Auto** — email ready (`Laurelvilleauto@yahoo.com`) — strong first **portfolio/client** candidate outside Chillicothe  
+1. ~~**Laurelville Auto**~~ — sent 2026-06-03  
 2. **Baughman Lawncare** — broken domain angle + BBB A+ — call or FB harvest email  
 3. **Goodwin's** — broken domain + local institution — call or FB harvest email  
 4. **Bobby & Sons / Manter** — Circleville lawn batch after FB harvest  

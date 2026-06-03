@@ -27,6 +27,8 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | BMG Property Services | `BMG_Property_Services` | bmgpropertyservices5@gmail.com | Website footer | Sent 2026-06-03 |
 | First Capital Nutrition | `First_Capital_Nutrition` | firstcapitalnutrition@yahoo.com | Facebook / hiring post | Sent 2026-06-03 |
 | The Coop Chillicothe | `The_Coop` | contact@thecoopchillicothe.com | Website footer | Sent 2026-06-03 |
+| Robert's Handyman | `Roberts_Allens_Handyman_Services` | allenshandymanservices18@gmail.com | Ueni site | Sent 2026-06-03 |
+| Laurelville Auto Service | `Laurelville_Auto_Service_LLC` | Laurelvilleauto@yahoo.com | GoDaddy site | Sent 2026-06-03 |
 
 **Full email-ready list:** `Chillicothe_Email_Ready_Prospects_2026-06-03.md`
 
@@ -54,7 +56,7 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 
 | Folder | Town | Email | Phone | Notes |
 |--------|------|-------|-------|-------|
-| `Laurelville_Auto_Service_LLC` | Laurelville | ☑ Laurelvilleauto@yahoo.com | (740) 332-2486 | GoDaddy site — **send-ready** |
+| `Laurelville_Auto_Service_LLC` | Laurelville | ☑ Laurelvilleauto@yahoo.com | (740) 332-2486 | Sent 2026-06-03 |
 | `Baughman_Lawncare_LLC` | Circleville | ☐ harvest FB | (614) 578-2220 | **baughmanlawncare.com dead** |
 | `Goodwins_Family_Restaurant` | Circleville | ☐ harvest FB | (740) 474-1238 | **goodwinsfamilyrestaurant.com dead** |
 | `Bobby_and_Sons_Lawncare_LLC` | Circleville | ☐ | — | FB only |
