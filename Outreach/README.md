@@ -62,6 +62,8 @@ See `Chillicothe_Prospect_Rankings_2026-06-02.md` for full ranked list (#1 = wor
 
 **Email-ready trades (2026-06-03):** `Scotts_Landscaping_LLC`, `Roberts_Allens_Handyman_Services`, `BMG_Property_Services` — each has `Outreach_Draft.md` (BMG: placeholder-site / Growth pitch).
 
+**Regional expanded prospects (2026-06-03):** Circleville, Waverly, Laurelville, Amanda — see `Regional_Expanded_Prospects_2026-06.md`. New folders: `Laurelville_Auto_Service_LLC` (**email-ready**), `Baughman_Lawncare_LLC`, `Goodwins_Family_Restaurant` (broken domains), `Bobby_and_Sons_Lawncare_LLC`, `Manter_Lawn_Care_and_Landscaping`, `Mizfits_Garage_LLC`, `KDS_Project_Helpers`, `Total_Remodeling_Service`.
+
 **Standing rule:** When prospecting, create `Outreach/<Business>/` with Contact + Notes + Outreach_Draft for any local business whose website Mahoney Digital could materially improve — do not wait for a separate folder request.
 
 **Facebook harvest:** See `EMAILS_FROM_FACEBOOK.md` — verified emails include haulingrassllc4@gmail.com (Haulin' Grass), fieldsjim1@gmail.com (Payless), ccs45601@outlook.com (Comfort), info@fosterfarmsteadmarketplace.com (Foster). Chillicothe batch About links are listed; automated pull blocked by Facebook login wall (2026-06-02).

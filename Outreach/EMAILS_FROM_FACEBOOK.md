@@ -50,6 +50,21 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | 14 | `Antecks_Renovation` | _Yelp-primary_ | — | ☐ | — |
 | 15 | `Indoors_and_Beyond_LLC` | _Search FB for “Indoors and Beyond” Chillicothe_ | — | ☐ | Angi / Chamber |
 
+## Regional expanded — Circleville / Waverly / Laurelville (2026-06-03)
+
+| Folder | Town | Email | Phone | Notes |
+|--------|------|-------|-------|-------|
+| `Laurelville_Auto_Service_LLC` | Laurelville | ☑ Laurelvilleauto@yahoo.com | (740) 332-2486 | GoDaddy site — **send-ready** |
+| `Baughman_Lawncare_LLC` | Circleville | ☐ harvest FB | (614) 578-2220 | **baughmanlawncare.com dead** |
+| `Goodwins_Family_Restaurant` | Circleville | ☐ harvest FB | (740) 474-1238 | **goodwinsfamilyrestaurant.com dead** |
+| `Bobby_and_Sons_Lawncare_LLC` | Circleville | ☐ | — | FB only |
+| `Manter_Lawn_Care_and_Landscaping` | Circleville | ☐ | — | FB only |
+| `Mizfits_Garage_LLC` | Chillicothe | ☐ | — | FB only |
+| `KDS_Project_Helpers` | Waverly | ☐ | (740) 970-2161 | No site |
+| `Total_Remodeling_Service` | Waverly | ☐ | — | FB only |
+
+Full audit: `Regional_Expanded_Prospects_2026-06.md`
+
 ## Restaurant / hospitality — Facebook harvest (2026-06-03)
 
 | Folder | Facebook | Email | Phone | Notes |
