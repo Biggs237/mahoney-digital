@@ -1,6 +1,7 @@
 # Haulin' Grass LLC - Outreach Notes
 
 **Business:** Haulin' Grass LLC  
+**Prospect rank:** #4 of 15 (website audit 2026-06-02 — score 2/10, FB/Nextdoor only)  
 **First outreach date:** June 2026 (email to haulingrassllc4@gmail.com)
 
 ## Status

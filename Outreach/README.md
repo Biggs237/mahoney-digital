@@ -36,6 +36,9 @@ Keep it honest, low-pressure, and local. No hype.
 
 **Current status note (2026-06-02):** Chillicothe Comfort email sent (user confirmed "Sent!"). All prior sent leads (Payless, Foster Farmstead, Haulin' Grass) still awaiting replies; Hanes using FB + phone fallback paths. Email signature solid in Porkbun Webmail. Detailed tracking maintained in individual folders + this README.
 
+**Chillicothe prospect pipeline (website audit 2026-06-02):**  
+See `Chillicothe_Prospect_Rankings_2026-06-02.md` for full ranked list (#1 = worst site / most benefit). New folders: `GH_Handyman_LLC`, `Castos_Auto_Repair`, `Lowes_Odd_Jobs`, `Southern_Ohio_Lawn_Maintenance`, `Perfection_Edge_Landscaping`, `Detillion_Landscaping`, `Four_Guys_4_the_Job`, `KP_Plumbing_Services_LLC`, `Flowers_Diesel_Automotive`, `KJ_Buckeye_Home_Improvements`, `Zars_Cars_Repair_and_Sales`, `M_Work_LLC`, `Antecks_Renovation`, `Indoors_and_Beyond_LLC`. Each has `Contact.md` + `Notes.md`.
+
 **Current priorities:**
 - Monitor Chillicothe Comfort (sent 2026-06-02 to ccs45601@outlook.com) for reply. Follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ ~June 6-7 if needed.
 - Monitor all sent leads (Payless, Foster, Haulin') per their individual Notes.md and send polite follow-ups ~4-6 days out if needed.
