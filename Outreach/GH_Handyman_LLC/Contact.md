@@ -17,6 +17,12 @@
 - Previously associated with other unrelated redirects in testing.
 - **Rank #1** — worst web presence; highest urgency for a new domain + site.
 
+## Facebook email harvest
+
+- **Facebook page:** _Not on file — search “Greg Hughes handyman Chillicothe” on Facebook while logged in_  
+- **Email (Facebook About):** _Not harvested — see `Outreach/EMAILS_FROM_FACEBOOK.md`_  
+- Do **not** use mbcandies@gmail.com (unverified / unrelated listing).
+
 ## Notes
 
 - Strong fit for Mahoney Digital: local handyman with **damaged/expired domain** — easy, non-pushy opener.

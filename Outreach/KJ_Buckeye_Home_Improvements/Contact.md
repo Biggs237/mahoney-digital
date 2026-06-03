@@ -7,6 +7,8 @@
 ## Verified Contact Details
 
 - **Facebook:** https://www.facebook.com/KJBuckeyeHomeImprovements/  
+- **Facebook About:** https://www.facebook.com/KJBuckeyeHomeImprovements/about  
+- **Email (Facebook About):** _Not harvested yet — see `EMAILS_FROM_FACEBOOK.md`_
 - **Website:** None found for this Chillicothe FB presence
 
 ## Website audit (2026-06-02)

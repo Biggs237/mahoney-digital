@@ -6,10 +6,14 @@
 
 ## Verified Contact Details
 
+- **Owners:** Larry & Angie Johnson  
+- **Address:** 5233 Blain Hwy, Chillicothe, OH 45601 (Angi)  
 - **Angi:** https://www.angi.com/companylist/us/oh/chillicothe/indoors-and-beyond-llc-reviews-1.htm  
 - **Chamber:** https://members.chillicotheohio.com/directory/Details/indoors-and-beyond-llc-4208282  
 - **Website:** No owned site found — Angi/HomeAdvisor profile only  
-- **Phone:** Via Angi (not scraped here — use Angi or chamber listing)
+- **Phone:** Via Angi or Chamber (not in public HTML — open Angi while logged in)  
+- **Email (Facebook About):** _Not harvested yet — search FB for page; see `Outreach/EMAILS_FROM_FACEBOOK.md`_  
+- **Facebook:** _No page URL confirmed 2026-06-02 — check Angi or Chamber for social link_
 
 ## Website audit (2026-06-02)
 

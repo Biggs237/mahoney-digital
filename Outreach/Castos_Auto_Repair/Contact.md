@@ -8,6 +8,8 @@
 
 - **Phone:** (740) 637-3099  
 - **Facebook:** https://www.facebook.com/castosautorepair/  
+- **Facebook About (harvest email):** https://www.facebook.com/castosautorepair/about  
+- **Email (Facebook About):** _Not harvested yet (FB blocks bots) — update after manual About check; see `EMAILS_FROM_FACEBOOK.md`_
 - **Yelp:** https://www.yelp.com/biz/castos-auto-repair-chillicothe  
 - **MapQuest:** https://www.mapquest.com/us/ohio/castos-auto-repair-387877377  
 - **Website:** None found (MapQuest links to unrelated Yellow Pages listing)

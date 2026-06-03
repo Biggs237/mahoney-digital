@@ -27,6 +27,7 @@
 - **Do not confuse** KJ Buckeye Home Improvements (Chillicothe FB) with Buckeye Home Improvements LLC in **Springfield, OH** (buckeyehomeimprovementsllc.com).
 - Scores reflect **owned website quality**, not business quality — Indoors and M Work are excellent operators with weak owned web presence.
 - Re-verify phone/email on Facebook before calling; numbers in `Contact.md` are from public listings as of audit date.
+- **Facebook emails:** Harvest log and About URLs → `EMAILS_FROM_FACEBOOK.md`. Six outreach drafts ready in folders #1–3, #5, #13, #15 (see README).
 
 ## Recommended outreach order (new contacts)
 

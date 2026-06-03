@@ -7,6 +7,8 @@
 ## Verified Contact Details
 
 - **Facebook:** https://www.facebook.com/p/Flowers-Diesel-Automotive-Performance-100067236856666/  
+- **Facebook About:** https://www.facebook.com/p/Flowers-Diesel-Automotive-Performance-100067236856666/about  
+- **Email (Facebook About):** _Not harvested yet — see `EMAILS_FROM_FACEBOOK.md`_
 - **Website:** None found
 
 ## Website audit (2026-06-02)

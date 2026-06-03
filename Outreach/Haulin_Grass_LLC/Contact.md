@@ -8,7 +8,8 @@
 
 ## Verified Contact Details
 
-- **Email:** haulingrassllc4@gmail.com  
+- **Email:** haulingrassllc4@gmail.com (**source: Facebook About**, verified prior to send)  
+- **Facebook About:** https://www.facebook.com/haulingrassllc/about
 - **Phone:** (740) 656-1600  
 - **Facebook:** https://www.facebook.com/haulingrassllc/  
 - **Website:** Primarily active on FB/Nextdoor (no major polished site apparent)

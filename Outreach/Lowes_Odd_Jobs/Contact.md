@@ -17,6 +17,11 @@
 - **Rank #3** — directory listings only.
 - Not affiliated with Lowe’s hardware stores.
 
+## Facebook email harvest
+
+- **Facebook page:** _None found in audit — phone-first outreach_  
+- **Email:** _None public — call (740) 542-0461 for best contact_
+
 ## Notes
 
 - Hours (MapQuest): Mon 8–7, Tue–Fri 8–7, Sat 8–5, Sun 8–5.

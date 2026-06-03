@@ -8,7 +8,9 @@
 
 - **Facebook:** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/  
 - **Website:** None found  
-- **Phone / email:** Check Facebook About section before outreach
+- **Facebook About (harvest email):** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about  
+- **Email (Facebook About):** _Not harvested yet — see `EMAILS_FROM_FACEBOOK.md`_  
+- **Phone / email:** Copy from Facebook About while logged in before send
 
 ## Website audit (2026-06-02)
 
