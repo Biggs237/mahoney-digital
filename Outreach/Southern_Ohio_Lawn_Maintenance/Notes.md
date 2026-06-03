@@ -5,14 +5,13 @@
 
 ## Status
 
-- [x] Email harvested 2026-06-03 — southernohiolawncare@yahoo.com (page: southernohiolawncare)
-- [ ] **Verify** same business as pipeline FB ID `100083026522274` before send
+- [ ] Contact verified on FB (correct page only)
 - [ ] First outreach
 
 ## Conversation log
 
-**2026-06-03** — User harvest: southernohiolawncare@yahoo.com, (614) 625-8690, no website.
+**2026-06-03** — Wrong FB page harvested (`southernohiolawncare` / Lawn **Care** / 614). Cleared from folder. Re-harvest from **Southern-Ohio-Lawn-Maintenance-100083026522274** About tab.
 
 ---
 
-**Next action:** Confirm FB page = intended prospect; then email from `Outreach_Draft.md`.
+**Next action:** Open https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about while logged in; paste email/phone here or into chat. Then send from `Outreach_Draft.md`.
