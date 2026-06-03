@@ -81,8 +81,8 @@ See `EMAILS_FROM_FACEBOOK.md` for harvest workflow.
 | ★★★ | `Taylor_Brothers_Saloon` | Verify FB / call (740) 773-8075 |
 | ★★★ | `First_Capital_Nutrition` | firstcapitalnutrition@yahoo.com (verify) |
 | ★★ | `The_Coop` | contact@thecoopchillicothe.com |
-| ★★ | `Fire_and_Stone_Pizzeria` | Verify FB |
-| ★★ | `The_Lunch_Box` | Verify FB |
+| ★★ | `Fire_and_Stone_Pizzeria` | fireandstonepizzeria@gmail.com |
+| ★★ | `The_Lunch_Box` | thelunchbox2@yahoo.com |
 | ★ | `Paper_City_Coffee` | info@papercitycoffee.com |
 | ★ | `Keeneys_Kitchen` | info@keeneyskitchen.com |
 | Optional | `Willis_James_Bed_and_Breakfast` | info@thewillisjames.com |

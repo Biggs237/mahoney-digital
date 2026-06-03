@@ -6,12 +6,12 @@
 
 ## Verified Contact Details
 
-- **Phone:** On Toast ordering page  
+- **Phone:** (740) 775-8624 (Facebook About, 2026-06-03)  
 - **Website:** https://thelunchboxnow.com/ (GoDaddy builder)  
 - **Ordering:** http://toasttab.com/the-lunch-box-2-24-e-water-st  
-- **Facebook:** https://www.facebook.com/p/The-Lunch-Box-61551490917589/  
+- **Facebook:** https://www.facebook.com/profile.php?id=61551490917589  
 - **Instagram:** @thelunchbox_24ewater  
-- **Email:** _Not on website — harvest Facebook About before send_
+- **Email (Facebook About):** thelunchbox2@yahoo.com (harvested 2026-06-03)
 
 ## Website audit (2026-06-03)
 

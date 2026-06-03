@@ -33,10 +33,10 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | Rank | Folder | Facebook page | About URL (open while logged in) | Email found | Phone (non-FB) |
 |------|--------|---------------|----------------------------------|-------------|----------------|
 | 1 | `GH_Handyman_LLC` | _No FB URL on file — search Yelp/Nextdoor_ | — | ☐ | Verify via Yelp/BBB |
-| 2 | `Castos_Auto_Repair` | https://www.facebook.com/castosautorepair/ | https://www.facebook.com/castosautorepair/about | ☐ | (740) 637-3099 |
+| 2 | `Castos_Auto_Repair` | https://www.facebook.com/castosautorepair/ | https://www.facebook.com/castosautorepair/about | ☑ **no email** (phone only) | (740) 637-3099 |
 | 3 | `Lowes_Odd_Jobs` | _No FB page found_ | — | ☐ | (740) 542-0461 |
 | 4 | `Haulin_Grass_LLC` | https://www.facebook.com/haulingrassllc/ | https://www.facebook.com/haulingrassllc/about | ☑ haulingrassllc4@gmail.com | (740) 656-1600 |
-| 5 | `Southern_Ohio_Lawn_Maintenance` | https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/ | same + `/about` | ☐ | — |
+| 5 | `Southern_Ohio_Lawn_Maintenance` | https://www.facebook.com/southernohiolawncare/ _(verify vs numeric ID page)_ | …/about | ☑ southernohiolawncare@yahoo.com | (614) 625-8690 |
 | 6 | `Perfection_Edge_Landscaping` | https://www.facebook.com/PerfectionEdgeLandscapingLLC/ | …/about | ☐ | — |
 | 7 | `Detillion_Landscaping` | https://www.facebook.com/detillionlandscaping/ | …/about | ☐ | — |
 | 8 | `Four_Guys_4_the_Job` | https://www.facebook.com/4guys4thejob/ | …/about | ☐ | — |
@@ -47,6 +47,17 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | 13 | `M_Work_LLC` | _Angi-primary — no FB on file_ | Angi quote flow | ☐ | Angi only |
 | 14 | `Antecks_Renovation` | _Yelp-primary_ | — | ☐ | — |
 | 15 | `Indoors_and_Beyond_LLC` | _Search FB for “Indoors and Beyond” Chillicothe_ | — | ☐ | Angi / Chamber |
+
+## Restaurant / hospitality — Facebook harvest (2026-06-03)
+
+| Folder | Facebook | Email | Phone | Notes |
+|--------|----------|-------|-------|-------|
+| `Taylor_Brothers_Saloon` | facebook.com/taylor.brothers.94 | ☑ **no email** | (740) 773-8075 | Phone / FB message |
+| `Fire_and_Stone_Pizzeria` | facebook.com/fireandstonechillicothe | ☑ fireandstonepizzeria@gmail.com | (740) 771-4592 | Send-ready |
+| `The_Lunch_Box` | profile id 61551490917589 | ☑ thelunchbox2@yahoo.com | (740) 775-8624 | thelunchboxnow.com |
+| `Lievita` | facebook.com/p/Lievita-100069749748886 | ☐ optional | — | **Deprioritized** — strong eatlievita.com; upgrade-only pitch |
+| `The_Coop` | — | contact@thecoopchillicothe.com (website) | — | No FB harvest needed |
+| `First_Capital_Nutrition` | Firstcapitalnutrition | ☐ verify yahoo on About | — | Prior FB hiring post |
 
 ## Other local leads (Facebook)
 

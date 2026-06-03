@@ -1,7 +1,7 @@
 # Outreach Email Draft — Fire & Stone Pizzeria
 
 **Web score:** ~3/10 — strong brand; unclear Chillicothe-owned website  
-**To:** _Verify before send — Facebook About: https://www.facebook.com/fireandstonechillicothe/about_  
+**To:** fireandstonepizzeria@gmail.com  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Fire & Stone Pizzeria — a proper home for your Chillicothe story online
 

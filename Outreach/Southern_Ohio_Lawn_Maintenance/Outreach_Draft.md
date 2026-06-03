@@ -1,7 +1,7 @@
 # Outreach Email Draft — Southern Ohio Lawn Maintenance
 
 **Rank:** #5 — Facebook-only presence  
-**To:** _Verify before send — email from Facebook About if listed_  
+**To:** southernohiolawncare@yahoo.com _(confirm FB page matches prospect — see Contact.md)_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Southern Ohio Lawn Maintenance — website help from Chillicothe
 

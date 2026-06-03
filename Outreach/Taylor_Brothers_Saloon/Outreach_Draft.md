@@ -1,7 +1,7 @@
 # Outreach Email Draft — Taylor Brothers Saloon
 
 **Web score:** ~1/10 — no owned website  
-**To:** _Verify before send — Facebook About or call (740) 773-8075_  
+**To:** _No public email — call (740) 773-8075 or Facebook message_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Taylor Brothers Saloon on E Main — website help from Chillicothe
 

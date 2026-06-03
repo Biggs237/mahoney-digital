@@ -1,7 +1,7 @@
 # Outreach Email Draft — Casto's Auto Repair
 
 **Rank:** #2 — no owned website (Facebook, Yelp, MapQuest only)  
-**To:** _Verify before send — check Facebook About tab or ask at (740) 637-3099_  
+**To:** _No public email — use phone script below or in-person ask at (740) 637-3099_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Casto's Auto Repair on US-23 — website help from Chillicothe
 

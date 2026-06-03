@@ -4,7 +4,7 @@
 
 ## Status
 
-- [ ] Email verified (Facebook About)
+- [x] Facebook About checked 2026-06-03 — **no email** (page: taylor.brothers.94)
 - [x] Outreach draft prepared
 - [ ] First email sent
 

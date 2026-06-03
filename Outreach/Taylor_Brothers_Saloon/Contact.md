@@ -7,10 +7,11 @@
 ## Verified Contact Details
 
 - **Phone:** (740) 773-8075  
-- **Facebook:** https://www.facebook.com/pages/Taylor-Brothers-Saloon/141127372592501  
+- **Facebook:** https://www.facebook.com/taylor.brothers.94/ (harvested 2026-06-03)  
+- **Legacy listing:** https://www.facebook.com/pages/Taylor-Brothers-Saloon/141127372592501  
 - **Yelp:** https://www.yelp.com/biz/taylors-stag-bar-chillicothe  
-- **Website:** None owned — Hub.biz / directory listings only  
-- **Email:** _Not found publicly — harvest Facebook About before send_
+- **Website:** None listed on Facebook  
+- **Email (Facebook About):** _None listed_ (harvested 2026-06-03)
 
 ## Website audit (2026-06-03)
 

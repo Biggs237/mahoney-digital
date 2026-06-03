@@ -6,11 +6,11 @@
 
 ## Verified Contact Details
 
-- **Facebook:** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/  
-- **Website:** None found  
-- **Facebook About (harvest email):** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about  
-- **Email (Facebook About):** _Not harvested yet — see `EMAILS_FROM_FACEBOOK.md`_  
-- **Phone / email:** Copy from Facebook About while logged in before send
+- **Facebook (pipeline URL):** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/  
+- **Facebook (user harvest 2026-06-03):** https://www.facebook.com/southernohiolawncare/ — **verify same business** before send  
+- **Email (Facebook About):** southernohiolawncare@yahoo.com (harvested 2026-06-03 from `southernohiolawncare` page)  
+- **Phone:** (614) 625-8690 (from same harvest)  
+- **Website:** None listed on Facebook
 
 ## Website audit (2026-06-02)
 

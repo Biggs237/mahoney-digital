@@ -5,12 +5,15 @@
 
 ## Status
 
-- [ ] First outreach
+- [x] Facebook About checked 2026-06-03 — **no email** on page
+- [ ] First outreach (phone / in-person — no email to send)
 - [ ] Reply received
 - [ ] Follow-up
 
 ## Conversation log
 
+**2026-06-03** — User harvest: castosautorepair FB, no email, (740) 637-3099, no website.
+
 ---
 
-**Next action:** Find email on FB or call (740) 637-3099. Email draft ready in `Outreach_Draft.md`. Send from hello@mahoneydigital.net.
+**Next action:** Call from 614-636-5248 using phone script in `Outreach_Draft.md`, or visit US-23 location.

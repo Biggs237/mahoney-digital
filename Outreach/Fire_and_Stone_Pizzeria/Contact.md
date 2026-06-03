@@ -9,7 +9,8 @@
 - **Facebook:** https://www.facebook.com/fireandstonechillicothe/  
 - **TripAdvisor / Yelp:** Listed with strong reviews  
 - **Website:** No clear Chillicothe-owned domain — `fireandstonekitchen.com` appears to be a different PopMenu market  
-- **Email:** _Harvest Facebook About before send_
+- **Email (Facebook About):** fireandstonepizzeria@gmail.com (harvested 2026-06-03)  
+- **Phone:** (740) 771-4592
 
 ## Website audit (2026-06-03)
 

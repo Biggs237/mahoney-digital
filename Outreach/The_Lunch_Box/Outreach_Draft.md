@@ -1,7 +1,7 @@
 # Outreach Email Draft — The Lunch Box
 
 **Web score:** ~5/10 — GoDaddy site + Toast; room to polish  
-**To:** _Verify before send — Facebook About: https://www.facebook.com/p/The-Lunch-Box-61551490917589/_  
+**To:** thelunchbox2@yahoo.com  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** The Lunch Box on Water Street — website help from Chillicothe
 
