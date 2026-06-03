@@ -22,9 +22,9 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | Chillicothe Comfort H&A | `Chillicothe_Comfort_Heating_and_Air` | ccs45601@outlook.com | Facebook / public contact | Sent 2026-06-02 |
 | Foster Farmstead Marketplace | `Foster_Farmstead_Marketplace` | info@fosterfarmsteadmarketplace.com | Facebook About | Sent June 2026 |
 | Foster (backup) | `Foster_Farmstead_Marketplace` | thekrystalgail@gmail.com | Website form | Backup only |
-| Scott's Landscaping LLC | `Scotts_Landscaping_LLC` | amir.scott.landscaping@gmail.com | Nextdoor posts | Not sent |
+| Scott's Landscaping LLC | `Scotts_Landscaping_LLC` | amir.scott.landscaping@gmail.com | Nextdoor posts | Sent 2026-06-03 |
 | Robert's Handyman | `Roberts_Allens_Handyman_Services` | allenshandymanservices18@gmail.com | Ueni site contact | Not sent |
-| BMG Property Services | `BMG_Property_Services` | bmgpropertyservices5@gmail.com | Website footer | Not sent |
+| BMG Property Services | `BMG_Property_Services` | bmgpropertyservices5@gmail.com | Website footer | Sent 2026-06-03 |
 
 **Full email-ready list:** `Chillicothe_Email_Ready_Prospects_2026-06-03.md`
 

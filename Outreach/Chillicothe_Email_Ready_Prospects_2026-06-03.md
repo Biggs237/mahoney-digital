@@ -11,11 +11,9 @@ Send from **hello@mahoneydigital.net** · Log sends in each folder’s `Notes.md
 
 | Priority | Business | Email | Phone | Web presence | Why Mahoney Digital fits |
 |----------|----------|-------|-------|--------------|--------------------------|
-| ★★★ | **Scott's Landscaping LLC** (Amir Scott) | amir.scott.landscaping@gmail.com | (614) 907-1035 | FB / IG / Nextdoor only — **no owned site** | Young operator, active on Nextdoor; professional site = trust beyond social |
 | ★★★ | **Robert's / Allen's Handyman Services** (Robert Allen) | allenshandymanservices18@gmail.com | (740) 253-3415 | **Ueni** free template only (`allen-s-handyman-services.ueniweb.com`) | Generic builder site; custom local site + SEO beats template |
-| ★★ | **BMG Property Services** (Ben & Megan Good) | bmgpropertyservices5@gmail.com | (740) 703-9055 | `bmgpropertyservices.net` — **template/placeholder content** (e.g. “Lorem Ipsum” blocks) | They paid for a site but it reads unfinished; **Growth** pitch: real copy, services, local SEO |
 
-**Folders:** `Scotts_Landscaping_LLC`, `Roberts_Allens_Handyman_Services`, `BMG_Property_Services` — each includes **`Outreach_Draft.md`** (send-ready from hello@mahoneydigital.net).
+**Folders:** `Roberts_Allens_Handyman_Services` — **`Outreach_Draft.md`** ready. (Scott's and BMG sent 2026-06-03.)
 
 ---
 
@@ -27,6 +25,8 @@ Send from **hello@mahoneydigital.net** · Log sends in each folder’s `Notes.md
 | Haulin' Grass LLC | haulingrassllc4@gmail.com | FB / Nextdoor only | Sent June 2026 |
 | Chillicothe Comfort H&A | ccs45601@outlook.com | Has site — upgrade angle optional | Sent 2026-06-02 |
 | Foster Farmstead Marketplace | info@fosterfarmsteadmarketplace.com | Placeholder / social-heavy | Sent June 2026 |
+| Scott's Landscaping LLC | amir.scott.landscaping@gmail.com | FB / Nextdoor only — no owned site | Sent 2026-06-03 |
+| BMG Property Services | bmgpropertyservices5@gmail.com | Placeholder/template site | Sent 2026-06-03 |
 
 ---
 
@@ -67,11 +67,10 @@ See `EMAILS_FROM_FACEBOOK.md` for harvest workflow.
 
 ## Suggested send order (this week)
 
-1. **Scott's Landscaping** — email ready, no site, active locally on Nextdoor  
-2. **Robert's Handyman** — email ready, weak Ueni site  
-3. **BMG Property Services** — email ready, site looks unfinished (strong “make your site match your work” angle)  
-4. While logged into Facebook: harvest Casto's + Southern Ohio + Perfection Edge emails → use existing `Outreach_Draft.md` files  
-5. Follow-ups: Payless, Haulin', Comfort, Foster if no reply
+1. **Robert's Handyman** — email ready, weak Ueni site (`Roberts_Allens_Handyman_Services/Outreach_Draft.md`)  
+2. **The Coop** — contact@thecoopchillicothe.com (template cleanup angle)  
+3. While logged into Facebook: harvest Casto's + Southern Ohio + Taylor Brothers + Fire & Stone emails  
+4. Follow-ups (~June 7 if no reply): Payless, Haulin', Comfort, Foster, **Scott's**, **BMG**
 
 ---
 

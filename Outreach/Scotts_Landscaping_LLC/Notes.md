@@ -6,10 +6,12 @@
 
 - [x] Email verified (Nextdoor)
 - [x] Outreach draft prepared (`Outreach_Draft.md`)
-- [ ] First email sent
+- [x] First email sent **2026-06-03** (user confirmed)
 
 ## Conversation log
 
+**2026-06-03** — Initial outreach sent from hello@mahoneydigital.net to amir.scott.landscaping@gmail.com (no owned website angle).
+
 ---
 
-**Next action:** Draft email from hello@mahoneydigital.net — lawn care, no owned website.
+**Next action:** Monitor for reply. Polite follow-up ~**2026-06-07** if no response (phone: (614) 907-1035).
