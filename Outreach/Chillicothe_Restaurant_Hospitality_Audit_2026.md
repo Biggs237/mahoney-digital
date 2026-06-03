@@ -143,7 +143,7 @@ Each audited business has `Contact.md`, `Notes.md`, and `Outreach_Draft.md`:
 
 ## Suggested next steps
 
-1. **Send-ready today:** The Coop (`The_Coop/Outreach_Draft.md` → contact@thecoopchillicothe.com).  
+1. ~~**The Coop**~~ — sent 2026-06-03.
 2. ~~**First Capital Nutrition**~~ — sent 2026-06-03.  
 3. **Facebook About pass:** Taylor Brothers, Fire & Stone, Lunch Box — update **To:** in each draft.  
 4. **Also ready:** Paper City Coffee, Keeney's Kitchen (emails on file).

@@ -26,6 +26,7 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | Robert's Handyman | `Roberts_Allens_Handyman_Services` | allenshandymanservices18@gmail.com | Ueni site contact | Not sent |
 | BMG Property Services | `BMG_Property_Services` | bmgpropertyservices5@gmail.com | Website footer | Sent 2026-06-03 |
 | First Capital Nutrition | `First_Capital_Nutrition` | firstcapitalnutrition@yahoo.com | Facebook / hiring post | Sent 2026-06-03 |
+| The Coop Chillicothe | `The_Coop` | contact@thecoopchillicothe.com | Website footer | Sent 2026-06-03 |
 
 **Full email-ready list:** `Chillicothe_Email_Ready_Prospects_2026-06-03.md`
 
@@ -57,7 +58,7 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | `Fire_and_Stone_Pizzeria` | facebook.com/fireandstonechillicothe | ☑ fireandstonepizzeria@gmail.com | (740) 771-4592 | Send-ready |
 | `The_Lunch_Box` | profile id 61551490917589 | ☑ thelunchbox2@yahoo.com | (740) 775-8624 | thelunchboxnow.com |
 | `Lievita` | facebook.com/p/Lievita-100069749748886 | ☐ optional | — | **Deprioritized** — strong eatlievita.com; upgrade-only pitch |
-| `The_Coop` | — | contact@thecoopchillicothe.com (website) | — | No FB harvest needed |
+| `The_Coop` | thecoopchillicothe | ☑ contact@thecoopchillicothe.com | — | Sent 2026-06-03 |
 | `First_Capital_Nutrition` | Firstcapitalnutrition | ☑ firstcapitalnutrition@yahoo.com | (740) 851-4066 | Sent 2026-06-03 |
 
 ## Other local leads (Facebook)

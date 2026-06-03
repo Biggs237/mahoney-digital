@@ -6,10 +6,12 @@
 
 - [x] Email verified (website)
 - [x] Outreach draft prepared
-- [ ] First email sent
+- [x] First email sent **2026-06-03** (user confirmed)
 
 ## Conversation log
 
+**2026-06-03** — Initial outreach sent from hello@mahoneydigital.net to contact@thecoopchillicothe.com (template cleanup / downtown brunch angle).
+
 ---
 
-**Next action:** Send from hello@mahoneydigital.net using `Outreach_Draft.md`. Log date in Notes after send.
+**Next action:** Monitor for reply. Polite follow-up ~**2026-06-07** if no response.

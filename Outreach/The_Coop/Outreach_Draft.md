@@ -1,7 +1,7 @@
 # Outreach Email Draft — The Coop Chillicothe
 
 **Web score:** ~4/10 — site live but needs polish (template issues)  
-**To:** contact@thecoopchillicothe.com  
+**To:** contact@thecoopchillicothe.com — **sent 2026-06-03**  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** The Coop — your downtown website could shine more
 
