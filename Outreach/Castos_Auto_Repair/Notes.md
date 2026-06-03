@@ -13,4 +13,4 @@
 
 ---
 
-**Next action:** Call (740) 637-3099 or FB message. Reference mobile-first site for “find a mechanic near me” searches.
+**Next action:** Find email on FB or call (740) 637-3099. Email draft ready in `Outreach_Draft.md`. Send from hello@mahoneydigital.net.

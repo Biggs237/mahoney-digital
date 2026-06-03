@@ -16,4 +16,4 @@
 
 ---
 
-**Next action:** Verify current phone on BBB/Yelp. Open with: “Your old web address goes to a random business — I can help you get a real site on a new domain.” Use 614-636-5248.
+**Next action:** Verify email on Yelp/Nextdoor. Send `Outreach_Draft.md` from hello@mahoneydigital.net when ready. Use 614-636-5248 for calls.

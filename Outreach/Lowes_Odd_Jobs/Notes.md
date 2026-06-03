@@ -12,4 +12,4 @@
 
 ---
 
-**Next action:** Call (740) 542-0461. Simple Essential site + contact form.
+**Next action:** Get email via phone/FB. `Outreach_Draft.md` ready — send from hello@mahoneydigital.net.

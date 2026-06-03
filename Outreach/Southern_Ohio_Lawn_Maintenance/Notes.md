@@ -12,4 +12,4 @@
 
 ---
 
-**Next action:** FB message; offer lawn-care example from mahoneydigital.net examples.
+**Next action:** FB message or email from `Outreach_Draft.md`. Send from hello@mahoneydigital.net when address confirmed.

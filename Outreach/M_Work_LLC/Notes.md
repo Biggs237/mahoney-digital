@@ -12,4 +12,4 @@
 
 ---
 
-**Next action:** Contact via Angi or Yelp. Lead with: “You’ve got perfect reviews but no website — you’re leaving Google traffic on the table.”
+**Next action:** Angi message or email per `Outreach_Draft.md`. Send from hello@mahoneydigital.net if email found.
