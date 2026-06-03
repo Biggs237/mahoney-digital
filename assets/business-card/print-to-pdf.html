@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mahoney Digital — Business Card Print</title>
+  <style>
+    @page { size: 3.61in 2.11in; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Segoe UI", system-ui, sans-serif; background: #e2e8f0; padding: 1rem; }
+    h1 { font-size: 14px; color: #334155; margin-bottom: 1rem; max-width: 40rem; }
+    .cards { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+    .card {
+      width: 3.61in;
+      height: 2.11in;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,.12);
+    }
+    .card-front { background: #f8f6f1; }
+    .card-back { background: #fff; }
+    .bar-bottom {
+      position: absolute; left: 0; right: 0; bottom: 0; height: 8px;
+      background: linear-gradient(90deg, #0f766e, #0d9488);
+    }
+    .bar-top {
+      position: absolute; left: 0; right: 0; top: 0; height: 6px;
+      background: linear-gradient(90deg, #0f766e, #0d9488);
+    }
+    .logo {
+      position: absolute;
+      left: 0.28in;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0.72in;
+      height: 0.72in;
+      border-radius: 50%;
+      background: #0b1120;
+      color: #fff;
+      font-size: 0.42in;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: -0.04em;
+    }
+    .logo-sm {
+      width: 0.5in; height: 0.5in; font-size: 0.28in;
+      right: 0.28in; top: 0.28in; left: auto; transform: none;
+    }
+    .content-front {
+      position: absolute;
+      left: 1.15in;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0.25in;
+    }
+    .content-back {
+      position: absolute;
+      left: 0.28in;
+      top: 0.45in;
+      right: 1in;
+    }
+    .name { font-size: 0.22in; font-weight: 700; color: #0b1120; line-height: 1.1; }
+    .brand { font-size: 0.28in; font-weight: 700; color: #0b1120; margin-bottom: 0.06in; }
+    .tag { font-size: 0.11in; color: #64748b; line-height: 1.35; }
+    .accent { font-size: 0.085in; font-style: italic; color: #0f766e; margin-top: 0.05in; }
+    .role { font-size: 0.1in; color: #64748b; margin-top: 0.04in; }
+    .contact { font-size: 0.115in; color: #0f766e; margin-top: 0.14in; line-height: 1.55; }
+    .site { color: #0b1120; font-weight: 600; }
+    .footer-loc {
+      position: absolute;
+      left: 0.28in;
+      bottom: 0.22in;
+      font-size: 0.085in;
+      color: #64748b;
+    }
+    @media print {
+      body { background: white; padding: 0; }
+      h1, .hint { display: none; }
+      .cards { gap: 0; }
+      .card { box-shadow: none; page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Print or Save as PDF: Chrome → Print → Save as PDF. Use one page per card file for VistaPrint, or upload the PNGs from this folder.</h1>
+  <p class="hint" style="font-size:12px;color:#64748b;margin-bottom:1rem;">Card size 3.61″ × 2.11″ (bleed). Trim to 3.5″ × 2″.</p>
+  <div class="cards">
+    <div class="card card-front">
+      <div class="bar-bottom"></div>
+      <div class="logo">M</div>
+      <div class="content-front">
+        <div class="brand">Mahoney Digital</div>
+        <div class="tag">Professional websites for<br>small local businesses.</div>
+        <div class="accent">Clear pricing. No hype.</div>
+      </div>
+    </div>
+    <div class="card card-back">
+      <div class="bar-top"></div>
+      <div class="logo logo-sm">M</div>
+      <div class="content-back">
+        <div class="name">Jeremy Mahoney</div>
+        <div class="role">Owner &amp; Lead Designer</div>
+        <div class="contact">
+          hello@mahoneydigital.net<br>
+          614-636-5248<br>
+          <span class="site">mahoneydigital.net</span>
+        </div>
+      </div>
+      <div class="footer-loc">Chillicothe, Ohio · Ross &amp; surrounding counties</div>
+    </div>
+  </div>
+</body>
+</html>
