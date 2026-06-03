@@ -125,12 +125,28 @@ From listings / restaurant-week chatter (verify each):
 
 ---
 
+## Outreach folders (2026-06-03)
+
+Each audited business has `Contact.md`, `Notes.md`, and `Outreach_Draft.md`:
+
+| Business | Folder |
+|----------|--------|
+| Taylor Brothers Saloon | `Taylor_Brothers_Saloon` |
+| First Capital Nutrition | `First_Capital_Nutrition` |
+| The Coop | `The_Coop` |
+| Fire & Stone Pizzeria | `Fire_and_Stone_Pizzeria` |
+| The Lunch Box | `The_Lunch_Box` |
+| Paper City Coffee | `Paper_City_Coffee` |
+| Keeney's Kitchen | `Keeneys_Kitchen` |
+| Willis James B&B | `Willis_James_Bed_and_Breakfast` |
+| Lievita | `Lievita` |
+
 ## Suggested next steps
 
-1. **Send-ready today:** The Coop (template cleanup angle).  
+1. **Send-ready today:** The Coop (`The_Coop/Outreach_Draft.md` → contact@thecoopchillicothe.com).  
 2. **Verify then send:** First Capital Nutrition (Yahoo from FB).  
-3. **Facebook About pass:** Taylor Brothers, Fire & Stone, Lunch Box.  
-4. **Optional folders:** `The_Coop`, `First_Capital_Nutrition`, `Taylor_Brothers_Saloon`, `Fire_and_Stone_Pizzeria`, `The_Lunch_Box` — say if you want drafts + `Contact.md` like trades.
+3. **Facebook About pass:** Taylor Brothers, Fire & Stone, Lunch Box — update **To:** in each draft.  
+4. **Also ready:** Paper City Coffee, Keeney's Kitchen (emails on file).
 
 ---
 

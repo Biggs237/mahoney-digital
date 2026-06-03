@@ -15,7 +15,7 @@ Send from **hello@mahoneydigital.net** · Log sends in each folder’s `Notes.md
 | ★★★ | **Robert's / Allen's Handyman Services** (Robert Allen) | allenshandymanservices18@gmail.com | (740) 253-3415 | **Ueni** free template only (`allen-s-handyman-services.ueniweb.com`) | Generic builder site; custom local site + SEO beats template |
 | ★★ | **BMG Property Services** (Ben & Megan Good) | bmgpropertyservices5@gmail.com | (740) 703-9055 | `bmgpropertyservices.net` — **template/placeholder content** (e.g. “Lorem Ipsum” blocks) | They paid for a site but it reads unfinished; **Growth** pitch: real copy, services, local SEO |
 
-**Folders:** `Scotts_Landscaping_LLC`, `Roberts_Allens_Handyman_Services`, `BMG_Property_Services`
+**Folders:** `Scotts_Landscaping_LLC`, `Roberts_Allens_Handyman_Services`, `BMG_Property_Services` — each includes **`Outreach_Draft.md`** (send-ready from hello@mahoneydigital.net).
 
 ---
 
@@ -72,6 +72,24 @@ See `EMAILS_FROM_FACEBOOK.md` for harvest workflow.
 3. **BMG Property Services** — email ready, site looks unfinished (strong “make your site match your work” angle)  
 4. While logged into Facebook: harvest Casto's + Southern Ohio + Perfection Edge emails → use existing `Outreach_Draft.md` files  
 5. Follow-ups: Payless, Haulin', Comfort, Foster if no reply
+
+---
+
+## Restaurant / hospitality — drafts ready (2026-06-03)
+
+| Tier | Folder | To: |
+|------|--------|-----|
+| ★★★ | `Taylor_Brothers_Saloon` | Verify FB / call (740) 773-8075 |
+| ★★★ | `First_Capital_Nutrition` | firstcapitalnutrition@yahoo.com (verify) |
+| ★★ | `The_Coop` | contact@thecoopchillicothe.com |
+| ★★ | `Fire_and_Stone_Pizzeria` | Verify FB |
+| ★★ | `The_Lunch_Box` | Verify FB |
+| ★ | `Paper_City_Coffee` | info@papercitycoffee.com |
+| ★ | `Keeneys_Kitchen` | info@keeneyskitchen.com |
+| Optional | `Willis_James_Bed_and_Breakfast` | info@thewillisjames.com |
+| Optional | `Lievita` | Verify — upgrade-only tone |
+
+Full audit: `Chillicothe_Restaurant_Hospitality_Audit_2026.md`
 
 ---
 

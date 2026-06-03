@@ -46,7 +46,25 @@ See `Chillicothe_Prospect_Rankings_2026-06-02.md` for full ranked list (#1 = wor
 
 **Facebook email harvest:** See `EMAILS_FROM_FACEBOOK.md`
 
-**Restaurant / hospitality audit (2026-06-03):** See `Chillicothe_Restaurant_Hospitality_Audit_2026.md` — Lunch Box, Fire & Stone, The Coop, Taylor Brothers Saloon, First Capital Nutrition, Lievita, Paper City Coffee, Keeney's Kitchen, Willis James B&B, and tiered outreach fit. — verified FB emails include haulingrassllc4@gmail.com (Haulin' Grass), fieldsjim1@gmail.com (Payless), ccs45601@outlook.com (Comfort), info@fosterfarmsteadmarketplace.com (Foster). Chillicothe batch About links are listed; automated pull blocked by Facebook login wall (2026-06-02).
+**Restaurant / hospitality audit (2026-06-03):** See `Chillicothe_Restaurant_Hospitality_Audit_2026.md`. Each audited business now has a folder with `Contact.md`, `Notes.md`, and `Outreach_Draft.md`:
+
+| Folder | Email-ready? |
+|--------|----------------|
+| `Taylor_Brothers_Saloon` | Phone only — harvest FB email |
+| `First_Capital_Nutrition` | firstcapitalnutrition@yahoo.com (verify on FB) |
+| `The_Coop` | contact@thecoopchillicothe.com |
+| `Fire_and_Stone_Pizzeria` | Harvest FB email |
+| `The_Lunch_Box` | Harvest FB email |
+| `Paper_City_Coffee` | info@papercitycoffee.com |
+| `Keeneys_Kitchen` | info@keeneyskitchen.com |
+| `Willis_James_Bed_and_Breakfast` | info@thewillisjames.com (lower priority) |
+| `Lievita` | Harvest — cautious upgrade-only draft |
+
+**Email-ready trades (2026-06-03):** `Scotts_Landscaping_LLC`, `Roberts_Allens_Handyman_Services`, `BMG_Property_Services` — each has `Outreach_Draft.md` (BMG: placeholder-site / Growth pitch).
+
+**Standing rule:** When prospecting, create `Outreach/<Business>/` with Contact + Notes + Outreach_Draft for any local business whose website Mahoney Digital could materially improve — do not wait for a separate folder request.
+
+**Facebook harvest:** See `EMAILS_FROM_FACEBOOK.md` — verified emails include haulingrassllc4@gmail.com (Haulin' Grass), fieldsjim1@gmail.com (Payless), ccs45601@outlook.com (Comfort), info@fosterfarmsteadmarketplace.com (Foster). Chillicothe batch About links are listed; automated pull blocked by Facebook login wall (2026-06-02).
 
 **Current priorities:**
 - Monitor Chillicothe Comfort (sent 2026-06-02 to ccs45601@outlook.com) for reply. Follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ ~June 6-7 if needed.

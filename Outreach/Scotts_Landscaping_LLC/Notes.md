@@ -5,7 +5,7 @@
 ## Status
 
 - [x] Email verified (Nextdoor)
-- [ ] Outreach draft
+- [x] Outreach draft prepared (`Outreach_Draft.md`)
 - [ ] First email sent
 
 ## Conversation log
