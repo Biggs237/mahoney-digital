@@ -44,7 +44,9 @@ See `Chillicothe_Prospect_Rankings_2026-06-02.md` for full ranked list (#1 = wor
 **Outreach drafts (top 6, ready to send from hello@mahoneydigital.net):**  
 `GH_Handyman_LLC`, `Castos_Auto_Repair`, `Lowes_Odd_Jobs`, `Southern_Ohio_Lawn_Maintenance`, `M_Work_LLC`, `Indoors_and_Beyond_LLC` — each has `Outreach_Draft.md`. Harvest Facebook emails into `EMAILS_FROM_FACEBOOK.md` before replacing `_Verify before send_` on **To:** lines.
 
-**Facebook email harvest:** See `EMAILS_FROM_FACEBOOK.md` — verified FB emails include haulingrassllc4@gmail.com (Haulin' Grass), fieldsjim1@gmail.com (Payless), ccs45601@outlook.com (Comfort), info@fosterfarmsteadmarketplace.com (Foster). Chillicothe batch About links are listed; automated pull blocked by Facebook login wall (2026-06-02).
+**Facebook email harvest:** See `EMAILS_FROM_FACEBOOK.md`
+
+**Restaurant / hospitality audit (2026-06-03):** See `Chillicothe_Restaurant_Hospitality_Audit_2026.md` — Lunch Box, Fire & Stone, The Coop, Taylor Brothers Saloon, First Capital Nutrition, Lievita, Paper City Coffee, Keeney's Kitchen, Willis James B&B, and tiered outreach fit. — verified FB emails include haulingrassllc4@gmail.com (Haulin' Grass), fieldsjim1@gmail.com (Payless), ccs45601@outlook.com (Comfort), info@fosterfarmsteadmarketplace.com (Foster). Chillicothe batch About links are listed; automated pull blocked by Facebook login wall (2026-06-02).
 
 **Current priorities:**
 - Monitor Chillicothe Comfort (sent 2026-06-02 to ccs45601@outlook.com) for reply. Follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ ~June 6-7 if needed.
