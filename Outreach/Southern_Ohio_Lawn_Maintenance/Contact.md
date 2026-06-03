@@ -9,8 +9,8 @@
 - **Facebook (correct prospect — use this page):** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/  
 - **Facebook About (harvest here):** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about  
 - **Website:** None found  
-- **Email (Facebook About):** _Pending re-harvest — see Notes.md_  
-- **Phone:** _Pending re-harvest_
+- **Email (Facebook About):** _None listed_ (harvested 2026-06-03)  
+- **Phone:** (740) 701-4565 — Mobile (Facebook About, correct page)
 
 ## Website audit (2026-06-02)
 

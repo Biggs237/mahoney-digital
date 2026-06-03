@@ -1,7 +1,7 @@
 # Outreach Email Draft — Southern Ohio Lawn Maintenance
 
 **Rank:** #5 — Facebook-only presence  
-**To:** _Verify before send — harvest from correct FB About only: https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about_  
+**To:** _No public email — call (740) 701-4565 (mobile) or Facebook message_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Southern Ohio Lawn Maintenance — website help from Chillicothe
 
@@ -32,12 +32,14 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ---
 
-## Alternate: Facebook message (likely channel)
+## Alternate: phone opener
+
+**Call (740) 701-4565 (mobile)** from **614-636-5248:**
+
+> "Hi, this is Jeremy with Mahoney Digital — local to Chillicothe. I help lawn maintenance companies get a simple website so people searching on their phone can find you beyond Facebook. Wondered if you'd want a quick 10-minute overview. No obligation."
+
+## Alternate: Facebook message
 
 **Facebook:** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/
 
 > Hi — Jeremy with Mahoney Digital (Chillicothe area). I help local lawn companies get a simple professional website so new customers can find you beyond Facebook. No hype — happy to send details or chat 10 min. mahoneydigital.net if you want a look. Thanks!
-
-## Notes
-
-- Pull phone/email from FB **About** before calling or emailing.

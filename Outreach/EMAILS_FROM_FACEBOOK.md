@@ -36,7 +36,7 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | 2 | `Castos_Auto_Repair` | https://www.facebook.com/castosautorepair/ | https://www.facebook.com/castosautorepair/about | ☑ **no email** (phone only) | (740) 637-3099 |
 | 3 | `Lowes_Odd_Jobs` | _No FB page found_ | — | ☐ | (740) 542-0461 |
 | 4 | `Haulin_Grass_LLC` | https://www.facebook.com/haulingrassllc/ | https://www.facebook.com/haulingrassllc/about | ☑ haulingrassllc4@gmail.com | (740) 656-1600 |
-| 5 | `Southern_Ohio_Lawn_Maintenance` | https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/ | …/about | ☐ | — |
+| 5 | `Southern_Ohio_Lawn_Maintenance` | https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/ | …/about | ☑ **no email** | (740) 701-4565 mobile |
 | 6 | `Perfection_Edge_Landscaping` | https://www.facebook.com/PerfectionEdgeLandscapingLLC/ | …/about | ☐ | — |
 | 7 | `Detillion_Landscaping` | https://www.facebook.com/detillionlandscaping/ | …/about | ☐ | — |
 | 8 | `Four_Guys_4_the_Job` | https://www.facebook.com/4guys4thejob/ | …/about | ☐ | — |

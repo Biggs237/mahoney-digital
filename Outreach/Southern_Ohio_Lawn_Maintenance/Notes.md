@@ -5,13 +5,14 @@
 
 ## Status
 
-- [ ] Contact verified on FB (correct page only)
+- [x] Contact verified on FB 2026-06-03 (correct page — phone only)
 - [ ] First outreach
 
 ## Conversation log
 
-**2026-06-03** — Wrong FB page harvested (`southernohiolawncare` / Lawn **Care** / 614). Cleared from folder. Re-harvest from **Southern-Ohio-Lawn-Maintenance-100083026522274** About tab.
+**2026-06-03** — Wrong FB page cleared (`southernohiolawncare`).  
+**2026-06-03** — Correct page harvest: (740) 701-4565 mobile, **no email**.
 
 ---
 
-**Next action:** Open https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about while logged in; paste email/phone here or into chat. Then send from `Outreach_Draft.md`.
+**Next action:** Call from 614-636-5248 (add phone script to draft if missing) or Facebook message.
