@@ -2,7 +2,8 @@
 
 **To:** fieldsjim1@gmail.com (Jim Fields)  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Payless Plumbing — Chillicothe _(sent with older subject: "Quick note for Payless Plumbing – local Chillicothe trades")_  
+**Subject (recommended):** Payless Plumbing — website help from Jeremy in Chillicothe  
+**Actually sent:** Quick note for Payless Plumbing – local Chillicothe trades  
 **Date sent:** 2026-05-31 (evening)
 
 ---

@@ -3,7 +3,7 @@
 **Rank:** #2 — no owned website (Facebook, Yelp, MapQuest only)  
 **To:** _Verify before send — check Facebook About tab or ask at (740) 637-3099_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Casto's Auto Repair — US-23 Chillicothe
+**Subject:** Casto's Auto Repair on US-23 — website help from Chillicothe
 
 ---
 

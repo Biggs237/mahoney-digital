@@ -2,7 +2,7 @@
 
 **To:** isaiahhanes01@icloud.com  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Hanes Lawn Care — Chillicothe area
+**Subject:** Hanes Lawn Care — website help for your family business
 
 Hi Isaiah (and team),
 

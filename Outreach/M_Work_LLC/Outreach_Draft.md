@@ -3,7 +3,7 @@
 **Rank:** #13 — 5.0★ on Angi (18 reviews), **no owned website** (included in top-5 as high-impact substitute for already-contacted Haulin' Grass)  
 **To:** _Send via Angi message first, or email if listed on Angi/Yelp profile_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Joseph — M*WORK LLC in Chillicothe
+**Subject:** Joseph — your M*WORK reviews really stood out
 
 ---
 

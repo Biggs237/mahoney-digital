@@ -2,7 +2,7 @@
 
 **To:** info@fosterfarmsteadmarketplace.com  
 **From:** hello@mahoneydigital.net  
-**Subject:** Re: Foster Farmstead Marketplace
+**Subject:** Foster Farmstead — following up from Jeremy (Mahoney Digital)
 
 Hi Krystal,
 

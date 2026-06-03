@@ -34,7 +34,7 @@ Use the individual folders for all tracking. Update Notes.md after every interac
 
 Keep it honest, low-pressure, and local. No hype.
 
-**Email subjects:** Use the business name (and owner name when you have it). Avoid “Quick note…” / “Quick follow-up…” — they read like mass outreach. One specific detail in the subject is fine when it’s helpful (e.g. `ghhandyman.com — not your business anymore`). Follow-ups: `Re: [Business name]`.
+**Email subjects:** Friendly and specific — business name + one honest reason (reviews, location, domain issue, “website help from Chillicothe”). Avoid “Quick note…” / empty one-word subjects. Example: `Casto's Auto Repair on US-23 — website help from Chillicothe`. Follow-ups: `Payless Plumbing — following up from Jeremy (Mahoney Digital)`.
 
 **Current status note (2026-06-02):** Chillicothe Comfort email sent (user confirmed "Sent!"). All prior sent leads (Payless, Foster Farmstead, Haulin' Grass) still awaiting replies; Hanes using FB + phone fallback paths. Email signature solid in Porkbun Webmail. Detailed tracking maintained in individual folders + this README.
 

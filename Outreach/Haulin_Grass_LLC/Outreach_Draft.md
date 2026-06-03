@@ -2,7 +2,7 @@
 
 **To:** haulingrassllc4@gmail.com  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Haulin' Grass — Chillicothe
+**Subject:** Haulin' Grass — professional website for your lawn care business
 
 Hi there,
 
