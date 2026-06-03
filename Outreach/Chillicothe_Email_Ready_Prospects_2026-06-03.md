@@ -27,6 +27,7 @@ Send from **hello@mahoneydigital.net** · Log sends in each folder’s `Notes.md
 | Foster Farmstead Marketplace | info@fosterfarmsteadmarketplace.com | Placeholder / social-heavy | Sent June 2026 |
 | Scott's Landscaping LLC | amir.scott.landscaping@gmail.com | FB / Nextdoor only — no owned site | Sent 2026-06-03 |
 | BMG Property Services | bmgpropertyservices5@gmail.com | Placeholder/template site | Sent 2026-06-03 |
+| First Capital Nutrition | firstcapitalnutrition@yahoo.com | Menustic only — no owned site | Sent 2026-06-03 |
 
 ---
 
@@ -70,7 +71,7 @@ See `EMAILS_FROM_FACEBOOK.md` for harvest workflow.
 1. **Robert's Handyman** — email ready, weak Ueni site (`Roberts_Allens_Handyman_Services/Outreach_Draft.md`)  
 2. **The Coop** — contact@thecoopchillicothe.com (template cleanup angle)  
 3. While logged into Facebook: harvest Casto's + Southern Ohio + Taylor Brothers + Fire & Stone emails  
-4. Follow-ups (~June 7 if no reply): Payless, Haulin', Comfort, Foster, **Scott's**, **BMG**
+4. Follow-ups (~June 7 if no reply): Payless, Haulin', Comfort, Foster, Scott's, BMG, **First Capital Nutrition**
 
 ---
 
@@ -79,7 +80,7 @@ See `EMAILS_FROM_FACEBOOK.md` for harvest workflow.
 | Tier | Folder | To: |
 |------|--------|-----|
 | ★★★ | `Taylor_Brothers_Saloon` | Verify FB / call (740) 773-8075 |
-| ★★★ | `First_Capital_Nutrition` | firstcapitalnutrition@yahoo.com (verify) |
+| ~~First Capital Nutrition~~ | _Sent 2026-06-03_ |
 | ★★ | `The_Coop` | contact@thecoopchillicothe.com |
 | ★★ | `Fire_and_Stone_Pizzeria` | fireandstonepizzeria@gmail.com |
 | ★★ | `The_Lunch_Box` | thelunchbox2@yahoo.com |

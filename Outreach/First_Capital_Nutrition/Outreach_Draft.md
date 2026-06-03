@@ -1,7 +1,7 @@
 # Outreach Email Draft — First Capital Nutrition
 
 **Web score:** ~2/10 — Menustic listing only, no owned site  
-**To:** firstcapitalnutrition@yahoo.com _(verify on Facebook About before send)_  
+**To:** firstcapitalnutrition@yahoo.com — **sent 2026-06-03**  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** First Capital Nutrition on Paint Street — your own website
 
