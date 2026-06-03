@@ -1,5 +1,7 @@
 # Mahoney Digital — Business cards for VistaPrint
 
+**Status:** Cards ordered (user confirmed). When they arrive, spot-check trim and color against screen proof.
+
 ## Files (upload these)
 
 | Side | File | Size |
