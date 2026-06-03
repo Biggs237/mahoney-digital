@@ -3,7 +3,7 @@
 **Rank:** #3 — no owned website (MapQuest/Yelp only)  
 **To:** _Verify before send — check listings or call (740) 542-0461 for best email_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Quick note for Lowes Odd Jobs — local handyman (Chillicothe)
+**Subject:** Lowes Odd Jobs — Chillicothe
 
 ---
 

@@ -3,7 +3,7 @@
 **Rank:** #15 — 5.0★ on Angi (21 reviews), **no owned website** (sixth draft; **Growth** tier)  
 **To:** _Verify before send — check Angi profile, Chamber listing, or Facebook About if a page is listed; otherwise use Angi message (below)_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Quick note for Indoors and Beyond — your reviews deserve a real website (Chillicothe)
+**Subject:** Larry & Angie — Indoors and Beyond LLC
 
 ---
 

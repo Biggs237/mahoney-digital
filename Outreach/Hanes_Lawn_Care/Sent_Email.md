@@ -2,7 +2,7 @@
 
 **To:** isaiahhanes01@icloud.com  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Quick note for Hanes Lawn Care – local Chillicothe yards  
+**Subject:** Hanes Lawn Care — Chillicothe area _(sent/bounced with older subject: "Quick note for Hanes Lawn Care – local Chillicothe yards")_  
 **Date sent:** June 2026 (user reported "Sent!")
 
 ---

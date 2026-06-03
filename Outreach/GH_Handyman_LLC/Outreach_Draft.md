@@ -3,7 +3,7 @@
 **Rank:** #1 — broken/expired domain (`ghhandyman.com` redirects to unrelated businesses)  
 **To:** _Verify before send — check [Yelp](https://www.yelp.com/biz/greg-hughes-handyman-and-home-improvement-chillicothe-6), [Nextdoor](https://nextdoor.com/pages/greg-hughes-handyman-chillicothe-oh/), or call from listing_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Quick note about your web address — GH Handyman (Chillicothe)
+**Subject:** ghhandyman.com — not your business anymore
 
 ---
 

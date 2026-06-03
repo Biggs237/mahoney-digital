@@ -2,7 +2,7 @@
 
 **To:** ccs45601@outlook.com  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Quick note for Chillicothe Comfort Heating & Air – local HVAC
+**Subject:** Chillicothe Comfort Heating & Air
 
 Hi team,
 

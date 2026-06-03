@@ -8,7 +8,7 @@
 ---
 
 **To:** info@fosterfarmsteadmarketplace.com
-**Subject:** Quick note on your new Marketplace in downtown Chillicothe
+**Subject:** Foster Farmstead Marketplace — downtown Chillicothe
 
 Hi Krystal,
 

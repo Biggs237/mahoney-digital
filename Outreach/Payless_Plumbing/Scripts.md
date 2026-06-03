@@ -12,7 +12,7 @@
 
 **To:** fieldsjim1@gmail.com  
 **From:** hello@mahoneydigital.net  
-**Subject:** Quick note for Payless Plumbing – local Chillicothe trades
+**Subject:** Payless Plumbing — Chillicothe
 
 Hi Jim,
 

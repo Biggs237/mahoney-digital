@@ -3,7 +3,7 @@
 **Rank:** #5 — Facebook-only presence  
 **To:** _Verify before send — email from Facebook About if listed_  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
-**Subject:** Quick note for Southern Ohio Lawn Maintenance — Chillicothe area
+**Subject:** Southern Ohio Lawn Maintenance
 
 ---
 
