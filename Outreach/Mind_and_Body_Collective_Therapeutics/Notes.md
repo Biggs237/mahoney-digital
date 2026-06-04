@@ -12,6 +12,8 @@
 
 ## Conversation log
 
+**User plan:** Wait until **business cards arrive** before in-person approach (neighbor — prefer card in hand). Email draft ready when timing feels right.
+
 ---
 
-**Next action:** Strong local angle — email nikkiboggstherapy@gmail.com or introduce yourself in person first, then follow with email.
+**Next action:** After cards arrive: optional wave/hello across the street + leave card, **or** email nikkiboggstherapy@gmail.com with neighbor subject line. No rush.
