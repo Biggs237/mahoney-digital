@@ -7,13 +7,9 @@
 [build.processing.html]
   pretty_urls = true
 
-# Custom 404 page
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
+# Custom 404: Netlify serves 404.html automatically for missing pages.
+# Do not add a catch-all /* → 404 redirect — it can break form POST handling.
 
-# Security headers for production
 [[headers]]
   for = "/*"
   [headers.values]

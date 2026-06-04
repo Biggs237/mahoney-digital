@@ -29,6 +29,7 @@ After the first deploy:
 ## After It's Live
 
 - Go to **Forms** tab in Netlify → make sure the contact form is receiving submissions
+- After submit, visitors should land on **/thank-you.html** (not a 404). If you still see 404, redeploy the latest `site/` folder.
 - You can delete this `DEPLOY.md` file after launch if you want
 
 ---
