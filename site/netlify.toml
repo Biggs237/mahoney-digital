@@ -7,6 +7,11 @@
 [build.processing.html]
   pretty_urls = true
 
+[[redirects]]
+  from = "/thank-you.html"
+  to = "/thank-you/"
+  status = 301
+
 # Custom 404: Netlify serves 404.html automatically for missing pages.
 # Do not add a catch-all /* → 404 redirect — it can break form POST handling.
 
