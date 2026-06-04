@@ -12,6 +12,32 @@
   to = "/thank-you/"
   status = 301
 
+# Example demos: folder-only (no conflicting *.html stubs). Send bare paths to index.
+[[redirects]]
+  from = "/examples/riverside-lawn"
+  to = "/examples/riverside-lawn/index.html"
+  status = 301
+[[redirects]]
+  from = "/examples/riverside-lawn/"
+  to = "/examples/riverside-lawn/index.html"
+  status = 301
+[[redirects]]
+  from = "/examples/summit-comfort-hvac"
+  to = "/examples/summit-comfort-hvac/index.html"
+  status = 301
+[[redirects]]
+  from = "/examples/summit-comfort-hvac/"
+  to = "/examples/summit-comfort-hvac/index.html"
+  status = 301
+[[redirects]]
+  from = "/examples/heritage-home-partners"
+  to = "/examples/heritage-home-partners/index.html"
+  status = 301
+[[redirects]]
+  from = "/examples/heritage-home-partners/"
+  to = "/examples/heritage-home-partners/index.html"
+  status = 301
+
 # Custom 404: Netlify serves 404.html automatically for missing pages.
 # Do not add a catch-all /* → 404 redirect — it can break form POST handling.
 
