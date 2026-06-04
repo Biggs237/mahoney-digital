@@ -12,13 +12,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
         body { font-family: 'Inter', system-ui, sans-serif; }
         .heading { font-family: 'Space Grotesk', system-ui, sans-serif; }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
     <div class="bg-sky-950 text-sky-100 text-center text-xs py-2 px-4">
-        <span class="opacity-80">Example site by</span>
+        <strong class="text-white/90">Growth tier example</strong>
+        <span class="opacity-75"> · multi-section lead-generation site ·</span>
         <a href="../index.html" class="font-semibold underline hover:text-white">Mahoney Digital</a>
-        <span class="opacity-80"> — demo only, not a real business</span>
     </div>
 
     <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
@@ -29,56 +30,179 @@
                 </div>
                 <span class="heading font-semibold text-lg text-sky-950">Summit Comfort</span>
             </div>
-            <a href="tel:7405550142" class="hidden sm:inline-flex items-center gap-2 bg-sky-700 hover:bg-sky-800 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors">
-                <i class="fas fa-phone text-xs"></i> (740) 555-0142
-            </a>
+            <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-slate-600">
+                <a href="#services" class="hover:text-sky-800">Services</a>
+                <a href="#areas" class="hover:text-sky-800">Service areas</a>
+                <a href="#reviews" class="hover:text-sky-800">Reviews</a>
+                <a href="#faq" class="hover:text-sky-800">FAQ</a>
+                <a href="#quote" class="bg-sky-700 hover:bg-sky-800 text-white px-4 py-2 rounded-xl transition-colors">Free estimate</a>
+            </nav>
+            <a href="tel:7405550142" class="md:hidden text-sm font-bold text-sky-700">Call</a>
         </div>
     </header>
 
-    <section class="relative bg-gradient-to-br from-sky-950 via-slate-900 to-cyan-900 text-white overflow-hidden">
-        <div class="max-w-5xl mx-auto px-5 py-16 md:py-24">
-            <p class="text-cyan-300 text-sm font-semibold tracking-widest uppercase mb-3">Licensed · Insured · Ross County</p>
+    <section class="relative bg-gradient-to-br from-sky-950 via-slate-900 to-cyan-900 text-white">
+        <div class="max-w-5xl mx-auto px-5 py-16 md:py-22">
+            <p class="text-cyan-300 text-xs font-bold tracking-[0.2em] uppercase mb-3">Licensed · Insured · Ross County</p>
             <h1 class="heading text-4xl md:text-5xl font-bold leading-tight mb-4">Heating &amp; cooling you can count on.</h1>
-            <p class="text-sky-100/90 text-lg max-w-xl mb-8">AC repair, furnace installs, and seasonal tune-ups for homes and small businesses in Chillicothe and surrounding areas.</p>
+            <p class="text-sky-100/90 text-lg max-w-xl mb-8">AC repair, furnace installs, and maintenance plans — built to turn searches into calls.</p>
             <div class="flex flex-col sm:flex-row gap-3">
-                <a href="tel:7405550142" class="inline-flex justify-center items-center gap-2 bg-amber-500 hover:bg-amber-400 text-sky-950 font-bold px-6 py-4 rounded-2xl transition-colors">
-                    <i class="fas fa-bolt"></i> Emergency service
+                <a href="tel:7405550142" class="inline-flex justify-center items-center gap-2 bg-amber-500 hover:bg-amber-400 text-sky-950 font-bold px-6 py-4 rounded-2xl">
+                    <i class="fas fa-bolt"></i> 24/7 emergency line
                 </a>
-                <a href="#quote" class="inline-flex justify-center items-center gap-2 border border-white/30 hover:bg-white/10 font-semibold px-6 py-4 rounded-2xl transition-colors">
+                <a href="#quote" class="inline-flex justify-center items-center gap-2 border border-white/30 hover:bg-white/10 font-semibold px-6 py-4 rounded-2xl">
                     Request a free quote
                 </a>
             </div>
         </div>
     </section>
 
-    <section class="max-w-5xl mx-auto px-5 py-14">
-        <h2 class="heading text-2xl font-bold text-sky-950 mb-8 text-center">What we do</h2>
+    <!-- Trust row (Growth: conversion + credibility) -->
+    <section class="bg-white border-b border-slate-200 py-6">
+        <div class="max-w-5xl mx-auto px-5 flex flex-wrap justify-center gap-8 text-sm text-slate-600">
+            <span><i class="fas fa-certificate text-sky-600 mr-1.5"></i> Ohio licensed HVAC</span>
+            <span><i class="fas fa-shield-halved text-sky-600 mr-1.5"></i> Fully insured</span>
+            <span><i class="fas fa-star text-amber-500 mr-1.5"></i> 4.8★ Google rating</span>
+            <span><i class="fas fa-clock text-sky-600 mr-1.5"></i> Same-day emergency slots</span>
+        </div>
+    </section>
+
+    <section id="services" class="max-w-5xl mx-auto px-5 py-14">
+        <h2 class="heading text-2xl font-bold text-sky-950 mb-2 text-center">Dedicated service pages</h2>
+        <p class="text-center text-sm text-slate-600 mb-8 max-w-md mx-auto">Growth builds separate pages (or sections) per service so Google and visitors find exactly what they need.</p>
         <div class="grid sm:grid-cols-3 gap-4">
-            <div class="bg-white rounded-2xl border border-slate-200 p-6 text-center">
+            <a href="#ac" class="bg-white rounded-2xl border border-slate-200 p-6 hover:border-sky-300 hover:shadow-md transition-all group">
                 <i class="fas fa-wind text-2xl text-sky-600 mb-3"></i>
-                <h3 class="font-semibold mb-1">AC repair &amp; install</h3>
-                <p class="text-sm text-slate-600">Fast diagnostics and honest recommendations.</p>
-            </div>
-            <div class="bg-white rounded-2xl border border-slate-200 p-6 text-center">
+                <h3 class="font-semibold mb-1 group-hover:text-sky-800">AC repair &amp; install</h3>
+                <p class="text-sm text-slate-600">Summer breakdowns, new systems, efficiency upgrades.</p>
+                <span class="text-xs font-semibold text-sky-700 mt-3 inline-block">Learn more →</span>
+            </a>
+            <a href="#furnace" class="bg-white rounded-2xl border border-slate-200 p-6 hover:border-sky-300 hover:shadow-md transition-all group">
                 <i class="fas fa-fire text-2xl text-orange-500 mb-3"></i>
-                <h3 class="font-semibold mb-1">Furnace service</h3>
-                <p class="text-sm text-slate-600">Keep your family warm through Ohio winters.</p>
-            </div>
-            <div class="bg-white rounded-2xl border border-slate-200 p-6 text-center">
+                <h3 class="font-semibold mb-1 group-hover:text-sky-800">Furnace &amp; heating</h3>
+                <p class="text-sm text-slate-600">Repairs, replacements, and safety checks before winter.</p>
+                <span class="text-xs font-semibold text-sky-700 mt-3 inline-block">Learn more →</span>
+            </a>
+            <a href="#plans" class="bg-white rounded-2xl border border-slate-200 p-6 hover:border-sky-300 hover:shadow-md transition-all group">
                 <i class="fas fa-calendar-check text-2xl text-cyan-600 mb-3"></i>
-                <h3 class="font-semibold mb-1">Maintenance plans</h3>
-                <p class="text-sm text-slate-600">Twice-yearly tune-ups that prevent breakdowns.</p>
+                <h3 class="font-semibold mb-1 group-hover:text-sky-800">Maintenance plans</h3>
+                <p class="text-sm text-slate-600">Twice-yearly tune-ups that prevent costly emergencies.</p>
+                <span class="text-xs font-semibold text-sky-700 mt-3 inline-block">Learn more →</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="ac" class="bg-sky-50 border-y border-sky-100 py-12">
+        <div class="max-w-5xl mx-auto px-5 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h2 class="heading text-xl font-bold text-sky-950 mb-3">AC repair &amp; installation</h2>
+                <p class="text-slate-600 text-sm leading-relaxed mb-4">When Ohio heat hits, you need a team that answers. We diagnose fast, explain options in plain English, and install equipment sized for your home.</p>
+                <a href="#quote" class="text-sm font-bold text-sky-800">Get an AC estimate →</a>
+            </div>
+            <div class="bg-white rounded-2xl p-6 border border-sky-100 text-sm text-slate-600">
+                <ul class="space-y-2">
+                    <li class="flex gap-2"><i class="fas fa-check text-sky-600 mt-0.5"></i> Central air &amp; heat pumps</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-sky-600 mt-0.5"></i> Refrigerant leak detection</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-sky-600 mt-0.5"></i> Energy-efficient upgrades</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="quote" class="bg-sky-50 border-y border-sky-100 py-14">
+    <section id="furnace" class="max-w-5xl mx-auto px-5 py-12">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div class="order-2 md:order-1 bg-white rounded-2xl p-6 border border-slate-200 text-sm text-slate-600">
+                <ul class="space-y-2">
+                    <li class="flex gap-2"><i class="fas fa-check text-orange-500 mt-0.5"></i> Gas &amp; electric furnace repair</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-orange-500 mt-0.5"></i> Carbon monoxide safety checks</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-orange-500 mt-0.5"></i> Full system replacements</li>
+                </ul>
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="heading text-xl font-bold text-sky-950 mb-3">Furnace &amp; heating service</h2>
+                <p class="text-slate-600 text-sm leading-relaxed mb-4">Don’t wait for a cold night to find out your heat failed. Fall tune-ups and honest repair vs. replace guidance.</p>
+                <a href="tel:7405550142" class="text-sm font-bold text-sky-800">Call for heating help →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="areas" class="bg-slate-900 text-white py-14">
+        <div class="max-w-5xl mx-auto px-5 text-center">
+            <h2 class="heading text-2xl font-bold mb-3">Service areas</h2>
+            <p class="text-slate-400 text-sm mb-8 max-w-lg mx-auto">Local SEO pages target each town you serve — a core part of the Growth package.</p>
+            <div class="flex flex-wrap justify-center gap-2">
+                <span class="px-4 py-2 rounded-full bg-white/10 text-sm">Chillicothe</span>
+                <span class="px-4 py-2 rounded-full bg-white/10 text-sm">Circleville</span>
+                <span class="px-4 py-2 rounded-full bg-white/10 text-sm">Waverly</span>
+                <span class="px-4 py-2 rounded-full bg-white/10 text-sm">Kingston</span>
+                <span class="px-4 py-2 rounded-full bg-white/10 text-sm">Laurelville</span>
+                <span class="px-4 py-2 rounded-full bg-white/10 text-sm">Bainbridge</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="max-w-5xl mx-auto px-5 py-14">
+        <h2 class="heading text-2xl font-bold text-sky-950 mb-8 text-center">What customers say</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+            <blockquote class="bg-white rounded-2xl p-5 border border-slate-200">
+                <div class="text-amber-400 text-sm mb-2">★★★★★</div>
+                <p class="text-sm text-slate-700">"Fixed our AC same day. Fair price, no upsell pressure."</p>
+                <footer class="text-xs text-slate-500 mt-3 font-medium">— Karen L., Chillicothe</footer>
+            </blockquote>
+            <blockquote class="bg-white rounded-2xl p-5 border border-slate-200">
+                <div class="text-amber-400 text-sm mb-2">★★★★★</div>
+                <p class="text-sm text-slate-700">"Maintenance plan caught a failing capacitor before July."</p>
+                <footer class="text-xs text-slate-500 mt-3 font-medium">— Tom H., Ross County</footer>
+            </blockquote>
+            <blockquote class="bg-white rounded-2xl p-5 border border-slate-200">
+                <div class="text-amber-400 text-sm mb-2">★★★★★</div>
+                <p class="text-sm text-slate-700">"New furnace install was clean and on schedule."</p>
+                <footer class="text-xs text-slate-500 mt-3 font-medium">— Diane P., Circleville</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="faq" class="bg-white border-y border-slate-200 py-14">
+        <div class="max-w-2xl mx-auto px-5">
+            <h2 class="heading text-2xl font-bold text-sky-950 mb-6 text-center">Common questions</h2>
+            <dl class="space-y-4 text-sm">
+                <div class="border-b border-slate-100 pb-4">
+                    <dt class="font-semibold text-slate-900 mb-1">Do you offer emergency service?</dt>
+                    <dd class="text-slate-600">Yes — call our main line for same-day emergency slots when available.</dd>
+                </div>
+                <div class="border-b border-slate-100 pb-4">
+                    <dt class="font-semibold text-slate-900 mb-1">How much does a new AC cost?</dt>
+                    <dd class="text-slate-600">Every home is different. We provide written estimates after an on-site evaluation.</dd>
+                </div>
+                <div>
+                    <dt class="font-semibold text-slate-900 mb-1">Are you licensed in Ohio?</dt>
+                    <dd class="text-slate-600">Yes. Fully licensed and insured for residential HVAC work.</dd>
+                </div>
+            </dl>
+        </div>
+    </section>
+
+    <section class="bg-amber-500 py-10">
+        <div class="max-w-5xl mx-auto px-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <p class="heading font-bold text-sky-950 text-lg">Ready for reliable heat and cool?</p>
+            <a href="#quote" class="inline-flex bg-sky-950 hover:bg-sky-900 text-white font-bold px-6 py-3 rounded-xl">Get free estimate</a>
+        </div>
+    </section>
+
+    <section id="quote" class="py-14">
         <div class="max-w-lg mx-auto px-5 text-center">
             <h2 class="heading text-2xl font-bold text-sky-950 mb-2">Get a free estimate</h2>
-            <p class="text-slate-600 text-sm mb-6">Typical response within one business day.</p>
-            <form class="space-y-3 text-left" onsubmit="event.preventDefault(); alert('Demo form — this is an example site.');">
+            <p class="text-slate-600 text-sm mb-6">Second lead form on the page — typical Growth pattern.</p>
+            <form class="space-y-3 text-left" onsubmit="event.preventDefault(); alert('Demo form — Growth example site.');">
                 <input type="text" placeholder="Your name" class="w-full px-4 py-3 rounded-xl border border-slate-200" required>
                 <input type="tel" placeholder="Phone number" class="w-full px-4 py-3 rounded-xl border border-slate-200" required>
+                <select class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-700">
+                    <option>Service needed</option>
+                    <option>AC / cooling</option>
+                    <option>Heating / furnace</option>
+                    <option>Maintenance plan</option>
+                    <option>Emergency</option>
+                </select>
                 <textarea rows="3" placeholder="What do you need help with?" class="w-full px-4 py-3 rounded-xl border border-slate-200"></textarea>
                 <button type="submit" class="w-full bg-sky-700 hover:bg-sky-800 text-white font-semibold py-3.5 rounded-xl">Send request</button>
             </form>
@@ -88,7 +212,8 @@
     <footer class="bg-sky-950 text-sky-200/80 text-sm py-8 text-center px-5">
         <p class="font-semibold text-white mb-1">Summit Comfort HVAC</p>
         <p>Serving Chillicothe · Circleville · Waverly</p>
-        <p class="mt-4 text-xs text-sky-300/60">Example website · <a href="../index.html" class="underline hover:text-white">Back to Mahoney Digital</a></p>
+        <p class="text-[10px] mt-4 text-sky-300/50 max-w-md mx-auto">Growth sites add navigation, service sections, reviews, FAQs, and multiple CTAs — built to generate leads, not just list a phone number.</p>
+        <p class="mt-3 text-xs"><a href="../index.html" class="underline hover:text-white">Back to Mahoney Digital</a></p>
     </footer>
 </body>
 </html>
