@@ -239,36 +239,37 @@
                 </div>
 
                 <!-- Mobile Hamburger -->
-                <button id="mobile-menu-button"
+                <button type="button" id="mobile-menu-button"
                         class="md:hidden flex items-center justify-center w-10 h-10 text-slate-700 hover:text-slate-900"
-                        aria-label="Toggle menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
+                        aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <i class="fas fa-bars text-xl" id="menu-icon" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
+    </nav>
 
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/40 z-50 overflow-hidden" style="top: 4rem;">
-            <div class="bg-white w-full shadow-xl">
-                <div class="px-5 py-6 flex flex-col gap-y-1 text-[15px]">
-                    <a href="#work" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Work</a>
-                    <a href="#tiers" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Packages</a>
-                    <a href="#how" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">How it works</a>
-                    
-                    <div class="pt-4 mt-2 border-t border-slate-100 flex flex-col gap-y-3">
-                        <a href="#contact" 
-                           class="mobile-nav-link block font-semibold text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream hover:bg-cream">
-                            Get in touch
-                        </a>
-                        <a href="plans/" 
-                           class="btn-primary mt-1 inline-flex items-center justify-center px-5 py-3.5 min-h-[48px] text-sm font-semibold rounded-2xl text-white shadow-sm">
-                            See Plans
-                        </a>
-                    </div>
+    <!-- Mobile Menu (outside nav so fixed positioning is not trapped by backdrop-blur) -->
+    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-[100]" role="dialog" aria-modal="true" aria-label="Main menu">
+        <button type="button" id="mobile-menu-backdrop" class="absolute inset-0 bg-black/40" aria-label="Close menu" tabindex="-1"></button>
+        <div class="relative bg-white w-full shadow-xl border-b border-cream-dark" style="margin-top: 4rem;">
+            <div class="px-5 py-6 flex flex-col gap-y-1 text-[15px] max-w-7xl mx-auto">
+                <a href="#work" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Work</a>
+                <a href="#tiers" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Packages</a>
+                <a href="#how" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">How it works</a>
+
+                <div class="pt-4 mt-2 border-t border-slate-100 flex flex-col gap-y-3">
+                    <a href="#contact"
+                       class="mobile-nav-link block font-semibold text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream hover:bg-cream">
+                        Get in touch
+                    </a>
+                    <a href="plans/"
+                       class="btn-primary mt-1 inline-flex items-center justify-center px-5 py-3.5 min-h-[48px] text-sm font-semibold rounded-2xl text-white shadow-sm">
+                        See Plans
+                    </a>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 
     <!-- Hero -->
     <section class="hero-mesh relative overflow-hidden">
@@ -884,45 +885,51 @@
         // Mobile menu toggle
         const menuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
+        const menuBackdrop = document.getElementById('mobile-menu-backdrop');
         const menuIcon = document.getElementById('menu-icon');
+
+        function setMobileMenuOpen(open) {
+            if (!mobileMenu || !menuButton || !menuIcon) return;
+            mobileMenu.classList.toggle('hidden', !open);
+            menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+            menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+            menuIcon.classList.toggle('fa-bars', !open);
+            menuIcon.classList.toggle('fa-times', open);
+            document.body.classList.toggle('overflow-hidden', open);
+        }
+
+        function closeMobileMenu() {
+            setMobileMenuOpen(false);
+        }
 
         if (menuButton && mobileMenu) {
             menuButton.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-                
-                if (mobileMenu.classList.contains('hidden')) {
-                    menuIcon.classList.remove('fa-times');
-                    menuIcon.classList.add('fa-bars');
-                } else {
-                    menuIcon.classList.remove('fa-bars');
-                    menuIcon.classList.add('fa-times');
-                }
+                setMobileMenuOpen(mobileMenu.classList.contains('hidden'));
             });
 
-            // Close mobile menu when clicking a link
+            menuBackdrop?.addEventListener('click', closeMobileMenu);
+
             document.querySelectorAll('.mobile-nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    mobileMenu.classList.add('hidden');
-                    menuIcon.classList.remove('fa-times');
-                    menuIcon.classList.add('fa-bars');
-                });
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
+                    closeMobileMenu();
+                }
             });
         }
 
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
-                const target = document.querySelector(this.getAttribute('href'));
+                const href = this.getAttribute('href');
+                if (!href || href === '#') return;
+                const target = document.querySelector(href);
                 if (target) {
                     e.preventDefault();
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    
-                    // Close mobile menu if open
-                    if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                        menuIcon.classList.remove('fa-times');
-                        menuIcon.classList.add('fa-bars');
-                    }
+                    closeMobileMenu();
                 }
             });
         });
