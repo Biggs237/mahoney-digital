@@ -17,7 +17,8 @@ Open this file when you sit down to work. Everything else in the repo supports w
 
 **Follow-up week details:** `Outreach/Activity_Log.md` → section **This week — follow-up queue**
 
-**Call list (tomorrow AM):** `Outreach/Calls_Tomorrow_Morning.md` · **Full list:** `Outreach/Calls_Today_Phone_List.md`
+**Call list (tomorrow AM):** `Outreach/Calls_Tomorrow_Morning.md` · **More calls:** `Outreach/Calls_Extra_Tomorrow.md` · **Walk-in (cards):** `Outreach/Walk_In_Script.md`  
+**Phone script in every prospect folder:** `Outreach/<Business>/Phone_Script.md`
 
 **Log every touch:** `Outreach/Activity_Log.md` + that business’s `Outreach/<Folder>/Notes.md` (template: `Outreach/Notes_Log_Format.md`)
 

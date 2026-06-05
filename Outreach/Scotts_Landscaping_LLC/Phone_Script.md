@@ -1,20 +1,22 @@
-# Phone script — Hanes Lawn Care (Hanes Lawn And Garden)
+# Phone script — Scott's Landscaping LLC (Amir Scott)
 
-**Folder:** `Hanes_Lawn_Care` · **Call:** **(931) 698-9104** · **From:** 614-636-5248  
+**Folder:** `Scotts_Landscaping_LLC` · **Call:** **(614) 907-1035** · **From:** 614-636-5248  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/  
 **Master talk track:** `../Phone_Script_Essential.md`
+
+**Note:** Prior email sent — **follow-up call**. Reference the email; keep it short.
 
 ---
 
 ## Opener
 
-> “Hi, this is Jeremy Mahoney with Mahoney Digital — I’m local to the Chillicothe area. I help small auto repair and mechanics businesses get an affordable website that works on a customer’s phone. Do you have thirty seconds, or is this a bad time?”
+> “Hi, this is Jeremy Mahoney with Mahoney Digital — I’m local to the Chillicothe area. I help small lawn and landscape businesses get an affordable website that works on a customer’s phone. Do you have thirty seconds, or is this a bad time?”
 
 ---
 
 ## Custom hook
 
-> “I was looking at Hanes Lawn Care (Hanes Lawn And Garden) online — Facebook: https://www.facebook.com/61587378341344 (active for business) That’s the kind of thing I help with.”
+> “I was looking at Scott's Landscaping LLC (Amir Scott) online — Website audit (2026-06-03) That’s the kind of thing I help with.”
 
 ---
 

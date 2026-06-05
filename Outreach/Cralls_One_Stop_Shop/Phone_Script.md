@@ -1,6 +1,6 @@
-# Phone script — Hanes Lawn Care (Hanes Lawn And Garden)
+# Phone script — Crall's One Stop Shop / Crall's Automotive
 
-**Folder:** `Hanes_Lawn_Care` · **Call:** **(931) 698-9104** · **From:** 614-636-5248  
+**Folder:** `Cralls_One_Stop_Shop` · **Call:** **(740) 774-3860** · **From:** 614-636-5248  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/  
 **Master talk track:** `../Phone_Script_Essential.md`
 
@@ -14,7 +14,7 @@
 
 ## Custom hook
 
-> “I was looking at Hanes Lawn Care (Hanes Lawn And Garden) online — Facebook: https://www.facebook.com/61587378341344 (active for business) That’s the kind of thing I help with.”
+> “I was looking at Crall's One Stop Shop / Crall's Automotive online — Facebook: https://www.facebook.com/Crallsonestopshop/ (236 likes) That’s the kind of thing I help with.”
 
 ---
 

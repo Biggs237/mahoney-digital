@@ -1,6 +1,6 @@
-# Phone script — Hanes Lawn Care (Hanes Lawn And Garden)
+# Phone script — GH Handyman LLC / Greg Hughes Handyman & Home Improvement
 
-**Folder:** `Hanes_Lawn_Care` · **Call:** **(931) 698-9104** · **From:** 614-636-5248  
+**Folder:** `GH_Handyman_LLC` · **Call:** **302-7006079** · **From:** 614-636-5248  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/  
 **Master talk track:** `../Phone_Script_Essential.md`
 
@@ -8,13 +8,13 @@
 
 ## Opener
 
-> “Hi, this is Jeremy Mahoney with Mahoney Digital — I’m local to the Chillicothe area. I help small auto repair and mechanics businesses get an affordable website that works on a customer’s phone. Do you have thirty seconds, or is this a bad time?”
+> “Hi, this is Jeremy Mahoney with Mahoney Digital — I’m local to the Chillicothe area. I help small plumbing and trades businesses get an affordable website that works on a customer’s phone. Do you have thirty seconds, or is this a bad time?”
 
 ---
 
 ## Custom hook
 
-> “I was looking at Hanes Lawn Care (Hanes Lawn And Garden) online — Facebook: https://www.facebook.com/61587378341344 (active for business) That’s the kind of thing I help with.”
+> “I was looking at GH Handyman LLC / Greg Hughes Handyman & Home Improvement online — Website audit (2026-06-02) That’s the kind of thing I help with.”
 
 ---
 

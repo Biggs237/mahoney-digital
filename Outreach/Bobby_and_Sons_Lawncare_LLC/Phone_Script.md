@@ -1,6 +1,6 @@
-# Phone script — Hanes Lawn Care (Hanes Lawn And Garden)
+# Phone script — Bobby & Sons Lawncare LLC
 
-**Folder:** `Hanes_Lawn_Care` · **Call:** **(931) 698-9104** · **From:** 614-636-5248  
+**Folder:** `Bobby_and_Sons_Lawncare_LLC` · **Call:** **_See Contact.md_** · **From:** 614-636-5248  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/  
 **Master talk track:** `../Phone_Script_Essential.md`
 
@@ -14,7 +14,7 @@
 
 ## Custom hook
 
-> “I was looking at Hanes Lawn Care (Hanes Lawn And Garden) online — Facebook: https://www.facebook.com/61587378341344 (active for business) That’s the kind of thing I help with.”
+> “I was looking at Bobby & Sons Lawncare LLC online — Website audit (2026-06-03) That’s the kind of thing I help with.”
 
 ---
 

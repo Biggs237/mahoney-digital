@@ -54,3 +54,21 @@ Copy the **shared blocks** below into each prospect’s `Phone_Script.md` and cu
 | General Essential | https://mahoneydigital.net/#tiers |
 
 **Site:** https://mahoneydigital.net · **Support plans:** https://mahoneydigital.net/plans/
+
+---
+
+## In-person / walk-in (business card)
+
+See **`Walk_In_Script.md`** in this folder.
+
+---
+
+## Regenerate folder scripts
+
+After editing contact data, run from `Outreach/`:
+
+```bash
+node generate_phone_scripts.mjs
+```
+
+Skips hand-tuned scripts: Baughman, Casto's, Southern Ohio Lawn. Re-run anytime to refresh the other folders.

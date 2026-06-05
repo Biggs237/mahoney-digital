@@ -11,6 +11,9 @@ Each business folder contains:
 - `Outreach_Draft.md` or `Scripts.md` — Ready-to-use email drafts
 - `Phone_Script.md` — Call script (benefits, Essential pricing, Essential Care updates) — add per folder when calling
 - `Phone_Script_Essential.md` (folder root) — Master talk track for Essential tier calls
+- `Walk_In_Script.md` — Business card / door-to-door across the street
+- `Calls_Extra_Tomorrow.md` — Follow-ups + extra high-value calls
+- `generate_phone_scripts.mjs` — Regenerate `Phone_Script.md` in all folders (run: `node generate_phone_scripts.mjs`)
 - `Notes.md` — Status, dates, follow-up reminders, conversation notes
 
 ## Daily workflow (calls & email)

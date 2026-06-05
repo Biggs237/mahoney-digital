@@ -1,8 +1,10 @@
-# Phone script — Hanes Lawn Care (Hanes Lawn And Garden)
+# Phone script — Laurelville Auto Service LLC (Kaleb Kibbey)
 
-**Folder:** `Hanes_Lawn_Care` · **Call:** **(931) 698-9104** · **From:** 614-636-5248  
+**Folder:** `Laurelville_Auto_Service_LLC` · **Call:** **(740) 332-2486** · **From:** 614-636-5248  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/  
 **Master talk track:** `../Phone_Script_Essential.md`
+
+**Note:** Prior email sent — **follow-up call**. Reference the email; keep it short.
 
 ---
 
@@ -14,7 +16,7 @@
 
 ## Custom hook
 
-> “I was looking at Hanes Lawn Care (Hanes Lawn And Garden) online — Facebook: https://www.facebook.com/61587378341344 (active for business) That’s the kind of thing I help with.”
+> “I was looking at Laurelville Auto Service LLC (Kaleb Kibbey) online — Website audit (2026-06-03) That’s the kind of thing I help with.”
 
 ---
 
