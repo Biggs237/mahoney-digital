@@ -63,11 +63,18 @@
 
         .tier-card {
             transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            color: inherit;
         }
         
         .tier-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 25px 30px -8px rgb(11 17 32 / 0.12), 0 10px 12px -6px rgb(11 17 32 / 0.08);
+        }
+
+        .tier-card:focus-visible {
+            outline: 2px solid var(--brand);
+            outline-offset: 2px;
         }
 
         .nav-link {
@@ -587,8 +594,8 @@
 
         <div class="grid lg:grid-cols-3 gap-6">
             
-            <!-- Essential -->
-            <div class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
+            <!-- Essential → Riverside Lawn example -->
+            <a href="examples/riverside-lawn/" aria-label="View Essential package example — Riverside Lawn and Landscape" class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
                 <div class="flex-1">
                     <div class="flex items-baseline justify-between mb-2">
                         <h3 class="text-2xl font-semibold tracking-tight">Essential</h3>
@@ -626,15 +633,15 @@
                 <div class="mt-8 pt-6 border-t border-slate-100">
                     <div class="text-xs uppercase tracking-[0.5px] text-slate-500 mb-2">Most projects land at</div>
                     <div class="font-semibold text-slate-800 mb-4">$1,650 – $1,750</div>
-                    <a href="plans/essential-care.html" 
-                       class="block w-full text-center border border-slate-300 group-hover:border-slate-400 font-semibold py-3.5 rounded-2xl text-sm transition-colors">
-                        Choose Essential
-                    </a>
+                    <span class="block w-full text-center border border-slate-300 group-hover:border-slate-400 group-hover:bg-cream font-semibold py-3.5 rounded-2xl text-sm transition-colors">
+                        View Essential example
+                        <i class="fas fa-arrow-right text-[10px] ml-1 opacity-70 group-hover:opacity-100"></i>
+                    </span>
                 </div>
-            </div>
+            </a>
 
-            <!-- Growth -->
-            <div class="tier-card group bg-white border-2 border-brand-dark rounded-3xl p-7 md:p-8 flex flex-col relative shadow-sm">
+            <!-- Growth → Summit Comfort HVAC example -->
+            <a href="examples/summit-comfort-hvac/" aria-label="View Growth package example — Summit Comfort HVAC" class="tier-card group bg-white border-2 border-brand-dark rounded-3xl p-7 md:p-8 flex flex-col relative shadow-sm">
                 <div class="absolute -top-3 right-6 bg-brand-dark text-white text-[10px] font-bold tracking-[1px] px-4 py-1 rounded-3xl">MOST POPULAR</div>
                 
                 <div class="flex-1">
@@ -678,15 +685,15 @@
                 <div class="mt-8 pt-6 border-t border-brand-dark/20">
                     <div class="text-xs uppercase tracking-[0.5px] text-brand-dark mb-2">Most projects land at</div>
                     <div class="font-semibold text-brand-dark mb-4">$2,900 – $3,200</div>
-                    <a href="plans/growth-partner.html" 
-                       class="btn-primary block w-full text-center text-white font-semibold py-3.5 min-h-[44px] flex items-center justify-center rounded-2xl text-sm transition-colors">
-                        Choose Growth
-                    </a>
+                    <span class="btn-primary block w-full text-center text-white font-semibold py-3.5 min-h-[44px] flex items-center justify-center gap-x-1.5 rounded-2xl text-sm transition-colors">
+                        View Growth example
+                        <i class="fas fa-arrow-right text-[10px]"></i>
+                    </span>
                 </div>
-            </div>
+            </a>
 
-            <!-- Signature -->
-            <div class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
+            <!-- Signature → Heritage Home Partners example -->
+            <a href="examples/heritage-home-partners/" aria-label="View Signature package example — Heritage Home Partners" class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
                 <div class="flex-1">
                     <div class="flex items-baseline justify-between mb-2">
                         <h3 class="text-2xl font-semibold tracking-tight">Signature</h3>
@@ -724,12 +731,12 @@
                 <div class="mt-8 pt-6 border-t border-slate-100">
                     <div class="text-xs uppercase tracking-[0.5px] text-slate-500 mb-2">Most projects land at</div>
                     <div class="font-semibold text-slate-800 mb-4">$5,400 – $6,200</div>
-                    <a href="plans/signature-alliance.html" 
-                       class="block w-full text-center border border-slate-300 group-hover:border-slate-400 font-semibold py-3.5 rounded-2xl text-sm transition-colors">
-                        Choose Signature
-                    </a>
+                    <span class="block w-full text-center border border-slate-300 group-hover:border-slate-400 group-hover:bg-cream font-semibold py-3.5 rounded-2xl text-sm transition-colors">
+                        View Signature example
+                        <i class="fas fa-arrow-right text-[10px] ml-1 opacity-70 group-hover:opacity-100"></i>
+                    </span>
                 </div>
-            </div>
+            </a>
         </div>
         
         <p class="text-center text-sm text-slate-500 mt-8">Bundle with ongoing support and save 10–20% on your website project.</p>
