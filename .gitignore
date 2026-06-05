@@ -17,3 +17,6 @@ Desktop.ini
 *.log
 # Local Netlify folder
 .netlify
+
+# Local dev / agent terminals (not project files)
+terminals/

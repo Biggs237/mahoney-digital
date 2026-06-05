@@ -2,12 +2,26 @@
 
 Local Chillicothe, OH small business outreach for Mahoney Digital.
 
+**Start here for weekly focus:** [`../START_HERE.md`](../START_HERE.md) · **Log calls:** [`Activity_Log.md`](Activity_Log.md)
+
 ## Structure
 
 Each business folder contains:
 - `Contact.md` — Verified phone, email (if public), Facebook, address, website, notes
 - `Outreach_Draft.md` or `Scripts.md` — Ready-to-use email / call scripts, voicemail, and Facebook message versions
 - `Notes.md` — Status, dates, follow-up reminders, conversation notes
+
+## Daily workflow (calls & email)
+
+1. **Pick targets** — `Calls_Today_Phone_List.md` (phone) or email-ready rows in audit files.
+2. **Contact** — Use script in that folder’s `Outreach_Draft.md`; call from **614-636-5248**.
+3. **Log twice** (takes 2 minutes):
+   - Add a row to **`Activity_Log.md`** (master timeline + quick status table).
+   - Add detail under **Conversation log** in that folder’s **`Notes.md`** — see **`Notes_Log_Format.md`** for the template.
+
+Facebook group posts go in **`Activity_Log.md`** → “Facebook / groups” (not a business folder).
+
+**Phone list for call days:** `Calls_Today_Phone_List.md`
 
 ## Current Leads (May/June 2026)
 

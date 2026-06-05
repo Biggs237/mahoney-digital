@@ -52,4 +52,9 @@ Use the phone script in each folder’s `Outreach_Draft.md` when you want a cust
 
 ## Log calls
 
-After each call, note date + outcome in that folder’s `Notes.md`.
+After **each** call:
+
+1. **`Activity_Log.md`** — new row in Chronological log + update Quick status table.
+2. **`Outreach/<Folder>/Notes.md`** — Conversation log (template in `Notes_Log_Format.md`).
+
+Example outcome words: *Interested* · *Maybe later* · *Not interested* · *Voicemail* · *No answer* · *Sent demo link*
