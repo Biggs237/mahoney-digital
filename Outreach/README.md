@@ -8,7 +8,9 @@ Local Chillicothe, OH small business outreach for Mahoney Digital.
 
 Each business folder contains:
 - `Contact.md` — Verified phone, email (if public), Facebook, address, website, notes
-- `Outreach_Draft.md` or `Scripts.md` — Ready-to-use email / call scripts, voicemail, and Facebook message versions
+- `Outreach_Draft.md` or `Scripts.md` — Ready-to-use email drafts
+- `Phone_Script.md` — Call script (benefits, Essential pricing, Essential Care updates) — add per folder when calling
+- `Phone_Script_Essential.md` (folder root) — Master talk track for Essential tier calls
 - `Notes.md` — Status, dates, follow-up reminders, conversation notes
 
 ## Daily workflow (calls & email)

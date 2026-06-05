@@ -22,7 +22,7 @@
 
 **Hook:** “Your Google and BBB listings still send people to a website that doesn’t load — I help local lawn companies fix that with a simple mobile site.”
 
-**Script:** `Outreach/Baughman_Lawncare_LLC/Outreach_Draft.md`
+**Script:** `Outreach/Baughman_Lawncare_LLC/Phone_Script.md` (full) · email draft: `Outreach_Draft.md`
 
 ---
 
@@ -42,7 +42,7 @@
 
 **Hook:** “When someone searches auto repair on their phone, you want a simple site with hours and click-to-call — not just a Facebook page.”
 
-**Script:** `Outreach/Castos_Auto_Repair/Outreach_Draft.md` → phone section
+**Script:** `Outreach/Castos_Auto_Repair/Phone_Script.md` (full)
 
 ---
 
@@ -60,15 +60,17 @@
 
 **Hook:** Same as Baughman — mobile-first site so they’re not only findable on Facebook.
 
-**Script:** `Outreach/Southern_Ohio_Lawn_Maintenance/Outreach_Draft.md`
+**Script:** `Outreach/Southern_Ohio_Lawn_Maintenance/Phone_Script.md` (full)
 
 **Do not call:** (614) 625-8690 or southernohiolawncare@yahoo.com — wrong business (see `Contact.md`).
 
 ---
 
-## Opener (all three)
+## Master script (all trades)
 
-> “Hi, this is Jeremy with Mahoney Digital — I’m local to the Chillicothe area. I help small shops and trades get a simple website that works on a phone. Not selling anything on this call — wondered if you’d be open to a 10-minute chat, or I can text you an example. No pressure.”
+Shared pricing, benefits, and Essential Care language: **`Outreach/Phone_Script_Essential.md`**
+
+Each folder above has a **custom `Phone_Script.md`** with opener, hook, voicemail, and text-after-yes.
 
 ---
 
