@@ -21,9 +21,21 @@ No reply yet on these — **phone first**, then one short follow-up email if no 
 | 4 | Haulin' Grass LLC | `Haulin_Grass_LLC` | Email sent | Call or brief follow-up |
 | 5 | Hanes Lawn Care | `Hanes_Lawn_Care` | Email bounced | Phone (931) 698-9104 or FB only |
 
-**New outreach (Lane A — first client):** Casto's, Baughman, Southern Ohio Lawn, Clemmons, Crall's — see `Calls_Today_Phone_List.md`.
+**New outreach (Lane A — first client):** See **`Calls_Tomorrow_Morning.md`** (top 3 for 2026-06-06).
 
 Check off each row in **Quick status** when done; add **Chronological log** line.
+
+---
+
+## Tomorrow morning — top 3 (2026-06-06) · CALL PENDING
+
+| Order | Business | Phone | Folder | Status |
+|-------|----------|-------|--------|--------|
+| 1 | **Baughman Lawncare LLC** | **(614) 578-2220** | `Baughman_Lawncare_LLC` | **Call pending** |
+| 2 | **Casto's Auto Repair** | **(740) 637-3099** | `Castos_Auto_Repair` | **Call pending** |
+| 3 | **Southern Ohio Lawn Maintenance** | **(740) 701-4565** | `Southern_Ohio_Lawn_Maintenance` | **Call pending** |
+
+Full hooks, addresses, demo links: **`Calls_Tomorrow_Morning.md`**
 
 ---
 
@@ -36,9 +48,9 @@ Check off each row in **Quick status** when done; add **Chronological log** line
 | Haulin' Grass LLC | `Haulin_Grass_LLC` | Email sent | 2026-06 | Monitor reply |
 | Chillicothe Comfort H&A | `Chillicothe_Comfort_Heating_and_Air` | Email sent | 2026-06-02 | Call if no reply |
 | Hanes Lawn Care | `Hanes_Lawn_Care` | Email bounced | 2026-06 | FB / phone |
-| Casto's Auto Repair | `Castos_Auto_Repair` | Not contacted | — | **Call** |
-| Baughman Lawncare | `Baughman_Lawncare_LLC` | Not contacted | — | **Call** |
-| Southern Ohio Lawn Maintenance | `Southern_Ohio_Lawn_Maintenance` | Not contacted | — | **Call** |
+| Baughman Lawncare | `Baughman_Lawncare_LLC` | **Call pending** | 2026-06-05 | **Call AM 2026-06-06** — (614) 578-2220 |
+| Casto's Auto Repair | `Castos_Auto_Repair` | **Call pending** | 2026-06-05 | **Call AM 2026-06-06** — (740) 637-3099 |
+| Southern Ohio Lawn Maintenance | `Southern_Ohio_Lawn_Maintenance` | **Call pending** | 2026-06-05 | **Call AM 2026-06-06** — (740) 701-4565 |
 | Clemmons & Son Plumbing | `Clemmons_Son_Plumbing` | Not contacted | — | **Call** |
 | Crall's One Stop Shop | `Cralls_One_Stop_Shop` | Not contacted | — | **Call** |
 
@@ -50,6 +62,7 @@ _Add rows as you contact more folders from `Calls_Today_Phone_List.md` or audits
 
 | Date | Business | Channel | What happened | Outcome | Next | Folder |
 |------|----------|---------|---------------|---------|------|--------|
+| 2026-06-05 | Baughman / Casto's / Southern Ohio Lawn | — | Scheduled top 3 for AM calls | **Call pending** | Call 2026-06-06 per `Calls_Tomorrow_Morning.md` | see folders |
 | 2026-06-03 | _(example)_ | — | Facebook groups post (Chillicothe / local) | No replies yet | Keep monitoring; don’t rely on posts alone | — |
 | 2026-06-02 | Chillicothe Comfort H&A | Email | Outreach sent to ccs45601@outlook.com | Sent | Follow up call Jun 6–7 if silent | `Chillicothe_Comfort_Heating_and_Air` |
 | 2026-06-01 | Foster Farmstead | Email | Sent to info@fosterfarmsteadmarketplace.com | Sent | Follow up ~Jun 6–7 | `Foster_Farmstead_Marketplace` |
