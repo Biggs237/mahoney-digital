@@ -215,6 +215,14 @@
     </script>
 </head>
 <body class="bg-cream text-ink-muted overflow-x-hidden has-mobile-cta">
+    <!-- Netlify build-time form detection (fields must match visible form below) -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name">
+        <input type="tel" name="phone">
+        <input type="email" name="email">
+        <input type="text" name="business-type">
+        <textarea name="message"></textarea>
+    </form>
     <!-- Navigation -->
     <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-5 md:px-6">

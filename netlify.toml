@@ -1,0 +1,4 @@
+# Git-connected Netlify: site files live in site/; config in site/netlify.toml applies via base.
+[build]
+  base = "site"
+  publish = "."

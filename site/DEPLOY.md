@@ -26,10 +26,24 @@ After the first deploy:
 
 ---
 
+## GitHub auto-deploy (repo root)
+
+This project’s site files are in **`site/`**. The repo root **`netlify.toml`** sets `base = "site"` so Netlify uses `site/netlify.toml` (forms, redirects, headers).
+
+In Netlify → **Site configuration → Build & deploy**:
+
+1. **Linked repository** should be `Biggs237/mahoney-digital` (branch `master`).
+2. **Build command** — leave empty (static site).
+3. **Publish directory** — leave empty or `.` (root `netlify.toml` handles `site/`).
+4. After a push, open **Deploys** — you should see a new deploy from GitHub within ~1 minute.
+
+If pushes don’t trigger deploys, the site may still be on an old **drag-and-drop** deploy. Re-link GitHub or use **Deploys → Trigger deploy → Deploy site**.
+
 ## After It's Live
 
-- Go to **Forms** tab in Netlify → make sure the contact form is receiving submissions
-- After submit, visitors should land on **/thank-you.html** (not a 404). If you still see 404, redeploy the latest `site/` folder.
+- Go to **Forms** tab in Netlify → confirm **contact** appears (may take one deploy after adding the hidden form in `index.html`).
+- After submit, visitors should land on **/thank-you.html** (not a 404).
+- If form submit still 404s, trigger a fresh deploy from the latest `master` commit.
 - You can delete this `DEPLOY.md` file after launch if you want
 
 ---
