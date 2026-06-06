@@ -127,6 +127,10 @@
         }
 
         /* Portfolio */
+        .serve-card {
+            min-height: 11.5rem;
+        }
+
         .portfolio-card {
             cursor: pointer;
             transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -422,32 +426,36 @@
     </section>
 
     <!-- Who We Serve -->
-    <section class="max-w-6xl mx-auto px-5 md:px-6 py-20 md:py-28 bg-cream -mx-5 md:-mx-6 rounded-[2rem] md:rounded-[3rem]">
-        <div class="text-center mb-10 md:mb-12">
-            <div class="inline-block mb-3 px-4 py-1 bg-white rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">WHO WE SERVE</div>
-            <h2 class="heading-font text-4xl font-semibold tracking-tight">Built for the businesses everyone else overlooks.</h2>
-        </div>
-        
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto items-stretch">
-            <div class="bg-white border border-slate-200 rounded-3xl p-6 text-center h-full flex flex-col items-center">
-                <div class="text-3xl mb-4">🔧</div>
-                <h3 class="font-semibold text-lg mb-2">Contractors &amp; Trades</h3>
-                <p class="text-slate-600 text-sm max-w-[16rem]">Plumbers, electricians, HVAC, general contractors, and handymen</p>
-            </div>
-            <div class="bg-white border border-slate-200 rounded-3xl p-6 text-center h-full flex flex-col items-center">
-                <div class="text-3xl mb-4">🚗</div>
-                <h3 class="font-semibold text-lg mb-2">Mechanics &amp; Auto Shops</h3>
-                <p class="text-slate-600 text-sm max-w-[16rem]">Shade tree mechanics, small auto repair, and mobile mechanics</p>
-            </div>
-            <div class="bg-white border border-slate-200 rounded-3xl p-6 text-center h-full flex flex-col items-center">
-                <div class="text-3xl mb-4">🌿</div>
-                <h3 class="font-semibold text-lg mb-2">Service Businesses</h3>
-                <p class="text-slate-600 text-sm max-w-[16rem]">Landscapers, pressure washers, pest control, and similar trades</p>
-            </div>
-            <div class="bg-white border border-slate-200 rounded-3xl p-6 text-center h-full flex flex-col items-center">
-                <div class="text-3xl mb-4">🏠</div>
-                <h3 class="font-semibold text-lg mb-2">Local Operators</h3>
-                <p class="text-slate-600 text-sm max-w-[16rem]">Small, independent businesses doing honest work in their community</p>
+    <section class="py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-5 md:px-6">
+            <div class="rounded-[2rem] md:rounded-[3rem] border border-slate-200/70 bg-cream-dark/50 py-12 md:py-16 px-5 sm:px-8 md:px-10">
+                <div class="text-center mb-10 md:mb-12">
+                    <div class="inline-block mb-3 px-4 py-1 bg-white rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">WHO WE SERVE</div>
+                    <h2 class="heading-font text-4xl font-semibold tracking-tight max-w-3xl mx-auto">Built for the businesses everyone else overlooks.</h2>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-4">
+                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
+                        <div class="text-3xl mb-4 leading-none">🔧</div>
+                        <h3 class="font-semibold text-lg mb-2 w-full">Contractors &amp; Trades</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Plumbers, electricians, HVAC, general contractors, and handymen</p>
+                    </div>
+                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
+                        <div class="text-3xl mb-4 leading-none">🚗</div>
+                        <h3 class="font-semibold text-lg mb-2 w-full">Mechanics &amp; Auto Shops</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Shade tree mechanics, small auto repair, and mobile mechanics</p>
+                    </div>
+                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
+                        <div class="text-3xl mb-4 leading-none">🌿</div>
+                        <h3 class="font-semibold text-lg mb-2 w-full">Service Businesses</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Landscapers, pressure washers, pest control, and similar trades</p>
+                    </div>
+                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
+                        <div class="text-3xl mb-4 leading-none">🏠</div>
+                        <h3 class="font-semibold text-lg mb-2 w-full">Local Operators</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Small, independent businesses doing honest work in their community</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
