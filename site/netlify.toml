@@ -7,10 +7,11 @@
 [build.processing.html]
   pretty_urls = true
 
+# Form success page: file is thank-you.html; rewrite trailing-slash URL for bookmarks.
 [[redirects]]
-  from = "/thank-you.html"
-  to = "/thank-you/"
-  status = 301
+  from = "/thank-you/"
+  to = "/thank-you.html"
+  status = 200
 
 # Example demos: folder-only (no conflicting *.html stubs). Send bare paths to index.
 [[redirects]]
