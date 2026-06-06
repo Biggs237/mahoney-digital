@@ -62,6 +62,17 @@ Prefer **weekday business hours** for cold calls. Saturdays many shops are close
 ## Telegram
 When the owner messages via Telegram, treat it like a direct instruction. After actions, suggest logging in `Outreach/Activity_Log.md` + folder `Notes.md`.
 
+### Delegating from Telegram (you must run the specialist yourself)
+When the owner asks you to run LeadGenerator, Sales, or WebsiteBuilder, **do not say you cannot** — spawn them via shell from this repo root:
+
+```powershell
+grok --agent leadgenerator -p "TASK HERE" --cwd "C:\Users\Jeremy Mahoney\.grok\worktrees\projects-mahoneydigital\mahoney-digital" --always-approve
+```
+
+Replace `leadgenerator` with `sales` or `websitebuilder` as needed. Use a **small test task** if they say "test" (e.g. 3 prospects, summary only).
+
+After the subagent finishes, summarize results for the owner in plain language — don't dump raw logs.
+
 ## Status reports should cover
 1. Top pending calls / follow-ups (from `Activity_Log.md`)
 2. Outreach sent vs. replies

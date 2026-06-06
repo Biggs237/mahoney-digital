@@ -104,10 +104,11 @@ def handle_command(text: str, chat_id: str) -> Optional[str]:
             "*Commands:*\n"
             "/status — Pipeline from Activity_Log\n"
             "/calls — Pending calls & follow-ups\n"
-            "/leads — LeadGenerator summary\n"
+            "/run leads — Coordinator *delegates* to LeadGenerator (test this)\n"
+            "/leads — LeadGenerator direct (shortcut, skips Coordinator)\n"
             "/sales — Sales follow-up queue\n"
             "/help — This message\n\n"
-            "Or type normally — e.g. \"draft follow-up for Payless Plumbing\"."
+            "Or ask Coordinator: \"Run LeadGenerator as a test...\""
         )
 
     if cmd == "/status":
@@ -124,6 +125,18 @@ def handle_command(text: str, chat_id: str) -> Optional[str]:
             "Read Outreach/Activity_Log.md, Calls_Tomorrow_Morning.md, and the follow-up queue. "
             "List pending calls with phone numbers and suggested order for *Monday AM*. "
             "Include email follow-ups that need phone first. Be brief.",
+        )
+
+    if cmd == "/run leads":
+        return call_agent(
+            "coordinator",
+            "Owner requested a TEST via Telegram: delegate to LeadGenerator.\n\n"
+            "1. Run LeadGenerator with a small task: find 3 Lane A trades prospects in "
+            "Ross County NOT already in Outreach/ folders. Save to Outreach/Leads/ with "
+            "today's date in the filename.\n"
+            "2. Use shell: grok --agent leadgenerator -p \"...\" --always-approve\n"
+            "3. Reply with a brief summary table for Telegram (business, issue, phone if known).",
+            timeout=300,
         )
 
     if cmd == "/leads":
