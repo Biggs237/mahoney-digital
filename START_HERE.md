@@ -8,9 +8,11 @@ Open this file when you sit down to work. Everything else in the repo supports w
 
 ## This week (sales focus)
 
+**Today (Sat):** Skip cold calls — run **OpenClaw** follow-ups & prep (see below). **Monday AM:** top 3 calls + follow-up queue phones.
+
 | Goal | Target |
 |------|--------|
-| **Calls** | 5–8 from Lane A list (trades / auto / handyman) |
+| **Calls** | 5–8 from Lane A list (trades / auto / handyman) — **weekdays** |
 | **Follow-ups** | All Lane A emails sent May 31 – Jun 2 with no reply |
 | **New cold emails** | Pause until follow-ups are done (or send ≤2 high-priority only) |
 | **Facebook** | Monitor only — don’t wait on group posts for leads |
@@ -38,6 +40,7 @@ Open this file when you sit down to work. Everything else in the repo supports w
 | Essential **ongoing care** process | `docs/Essential/Essential_Care_Process.md` |
 | Client-facing support docs | `docs/Client_Facing/` |
 | Email / signature setup | `Outreach/Email_Setup_Guide.md` |
+| OpenClaw agents + Telegram | `openclaw.ps1` · `.grok/agents/` · `tools/openclaw_telegram_bot.py` |
 
 **Phone (all outreach):** 614-636-5248  
 **Email:** hello@mahoneydigital.net
@@ -71,6 +74,22 @@ Trades, auto, handyman, lawn — weak or no website. Matches the homepage and de
 Restaurants, hospitality, cautious upgrades (e.g. `Lievita`), B&B — more content, slower decisions. Folders stay in `Outreach/`; don’t prioritize until Lane A has momentum or a clear inbound ask.
 
 **Audit reference:** `Outreach/Chillicothe_Restaurant_Hospitality_Audit_2026.md`
+
+---
+
+## OpenClaw (Coordinator + team)
+
+You only talk to **Coordinator** (desktop `grok` or Telegram). Coordinator delegates:
+
+| Agent | Job | Run today (Saturday) |
+|-------|-----|----------------------|
+| **Coordinator** | Boss, status, routing | `.\openclaw.ps1` or Telegram |
+| **Sales** | Follow-up email drafts | `.\openclaw.ps1 sales` |
+| **LeadGenerator** | New Lane A prospects | `.\openclaw.ps1 leads` |
+| **WebsiteBuilder** | Client sites after yes | `.\openclaw.ps1 build "brief"` |
+
+**Telegram bot:** `.\openclaw.ps1 telegram` · Commands: `/status` `/calls` `/sales` `/leads`  
+**Secrets:** copy `.env.example` → `.env` (already set if Coordinator works)
 
 ---
 

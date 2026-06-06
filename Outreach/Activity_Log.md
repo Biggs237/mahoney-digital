@@ -9,6 +9,14 @@
 
 ---
 
+## Schedule note (2026-06-07 Saturday)
+
+**Cold calls deferred to Monday AM** — most trades/auto shops closed weekends. Email follow-up drafts OK today via Sales agent or manual send.
+
+**Monday call block (9–11 AM):** Baughman → Casto's → Southern Ohio Lawn, then follow-up queue phones.
+
+---
+
 ## This week — follow-up queue (Jun 5–8, 2026)
 
 No reply yet on these — **phone first**, then one short follow-up email if no answer.
@@ -62,7 +70,9 @@ _Add rows as you contact more folders from `Calls_Today_Phone_List.md` or audits
 
 | Date | Business | Channel | What happened | Outcome | Next | Folder |
 |------|----------|---------|---------------|---------|------|--------|
-| 2026-06-05 | Baughman / Casto's / Southern Ohio Lawn | — | Scheduled top 3 for AM calls | **Call pending** | Call 2026-06-06 per `Calls_Tomorrow_Morning.md` | see folders |
+| 2026-06-07 | OpenClaw / Sales prep | — | Ported agents to repo; follow-up drafts for Chillicothe Comfort + Haulin' Grass | Done | Monday calls; optional email follow-ups from drafts | — |
+| 2026-06-07 | — | — | Saturday — calls deferred | — | **Monday AM** call block per schedule note | — |
+| 2026-06-05 | Baughman / Casto's / Southern Ohio Lawn | — | Scheduled top 3 for AM calls | **Call pending** | **Monday AM** per `Calls_Tomorrow_Morning.md` | see folders |
 | 2026-06-03 | _(example)_ | — | Facebook groups post (Chillicothe / local) | No replies yet | Keep monitoring; don’t rely on posts alone | — |
 | 2026-06-02 | Chillicothe Comfort H&A | Email | Outreach sent to ccs45601@outlook.com | Sent | Follow up call Jun 6–7 if silent | `Chillicothe_Comfort_Heating_and_Air` |
 | 2026-06-01 | Foster Farmstead | Email | Sent to info@fosterfarmsteadmarketplace.com | Sent | Follow up ~Jun 6–7 | `Foster_Farmstead_Marketplace` |

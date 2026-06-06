@@ -12,6 +12,7 @@ Desktop.ini
 # Env / secrets (never commit)
 .env
 .env.*
+!.env.example
 
 # Logs
 *.log
@@ -20,3 +21,6 @@ Desktop.ini
 
 # Local dev / agent terminals (not project files)
 terminals/
+
+# OpenClaw Telegram polling state
+tools/.telegram_offset
