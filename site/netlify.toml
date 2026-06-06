@@ -35,6 +35,14 @@
   from = "/examples/heritage-home-partners/"
   to = "/examples/heritage-home-partners/index.html"
   status = 301
+[[redirects]]
+  from = "/examples/castos-auto-repair"
+  to = "/examples/castos-auto-repair/index.html"
+  status = 301
+[[redirects]]
+  from = "/examples/castos-auto-repair/"
+  to = "/examples/castos-auto-repair/index.html"
+  status = 301
 
 # Custom 404: Netlify serves 404.html automatically for missing pages.
 # Do not add a catch-all /* → 404 redirect — it can break form POST handling.
