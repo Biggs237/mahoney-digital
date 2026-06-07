@@ -1,7 +1,7 @@
 # Outreach Email Draft — Bobby & Sons Lawncare LLC
 
 **Web score:** ~2/10 — no owned website  
-**To:** _Verify before send — Facebook About_  
+**To:** Use phone (see FB About harvest) / FB message — no public email (FB About: https://www.facebook.com/p/Bobby-Sons-Lawncare-LLC-100067054973089/about for manual harvest)  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Bobby & Sons Lawncare — website help in Circleville
 

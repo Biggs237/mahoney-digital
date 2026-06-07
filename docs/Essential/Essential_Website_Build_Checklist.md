@@ -2,7 +2,7 @@
 
 **Use for:** One-time Essential website projects (not Essential Care ongoing support).  
 **Typical price:** $1,450–$1,950 (most land at $1,650–$1,750) · **Timeline:** 2–4 weeks  
-**Demo reference:** https://mahoneydigital.net/examples/riverside-lawn/
+**Demo reference (live):** https://mahoneydigital.net/examples/riverside-lawn/ (clean Essential reference for sales calls) · tailored Casto's Auto Repair demo exists locally but left untouched per owner instruction (2026-06-08); use riverside-lawn for Essential positioning until further notice.
 
 ---
 

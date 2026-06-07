@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found | Mahoney Digital</title>
     <meta name="robots" content="noindex">
+    <!-- Favicon (matches assets/brand/logo-mark.svg) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 letter-spacing=%22-0.06em%22>M</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { font-family: 'Inter', system_ui, sans-serif; }
@@ -13,9 +15,11 @@
 </head>
 <body class="bg-slate-50 text-slate-900 flex items-center justify-center min-h-screen">
     <div class="max-w-md mx-auto px-6 text-center">
-        <div class="w-16 h-16 mx-auto mb-6 bg-slate-900 rounded-2xl flex items-center justify-center">
-            <span class="text-white font-bold text-4xl tracking-[-2px]">M</span>
-        </div>
+        <!-- Logo mark matches assets/brand/logo-mark.svg (primary design) -->
+        <svg width="64" height="64" viewBox="0 0 256 256" class="mx-auto mb-6" aria-hidden="true">
+            <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
+            <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
+        </svg>
         
         <h1 class="heading-font text-5xl font-semibold tracking-tight mb-4">Page not found</h1>
         <p class="text-xl text-slate-600 mb-8">Sorry, that page doesn't exist or has moved.</p>

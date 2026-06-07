@@ -1,13 +1,14 @@
 # Casto's Auto Repair — Outreach Notes
 
-**Rank:** #2 of 15 (score 1/10)  
+**Rank:** #1 Monday call (score 1/10)
 **Audit date:** 2026-06-02
 
 ## Status
 
 - [x] Facebook About checked 2026-06-03 — **no email** on page
 - [ ] First outreach (phone / in-person — no email to send)
-- [ ] **Call pending — 2026-06-06 AM** (priority #2 — `Calls_Tomorrow_Morning.md`)
+- [ ] **Call pending — 2026-06-08 AM** (priority #1 — `Calls_Tomorrow_Morning.md`)
+- [ ] FB message alternative prepared (see FB_Message_Draft.md)
 - [ ] Reply received
 - [ ] Follow-up
 
@@ -19,4 +20,14 @@
 
 ---
 
-**Next action:** Call **(740) 637-3099** from 614-636-5248 — script in `Outreach_Draft.md`. Optional: visit 3364 US-23 S if no answer.
+**Next action:** Call **(740) 637-3099** from 614-636-5248 Mon AM — use `Phone_Script.md`. Specific demo link https://mahoneydigital.net/examples/castos-auto-repair/ is on hold (owner instruction: sleep on deploy). Use live alternatives (e.g. riverside-lawn positioning) or general Essential talk track if interest; do not promise the casto's-specific link until live.
+
+**2026-06-08 (Telegram):** Owner: "Let's hold off on deploying. Let me sleep on it." Deploy of tailored Casto's demo + site updates (homepage integrations, etc.) paused. Local files intact. Will decide after review.
+
+**2026-06-08 (Telegram):** Owner: "I like it. We'd need to change the website to match." Positive feedback on the tailored Essential demo + homepage updates. Deploy pending to make public site match local. (Superseded by later hold instruction.)
+
+**2026-06-08 (Coordinator implementation per latest Telegram):** "I like your ideas. ... Implement the changes you think will benefit Mahoneydigital the most. Leave Casto's demo alone for now." Updated all marketing (site/index.html portfolio + tier cards now feature live riverside-lawn as Essential example; education banners/footers + teaching copy added to riverside/summit/heritage indexes; plans/essential-care fixed; Calls + Casto's Phone_Script/FB/Outreach_Draft adjusted to use riverside-lawn for Monday call). No files under site/examples/castos-auto-repair/ were touched. Activity_Log updated. Ready for 9-11AM calls using live demos.
+
+**2026-06-07 (prep):** WebsiteBuilder tailored build complete. Demo integrated locally to site/ (portfolio + Essential tier card now feature Casto's as the real Essential auto example with US-23 copy). Redirects + docs + outreach files updated.
+
+Local source: `site/examples/castos-auto-repair/` (4 pages: index/services/about/contact). Live pending Netlify deploy of site/. Calls lists, phone script, drafts, START_HERE, plans/essential-care.html, checklist refreshed.

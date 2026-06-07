@@ -1,4 +1,4 @@
-# FB Message Draft - Hanes Lawn Care (alternative since email bounced)
+# FB Message Draft - Hanes Lawn Care (alternative — FB/phone primary since email bounced)
 
 **To:** https://www.facebook.com/61587378341344 (Hanes Lawn Care page) or message Isaiah Hanes if profile linked.
 

@@ -1,12 +1,32 @@
 # Tomorrow morning — top 3 calls
 
-**Date:** 2026-06-06 (Friday)  
+**Date:** 2026-06-08 (Monday) — prep done 2026-06-07 Sat  
 **Call from:** 614-636-5248  
 **Why these three:** Worst owned-web presence in Lane A **plus** signs they already run a real business (reviews, years in business, BBB, physical location) — most likely to see value **and** afford Essential.
 
 ---
 
-## 1. Baughman Lawncare LLC — call first
+## 1. Casto's Auto Repair — call first
+
+| | |
+|--|--|
+| **Phone** | **(740) 637-3099** |
+| **Address** | 3364 US Highway 23 S, Chillicothe, OH 45601 |
+| **Facebook** | https://www.facebook.com/castosautorepair/ |
+| **Hours** | Mon–Fri ~9:30 am–6 pm (verify) |
+| **Problem** | **No owned website** — Facebook, Yelp, MapQuest only |
+| **Credibility** | Visible US-23 location · established local shop |
+| **Tier** | Essential |
+| **Demo to text** | https://mahoneydigital.net/examples/riverside-lawn/ (clean Essential reference — 4-page scope with click-to-call; tailored auto demo on hold per owner) |
+| **Folder** | `Castos_Auto_Repair` |
+
+**Hook:** “When someone searches auto repair on their phone, you want a simple site with hours and click-to-call — not just a Facebook page.”
+
+**Script:** `Outreach/Castos_Auto_Repair/Phone_Script.md` (full)
+
+---
+
+## 2. Baughman Lawncare LLC — call second
 
 | | |
 |--|--|
@@ -23,26 +43,6 @@
 **Hook:** “Your Google and BBB listings still send people to a website that doesn’t load — I help local lawn companies fix that with a simple mobile site.”
 
 **Script:** `Outreach/Baughman_Lawncare_LLC/Phone_Script.md` (full) · email draft: `Outreach_Draft.md`
-
----
-
-## 2. Casto's Auto Repair — call second
-
-| | |
-|--|--|
-| **Phone** | **(740) 637-3099** |
-| **Address** | 3364 US Highway 23 S, Chillicothe, OH 45601 |
-| **Facebook** | https://www.facebook.com/castosautorepair/ |
-| **Hours** | Mon–Fri ~9:30 am–6 pm (verify) |
-| **Problem** | **No owned website** — Facebook, Yelp, MapQuest only |
-| **Credibility** | Visible US-23 location · established local shop |
-| **Tier** | Essential |
-| **Demo** | Riverside (general Essential) or describe click-to-call + hours page |
-| **Folder** | `Castos_Auto_Repair` |
-
-**Hook:** “When someone searches auto repair on their phone, you want a simple site with hours and click-to-call — not just a Facebook page.”
-
-**Script:** `Outreach/Castos_Auto_Repair/Phone_Script.md` (full)
 
 ---
 

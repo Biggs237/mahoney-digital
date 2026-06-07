@@ -17,7 +17,9 @@ A clean, mobile-first site (hours, services, click-to-call, map) helps people tr
 
 I built my practice around small local businesses — contractors, mechanics, trades — with straightforward pricing and no long contracts. Happy to spend 10 minutes, no pressure, on what would actually help Casto's:
 
-https://mahoneydigital.net/plans/
+Packages and examples (Essential tier): https://mahoneydigital.net/#tiers
+Clean Essential reference (4-page scope, click-to-call focus): https://mahoneydigital.net/examples/riverside-lawn/
+Full options: https://mahoneydigital.net/plans/
 
 Reply here or use the form on the site if you want to talk. Either way, thanks for keeping local drivers on the road.
 

@@ -9,8 +9,10 @@
 - **Phone:** (740) 775-3475  
 - **Email:** None reliably/publicly listed as business contact  
 - **Facebook:** https://www.facebook.com/p/Clemmons-Son-Plumbing-100069583013988/  
+- **Facebook About (for email harvest):** https://www.facebook.com/p/Clemmons-Son-Plumbing-100069583013988/about  
 - **Address:** 129 W Hydell Rd, Chillicothe, OH 45601  
 - **Website:** None active (old domain is parked/for sale — ignore)  
+- **FB harvest note:** ☐ needs manual login (phone/FB primary; automated blocked by login walls per EMAILS_FROM_FACEBOOK.md)  
 - **Google/Directories:** Listed on Yelp, BBB, Nextdoor, local directories
 
 ## Notes

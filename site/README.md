@@ -11,9 +11,9 @@ This folder contains the live static site for mahoneydigital.net.
 2. Navigate between pages using the links (they are relative)
 
 ## Next Steps
-- Add real photos / case studies as projects complete (placeholders are clean for launch)
+- Real photos / case studies: Main site portfolio cards (desktop grid + mobile scroll) now use 3 controlled, web-optimized local images in /assets/images/ (heritage kitchen, HVAC install, residential lawn — all Ohio residential service aesthetic). Signature projects.html gallery uses 2 of them (plus overlays/captions per existing comments) to model premium imagery direction. Growth recent-work strip lightly upgraded with 1. Picsum remaining only in a few demo interiors; all are placeholders — swap for real client project photos after first deliveries. Total new image payload ~390KB. Essential card stays clean/minimal.
 - Deploy to Netlify + connect mahoneydigital.net custom domain
-- (Logo / brand assets can be added later per owner preference)
+- Logo & brand assets: see `../assets/brand/` (SVG source of truth) + `../assets/logo/`. Site nav/footer/favicon updated to match (June 2026).
 
 ## Design Notes
 - Built with Tailwind CSS (CDN version for simplicity)
@@ -21,7 +21,7 @@ This folder contains the live static site for mahoneydigital.net.
 - Fully responsive
 - No hype — matches the brand voice
 
-Last updated: May 2026 — SHOWTIME READY
+Last updated: June 2026 — controlled images added to main portfolio + Signature gallery model
 
 Files included for clean Netlify deploy:
 - index.html

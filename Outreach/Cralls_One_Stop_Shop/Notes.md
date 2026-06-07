@@ -10,6 +10,8 @@
 - [ ] Facebook message sent (backup)
 - [ ] Response received
 - [ ] Follow-up scheduled
+- [ ] FB message alternative prepared (see FB_Message_Draft.md)
+- FB harvest: ☐ needs manual login (phone/FB primary per EMAILS_FROM_FACEBOOK.md)
 
 ## Conversation Log
 
@@ -19,4 +21,4 @@
 
 ---
 
-**Next action:** Call (740) 774-3860 using 614-636-5248. Prepare with updated script in Scripts.md.
+**Next action:** Call (740) 774-3860 using 614-636-5248. Prepare with updated script in Scripts.md. FB About harvest (manual login required): https://www.facebook.com/Crallsonestopshop/about .

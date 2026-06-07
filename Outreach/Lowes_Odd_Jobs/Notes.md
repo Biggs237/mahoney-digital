@@ -7,9 +7,10 @@
 
 - [ ] First outreach
 - [ ] Reply received
+- FB harvest: No FB page found (per Contact and EMAILS_FROM_FACEBOOK table) — phone primary (740) 542-0461; manual harvest n/a for FB
 
 ## Conversation log
 
 ---
 
-**Next action:** Get email via phone/FB. `Outreach_Draft.md` ready — send from hello@mahoneydigital.net.
+**Next action:** Get email via phone. `Outreach_Draft.md` ready — send from hello@mahoneydigital.net. Use phone/FB note if new FB found.

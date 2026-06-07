@@ -1,9 +1,11 @@
 # Emails from Facebook — Harvest Log
 
-**Last harvest attempt:** 2026-06-02  
+**Last harvest attempt:** 2026-06-07  
 **Method:** Public Facebook pages, MapQuest, Angi, Chamber, DuckDuckGo HTML search  
 
-Facebook returns **login walls / HTTP 400** to automated tools, so most Chillicothe prospect emails must be copied manually from each page’s **About** tab while logged into Facebook. Update this file and the matching `Contact.md` + `Outreach_Draft.md` **To:** line when you find an address.
+**Note:** Automated access is blocked by login walls / HTTP 400 (consistent with doc). All ☐ entries require manual harvest while logged into Facebook on the About URL. For every ☐ (esp. Lane A trades and Monday call prospects), status is phone/FB primary or manual harvest required. FB message alternatives prepared for key no-email cases (see individual FB_Message_Draft.md and notes below).
+
+Update this file and the matching `Contact.md` + `Outreach_Draft.md` **To:** line when you find an address.
 
 ## How to harvest (logged into Facebook)
 
@@ -37,16 +39,16 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | Rank | Folder | Facebook page | About URL (open while logged in) | Email found | Phone (non-FB) |
 |------|--------|---------------|----------------------------------|-------------|----------------|
 | 1 | `GH_Handyman_LLC` | _No FB URL on file — search Yelp/Nextdoor_ | — | ☐ | Verify via Yelp/BBB |
-| 2 | `Castos_Auto_Repair` | https://www.facebook.com/castosautorepair/ | https://www.facebook.com/castosautorepair/about | ☑ **no email** (phone only) | (740) 637-3099 |
-| 3 | `Lowes_Odd_Jobs` | _No FB page found_ | — | ☐ | (740) 542-0461 |
+| 2 | `Castos_Auto_Repair` | https://www.facebook.com/castosautorepair/ | https://www.facebook.com/castosautorepair/about | ☑ **no email** (phone/FB primary; FB message alt prepared in folder) | (740) 637-3099 |
+| 3 | `Lowes_Odd_Jobs` | _No FB page found_ | — | ☐ (no FB page per audit; phone primary (740) 542-0461 — Contact/Notes updated) | (740) 542-0461 |
 | 4 | `Haulin_Grass_LLC` | https://www.facebook.com/haulingrassllc/ | https://www.facebook.com/haulingrassllc/about | ☑ haulingrassllc4@gmail.com | (740) 656-1600 |
-| 5 | `Southern_Ohio_Lawn_Maintenance` | https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/ | …/about | ☑ **no email** | (740) 701-4565 mobile |
-| 6 | `Perfection_Edge_Landscaping` | https://www.facebook.com/PerfectionEdgeLandscapingLLC/ | …/about | ☐ | — |
-| 7 | `Detillion_Landscaping` | https://www.facebook.com/detillionlandscaping/ | …/about | ☐ | — |
-| 8 | `Four_Guys_4_the_Job` | https://www.facebook.com/4guys4thejob/ | …/about | ☐ | — |
-| 9 | `KP_Plumbing_Services_LLC` | https://www.facebook.com/p/KP-Plumbing-Services-LLC-61553666774342/ | …/about | ☐ | — |
-| 10 | `Flowers_Diesel_Automotive` | https://www.facebook.com/p/Flowers-Diesel-Automotive-Performance-100067236856666/ | …/about | ☐ | — |
-| 11 | `KJ_Buckeye_Home_Improvements` | https://www.facebook.com/KJBuckeyeHomeImprovements/ | …/about | ☐ | — |
+| 5 | `Southern_Ohio_Lawn_Maintenance` | https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/ | …/about | ☑ **no email** (phone/FB primary; FB message alt prepared in folder for Mon call) | (740) 701-4565 mobile |
+| 6 | `Perfection_Edge_Landscaping` | https://www.facebook.com/PerfectionEdgeLandscapingLLC/ | …/about | ☐ (manual harvest required — phone/FB primary; Contact/Notes updated) | — |
+| 7 | `Detillion_Landscaping` | https://www.facebook.com/detillionlandscaping/ | …/about | ☐ (manual harvest required — phone/FB primary; Contact/Notes updated) | — |
+| 8 | `Four_Guys_4_the_Job` | https://www.facebook.com/4guys4thejob/ | …/about | ☐ (manual harvest required — phone/FB primary; Contact/Notes updated) | — |
+| 9 | `KP_Plumbing_Services_LLC` | https://www.facebook.com/p/KP-Plumbing-Services-LLC-61553666774342/ | …/about | ☐ (manual harvest required — phone/FB primary; Contact/Notes updated) | — |
+| 10 | `Flowers_Diesel_Automotive` | https://www.facebook.com/p/Flowers-Diesel-Automotive-Performance-100067236856666/ | …/about | ☐ (manual harvest required — phone/FB primary; Contact/Notes updated) | — |
+| 11 | `KJ_Buckeye_Home_Improvements` | https://www.facebook.com/KJBuckeyeHomeImprovements/ | …/about | ☐ (manual harvest required — phone/FB primary; Contact/Notes updated) | — |
 | 12 | `Zars_Cars_Repair_and_Sales` | _Check Chamber / in-person_ | — | ☐ | — |
 | 13 | `M_Work_LLC` | _Angi-primary — no FB on file_ | Angi quote flow | ☐ | Angi only |
 | 14 | `Antecks_Renovation` | _Yelp-primary_ | — | ☐ | — |
@@ -57,11 +59,11 @@ Facebook returns **login walls / HTTP 400** to automated tools, so most Chillico
 | Folder | Town | Email | Phone | Notes |
 |--------|------|-------|-------|-------|
 | `Laurelville_Auto_Service_LLC` | Laurelville | ☑ Laurelvilleauto@yahoo.com | (740) 332-2486 | Sent 2026-06-03 |
-| `Baughman_Lawncare_LLC` | Circleville | ☐ harvest FB | (614) 578-2220 | **baughmanlawncare.com dead** |
+| `Baughman_Lawncare_LLC` | Circleville | ☐ harvest FB (manual login required; phone/FB primary — FB About: https://www.facebook.com/baughmanlawncare/about ; FB msg alt prepared in folder; top Mon call) | (614) 578-2220 | **baughmanlawncare.com dead** |
 | `Goodwins_Family_Restaurant` | Circleville | ☐ harvest FB | (740) 474-1238 | **goodwinsfamilyrestaurant.com dead** |
-| `Bobby_and_Sons_Lawncare_LLC` | Circleville | ☐ | — | FB only |
-| `Manter_Lawn_Care_and_Landscaping` | Circleville | ☐ | — | FB only |
-| `Mizfits_Garage_LLC` | Chillicothe | ☐ | — | FB only |
+| `Bobby_and_Sons_Lawncare_LLC` | Circleville | ☐ (manual harvest required — phone/FB primary; FB msg alt prepared in folder; Contact/Notes + FB draft updated) | — | FB only |
+| `Manter_Lawn_Care_and_Landscaping` | Circleville | ☐ (manual harvest required — phone/FB primary; FB msg alt prepared in folder; Contact/Notes + FB draft updated) | — | FB only |
+| `Mizfits_Garage_LLC` | Chillicothe | ☐ (manual harvest required — phone/FB primary; FB msg alt prepared in folder; Contact/Notes + FB draft updated) | — | FB only |
 | `KDS_Project_Helpers` | Waverly | ☐ | (740) 970-2161 | No site |
 | `Total_Remodeling_Service` | Waverly | ☐ | — | FB only |
 
@@ -82,9 +84,9 @@ Full audit: `Regional_Expanded_Prospects_2026-06.md`
 
 | Folder | Facebook | Email from FB |
 |--------|----------|---------------|
-| `Hanes_Lawn_Care` | https://www.facebook.com/61587378341344 | isaiahhanes01@icloud.com **bounced** — use FB message |
-| `Clemmons_Son_Plumbing` | https://www.facebook.com/p/Clemmons-Son-Plumbing-100069583013988/ | ☐ |
-| `Cralls_One_Stop_Shop` | https://www.facebook.com/Crallsonestopshop/ | ☐ |
+| `Hanes_Lawn_Care` | https://www.facebook.com/61587378341344 | isaiahhanes01@icloud.com **bounced** — use FB message (FB alt draft polished; Notes updated) |
+| `Clemmons_Son_Plumbing` | https://www.facebook.com/p/Clemmons-Son-Plumbing-100069583013988/ | ☐ (manual harvest required — phone/FB primary; FB msg alt prepared in folder; Contact/Notes + FB draft updated) |
+| `Cralls_One_Stop_Shop` | https://www.facebook.com/Crallsonestopshop/ | ☐ (manual harvest required — phone/FB primary; FB msg alt prepared in folder; Contact/Notes + FB draft updated) |
 
 ## Do not use without verification
 
@@ -99,3 +101,21 @@ Outreach_Draft → **To:** name@domain.com
 Notes.md       → log harvest date
 This file      → check ☑ in table
 ```
+
+## FB message alternatives prepared (Sales FB harvest/polish 2026-06-07)
+
+For no-email / phone-FB primary prospects (esp. Lane A trades + Monday calls), FB_Message_Draft.md created or polished in these folders (modeled on Hanes structure/tone; tailored to business details like dead domain, US-23, FB-only). Use while logged in or for Messenger outreach. Owner to perform manual About harvests for email where possible.
+
+- Baughman_Lawncare_LLC (top Mon call; dead baughmanlawncare.com; FB About https://www.facebook.com/baughmanlawncare/about)
+- Castos_Auto_Repair (top Mon call; US-23; ☑ no email confirmed; FB About https://www.facebook.com/castosautorepair/about)
+- Southern_Ohio_Lawn_Maintenance (top Mon call; FB-only; ☑ no email; FB About https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/about)
+- Bobby_and_Sons_Lawncare_LLC (lawn Circleville FB-only; FB About https://www.facebook.com/p/Bobby-Sons-Lawncare-LLC-100067054973089/about)
+- Manter_Lawn_Care_and_Landscaping (lawn Circleville FB-only; FB About https://www.facebook.com/p/Manter-lawn-care-and-landscaping-100063702002342/about)
+- Mizfits_Garage_LLC (auto Chillicothe FB-only; FB About https://www.facebook.com/p/Mizfits-garage-llc-61569619007654/about)
+- Clemmons_Son_Plumbing (plumbing; FB About https://www.facebook.com/p/Clemmons-Son-Plumbing-100069583013988/about)
+- Cralls_One_Stop_Shop (auto; FB About https://www.facebook.com/Crallsonestopshop/about)
+- Hanes_Lawn_Care (existing; polished; email bounced — FB/phone only)
+
+**Still requiring owner manual FB login + About harvest (key Lane A):** Baughman (https://www.facebook.com/baughmanlawncare/about), Perfection_Edge (https://www.facebook.com/PerfectionEdgeLandscapingLLC/about), Detillion (https://www.facebook.com/detillionlandscaping/about), Four_Guys (https://www.facebook.com/4guys4thejob/about), KP_Plumbing (https://www.facebook.com/p/KP-Plumbing-Services-LLC-61553666774342/about), Flowers_Diesel (https://www.facebook.com/p/Flowers-Diesel-Automotive-Performance-100067236856666/about), KJ_Buckeye (https://www.facebook.com/KJBuckeyeHomeImprovements/about), plus any others marked ☐ in tables above. Also verify/update Bobby/Manter/Mizfits/Clemmons/Cralls if new details appear on About. Lowes: no FB page found.
+
+**Bumped last attempt + status annotations added for all ☐ / Mon calls / Lane A trades.**

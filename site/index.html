@@ -14,8 +14,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="/assets/images/og-image.jpg">
     
-    <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 font-family=%22system-ui, sans-serif%22 font-weight=%22600%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <!-- Favicon (matches assets/brand/logo-mark.svg) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 letter-spacing=%22-0.06em%22>M</text></svg>">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -231,11 +231,12 @@
     <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-5 md:px-6">
             <div class="flex justify-between items-center h-16 md:h-20">
-                <!-- Logo -->
+                <!-- Logo (inline SVG matches official assets/brand/logo-mark.svg + wordmark) -->
                 <a href="index.html" class="flex items-center gap-x-3">
-                    <div class="w-8 h-8 md:w-9 md:h-9 bg-ink rounded-2xl flex items-center justify-center ring-1 ring-white/10">
-                        <span class="text-white font-bold text-xl md:text-2xl tracking-[-2px]">M</span>
-                    </div>
+                    <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9" aria-hidden="true">
+                        <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
+                        <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
+                    </svg>
                     <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
                 </a>
                 
@@ -490,7 +491,8 @@
             <!-- Desktop grid -->
             <div class="hidden md:grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
                 <a href="examples/heritage-home-partners/" aria-label="View Signature example — Heritage Home Partners" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
-                    <div class="portfolio-preview relative overflow-hidden bg-gradient-to-br from-stone-950 via-amber-950 to-amber-800/40">
+                    <div class="portfolio-preview relative overflow-hidden" style="background-image: url('/assets/images/heritage-kitchen.jpg'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-stone-950/85 via-stone-900/60 to-black/50"></div>
                         <div class="absolute inset-0 p-5 flex flex-col justify-end">
                             <div class="text-amber-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Remodeling · Ross County</div>
                             <div class="text-white font-semibold text-lg heading-font">Heritage Home Partners</div>
@@ -500,13 +502,14 @@
                         </div>
                     </div>
                     <div class="p-5">
-                        <p class="text-sm text-slate-600 mb-4">7-page site — services, projects, process, reviews, and consultation. Premium layout for high-trust businesses.</p>
+                        <p class="text-sm text-slate-600 mb-4">7-page site — services, narrative projects, process, reviews, and consultation. Premium custom typography and storytelling for high-trust work.</p>
                         <span class="inline-block text-xs font-semibold text-amber-900 bg-amber-100/80 px-3 py-1 rounded-full">Signature package</span>
                     </div>
                 </a>
 
                 <a href="examples/summit-comfort-hvac/" aria-label="View Growth example — Summit Comfort HVAC" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
-                    <div class="portfolio-preview relative overflow-hidden bg-gradient-to-br from-sky-950 via-slate-800 to-cyan-800/50">
+                    <div class="portfolio-preview relative overflow-hidden" style="background-image: url('/assets/images/summit-hvac.jpg'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-sky-950/85 via-slate-900/60 to-black/50"></div>
                         <div class="absolute inset-0 p-5 flex flex-col justify-end">
                             <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">HVAC · Ross County</div>
                             <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
@@ -521,18 +524,19 @@
                     </div>
                 </a>
 
-                <a href="examples/castos-auto-repair/" aria-label="View Essential example — Casto's Auto Repair" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
-                    <div class="portfolio-preview relative overflow-hidden bg-gradient-to-br from-zinc-950 via-slate-900 to-blue-900/30">
+                <a href="examples/riverside-lawn/" aria-label="View Essential example — Riverside Lawn" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
+                    <div class="portfolio-preview relative overflow-hidden" style="background-image: url('/assets/images/riverside-lawn.jpg'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/85 via-stone-900/60 to-black/40"></div>
                         <div class="absolute inset-0 p-5 flex flex-col justify-end">
-                            <div class="text-blue-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Auto Repair · Chillicothe</div>
-                            <div class="text-white font-semibold text-lg heading-font">Casto's Auto Repair</div>
+                            <div class="text-emerald-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Lawn &amp; Landscape · Ross County</div>
+                            <div class="text-white font-semibold text-lg heading-font">Riverside Lawn</div>
                         </div>
                         <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
                             View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
                         </div>
                     </div>
                     <div class="p-5">
-                        <p class="text-sm text-slate-600 mb-4">4-page site — home, services, about, contact. Straightforward mobile site for a real US-23 shop with click-to-call front and center.</p>
+                        <p class="text-sm text-slate-600 mb-4">4-page site — home, services, about, contact. Clean Essential scope with prominent click-to-call. Built for local service businesses that need to look professional and be reachable.</p>
                         <span class="inline-block text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Essential package</span>
                     </div>
                 </a>
@@ -541,32 +545,41 @@
             <!-- Mobile: horizontal scroll -->
             <div class="md:hidden portfolio-scroll flex gap-4 overflow-x-auto pb-4 -mx-5 px-5 snap-x">
                 <a href="examples/heritage-home-partners/" aria-label="View Signature example — Heritage Home Partners" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
-                    <div class="portfolio-preview bg-gradient-to-br from-stone-950 to-amber-800/40 relative p-5 flex flex-col justify-end min-h-[180px]">
-                        <div class="text-amber-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Remodeling</div>
-                        <div class="text-white font-semibold text-lg heading-font">Heritage Home Partners</div>
+                    <div class="portfolio-preview relative p-5 flex flex-col justify-end min-h-[180px]" style="background-image: url('/assets/images/heritage-kitchen.jpg'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-stone-950/85 via-stone-900/60 to-black/50 rounded-3xl"></div>
+                        <div class="relative z-10">
+                            <div class="text-amber-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Remodeling</div>
+                            <div class="text-white font-semibold text-lg heading-font">Heritage Home Partners</div>
+                        </div>
                     </div>
                     <div class="p-4">
-                        <p class="text-sm text-slate-600 mb-2">7 pages — gallery, process, reviews.</p>
+                        <p class="text-sm text-slate-600 mb-2">7 pages — projects, process, reviews. Premium narrative pages + serif typography.</p>
                         <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
                     </div>
                 </a>
                 <a href="examples/summit-comfort-hvac/" aria-label="View Growth example — Summit Comfort HVAC" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
-                    <div class="portfolio-preview bg-gradient-to-br from-sky-950 to-cyan-800/50 relative p-5 flex flex-col justify-end min-h-[180px]">
-                        <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">HVAC</div>
-                        <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
+                    <div class="portfolio-preview relative p-5 flex flex-col justify-end min-h-[180px]" style="background-image: url('/assets/images/summit-hvac.jpg'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-sky-950/85 via-slate-900/60 to-black/50 rounded-3xl"></div>
+                        <div class="relative z-10">
+                            <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">HVAC</div>
+                            <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
+                        </div>
                     </div>
                     <div class="p-4">
                         <p class="text-sm text-slate-600 mb-2">8 pages — AC, areas, FAQ, contact.</p>
                         <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
                     </div>
                 </a>
-                <a href="examples/castos-auto-repair/" aria-label="View Essential example — Casto's Auto Repair" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
-                    <div class="portfolio-preview bg-gradient-to-br from-zinc-950 to-blue-900/30 relative p-5 flex flex-col justify-end min-h-[180px]">
-                        <div class="text-blue-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Auto Repair</div>
-                        <div class="text-white font-semibold text-lg heading-font">Casto's Auto Repair</div>
+                <a href="examples/riverside-lawn/" aria-label="View Essential example — Riverside Lawn" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
+                    <div class="portfolio-preview relative p-5 flex flex-col justify-end min-h-[180px]" style="background-image: url('/assets/images/riverside-lawn.jpg'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/85 via-stone-900/60 to-black/40 rounded-3xl"></div>
+                        <div class="relative z-10">
+                            <div class="text-emerald-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Lawn &amp; Landscape</div>
+                            <div class="text-white font-semibold text-lg heading-font">Riverside Lawn</div>
+                        </div>
                     </div>
                     <div class="p-4">
-                        <p class="text-sm text-slate-600 mb-2">4 pages — home, services, about, contact.</p>
+                        <p class="text-sm text-slate-600 mb-2">4 pages — home, services, about, contact. Clean Essential with click-to-call.</p>
                         <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
                     </div>
                 </a>
@@ -589,6 +602,7 @@
             <div class="inline-block mb-3 px-4 py-1 bg-slate-100 rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">PACKAGES</div>
             <h2 class="heading-font text-5xl font-semibold tracking-[-2.5px] mb-4">Three straightforward packages.</h2>
             <p class="text-xl text-slate-600 max-w-sm mx-auto">Honest pricing. Quality work. No bullshit.</p>
+            <p class="text-sm text-slate-500 max-w-md mx-auto mt-3">Essential is clean and narrow in scope. Growth adds dedicated service pages, reviews, and stronger lead capture. Signature brings custom serif typography, narrative projects/process pages, and consultation framing.</p>
         </div>
 
         <!-- Trust signals -->
@@ -611,8 +625,8 @@
 
         <div class="grid lg:grid-cols-3 gap-6">
             
-            <!-- Essential → Casto's Auto Repair example -->
-            <a href="examples/castos-auto-repair/" aria-label="View Essential package example — Casto's Auto Repair" class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
+            <!-- Essential → Riverside Lawn example (live clean Essential) -->
+            <a href="examples/riverside-lawn/" aria-label="View Essential package example — Riverside Lawn" class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
                 <div class="flex-1">
                     <div class="flex items-baseline justify-between mb-2">
                         <h3 class="text-2xl font-semibold tracking-tight">Essential</h3>
@@ -728,7 +742,7 @@
                         </div>
                         <div class="flex items-start gap-x-3">
                             <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Unlimited pages &amp; features</span>
+                            <span class="text-slate-700">Narrative projects + process pages + custom scope (no page cap)</span>
                         </div>
                         <div class="flex items-start gap-x-3">
                             <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
@@ -869,9 +883,11 @@
             <div class="flex flex-col md:flex-row md:items-center justify-between gap-y-8">
                 <div>
                     <div class="flex items-center gap-x-3 mb-3">
-                        <div class="w-8 h-8 bg-white/10 rounded-2xl flex items-center justify-center">
-                            <span class="text-white font-bold text-xl tracking-[-2px]">M</span>
-                        </div>
+                        <!-- Matches primary brand mark (assets/brand/logo-mark.svg) -->
+                        <svg width="32" height="32" viewBox="0 0 256 256" aria-hidden="true">
+                            <rect x="16" y="16" width="224" height="224" rx="44" fill="#ffffff"/>
+                            <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#0b1120" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
+                        </svg>
                         <span class="text-white font-semibold text-xl tracking-tighter">Mahoney Digital</span>
                     </div>
                     <p class="text-xs text-slate-500">Professional websites for small local businesses.</p>

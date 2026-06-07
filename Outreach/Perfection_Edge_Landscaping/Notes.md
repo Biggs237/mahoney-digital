@@ -6,6 +6,7 @@
 ## Status
 
 - [ ] First outreach
+- FB harvest: ☐ needs manual login (phone/FB primary; see EMAILS_FROM_FACEBOOK.md and Contact.md for About URL)
 
 ## Conversation log
 

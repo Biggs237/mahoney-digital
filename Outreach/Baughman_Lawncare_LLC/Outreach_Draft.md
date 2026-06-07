@@ -1,7 +1,7 @@
 # Outreach Email Draft — Baughman Lawncare LLC
 
 **Web score:** ~3/10 — broken domain on all listings  
-**To:** _Harvest before send — Facebook About or BBB; phone (614) 578-2220_  
+**To:** Use phone (614) 578-2220 / FB message — no public email (FB About: https://www.facebook.com/baughmanlawncare/about for manual harvest if email appears while logged in)  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Baughman Lawncare — your website link isn’t working
 

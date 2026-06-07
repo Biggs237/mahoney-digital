@@ -2,7 +2,7 @@
 
 **Call:** **(740) 637-3099** · **From:** 614-636-5248  
 **Address:** 3364 US Highway 23 S, Chillicothe, OH 45601  
-**Tier:** Essential · **Demo:** https://mahoneydigital.net/#tiers (Essential package)
+**Tier:** Essential · **Demo reference:** https://mahoneydigital.net/examples/riverside-lawn/ (clean Essential 4-page example; tailored Casto's-style auto demo on hold per owner)
 
 ---
 
@@ -52,6 +52,6 @@
 
 Text:
 
-> Jeremy – Mahoney Digital. I help local mechanics with affordable mobile-first sites (~$1,650–$1,750 typical). Info: https://mahoneydigital.net · Optional monthly updates: https://mahoneydigital.net/plans/ · Call/text 614-636-5248.
+> Jeremy – Mahoney Digital. I help local mechanics with affordable mobile-first sites (~$1,650–$1,750 typical). Clean Essential example: https://mahoneydigital.net/examples/riverside-lawn/ · Packages: https://mahoneydigital.net/#tiers · Call/text 614-636-5248.
 
 Log in `Notes.md` and `Activity_Log.md`.

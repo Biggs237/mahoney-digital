@@ -5,11 +5,13 @@
 
 ## Status
 
-- [x] Email sent (to isaiahhanes01@icloud.com)
+- [x] Email sent (to isaiahhanes01@icloud.com) — bounced
+- [x] FB message alternative prepared (see FB_Message_Draft.md)
 - [ ] Reply received
 - [ ] Follow-up call made
 - [ ] Meeting / discovery call scheduled
 - [ ] Proposal sent
+- FB harvest: email found but bounced — phone (931) 698-9104 / FB primary (manual not needed for email)
 
 ## Conversation Log
 

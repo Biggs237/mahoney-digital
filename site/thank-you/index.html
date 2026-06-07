@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message sent | Mahoney Digital</title>
     <meta name="robots" content="noindex">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 font-family=%22system-ui, sans-serif%22 font-weight=%22600%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <!-- Favicon (matches assets/brand/logo-mark.svg) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 letter-spacing=%22-0.06em%22>M</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -27,9 +28,11 @@
 <body class="bg-[#f8f6f1] text-slate-800 min-h-screen flex flex-col">
     <header class="bg-white/95 border-b border-slate-200">
         <div class="max-w-4xl mx-auto px-5 py-4 flex items-center gap-3">
-            <div class="w-9 h-9 bg-ink rounded-2xl flex items-center justify-center">
-                <span class="text-white font-bold text-xl tracking-[-2px]">M</span>
-            </div>
+            <!-- Logo mark matches assets/brand/logo-mark.svg -->
+            <svg width="36" height="36" viewBox="0 0 256 256" aria-hidden="true">
+                <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
+                <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
+            </svg>
             <span class="font-semibold text-xl tracking-tight text-ink">Mahoney Digital</span>
         </div>
     </header>

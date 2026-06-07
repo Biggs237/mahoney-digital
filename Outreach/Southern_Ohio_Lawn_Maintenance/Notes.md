@@ -7,7 +7,8 @@
 
 - [x] Contact verified on FB 2026-06-03 (correct page — phone only)
 - [ ] First outreach
-- [ ] **Call pending — 2026-06-06 AM** (priority #3 — `Calls_Tomorrow_Morning.md`)
+- [ ] **Call pending — 2026-06-08 AM** (priority #3 — `Calls_Tomorrow_Morning.md`)
+- [ ] FB message alternative prepared (see FB_Message_Draft.md)
 
 ## Conversation log
 

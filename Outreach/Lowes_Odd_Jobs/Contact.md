@@ -19,8 +19,9 @@
 
 ## Facebook email harvest
 
-- **Facebook page:** _None found in audit — phone-first outreach_  
-- **Email:** _None public — call (740) 542-0461 for best contact_
+- **Facebook page:** _None found in audit — phone-first outreach_ (per EMAILS_FROM_FACEBOOK.md)  
+- **Email:** _None public — call (740) 542-0461 for best contact_  
+- **FB harvest note:** n/a — no FB page; phone primary, manual login not applicable for this one
 
 ## Notes
 

@@ -63,6 +63,13 @@ The Essential package gives small businesses a clean, fast, mobile-friendly webs
 **Ideal Outcome:**  
 The client has a fast, trustworthy, mobile-friendly website that makes them look legitimate and allows customers to easily find and contact them.
 
+**Observable differences in the demo / real build (what a prospect sees on their phone):**  
+- Narrow scope: homepage + up to 4 pages total (home, services, about, contact). No dedicated service pages.  
+- Clean, functional layout with prominent click-to-call as the hero CTA. System sans, flat colors, narrow container for speed and simplicity.  
+- Zero reviews or trust grids; minimal quick links. Footer and banner explicitly label "Essential tier example — 4 pages".  
+- Sales framing: "exactly what many local trades need first — professional presence without extras."  
+- Pairs with Essential Care (security + small quarterly updates only).
+
 ---
 
 #### Tier 2: Growth
@@ -101,6 +108,13 @@ Growth tier clients are eligible for the **Growth Partner** ongoing support pack
 **Ideal Outcome:**  
 The client gets a website that looks professional, performs well, and is actively working to bring in more business, with a higher level of personal support than the Essential tier.
 
+**Observable differences in the demo / real build (what a prospect sees on their phone):**  
+- Homepage + 6–8 pages: dedicated service pages (e.g. AC, Heating, Maintenance) that prospects can tap into for problem/solution/CTA.  
+- Service areas page (local SEO signal), reviews page (4–6 short local quotes), multiple varied CTAs (emergency phone, "Get estimate", areas links).  
+- Brighter action-oriented color system (sky/cyan + amber accents), sticky professional header, Space Grotesk headings, stronger gradients on CTAs. Educational banner: "Growth tier example — dedicated service pages for SEO & conversions...".  
+- Quick cards on home link deep into service pages; feels like a lead-gen machine vs brochure.  
+- Pairs with Growth Partner (included updates + GBP/local SEO monitoring + quarterly strategy).
+
 ---
 
 #### Tier 3: Signature
@@ -135,6 +149,13 @@ Signature tier clients are eligible for the **Signature Alliance** ongoing suppo
 
 **Ideal Outcome:**  
 The client receives a truly premium, custom website that reflects the highest standards and actively drives business results, paired with an ongoing partnership that feels personal, attentive, and executive-level.
+
+**Observable differences in the demo / real build (what a prospect sees on their phone):**  
+- Custom typography: Playfair Display (serif) for brand name, hero H1, section titles, project/process headings — body clean sans. Instantly reads "crafted."  
+- Restrained earthy palette (stone/amber), generous vertical spacing (larger py- sections), wider reading containers on narrative pages.  
+- Narrative page types instead of pure functional: Projects (treated cards with captions, location, scope, hover lift), Process (visual timeline with numbered steps + story). "Schedule consultation" primary CTA (high-intent).  
+- Elevated trust: stats grid (projects/years/rating/lead model), reviews with project context. Educational banner + tiny hero note explain the premium signals.  
+- Pairs with Signature Alliance (8 hrs/mo, monthly strategy, proactive recs, direct access, 90+ days edits + training).
 
 ---
 

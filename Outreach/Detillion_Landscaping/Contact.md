@@ -7,8 +7,8 @@
 ## Verified Contact Details
 
 - **Facebook:** https://www.facebook.com/detillionlandscaping/  
-- **Facebook About:** https://www.facebook.com/detillionlandscaping/about  
-- **Email (Facebook About):** _Not harvested yet — see `EMAILS_FROM_FACEBOOK.md`_
+- **Facebook About (for email harvest):** https://www.facebook.com/detillionlandscaping/about  
+- **Email (Facebook About):** _Not harvested yet — see `EMAILS_FROM_FACEBOOK.md`_ — **FB harvest: ☐ needs manual login** (phone/FB primary; automated blocked by login walls)
 - **Website:** None found
 
 ## Website audit (2026-06-02)

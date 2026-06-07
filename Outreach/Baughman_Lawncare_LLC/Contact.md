@@ -8,7 +8,8 @@
 
 - **Phone:** (614) 578-2220 (BBB / MapQuest, 2026-06-03)  
 - **Facebook:** https://www.facebook.com/baughmanlawncare/  
-- **BBB:** A+ accredited — email via BBB form; harvest Facebook About  
+- **Facebook About (for email harvest):** https://www.facebook.com/baughmanlawncare/about  
+- **BBB:** A+ accredited — email via BBB form; harvest Facebook About (manual login required — automated blocked by login walls)  
 - **Listed website:** http://baughmanlawncare.com/ — **DNS dead / does not resolve** (2026-06-03)
 
 ## Website audit (2026-06-03)

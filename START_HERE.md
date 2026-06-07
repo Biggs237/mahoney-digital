@@ -51,11 +51,13 @@ Open this file when you sit down to work. Everything else in the repo supports w
 
 | Website **build** (one-time project) | Demo example | Ongoing **support** (monthly) |
 |-----------------------------------|--------------|-------------------------------|
-| **Essential** ($1,450–$1,950) | Riverside Lawn → `/examples/riverside-lawn/` | **Essential Care** → `site/plans/essential-care.html` |
+| **Essential** ($1,450–$1,950) | Riverside Lawn (lawn) → `/examples/riverside-lawn/` (clean live Essential reference) · tailored auto (Casto's) on hold per owner | **Essential Care** → `site/plans/essential-care.html` |
 | **Growth** ($2,650–$3,450) | Summit Comfort HVAC → `/examples/summit-comfort-hvac/` | **Growth Partner** → `site/plans/growth-partner.html` |
 | **Signature** ($4,850–$6,850) | Heritage Home Partners → `/examples/heritage-home-partners/` | **Signature Alliance** → `site/plans/signature-alliance.html` |
 
 After a good call, text the **demo link** for their trade — not the support-plan page unless they ask about maintenance.
+
+**On-call tier differentiation (point this out on phone):** Essential = narrow scope (≤4 pages), one main CTA (phone), clean & fast, no dedicated service pages or reviews. Growth = 6–8 pages with dedicated service pages (e.g. AC/Heating), service areas for local SEO, reviews, multiple CTAs — built to capture leads. Signature = custom display serif typography, narrative Projects + Process pages, "Schedule consultation" framing, premium stats/trust signals, generous spacing. The live demos (riverside = Essential, summit = Growth, heritage = Signature) now include educational banners/footers that teach exactly this.
 
 ---
 

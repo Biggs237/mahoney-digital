@@ -18,14 +18,43 @@ $ErrorActionPreference = "Stop"
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $ProjectRoot
 
+function Get-PythonExe {
+    foreach ($name in @("python", "py", "python3")) {
+        $cmd = Get-Command $name -ErrorAction SilentlyContinue
+        if ($cmd) { return $cmd.Source }
+    }
+    $candidates = @(
+        "$env:LOCALAPPDATA\Python\bin\python.exe",
+        "$env:LOCALAPPDATA\Programs\Python\Python313\python.exe",
+        "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe",
+        "$env:LOCALAPPDATA\Programs\Python\Python311\python.exe"
+    )
+    foreach ($path in $candidates) {
+        if (Test-Path $path) { return $path }
+    }
+    return $null
+}
+
 function Start-Coordinator {
     Write-Host "OpenClaw Coordinator (Mahoney Digital)..." -ForegroundColor Cyan
     & grok --agent coordinator --cwd $ProjectRoot
 }
 
 function Start-TelegramBot {
-    Write-Host "Starting Telegram bot..." -ForegroundColor Green
-    python tools/openclaw_telegram_bot.py
+    $python = Get-PythonExe
+    if (-not $python) {
+        Write-Host "Python is not installed (or not on PATH)." -ForegroundColor Red
+        Write-Host ""
+        Write-Host "Install:" -ForegroundColor Yellow
+        Write-Host "  1. https://www.python.org/downloads/  -> Download Python 3.12+"
+        Write-Host "  2. Run installer -> check 'Add python.exe to PATH'"
+        Write-Host "  3. Close and reopen PowerShell, then:"
+        Write-Host "       pip install -r requirements.txt"
+        Write-Host "       .\openclaw.ps1 telegram"
+        exit 1
+    }
+    Write-Host "Starting Telegram bot ($python)..." -ForegroundColor Green
+    & $python tools/openclaw_telegram_bot.py
 }
 
 function Run-LeadGenerator {
@@ -44,7 +73,7 @@ function Run-Sales {
 
 function Run-WebsiteBuilder {
     if (-not $Prompt) {
-        Write-Host "Usage: .\openclaw.ps1 build `"Essential site for [business] — [details]`"" -ForegroundColor Red
+        Write-Host 'Usage: .\openclaw.ps1 build "Essential site for [business] — [details]"' -ForegroundColor Red
         return
     }
     Write-Host "WebsiteBuilder..." -ForegroundColor Yellow
@@ -61,6 +90,6 @@ switch ($Command.ToLower()) {
     "build" { Run-WebsiteBuilder }
     default {
         Write-Host "Unknown: $Command" -ForegroundColor Red
-        Write-Host "Valid: (empty), coordinator, telegram, leads, sales, build `"prompt`""
+        Write-Host 'Valid: (empty), coordinator, telegram, leads, sales, build "prompt"' -ForegroundColor Red
     }
 }

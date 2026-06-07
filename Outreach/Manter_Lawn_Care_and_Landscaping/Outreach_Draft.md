@@ -1,7 +1,7 @@
 # Outreach Email Draft — Manter Lawn Care and Landscaping
 
 **Web score:** ~2/10 — Facebook only  
-**To:** _Verify before send — Facebook About_  
+**To:** Use phone (see FB About harvest) / FB message — no public email (FB About: https://www.facebook.com/p/Manter-lawn-care-and-landscaping-100063702002342/about for manual harvest)  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Manter Lawn Care — website help in Circleville
 

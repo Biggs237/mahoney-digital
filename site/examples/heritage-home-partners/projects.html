@@ -1,9 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Projects | Heritage Home Partners</title><meta name="robots" content="noindex, nofollow"><script src="https://cdn.tailwindcss.com"></script><style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');.display{font-family:'Playfair Display',Georgia,serif}</style></head>
-<body class="bg-stone-50">
-<div class="bg-stone-900 text-stone-300 text-center text-xs py-2"><strong>Signature tier</strong> · Projects gallery page</div>
-<header class="bg-white border-b"><div class="max-w-6xl mx-auto px-5 h-14 flex flex-wrap justify-between items-center gap-2"><a href="index.html" class="display font-semibold">Heritage Home</a><nav class="text-sm flex flex-wrap gap-3"><a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html" class="text-amber-800">Projects</a><a href="process.html">Process</a><a href="about.html">About</a><a href="reviews.html">Reviews</a><a href="contact.html">Consultation</a></nav></div></header>
-<main class="max-w-6xl mx-auto px-5 py-12"><h1 class="display text-3xl font-bold mb-6 text-center">Recent projects</h1><div class="grid grid-cols-2 md:grid-cols-3 gap-3"><div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-stone-300 to-stone-500 flex items-end p-3 text-white text-sm font-semibold">Kitchen</div><div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-amber-200 to-amber-500 flex items-end p-3 text-sm font-semibold">Primary bath</div><div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-stone-400 to-stone-700 flex items-end p-3 text-white text-sm font-semibold">Addition</div><div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-stone-200 to-amber-300 flex items-end p-3 text-sm font-semibold">Main floor</div><div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-amber-600 to-stone-800 flex items-end p-3 text-white text-sm font-semibold">Deck</div><div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-stone-500 to-stone-700 flex items-end p-3 text-white text-sm font-semibold">Guest bath</div></div></main>
-<footer class="bg-stone-950 text-stone-500 text-center text-sm py-5">Heritage Home Partners</footer>
+<body class="bg-stone-50 text-stone-800">
+  <div class="bg-stone-900 text-stone-300 text-center text-xs py-2"><strong>Signature tier example</strong> · Projects gallery with premium imagery. Narrative photo treatment for high-trust remodeling work.</div>
+  <header class="bg-white border-b sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-5 h-14 flex flex-wrap justify-between items-center gap-2">
+      <a href="index.html" class="display font-semibold text-lg text-stone-900">Heritage Home Partners</a>
+      <nav class="text-sm flex flex-wrap gap-3 font-medium text-stone-600">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html" class="text-amber-800">Projects</a>
+        <a href="process.html">Process</a>
+        <a href="about.html">About</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html" class="bg-stone-900 text-white px-3 py-1 rounded-lg text-xs">Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-5 py-12">
+    <div class="max-w-2xl mx-auto text-center mb-8">
+      <h1 class="display text-3xl font-bold mb-3">Recent projects</h1>
+      <p class="text-stone-600 text-sm">Every project gets the same care we’d give our own home. Local craftsmanship, clear timelines, finishes that last.</p>
+    </div>
+
+    <!-- 
+      Photo gallery for Signature tier.
+      Per VISION_AND_SCOPE: Signature includes "Premium imagery direction".
+      Per notes/Tier_Differentiation_Ideas.md: replace gradients with <img> + overlay captions.
+      Demo uses controlled local images (from site/assets/images/) for first two slots + overlays/captions; remaining use fast picsum placeholders.
+      In real builds: source client project photos (high-res, consistent mood/lighting), optimize to webp/jpg, serve from /assets or Netlify, provide 6-12+ images with before/after where relevant.
+      This page models the "premium imagery direction" (img + caption overlays) that justifies part of the Signature premium vs Growth (which stays more functional/text-led with light photo strips).
+    -->
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="group relative overflow-hidden rounded-2xl aspect-[4/3] border border-stone-200">
+        <img src="../../assets/images/heritage-kitchen.jpg" alt="Full kitchen remodel with custom island in Chillicothe home" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-stone-900/20 to-stone-900/80"></div>
+        <div class="absolute bottom-0 left-0 p-3 text-white">
+          <div class="text-amber-300 text-[10px] tracking-[1px] font-semibold">KITCHEN • CHILLICOTHE</div>
+          <div class="font-semibold leading-tight">Full remodel + custom island</div>
+          <div class="text-stone-200 text-xs mt-0.5 opacity-90">6 weeks • 2025</div>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-2xl aspect-[4/3] border border-stone-200">
+        <img src="../../assets/images/heritage-bath.jpg" alt="Primary bathroom remodel with natural stone and modern fixtures" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-stone-900/20 to-stone-900/80"></div>
+        <div class="absolute bottom-0 left-0 p-3 text-white">
+          <div class="text-amber-300 text-[10px] tracking-[1px] font-semibold">PRIMARY BATH • WAVERLY</div>
+          <div class="font-semibold leading-tight">Spa bath + double vanity</div>
+          <div class="text-stone-200 text-xs mt-0.5 opacity-90">4 weeks • 2024</div>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-2xl aspect-[4/3] border border-stone-200">
+        <img src="https://picsum.photos/id/201/800/600" alt="Home addition with new family room and improved flow" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-stone-900/20 to-stone-900/80"></div>
+        <div class="absolute bottom-0 left-0 p-3 text-white">
+          <div class="text-amber-300 text-[10px] tracking-[1px] font-semibold">ADDITION • CHILLICOTHE</div>
+          <div class="font-semibold leading-tight">Family room + mudroom addition</div>
+          <div class="text-stone-200 text-xs mt-0.5 opacity-90">9 weeks • 2025</div>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-2xl aspect-[4/3] border border-stone-200">
+        <img src="https://picsum.photos/id/251/800/600" alt="Main floor renovation opening up kitchen to living and dining" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-stone-900/20 to-stone-900/80"></div>
+        <div class="absolute bottom-0 left-0 p-3 text-white">
+          <div class="text-amber-300 text-[10px] tracking-[1px] font-semibold">MAIN FLOOR • LAURELVILLE</div>
+          <div class="font-semibold leading-tight">Open concept kitchen + living</div>
+          <div class="text-stone-200 text-xs mt-0.5 opacity-90">7 weeks • 2024</div>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-2xl aspect-[4/3] border border-stone-200">
+        <img src="https://picsum.photos/id/292/800/600" alt="Custom deck and outdoor living space with quality materials" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-stone-900/20 to-stone-900/80"></div>
+        <div class="absolute bottom-0 left-0 p-3 text-white">
+          <div class="text-amber-300 text-[10px] tracking-[1px] font-semibold">DECK • ROSS COUNTY</div>
+          <div class="font-semibold leading-tight">Covered deck + outdoor kitchen</div>
+          <div class="text-stone-200 text-xs mt-0.5 opacity-90">3 weeks • 2025</div>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-2xl aspect-[4/3] border border-stone-200">
+        <img src="https://picsum.photos/id/312/800/600" alt="Guest bathroom remodel with timeless tile and fixtures" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-stone-900/20 to-stone-900/80"></div>
+        <div class="absolute bottom-0 left-0 p-3 text-white">
+          <div class="text-amber-300 text-[10px] tracking-[1px] font-semibold">GUEST BATH • CHILLICOTHE</div>
+          <div class="font-semibold leading-tight">Full guest bath refresh</div>
+          <div class="text-stone-200 text-xs mt-0.5 opacity-90">2 weeks • 2024</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center text-[11px] text-stone-500 mt-6 max-w-md mx-auto">Signature projects pages use real photography with clear captions (location, scope, timeline) so prospects can picture the quality of work. This is one of the observable premium signals vs Growth’s more functional pages.</p>
+  </main>
+
+  <footer class="bg-stone-950 text-stone-500 text-center text-sm py-5">
+    Heritage Home Partners — Signature tier example (7 pages). Pairs with Signature Alliance.
+  </footer>
 </body></html>

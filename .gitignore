@@ -24,3 +24,9 @@ terminals/
 
 # OpenClaw Telegram polling state
 tools/.telegram_offset
+tools/.telegram_bot.lock
+tools/.telegram_last_reply.txt
+
+# Substack session / pending post (never commit)
+tools/.substack_pending.json
+tools/.substack_cookies.json

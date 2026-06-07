@@ -4,10 +4,11 @@
 
 ## Status
 
-- [ ] Email verified (Facebook About / BBB)
+- [ ] Email verified (Facebook About / BBB) — **FB harvest: ☐ needs manual login** (phone/FB primary; automated access blocked by login walls per EMAILS_FROM_FACEBOOK.md)
 - [x] Outreach draft prepared
 - [ ] First outreach
-- [ ] **Call pending — 2026-06-06 AM** (priority #1 — `Calls_Tomorrow_Morning.md`)
+- [ ] **Call pending — 2026-06-08 AM** (priority #2 — `Calls_Tomorrow_Morning.md`)
+- [ ] FB message alternative prepared (see FB_Message_Draft.md)
 
 ## Conversation log
 

@@ -37,12 +37,14 @@ powershell -ExecutionPolicy Bypass -File .\generate-business-cards.ps1
 |---------|--------|
 | Background (front) | Cream `#f8f6f1` |
 | Background (back) | White |
-| Logo circle + ink text | `#0b1120` |
+| Logo mark + ink text | `#0b1120` (primary mark is rounded square per assets/brand/logo-mark.svg; current printed cards use circle variant) |
 | Accent bar + contact lines | Teal gradient `#0f766e` → `#0d9488` |
 | Tagline | Slate `#64748b` |
 
-**Front:** Circled **M** mark + Mahoney Digital + tagline + “Clear pricing. No hype.”  
+**Front:** **M** mark (rounded square primary) + Mahoney Digital + tagline + “Clear pricing. No hype.”  
 **Back:** Jeremy Mahoney, title, email, phone, site, service area line.
+
+**Note:** June 2026 — Official primary logo mark standardized to rounded square (see assets/brand/). The VistaPrint cards were produced with the earlier circle variant. Future reprints or digital uses should prefer the rounded square from brand assets.
 
 ---
 

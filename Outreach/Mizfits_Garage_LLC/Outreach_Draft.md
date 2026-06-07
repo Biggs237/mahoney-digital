@@ -1,7 +1,7 @@
 # Outreach Email Draft — Mizfit's Garage LLC
 
 **Web score:** ~2/10 — no owned website  
-**To:** _Verify before send — Facebook About_  
+**To:** Use phone (see FB About harvest) / FB message — no public email (FB About: https://www.facebook.com/p/Mizfits-garage-llc-61569619007654/about for manual harvest)  
 **From:** hello@mahoneydigital.net (Jeremy Mahoney)  
 **Subject:** Mizfit's Garage — website help in Chillicothe
 
