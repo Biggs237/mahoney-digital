@@ -29,14 +29,16 @@
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <p class="text-center text-xs text-zinc-500 py-2 border-t border-zinc-100 md:border-0 md:pb-0">
+            <strong class="text-zinc-700">Mon–Fri:</strong> 9:30 AM – 6:00 PM <span class="text-zinc-400">|</span> <strong class="text-zinc-700">Closed</strong> Sat–Sun
+        </p>
     </header>
     <main class="max-w-3xl mx-auto px-5 py-12 text-center">
         <h1 class="text-3xl md:text-4xl font-bold text-zinc-900 mb-3">Honest auto repair on US-23.</h1>
         <p class="text-zinc-600 mb-6">Straightforward service for Chillicothe and Ross County drivers. No surprises, just reliable work.</p>
 
-        <div class="hours text-sm text-zinc-700 bg-zinc-50 border border-zinc-200 rounded-xl p-4 mb-6 max-w-sm mx-auto">
-            <strong>Hours:</strong> Mon–Fri 9:30 AM – 6:00 PM<br>
-            Closed Sat–Sun
+        <div class="hours text-sm text-zinc-700 bg-zinc-50 border border-zinc-200 rounded-xl p-4 mb-6 max-w-md mx-auto">
+            <strong>Hours:</strong> Mon–Fri: 9:30 AM – 6:00 PM | Closed Sat–Sun
         </div>
 
         <a href="tel:7406373099" class="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold text-lg px-8 py-4 rounded-full">
@@ -52,8 +54,12 @@
     </main>
     <footer class="bg-zinc-900 text-zinc-200/80 text-center text-sm py-6 px-5">
         <p class="text-white font-semibold">Casto's Auto Repair</p>
-        <p class="text-xs mt-1 opacity-80">3364 US Highway 23 S · Chillicothe, OH</p>
-        <p class="text-[10px] mt-2 opacity-60">Essential = homepage + up to 4 pages (this demo has 4)</p>
+        <p class="mt-2"><a href="tel:7406373099" class="text-blue-300 hover:text-blue-200 font-medium">(740) 637-3099</a></p>
+        <p class="text-xs mt-1 opacity-80">3364 US Highway 23 S · Chillicothe, OH 45601</p>
+        <div class="hours text-xs mt-3 text-zinc-300">
+            <strong>Hours:</strong> Mon–Fri: 9:30 AM – 6:00 PM | Closed Sat–Sun
+        </div>
+        <p class="text-[10px] mt-3 opacity-50">Essential tier demo · <a href="../../index.html" class="underline">Mahoney Digital</a></p>
     </footer>
     <script>
         document.getElementById('menu-btn')?.addEventListener('click', () => document.getElementById('mobile-nav')?.classList.toggle('hidden'));
