@@ -11,15 +11,22 @@
 <body class="bg-white text-zinc-800 font-sans">
     <div class="bg-zinc-900 text-zinc-100 text-center text-xs py-2 px-4"><strong class="text-white/90">Essential tier example</strong> · page 2 of 4</div>
     <header class="border-b border-zinc-200">
-        <div class="max-w-3xl mx-auto px-5 flex flex-wrap justify-between items-center gap-3 h-14">
+        <div class="max-w-3xl mx-auto px-5 py-3 flex justify-between items-center">
             <a href="index.html" class="font-bold text-lg text-zinc-900">Casto's Auto Repair</a>
-            <nav class="flex gap-4 text-sm font-medium text-zinc-600">
+            <button type="button" id="menu-btn" class="md:hidden p-2 text-zinc-600" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+            <nav class="hidden md:flex gap-4 text-sm font-medium text-zinc-600">
                 <a href="index.html">Home</a>
                 <a href="services.html" class="text-blue-700">Services</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
+        <nav id="mobile-nav" class="hidden md:hidden border-t border-zinc-100 px-5 py-3 flex flex-col gap-2 text-sm font-medium text-zinc-600">
+            <a href="index.html">Home</a>
+            <a href="services.html" class="text-blue-700">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
     <main class="max-w-3xl mx-auto px-5 py-12">
         <h1 class="text-2xl font-bold text-zinc-900 mb-6">Our services</h1>
@@ -31,8 +38,11 @@
             <li class="p-5 rounded-xl bg-zinc-50 border border-zinc-100"><strong>Suspension &amp; steering</strong><p class="text-sm text-zinc-600 mt-1">Struts, shocks, steering components, and handling repairs.</p></li>
             <li class="p-5 rounded-xl bg-zinc-50 border border-zinc-100"><strong>General repairs</strong><p class="text-sm text-zinc-600 mt-1">Alternators, starters, belts, hoses, and common fixes done right.</p></li>
         </ul>
-        <p class="mt-8 text-center"><a href="contact.html" class="text-blue-700 font-semibold">Call or stop by →</a></p>
+        <p class="mt-8 text-center"><a href="contact.html" class="text-blue-700 font-semibold">Call or request a callback →</a></p>
     </main>
     <footer class="bg-zinc-900 text-zinc-200/80 text-center text-sm py-6"><p class="text-white font-semibold">Casto's Auto Repair</p></footer>
+    <script>
+        document.getElementById('menu-btn')?.addEventListener('click', () => document.getElementById('mobile-nav')?.classList.toggle('hidden'));
+    </script>
 </body>
 </html>

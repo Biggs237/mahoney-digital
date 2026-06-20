@@ -13,31 +13,50 @@
         <strong class="text-white/90">Essential tier example</strong> · 4 pages · <a href="../../index.html" class="underline font-semibold">Mahoney Digital</a>
     </div>
     <header class="border-b border-zinc-200">
-        <div class="max-w-3xl mx-auto px-5 flex flex-wrap justify-between items-center gap-3 h-14">
+        <div class="max-w-3xl mx-auto px-5 py-3 flex justify-between items-center">
             <a href="index.html" class="font-bold text-lg text-zinc-900">Casto's Auto Repair</a>
-            <nav class="flex gap-4 text-sm font-medium text-zinc-600">
+            <button type="button" id="menu-btn" class="md:hidden p-2 text-zinc-600" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+            <nav class="hidden md:flex gap-4 text-sm font-medium text-zinc-600">
                 <a href="index.html" class="text-blue-700">Home</a>
-                <a href="services.html" class="hover:text-blue-700">Services</a>
-                <a href="about.html" class="hover:text-blue-700">About</a>
-                <a href="contact.html" class="hover:text-blue-700">Contact</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
+        <nav id="mobile-nav" class="hidden md:hidden border-t border-zinc-100 px-5 py-3 flex flex-col gap-2 text-sm font-medium text-zinc-600">
+            <a href="index.html" class="text-blue-700">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
     <main class="max-w-3xl mx-auto px-5 py-12 text-center">
         <h1 class="text-3xl md:text-4xl font-bold text-zinc-900 mb-3">Honest auto repair on US-23.</h1>
         <p class="text-zinc-600 mb-6">Straightforward service for Chillicothe and Ross County drivers. No surprises, just reliable work.</p>
-        <a href="tel:7406373099" class="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-full">
-            <i class="fas fa-phone"></i> (740) 637-3099
+
+        <div class="hours text-sm text-zinc-700 bg-zinc-50 border border-zinc-200 rounded-xl p-4 mb-6 max-w-sm mx-auto">
+            <strong>Hours:</strong> Mon–Fri 9:30 AM – 6:00 PM<br>
+            Closed Sat–Sun
+        </div>
+
+        <a href="tel:7406373099" class="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold text-lg px-8 py-4 rounded-full">
+            <i class="fas fa-phone"></i> Call Now for Service →
         </a>
+        <p class="mt-4 text-sm text-zinc-600">Or <a href="contact.html" class="text-blue-700 font-semibold">request a callback</a></p>
+
         <div class="mt-12 grid sm:grid-cols-3 gap-4 text-left text-sm">
             <a href="services.html" class="p-4 rounded-xl border border-zinc-200 hover:border-blue-300"><strong class="block text-blue-700">Services</strong>What we fix</a>
-            <a href="about.html" class="p-4 rounded-xl border border-zinc-200 hover:border-blue-300"><strong class="block text-blue-700">About</strong>Local &amp; trusted</a>
-            <a href="contact.html" class="p-4 rounded-xl border border-zinc-200 hover:border-blue-300"><strong class="block text-blue-700">Contact</strong>Call or stop by</a>
+            <a href="about.html" class="p-4 rounded-xl border border-zinc-200 hover:border-blue-300"><strong class="block text-blue-700">About</strong>Why choose us</a>
+            <a href="contact.html" class="p-4 rounded-xl border border-zinc-200 hover:border-blue-300"><strong class="block text-blue-700">Contact</strong>Map &amp; form</a>
         </div>
     </main>
     <footer class="bg-zinc-900 text-zinc-200/80 text-center text-sm py-6 px-5">
         <p class="text-white font-semibold">Casto's Auto Repair</p>
+        <p class="text-xs mt-1 opacity-80">3364 US Highway 23 S · Chillicothe, OH</p>
         <p class="text-[10px] mt-2 opacity-60">Essential = homepage + up to 4 pages (this demo has 4)</p>
     </footer>
+    <script>
+        document.getElementById('menu-btn')?.addEventListener('click', () => document.getElementById('mobile-nav')?.classList.toggle('hidden'));
+    </script>
 </body>
 </html>
