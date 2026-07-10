@@ -6,32 +6,43 @@
   "framework": null,
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/examples/riverside-lawn",
-      "destination": "/examples/riverside-lawn/",
-      "permanent": true
-    },
-    {
-      "source": "/examples/summit-comfort-hvac",
-      "destination": "/examples/summit-comfort-hvac/",
-      "permanent": true
-    },
-    {
-      "source": "/examples/heritage-home-partners",
-      "destination": "/examples/heritage-home-partners/",
-      "permanent": true
-    },
-    {
-      "source": "/examples/castos-auto-repair",
-      "destination": "/examples/castos-auto-repair/",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "rewrites": [
     {
       "source": "/thank-you/",
       "destination": "/thank-you.html"
+    },
+    {
+      "source": "/examples/castos-auto-repair",
+      "destination": "/examples/castos-auto-repair/index.html"
+    },
+    {
+      "source": "/examples/castos-auto-repair/",
+      "destination": "/examples/castos-auto-repair/index.html"
+    },
+    {
+      "source": "/examples/riverside-lawn",
+      "destination": "/examples/riverside-lawn/index.html"
+    },
+    {
+      "source": "/examples/riverside-lawn/",
+      "destination": "/examples/riverside-lawn/index.html"
+    },
+    {
+      "source": "/examples/summit-comfort-hvac",
+      "destination": "/examples/summit-comfort-hvac/index.html"
+    },
+    {
+      "source": "/examples/summit-comfort-hvac/",
+      "destination": "/examples/summit-comfort-hvac/index.html"
+    },
+    {
+      "source": "/examples/heritage-home-partners",
+      "destination": "/examples/heritage-home-partners/index.html"
+    },
+    {
+      "source": "/examples/heritage-home-partners/",
+      "destination": "/examples/heritage-home-partners/index.html"
     }
   ],
   "headers": [

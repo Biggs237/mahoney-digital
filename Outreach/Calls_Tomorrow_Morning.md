@@ -17,7 +17,7 @@
 | **Problem** | **No owned website** — Facebook, Yelp, MapQuest only |
 | **Credibility** | Visible US-23 location · established local shop |
 | **Tier** | Essential |
-| **Demo to text** | https://mahoneydigital.net/examples/riverside-lawn/ (clean Essential reference — 4-page scope with click-to-call; tailored auto demo on hold per owner) |
+| **Demo to text** | https://mahoneydigital.net/examples/castos-auto-repair |
 | **Folder** | `Castos_Auto_Repair` |
 
 **Hook:** “When someone searches auto repair on their phone, you want a simple site with hours and click-to-call — not just a Facebook page.”
