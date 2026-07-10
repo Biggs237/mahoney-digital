@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Casto's Auto Repair</title>
     <meta name="robots" content="noindex, nofollow">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'castos-red': '#E31E24',
+                        'castos-red-dark': '#C41A1F',
+                    },
+                },
+            },
+        };
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/examples/castos-auto-repair/castos.css">
 </head>
-<body class="bg-white text-zinc-900 font-sans pb-20 md:pb-0">
+<body class="bg-white text-zinc-900 font-sans pb-20 md:pb-0 overflow-x-hidden">
     <div class="bg-black text-zinc-300 text-center text-xs py-2 px-4 leading-relaxed">
         <strong class="text-white/90">Concept site for Casto's Auto Repair</strong> · Essential tier · click-to-call ·
         <a href="/" class="underline font-semibold text-white">Mahoney Digital</a>
@@ -21,7 +33,7 @@
                 <img src="/examples/castos-auto-repair/logo.svg" alt="" class="w-12 h-12 flex-shrink-0" width="48" height="48">
                 <span class="min-w-0 hidden sm:block">
                     <span class="font-castos-script text-xl text-black block leading-none">Casto's</span>
-                    <span class="text-[10px] font-bold tracking-wider text-white bg-castos-red px-1.5 py-0.5 inline-block">AUTO REPAIR</span>
+                    <span class="castos-ribbon">AUTO REPAIR</span>
                 </span>
             </a>
             <button type="button" id="menu-btn" class="md:hidden p-2 text-black" aria-label="Open menu"><i class="fas fa-bars text-lg"></i></button>
@@ -42,27 +54,28 @@
 
     <main class="max-w-3xl mx-auto px-4 py-6 md:py-8">
         <!-- Facebook-style banner -->
-        <section class="border-2 border-black bg-white p-4 md:p-6 text-center mb-8" aria-label="Casto's Auto Repair — shop info">
-            <p class="font-bold text-base md:text-lg uppercase tracking-wide mb-4 md:mb-6">Specializing in Engine Repair</p>
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-5 md:gap-8">
-                <img src="/examples/castos-auto-repair/logo.svg" alt="Casto's Auto Repair — Driven by faith, fueled by service" class="w-28 h-28 md:w-32 md:h-32 flex-shrink-0" width="128" height="128">
-                <div class="text-center sm:text-left">
-                    <p class="font-castos-script text-4xl md:text-5xl text-black leading-none">Casto's</p>
-                    <p class="text-sm font-black tracking-[0.2em] text-white bg-castos-red inline-block px-3 py-1 mt-1">AUTO REPAIR</p>
-                    <p class="text-castos-red font-semibold italic text-sm mt-2">Fueled by Faith</p>
+        <section class="border-2 border-black bg-white p-3 sm:p-6 text-center mb-8 overflow-hidden w-full max-w-full" aria-label="Casto's Auto Repair — shop info">
+            <p class="font-bold text-sm sm:text-lg uppercase tracking-wide mb-4 text-black">Specializing in Engine Repair</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full max-w-full">
+                <img src="/examples/castos-auto-repair/logo.svg" alt="Driven by faith, Fueled by service" class="w-24 h-24 sm:w-28 sm:h-28 flex-shrink-0" width="112" height="112">
+                <div class="castos-wordmark castos-wordmark--left text-center sm:text-left px-1">
+                    <p class="font-castos-script text-3xl sm:text-4xl text-black leading-none">Casto's</p>
+                    <p class="castos-ribbon mt-1">AUTO REPAIR</p>
+                    <p class="castos-faith mt-2">Driven by faith</p>
+                    <p class="castos-service-ribbon">Fueled by service</p>
                     <div class="mt-4 text-sm font-bold text-black">
-                        <p class="uppercase tracking-wide">Monday – Friday</p>
-                        <p class="text-lg">9:30 AM – 6:00 PM</p>
+                        <p class="uppercase tracking-wide text-xs sm:text-sm">Monday – Friday</p>
+                        <p class="text-base sm:text-lg">9:30 AM – 6:00 PM</p>
                     </div>
                 </div>
             </div>
-            <p class="text-castos-red font-black text-xl md:text-2xl mt-6 md:mt-8 tracking-wide">FINANCING AVAILABLE*</p>
+            <p class="text-[#E31E24] font-black text-lg sm:text-2xl mt-5 sm:mt-8">FINANCING AVAILABLE*</p>
             <p class="text-xs text-zinc-500 mt-1">*Terms and Conditions Apply</p>
         </section>
 
         <div class="text-center mb-8">
             <h1 class="text-2xl md:text-3xl font-bold text-black mb-2">Honest auto repair on US-23</h1>
-            <p class="text-zinc-600 text-sm md:text-base max-w-md mx-auto">Chillicothe &amp; Ross County — driven by faith, fueled by service. Engine work, maintenance, and repairs you can trust.</p>
+            <p class="text-zinc-600 text-sm md:text-base max-w-md mx-auto">Chillicothe &amp; Ross County — Driven by faith. Fueled by service. Engine work, maintenance, and repairs you can trust.</p>
         </div>
 
         <div class="text-center mb-8">
@@ -88,7 +101,7 @@
     <footer class="bg-black text-zinc-300 text-center text-sm py-6 px-5">
         <img src="/examples/castos-auto-repair/logo.svg" alt="" class="w-14 h-14 mx-auto mb-3" width="56" height="56">
         <p class="text-white font-semibold">Casto's Auto Repair</p>
-        <p class="text-castos-red italic text-xs mt-1">Driven by faith · fueled by service</p>
+        <p class="text-[#E31E24] italic text-xs mt-1">Driven by faith · Fueled by service</p>
         <p class="mt-3"><a href="tel:7406373099" class="text-white hover:text-castos-red font-medium text-base">(740) 637-3099</a></p>
         <p class="text-xs mt-1 opacity-80">3364 US Highway 23 S · Chillicothe, OH 45601</p>
         <p class="text-xs mt-2"><strong>Mon–Fri:</strong> 9:30 AM – 6:00 PM · Closed Sat–Sun</p>
