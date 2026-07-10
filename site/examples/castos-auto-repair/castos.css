@@ -108,3 +108,10 @@ iframe {
 .castos-brand-lockup img {
     flex-shrink: 0;
 }
+
+.castos-badge {
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ffffff;
+}
