@@ -20,7 +20,7 @@
 
 ---
 
-**Next action:** Call **(740) 637-3099** from 614-636-5248 Mon AM — use `Phone_Script.md`. Specific demo link https://mahoneydigital.net/examples/castos-auto-repair/ is on hold (owner instruction: sleep on deploy). Use live alternatives (e.g. riverside-lawn positioning) or general Essential talk track if interest; do not promise the casto's-specific link until live.
+**Next action:** Call **(740) 637-3099** from 614-636-5248 — use `Phone_Script.md`. Demo link is live: https://mahoneydigital.net/examples/castos-auto-repair — text after warm response.
 
 **2026-06-08 (Telegram):** Owner: "Let's hold off on deploying. Let me sleep on it." Deploy of tailored Casto's demo + site updates (homepage integrations, etc.) paused. Local files intact. Will decide after review.
 
@@ -30,4 +30,4 @@
 
 **2026-06-07 (prep):** WebsiteBuilder tailored build complete. Demo integrated locally to site/ (portfolio + Essential tier card now feature Casto's as the real Essential auto example with US-23 copy). Redirects + docs + outreach files updated.
 
-Local source: `site/examples/castos-auto-repair/` (4 pages: index/services/about/contact). Live pending Netlify deploy of site/. Calls lists, phone script, drafts, START_HERE, plans/essential-care.html, checklist refreshed.
+**2026-07-10:** Demo deployed live on Vercel. Fixed redirect loop (removed trailing-slash redirects, added rewrites to index.html). Mobile click-to-call bar + concept banner on all 4 pages. Link verified: https://mahoneydigital.net/examples/castos-auto-repair
