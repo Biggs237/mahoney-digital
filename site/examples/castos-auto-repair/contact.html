@@ -7,60 +7,68 @@
     <meta name="robots" content="noindex, nofollow">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/examples/castos-auto-repair/castos.css">
 </head>
-<body class="bg-white text-zinc-800 font-sans pb-20 md:pb-0">
-    <div class="bg-zinc-900 text-zinc-100 text-center text-xs py-2 px-4"><strong class="text-white/90">Essential tier example</strong> · page 4 of 4</div>
-    <header class="border-b border-zinc-200">
-        <div class="max-w-3xl mx-auto px-5 py-3 flex justify-between items-center">
-            <a href="/examples/castos-auto-repair" class="font-bold text-lg text-zinc-900">Casto's Auto Repair</a>
-            <button type="button" id="menu-btn" class="md:hidden p-2 text-zinc-600" aria-label="Open menu"><i class="fas fa-bars"></i></button>
-            <nav id="site-nav" class="hidden md:flex gap-4 text-sm font-medium text-zinc-600">
+<body class="bg-white text-zinc-900 font-sans pb-20 md:pb-0">
+    <div class="bg-black text-zinc-300 text-center text-xs py-2 px-4"><strong class="text-white/90">Concept site</strong> · Casto's Auto Repair</div>
+    <header class="border-b-2 border-black bg-white">
+        <div class="max-w-3xl mx-auto px-4 py-3 flex justify-between items-center gap-3">
+            <a href="/examples/castos-auto-repair" class="flex items-center gap-3 min-w-0">
+                <img src="/examples/castos-auto-repair/logo.svg" alt="" class="w-12 h-12 flex-shrink-0" width="48" height="48">
+                <span class="min-w-0 hidden sm:block">
+                    <span class="font-castos-script text-xl text-black block leading-none">Casto's</span>
+                    <span class="text-[10px] font-bold tracking-wider text-white bg-castos-red px-1.5 py-0.5 inline-block">AUTO REPAIR</span>
+                </span>
+            </a>
+            <button type="button" id="menu-btn" class="md:hidden p-2 text-black" aria-label="Open menu"><i class="fas fa-bars text-lg"></i></button>
+            <nav class="hidden md:flex gap-4 text-sm font-medium text-zinc-700">
                 <a href="/examples/castos-auto-repair">Home</a>
-                <a href="/examples/castos-auto-repair/services">Services</a>
-                <a href="/examples/castos-auto-repair/about">About</a>
-                <a href="/examples/castos-auto-repair/contact" class="text-blue-700">Contact</a>
+                <a href="/examples/castos-auto-repair/services" class="hover:text-castos-red">Services</a>
+                <a href="/examples/castos-auto-repair/about" class="hover:text-castos-red">About</a>
+                <a href="/examples/castos-auto-repair/contact" class="castos-nav-active">Contact</a>
             </nav>
         </div>
-        <nav id="mobile-nav" class="hidden md:hidden border-t border-zinc-100 px-5 py-3 flex flex-col gap-2 text-sm font-medium text-zinc-600">
+        <nav id="mobile-nav" class="hidden md:hidden border-t border-zinc-200 px-4 py-3 flex flex-col gap-2 text-sm font-medium text-zinc-700">
             <a href="/examples/castos-auto-repair">Home</a>
             <a href="/examples/castos-auto-repair/services">Services</a>
             <a href="/examples/castos-auto-repair/about">About</a>
-            <a href="/examples/castos-auto-repair/contact" class="text-blue-700">Contact</a>
+            <a href="/examples/castos-auto-repair/contact" class="castos-nav-active">Contact</a>
         </nav>
-        <p class="text-center text-xs text-zinc-500 py-2 border-t border-zinc-100 md:border-0 md:pb-0">
-            <strong class="text-zinc-700">Mon–Fri:</strong> 9:30 AM – 6:00 PM <span class="text-zinc-400">|</span> <strong class="text-zinc-700">Closed</strong> Sat–Sun
-        </p>
     </header>
 
-    <main class="max-w-lg mx-auto px-5 py-10">
+    <main class="max-w-lg mx-auto px-4 py-10">
         <div class="text-center mb-8">
-            <a href="tel:7406373099" class="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold text-lg px-8 py-4 rounded-full">
-                <i class="fas fa-phone"></i> Call Now for Service →
+            <a href="tel:7406373099" class="inline-flex items-center gap-2 bg-castos-red hover:bg-castos-red-dark text-white font-bold text-lg px-8 py-4 rounded-full">
+                <i class="fas fa-phone"></i> Call Now for Service
             </a>
             <p class="mt-4 text-sm text-zinc-600">Or fill out the form below to request a callback</p>
         </div>
 
-        <div class="hours text-base text-zinc-800 bg-blue-50 border-2 border-blue-200 rounded-xl p-5 mb-8 text-center font-medium">
-            <strong>Hours:</strong> Mon–Fri: 9:30 AM – 6:00 PM | Closed Sat–Sun
+        <div class="text-sm text-zinc-800 bg-red-50 border-2 border-castos-red/40 rounded-lg p-5 mb-6 text-center">
+            <p class="font-bold text-black"><strong>Hours:</strong> Mon–Fri: 9:30 AM – 6:00 PM</p>
+            <p class="text-zinc-600">Closed Sat–Sun</p>
+            <p class="text-castos-red font-black mt-3">FINANCING AVAILABLE*</p>
+            <p class="text-xs text-zinc-500">*Terms and Conditions Apply</p>
         </div>
 
         <p class="text-center text-sm text-zinc-600 mb-6">3364 US Highway 23 S, Chillicothe, OH 45601</p>
 
         <form class="space-y-3" onsubmit="event.preventDefault(); alert('Demo form — Essential example site.');">
-            <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border border-zinc-300 text-sm" required>
-            <input type="tel" name="phone" placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg border border-zinc-300 text-sm" required>
-            <select name="service" class="w-full px-4 py-3 rounded-lg border border-zinc-300 text-sm text-zinc-700" required>
+            <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border-2 border-zinc-300 text-sm focus:border-castos-red focus:outline-none" required>
+            <input type="tel" name="phone" placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg border-2 border-zinc-300 text-sm focus:border-castos-red focus:outline-none" required>
+            <select name="service" class="w-full px-4 py-3 rounded-lg border-2 border-zinc-300 text-sm text-zinc-700 focus:border-castos-red focus:outline-none" required>
                 <option value="">What can we help with?</option>
-                <option value="oil-change">Oil Change</option>
+                <option value="engine">Engine repair / diagnostics</option>
+                <option value="oil-change">Oil change</option>
                 <option value="brakes">Brakes</option>
-                <option value="diagnostics">Diagnostics</option>
+                <option value="financing">Financing question</option>
                 <option value="other">Other</option>
             </select>
-            <textarea name="message" rows="3" placeholder="Details (optional)" class="w-full px-4 py-3 rounded-lg border border-zinc-300 text-sm"></textarea>
-            <button type="submit" class="w-full bg-zinc-900 hover:bg-zinc-800 text-white font-semibold py-3.5 rounded-lg text-sm">Request Callback</button>
+            <textarea name="message" rows="3" placeholder="Details (optional)" class="w-full px-4 py-3 rounded-lg border-2 border-zinc-300 text-sm focus:border-castos-red focus:outline-none"></textarea>
+            <button type="submit" class="w-full bg-black hover:bg-zinc-800 text-white font-semibold py-3.5 rounded-lg text-sm">Request Callback</button>
         </form>
 
-        <div class="mt-10 rounded-xl overflow-hidden border border-zinc-200">
+        <div class="mt-10 rounded-lg overflow-hidden border-2 border-black">
             <iframe
                 src="https://maps.google.com/maps?q=3364+US+Highway+23+S,+Chillicothe,+OH+45601&amp;hl=en&amp;z=15&amp;output=embed"
                 width="100%"
@@ -73,28 +81,20 @@
             </iframe>
         </div>
         <p class="text-center mt-3 text-sm">
-            <a href="https://maps.google.com/?q=3364+US+Highway+23+S,+Chillicothe,+OH+45601" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-semibold">Get Directions</a>
+            <a href="https://maps.google.com/?q=3364+US+Highway+23+S,+Chillicothe,+OH+45601" target="_blank" rel="noopener noreferrer" class="text-castos-red font-semibold">Get Directions</a>
         </p>
     </main>
 
-    <footer class="bg-zinc-900 text-zinc-200/80 text-center text-sm py-6 px-5">
+    <footer class="bg-black text-zinc-300 text-center text-sm py-6 px-5">
         <p class="text-white font-semibold">Casto's Auto Repair</p>
-        <p class="mt-2"><a href="tel:7406373099" class="text-blue-300 hover:text-blue-200 font-medium">(740) 637-3099</a></p>
+        <p class="text-castos-red italic text-xs mt-1">Driven by faith · fueled by service</p>
+        <p class="mt-2"><a href="tel:7406373099" class="text-white font-medium">(740) 637-3099</a></p>
         <p class="text-xs mt-1 opacity-80">3364 US Highway 23 S · Chillicothe, OH 45601</p>
-        <div class="hours text-xs mt-3 text-zinc-300"><strong>Hours:</strong> Mon–Fri: 9:30 AM – 6:00 PM | Closed Sat–Sun</div>
     </footer>
-    <div class="fixed bottom-0 inset-x-0 z-50 md:hidden border-t border-blue-800 bg-blue-700 shadow-lg" style="padding-bottom: max(12px, env(safe-area-inset-bottom));">
-        <a href="tel:7406373099" class="flex items-center justify-center gap-2 text-white font-bold text-base py-3.5 min-h-[52px] active:bg-blue-800">
-            <i class="fas fa-phone" aria-hidden="true"></i> Call (740) 637-3099
-        </a>
+    <div class="fixed bottom-0 inset-x-0 z-50 md:hidden border-t-2 border-black bg-castos-red shadow-lg" style="padding-bottom: max(12px, env(safe-area-inset-bottom));">
+        <a href="tel:7406373099" class="flex items-center justify-center gap-2 text-white font-bold text-base py-3.5 min-h-[52px]"><i class="fas fa-phone"></i> Call (740) 637-3099</a>
     </div>
-    <script>
-        const btn = document.getElementById('menu-btn');
-        const mobile = document.getElementById('mobile-nav');
-        btn?.addEventListener('click', () => mobile?.classList.toggle('hidden'));
-    </script>
-
-    <!-- Vercel Web Analytics + Speed Insights -->
+    <script>document.getElementById('menu-btn')?.addEventListener('click', () => document.getElementById('mobile-nav')?.classList.toggle('hidden'));</script>
     <script defer src="/assets/vercel-insights.js"></script>
 </body>
 </html>

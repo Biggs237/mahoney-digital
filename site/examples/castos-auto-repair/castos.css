@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.font-castos-script {
+    font-family: 'Pacifico', 'Brush Script MT', cursive;
+}
+
+.text-castos-red { color: #E31E24; }
+.bg-castos-red { background-color: #E31E24; }
+.border-castos-red { border-color: #E31E24; }
+.hover\:bg-castos-red-dark:hover { background-color: #C41A1F; }
+.ring-castos-red { --tw-ring-color: #E31E24; }
+
+.castos-nav-active { color: #E31E24; font-weight: 600; }
+.castos-card:hover { border-color: #E31E24; }
