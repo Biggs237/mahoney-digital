@@ -83,3 +83,28 @@ iframe {
         align-items: flex-start;
     }
 }
+
+.castos-banner-wrap {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.castos-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.castos-brand-lockup {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    min-width: 0;
+}
+
+.castos-brand-lockup img {
+    flex-shrink: 0;
+}
