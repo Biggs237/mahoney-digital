@@ -219,14 +219,6 @@
     </script>
 </head>
 <body class="bg-cream text-ink-muted overflow-x-hidden has-mobile-cta">
-    <!-- Netlify build-time form detection (fields must match visible form below) -->
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-        <input type="text" name="name">
-        <input type="tel" name="phone">
-        <input type="email" name="email">
-        <input type="text" name="business-type">
-        <textarea name="message"></textarea>
-    </form>
     <!-- Navigation -->
     <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-5 md:px-6">
@@ -846,15 +838,15 @@
             </div>
 
             <div class="max-w-2xl mx-auto">
-                <!-- Netlify Form -->
-                <form name="contact" method="POST" action="/thank-you.html" netlify-honeypot="bot-field" class="space-y-6">
-                    <input type="hidden" name="form-name" value="contact">
-                    
-                    <!-- Honeypot field for spam protection (hidden from humans) -->
-                    <div class="hidden" aria-hidden="true">
-                        <label for="bot-field">Do not fill this field</label>
-                        <input id="bot-field" name="bot-field" tabindex="-1" autocomplete="off">
-                    </div>
+                <!-- FormSubmit.co (works on Vercel static hosting) -->
+                <form name="contact" method="POST" action="https://formsubmit.co/hello@mahoneydigital.net" class="space-y-6">
+                    <input type="hidden" name="_subject" value="New lead — mahoneydigital.net contact form">
+                    <input type="hidden" name="_next" value="https://mahoneydigital.net/thank-you.html">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <!-- Honeypot (spam bots) -->
+                    <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
                     
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                         <div>

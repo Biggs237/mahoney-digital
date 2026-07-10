@@ -49,7 +49,7 @@ function Start-TelegramBot {
         Write-Host "  1. https://www.python.org/downloads/  -> Download Python 3.12+"
         Write-Host "  2. Run installer -> check 'Add python.exe to PATH'"
         Write-Host "  3. Close and reopen PowerShell, then:"
-        Write-Host "       pip install -r requirements.txt"
+        Write-Host "       pip install -r tools/requirements.txt"
         Write-Host "       .\openclaw.ps1 telegram"
         exit 1
     }

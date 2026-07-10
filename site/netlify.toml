@@ -1,3 +1,5 @@
+# Legacy Netlify config — production deploys via Vercel (see ../vercel.json).
+
 [build]
   publish = "."
 

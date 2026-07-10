@@ -1,0 +1,47 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "site",
+  "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/examples/riverside-lawn",
+      "destination": "/examples/riverside-lawn/",
+      "permanent": true
+    },
+    {
+      "source": "/examples/summit-comfort-hvac",
+      "destination": "/examples/summit-comfort-hvac/",
+      "permanent": true
+    },
+    {
+      "source": "/examples/heritage-home-partners",
+      "destination": "/examples/heritage-home-partners/",
+      "permanent": true
+    },
+    {
+      "source": "/examples/castos-auto-repair",
+      "destination": "/examples/castos-auto-repair/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/thank-you/",
+      "destination": "/thank-you.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}
