@@ -12,13 +12,13 @@ Each business folder contains:
 - `Phone_Script.md` — Call script (benefits, Essential pricing, Essential Care updates) — add per folder when calling
 - `Phone_Script_Essential.md` (folder root) — Master talk track for Essential tier calls
 - `Walk_In_Script.md` — Business card / door-to-door across the street
-- `Calls_Extra_Tomorrow.md` — Follow-ups + extra high-value calls
+- `Archive/` — Dated call lists, prospect snapshots, Substack drafts
 - `generate_phone_scripts.mjs` — Regenerate `Phone_Script.md` in all folders (run: `node generate_phone_scripts.mjs`)
 - `Notes.md` — Status, dates, follow-up reminders, conversation notes
 
 ## Daily workflow (calls & email)
 
-1. **Pick targets** — `Calls_Today_Phone_List.md` (phone) or email-ready rows in audit files.
+1. **Pick targets** — `Activity_Log.md` follow-up queue, prospect folders, or archived lists in `Archive/`.
 2. **Contact** — Use script in that folder’s `Outreach_Draft.md`; call from **614-636-5248**.
 3. **Log twice** (takes 2 minutes):
    - Add a row to **`Activity_Log.md`** (master timeline + quick status table).
@@ -26,7 +26,7 @@ Each business folder contains:
 
 Facebook group posts go in **`Activity_Log.md`** → “Facebook / groups” (not a business folder).
 
-**Phone list for call days:** `Calls_Today_Phone_List.md`
+**Archived call lists:** `Archive/Calls_Today_Phone_List.md`, `Archive/Calls_Tomorrow_Morning.md`
 
 ## Current Leads (May/June 2026)
 

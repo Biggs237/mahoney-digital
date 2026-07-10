@@ -19,7 +19,7 @@ Open this file when you sit down to work. Everything else in the repo supports w
 
 **Follow-up week details:** `Outreach/Activity_Log.md` → section **This week — follow-up queue**
 
-**Call list (tomorrow AM):** `Outreach/Calls_Tomorrow_Morning.md` · **More calls:** `Outreach/Calls_Extra_Tomorrow.md` · **Walk-in (cards):** `Outreach/Walk_In_Script.md`  
+**Call lists (archived snapshots):** `Outreach/Archive/` · **Walk-in (cards):** `Outreach/Walk_In_Script.md` · **Per-prospect scripts:** `Outreach/<Business>/Phone_Script.md`  
 **Phone script in every prospect folder:** `Outreach/<Business>/Phone_Script.md`
 
 **Log every touch:** `Outreach/Activity_Log.md` + that business’s `Outreach/<Folder>/Notes.md` (template: `Outreach/Notes_Log_Format.md`)
@@ -31,11 +31,11 @@ Open this file when you sit down to work. Everything else in the repo supports w
 | What | Where |
 |------|--------|
 | Live site | https://mahoneydigital.net |
-| Deploy / forms | `site/DEPLOY.md` |
+| Deploy / forms | `vercel.json` (Vercel) · contact form via FormSubmit.co |
 | Business model (source of truth) | `VISION_AND_SCOPE.md` |
 | Outreach pipeline | `Outreach/README.md` |
 | Activity log | `Outreach/Activity_Log.md` |
-| Ranked prospects (trades) | `Outreach/Chillicothe_Prospect_Rankings_2026-06-02.md` |
+| Ranked prospects (trades) | `Outreach/Archive/Chillicothe_Prospect_Rankings_2026-06-02.md` |
 | Essential **website build** checklist (first client) | `docs/Essential/Essential_Website_Build_Checklist.md` |
 | Essential **ongoing care** process | `docs/Essential/Essential_Care_Process.md` |
 | Client-facing support docs | `docs/Client_Facing/` |

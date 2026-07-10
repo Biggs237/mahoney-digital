@@ -1,5 +1,0 @@
-# Legacy Netlify config (site now deploys via Vercel — see vercel.json).
-# Kept for reference if you ever roll back.
-[build]
-  base = "site"
-  publish = "."

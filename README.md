@@ -11,7 +11,7 @@ This is the main working folder for Mahoney Digital.
 ```
 MahoneyDigital/
 ├── START_HERE.md          → Dashboard: this week, quick links, build vs support naming
-├── site/                  → The live website (deploy this folder to Netlify)
+├── site/                  → The live website (deployed via Vercel — see vercel.json)
 ├── Outreach/              → Prospects, call lists, Activity_Log, email drafts
 ├── docs/                  → Internal processes, client-facing materials, and guides
 │   ├── Client_Facing/     → Professional documents you can send to prospects/clients
@@ -29,15 +29,11 @@ MahoneyDigital/
 ## Quick Links
 
 - **Start here:** [`START_HERE.md`](START_HERE.md)
-- **Website source:** `/site` (drag this folder to Netlify to deploy)
-- **Outreach / sales:** `/Outreach` — see `Activity_Log.md` and `Calls_Today_Phone_List.md`
+- **Website source:** `/site` (auto-deploys from GitHub via Vercel)
+- **Outreach / sales:** `/Outreach` — see `Activity_Log.md`; dated call lists in `Outreach/Archive/`
 - **Client-facing materials:** `/docs/Client_Facing`
 - **Essential website build (first project):** `docs/Essential/Essential_Website_Build_Checklist.md`
 - **Internal processes:** `/docs/Essential`, `/docs/Growth`, `/docs/Signature`
-- **Tools & Guides:** 
-  - `docs/How_to_Install_and_Use_Composer.md` (general guide + install script)
-  - `docs/COMPOSER_MANUAL_INSTALL_GUIDE.md` (step-by-step manual instructions after the auto script failed)
-
 ## Rules
 
 - One main project at a time
