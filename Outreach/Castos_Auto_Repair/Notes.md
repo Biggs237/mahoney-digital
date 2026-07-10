@@ -7,7 +7,7 @@
 
 - [x] Facebook About checked 2026-06-03 — **no email** on page
 - [ ] First outreach (phone / in-person — no email to send)
-- [ ] **Call pending — 2026-06-08 AM** (priority #1 — `Calls_Tomorrow_Morning.md`)
+- [ ] **In-person visit planned** — owner heading to shop AM (see hours: Mon–Fri 9:30–6 only)
 - [ ] FB message alternative prepared (see FB_Message_Draft.md)
 - [ ] Reply received
 - [ ] Follow-up
@@ -20,7 +20,7 @@
 
 ---
 
-**Next action:** Call **(740) 637-3099** from 614-636-5248 — use `Phone_Script.md`. Demo link is live: https://mahoneydigital.net/examples/castos-auto-repair — text after warm response.
+**Next action:** **In-person visit** — 3364 US-23 S. Bring card; demo on phone: https://mahoneydigital.net/examples/castos-auto-repair. Log outcome here + `Activity_Log.md` after. **Hours: Mon–Fri 9:30 AM–6 PM — closed Sat/Sun.**
 
 **2026-06-08 (Telegram):** Owner: "Let's hold off on deploying. Let me sleep on it." Deploy of tailored Casto's demo + site updates (homepage integrations, etc.) paused. Local files intact. Will decide after review.
 
