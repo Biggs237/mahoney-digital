@@ -109,6 +109,14 @@ iframe {
     flex-shrink: 0;
 }
 
+.castos-wordmark-header {
+    display: block;
+    height: 2.125rem;
+    width: auto;
+    max-width: 6.75rem;
+    object-fit: contain;
+}
+
 .castos-badge {
     display: block;
     border-radius: 50%;
