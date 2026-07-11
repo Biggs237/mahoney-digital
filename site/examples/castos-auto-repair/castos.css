@@ -103,6 +103,7 @@ iframe {
     align-items: center;
     gap: 0.625rem;
     min-width: 0;
+    overflow: visible;
 }
 
 .castos-brand-lockup img {
@@ -111,18 +112,31 @@ iframe {
 
 .castos-wordmark-header {
     display: block;
-    height: auto;
-    max-height: 2.5rem;
+    height: 2.75rem;
     width: auto;
-    max-width: 7rem;
+    max-width: none;
     object-fit: contain;
+    object-position: left center;
 }
 
 .castos-badge {
     display: block;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     background-color: #ffffff;
+    padding: 2px;
+}
+
+.castos-badge--hero {
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+header .max-w-3xl {
+    overflow: visible;
 }
 
 .castos-photo {
