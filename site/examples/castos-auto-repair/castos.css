@@ -118,16 +118,6 @@ iframe {
     object-fit: contain;
 }
 
-.castos-photo-grid--compact {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
-}
-
-.castos-photo--compact {
-    max-height: 7.5rem;
-    object-fit: cover;
-}
-
 .castos-badge {
     display: block;
     border-radius: 50%;
@@ -155,9 +145,5 @@ iframe {
 @media (max-width: 480px) {
     .castos-photo-grid {
         grid-template-columns: 1fr;
-    }
-
-    .castos-photo-grid--compact {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
