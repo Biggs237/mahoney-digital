@@ -111,7 +111,8 @@ iframe {
 
 .castos-wordmark-header {
     display: block;
-    height: 2.125rem;
+    height: auto;
+    max-height: 2.25rem;
     width: auto;
     max-width: 6.75rem;
     object-fit: contain;
