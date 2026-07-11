@@ -115,3 +115,26 @@ iframe {
     object-fit: cover;
     background-color: #ffffff;
 }
+
+.castos-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #111111;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.castos-photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    .castos-photo-grid {
+        grid-template-columns: 1fr;
+    }
+}
