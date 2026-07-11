@@ -142,6 +142,21 @@ iframe {
     max-width: 100%;
 }
 
+.castos-review {
+    border-left: 3px solid #E31E24;
+    padding: 0.75rem 0 0.75rem 1rem;
+    color: #3f3f46;
+    line-height: 1.5;
+}
+
+.castos-review cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-size: 0.75rem;
+    color: #71717a;
+}
+
 @media (max-width: 480px) {
     .castos-photo-grid {
         grid-template-columns: 1fr;
