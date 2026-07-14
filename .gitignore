@@ -22,6 +22,11 @@ Desktop.ini
 # Local dev / agent terminals (not project files)
 terminals/
 
+# Deploy tooling temp payloads (local only)
+.deploy-*
+.deploy-chunks/
+.mcp-deploy-args.json
+
 # OpenClaw Telegram polling state
 tools/.telegram_offset
 tools/.telegram_bot.lock
