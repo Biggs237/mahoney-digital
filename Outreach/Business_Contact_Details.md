@@ -38,4 +38,4 @@ hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
-Last updated: June 2026
+Last updated: July 2026
