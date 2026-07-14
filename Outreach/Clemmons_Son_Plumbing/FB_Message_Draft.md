@@ -22,7 +22,7 @@ Best,
 Jeremy Mahoney
 Mahoney Digital
 Professional websites for small local businesses.
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 mahoneydigital.net | See plans →
 
 ---
@@ -31,6 +31,6 @@ mahoneydigital.net | See plans →
 - Keep it short for FB Messenger.
 - Attach or link to your site if possible.
 - If no reply, follow up with phone call to (740) 775-3475 using script from Scripts.md or Phone_Script.md.
-- Use your business line (740) 530-8790 if calling.
+- Use your business line (740) 492-8601 if calling.
 - FB About for any email harvest (manual login required): https://www.facebook.com/p/Clemmons-Son-Plumbing-100069583013988/about
 - Address: 129 W Hydell Rd, Chillicothe, OH 45601. Lane A plumbing priority.

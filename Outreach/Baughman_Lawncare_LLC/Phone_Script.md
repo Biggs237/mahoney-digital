@@ -1,6 +1,6 @@
 # Phone script — Baughman Lawncare LLC
 
-**Call:** **(614) 578-2220** · **From:** (740) 530-8790 · **Contact:** Kyle R. Baughman  
+**Call:** **(614) 578-2220** · **From:** (740) 492-8601 · **Contact:** Kyle R. Baughman  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/
 
 ---
@@ -41,13 +41,13 @@
 
 ## Voicemail
 
-> “Hi Kyle, Jeremy Mahoney, Mahoney Digital — local. I help lawn companies fix broken or missing websites. Saw your listings point to a domain that isn’t loading — happy to chat when convenient. (740) 530-8790. Thanks.”
+> “Hi Kyle, Jeremy Mahoney, Mahoney Digital — local. I help lawn companies fix broken or missing websites. Saw your listings point to a domain that isn’t loading — happy to chat when convenient. (740) 492-8601. Thanks.”
 
 ---
 
 ## After a warm response
 
-Text from **(740) 530-8790:**
+Text from **(740) 492-8601:**
 
 > Jeremy – Mahoney Digital. Example lawn site: https://mahoneydigital.net/examples/riverside-lawn/ · Pricing: https://mahoneydigital.net/#tiers · No pressure — reply if you want a quick quote.
 

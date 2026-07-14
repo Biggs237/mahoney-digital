@@ -28,7 +28,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -40,4 +40,4 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## Alternate: phone
 
-**Call (740) 649-5511** from **(740) 530-8790** — use neighbor opener above if you've met; otherwise keep it brief like other call scripts.
+**Call (740) 649-5511** from **(740) 492-8601** — use neighbor opener above if you've met; otherwise keep it brief like other call scripts.

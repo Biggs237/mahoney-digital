@@ -22,7 +22,7 @@ Best,
 Jeremy Mahoney
 Mahoney Digital
 Professional websites for small local businesses.
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 mahoneydigital.net | See plans →
 
 ---
@@ -31,4 +31,4 @@ mahoneydigital.net | See plans →
 - Keep it short for FB Messenger.
 - Attach or link to your site if possible.
 - If no reply, follow up with phone call using script from previous or new one.
-- Use your business line (740) 530-8790 if calling.
+- Use your business line (740) 492-8601 if calling.

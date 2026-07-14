@@ -16,7 +16,7 @@ https://mahoneydigital.net/examples/summit-comfort-hvac/
 
 Happy to do a 10-minute honest look at chillicothecomfort.com vs. what competitors are doing — no pitch deck, just straight talk.
 
-Reply here or call/text **(740) 530-8790**.
+Reply here or call/text **(740) 492-8601**.
 
 Best,  
 Jeremy Mahoney  

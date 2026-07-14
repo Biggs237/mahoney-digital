@@ -1,6 +1,6 @@
 # Phone script — Payless Plumbing
 
-**Folder:** `Payless_Plumbing` · **Call:** **(740) 851-9334** · **From:** (740) 530-8790  
+**Folder:** `Payless_Plumbing` · **Call:** **(740) 851-9334** · **From:** (740) 492-8601  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/  
 **Master talk track:** `../Phone_Script_Essential.md`
 
@@ -40,7 +40,7 @@
 
 ## Voicemail
 
-> “Hi, Jeremy Mahoney with Mahoney Digital — Chillicothe area. I help local businesses get an affordable mobile-friendly website. (740) 530-8790. Thanks.”
+> “Hi, Jeremy Mahoney with Mahoney Digital — Chillicothe area. I help local businesses get an affordable mobile-friendly website. (740) 492-8601. Thanks.”
 
 ---
 
@@ -52,8 +52,8 @@
 
 ## After a warm response
 
-Text from **(740) 530-8790:**
+Text from **(740) 492-8601:**
 
-> Jeremy – Mahoney Digital. Example: https://mahoneydigital.net/examples/riverside-lawn/ · Info: https://mahoneydigital.net · (740) 530-8790
+> Jeremy – Mahoney Digital. Example: https://mahoneydigital.net/examples/riverside-lawn/ · Info: https://mahoneydigital.net · (740) 492-8601
 
 Log in `Notes.md` and `Activity_Log.md`.

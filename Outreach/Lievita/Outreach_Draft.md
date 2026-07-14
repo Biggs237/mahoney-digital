@@ -26,7 +26,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 

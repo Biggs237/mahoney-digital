@@ -30,7 +30,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -38,6 +38,6 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## Alternate: phone opener
 
-**Call (740) 703-9055** from **(740) 530-8790:**
+**Call (740) 703-9055** from **(740) 492-8601:**
 
 > "Hi, this is Jeremy with Mahoney Digital, local to Chillicothe. I help contractors polish websites that already exist — yours has good bones but some placeholder stuff. Wondered if you'd want a quick 10-minute overview. No obligation."

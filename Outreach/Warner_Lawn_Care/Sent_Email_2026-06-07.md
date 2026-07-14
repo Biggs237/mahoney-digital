@@ -19,7 +19,7 @@ Quick honest overview here, no pressure:
 
 https://mahoneydigital.net/plans/
 
-Reply or call (740) 530-8790.
+Reply or call (740) 492-8601.
 
 Thanks for keeping Ross County lawns looking sharp.
 
@@ -27,7 +27,7 @@ Jeremy Mahoney
 Mahoney Digital
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 

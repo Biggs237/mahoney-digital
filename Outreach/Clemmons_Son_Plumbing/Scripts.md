@@ -14,7 +14,7 @@ I came across Clemmons & Son and like what you guys do. I was wondering if you'd
 
 ## Voicemail Script
 
-"Hi, this is Jeremy Mahoney with Mahoney Digital in Chillicothe. I help local plumbing companies get a simple website that brings in more calls. I saw Clemmons & Son and wanted to see if you'd be open to a short 10-minute chat with no pressure. You can call or text me back at (740) 530-8790 (my business line) or just reply to hello@mahoneydigital.net. Thanks, and have a good one."
+"Hi, this is Jeremy Mahoney with Mahoney Digital in Chillicothe. I help local plumbing companies get a simple website that brings in more calls. I saw Clemmons & Son and wanted to see if you'd be open to a short 10-minute chat with no pressure. You can call or text me back at (740) 492-8601 (my business line) or just reply to hello@mahoneydigital.net. Thanks, and have a good one."
 
 ## Facebook Messenger Version (Backup)
 

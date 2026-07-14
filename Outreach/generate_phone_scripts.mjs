@@ -117,7 +117,7 @@ function build(folder, info, kind) {
 
   return `# Phone script — ${biz}
 
-**Folder:** \`${folder}\` · **Call:** **${info.phone}** · **From:** (740) 530-8790  
+**Folder:** \`${folder}\` · **Call:** **${info.phone}** · **From:** (740) 492-8601  
 **Tier:** ${tier} · **Demo:** ${demo}  
 **Master talk track:** \`../Phone_Script_Essential.md\`
 ${follow}
@@ -155,7 +155,7 @@ ${care}
 
 ## Voicemail
 
-> “Hi, Jeremy Mahoney with Mahoney Digital — Chillicothe area. I help local businesses get an affordable mobile-friendly website. (740) 530-8790. Thanks.”
+> “Hi, Jeremy Mahoney with Mahoney Digital — Chillicothe area. I help local businesses get an affordable mobile-friendly website. (740) 492-8601. Thanks.”
 
 ---
 
@@ -167,9 +167,9 @@ ${care}
 
 ## After a warm response
 
-Text from **(740) 530-8790:**
+Text from **(740) 492-8601:**
 
-> Jeremy – Mahoney Digital. Example: ${demo} · Info: https://mahoneydigital.net · (740) 530-8790
+> Jeremy – Mahoney Digital. Example: ${demo} · Info: https://mahoneydigital.net · (740) 492-8601
 
 Log in \`Notes.md\` and \`Activity_Log.md\`.
 `;

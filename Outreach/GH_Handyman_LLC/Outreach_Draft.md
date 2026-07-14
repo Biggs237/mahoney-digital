@@ -28,7 +28,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -36,7 +36,7 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## If no email is listed
 
-- **Call** — phone on Yelp/BBB/Nextdoor (use business line **(740) 530-8790**).
+- **Call** — phone on Yelp/BBB/Nextdoor (use business line **(740) 492-8601**).
 - **Facebook message** — shorten to: broken domain + offer 10-min chat + link to mahoneydigital.net.
 
 ## Notes

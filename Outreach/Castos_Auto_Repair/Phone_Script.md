@@ -1,6 +1,6 @@
 # Phone script — Casto's Auto Repair
 
-**Call:** **(740) 637-3099** · **From:** (740) 530-8790  
+**Call:** **(740) 637-3099** · **From:** (740) 492-8601  
 **Address:** 3364 US Highway 23 S, Chillicothe, OH 45601  
 **Tier:** Essential · **Demo to text/show:** https://mahoneydigital.net/examples/castos-auto-repair
 
@@ -38,7 +38,7 @@
 
 ## Voicemail
 
-> “Hi, Jeremy Mahoney, Mahoney Digital — Chillicothe area. I help small auto repair shops get an affordable mobile website so new customers can find and call you. (740) 530-8790. Thanks.”
+> “Hi, Jeremy Mahoney, Mahoney Digital — Chillicothe area. I help small auto repair shops get an affordable mobile website so new customers can find and call you. (740) 492-8601. Thanks.”
 
 ---
 
@@ -52,6 +52,6 @@
 
 Text:
 
-> Jeremy – Mahoney Digital. I put together a quick concept site for Casto's so you can see what an Essential package looks like on a phone: https://mahoneydigital.net/examples/castos-auto-repair · Packages: https://mahoneydigital.net/#tiers · No pressure — (740) 530-8790.
+> Jeremy – Mahoney Digital. I put together a quick concept site for Casto's so you can see what an Essential package looks like on a phone: https://mahoneydigital.net/examples/castos-auto-repair · Packages: https://mahoneydigital.net/#tiers · No pressure — (740) 492-8601.
 
 Log in `Notes.md` and `Activity_Log.md`.

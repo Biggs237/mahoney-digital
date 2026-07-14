@@ -1,7 +1,7 @@
 # Tomorrow morning — top 3 calls
 
 **Date:** 2026-06-08 (Monday) — prep done 2026-06-07 Sat  
-**Call from:** (740) 530-8790  
+**Call from:** (740) 492-8601  
 **Why these three:** Worst owned-web presence in Lane A **plus** signs they already run a real business (reviews, years in business, BBB, physical location) — most likely to see value **and** afford Essential.
 
 ---

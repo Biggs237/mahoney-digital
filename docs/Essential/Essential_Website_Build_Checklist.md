@@ -69,4 +69,4 @@ Heavy galleries, video, complex maps/calendars, e-commerce, custom apps, ongoing
 
 ---
 
-*Mahoney Digital · hello@mahoneydigital.net · (740) 530-8790*
+*Mahoney Digital · hello@mahoneydigital.net · (740) 492-8601*

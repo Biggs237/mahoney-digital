@@ -23,6 +23,6 @@
 
 ---
 
-**Next action:** Email bounced. No valid email. Use FB message to https://www.facebook.com/61587378341344 (draft in FB_Message_Draft.md) or call (931) 698-9104 (script in Phone_Script.md). Use (740) 530-8790 business line.
+**Next action:** Email bounced. No valid email. Use FB message to https://www.facebook.com/61587378341344 (draft in FB_Message_Draft.md) or call (931) 698-9104 (script in Phone_Script.md). Use (740) 492-8601 business line.
 
 **Paused for tonight (user tired, will resume tomorrow).**

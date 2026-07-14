@@ -19,7 +19,7 @@ I work with small local businesses — restaurants, shops, trades — with strai
 
 https://mahoneydigital.net/plans/
 
-Reply here or call me at (740) 530-8790. No pressure.
+Reply here or call me at (740) 492-8601. No pressure.
 
 Thanks for keeping downtown lively.
 
@@ -28,7 +28,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 492-8601
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -36,6 +36,6 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## Alternate: phone opener
 
-**Call (740) 773-8075** from **(740) 530-8790:**
+**Call (740) 773-8075** from **(740) 492-8601:**
 
 > "Hi, Jeremy with Mahoney Digital — local Chillicothe. I help downtown businesses get a simple website so people on their phones can find hours and menu. Taylor Brothers doesn't seem to have its own site yet — open to a quick 10-minute chat? No obligation."
