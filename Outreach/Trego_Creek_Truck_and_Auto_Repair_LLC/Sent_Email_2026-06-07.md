@@ -27,7 +27,7 @@ Jeremy Mahoney
 Mahoney Digital
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | 614-636-5248
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 

@@ -1,6 +1,6 @@
 # Phone script — Essential website + optional care (master)
 
-**Use for:** Lane A cold/warm calls · **From:** 614-636-5248 · **After:** log in `Activity_Log.md` + folder `Notes.md`
+**Use for:** Lane A cold/warm calls · **From:** (740) 530-8790 · **After:** log in `Activity_Log.md` + folder `Notes.md`
 
 Copy the **shared blocks** below into each prospect’s `Phone_Script.md` and customize the opener only.
 
@@ -40,7 +40,7 @@ Copy the **shared blocks** below into each prospect’s `Phone_Script.md` and cu
 
 ## Shared: voicemail (under 25 seconds)
 
-> “Hi, this is Jeremy Mahoney with Mahoney Digital — local, Chillicothe area. I help small service businesses get an affordable, mobile-friendly website. I’ll try you again, or you can reach me at 614-636-5248. Thanks.”
+> “Hi, this is Jeremy Mahoney with Mahoney Digital — local, Chillicothe area. I help small service businesses get an affordable, mobile-friendly website. I’ll try you again, or you can reach me at (740) 530-8790. Thanks.”
 
 ---
 

@@ -1,6 +1,6 @@
 # Phone script — BMG Property Services
 
-**Folder:** `BMG_Property_Services` · **Call:** **(740) 703-9055** · **From:** 614-636-5248  
+**Folder:** `BMG_Property_Services` · **Call:** **(740) 703-9055** · **From:** (740) 530-8790  
 **Tier:** Growth · **Demo:** https://mahoneydigital.net/examples/summit-comfort-hvac/  
 **Master talk track:** `../Phone_Script_Essential.md`
 
@@ -38,7 +38,7 @@
 
 ## Voicemail
 
-> “Hi, Jeremy Mahoney with Mahoney Digital — Chillicothe area. I help local businesses get an affordable mobile-friendly website. 614-636-5248. Thanks.”
+> “Hi, Jeremy Mahoney with Mahoney Digital — Chillicothe area. I help local businesses get an affordable mobile-friendly website. (740) 530-8790. Thanks.”
 
 ---
 
@@ -50,8 +50,8 @@
 
 ## After a warm response
 
-Text from **614-636-5248:**
+Text from **(740) 530-8790:**
 
-> Jeremy – Mahoney Digital. Example: https://mahoneydigital.net/examples/summit-comfort-hvac/ · Info: https://mahoneydigital.net · 614-636-5248
+> Jeremy – Mahoney Digital. Example: https://mahoneydigital.net/examples/summit-comfort-hvac/ · Info: https://mahoneydigital.net · (740) 530-8790
 
 Log in `Notes.md` and `Activity_Log.md`.

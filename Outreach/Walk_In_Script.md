@@ -1,7 +1,7 @@
 # Walk-in script (business card)
 
 **Use when:** Cards arrive · local business nearby · no appointment  
-**From:** Jeremy Mahoney · **Card / site:** mahoneydigital.net · **614-636-5248**
+**From:** Jeremy Mahoney · **Card / site:** mahoneydigital.net · **(740) 530-8790**
 
 ---
 

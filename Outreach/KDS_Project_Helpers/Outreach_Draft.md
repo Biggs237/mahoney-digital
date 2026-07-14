@@ -17,12 +17,12 @@ Happy to share a 10-minute overview — no hype:
 
 https://mahoneydigital.net/plans/
 
-Reply here if you have an email on file, or call me at 614-636-5248.
+Reply here if you have an email on file, or call me at (740) 530-8790.
 
 Jeremy Mahoney  
 Mahoney Digital
 
-hello@mahoneydigital.net | 614-636-5248
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -30,6 +30,6 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## Phone opener
 
-**Call (740) 970-2161** from **614-636-5248:**
+**Call (740) 970-2161** from **(740) 530-8790:**
 
 > "Hi, Jeremy with Mahoney Digital. I help Waverly handyman businesses get a simple website so people can find you online. Open to a 10-minute chat? No obligation."

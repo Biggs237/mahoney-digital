@@ -1,6 +1,6 @@
 # Phone script — Southern Ohio Lawn Maintenance
 
-**Call:** **(740) 701-4565** (mobile) · **From:** 614-636-5248  
+**Call:** **(740) 701-4565** (mobile) · **From:** (740) 530-8790  
 **Facebook:** https://www.facebook.com/p/Southern-Ohio-Lawn-Maintenance-100083026522274/  
 **Tier:** Essential · **Demo:** https://mahoneydigital.net/examples/riverside-lawn/
 
@@ -40,7 +40,7 @@
 
 ## Voicemail
 
-> “Hi, Jeremy Mahoney, Mahoney Digital — Chillicothe area. I help local lawn companies get an affordable website beyond Facebook. 614-636-5248. Thanks.”
+> “Hi, Jeremy Mahoney, Mahoney Digital — Chillicothe area. I help local lawn companies get an affordable website beyond Facebook. (740) 530-8790. Thanks.”
 
 ---
 
@@ -54,6 +54,6 @@
 
 Text:
 
-> Jeremy – Mahoney Digital. Lawn example: https://mahoneydigital.net/examples/riverside-lawn/ · Packages: https://mahoneydigital.net/#tiers · 614-636-5248
+> Jeremy – Mahoney Digital. Lawn example: https://mahoneydigital.net/examples/riverside-lawn/ · Packages: https://mahoneydigital.net/#tiers · (740) 530-8790
 
 Log in `Notes.md` and `Activity_Log.md`.

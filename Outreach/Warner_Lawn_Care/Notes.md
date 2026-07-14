@@ -22,4 +22,4 @@
 
 ---
 
-**Next action:** If no reply by ~Jun 10, call (740) 637-1224 from 614-636-5248. Demo link for lawn: https://mahoneydigital.net/examples/riverside-lawn/ . Full draft in Outreach_Draft.md; sent version in Sent_Email_2026-06-07.md.
+**Next action:** If no reply by ~Jun 10, call (740) 637-1224 from (740) 530-8790. Demo link for lawn: https://mahoneydigital.net/examples/riverside-lawn/ . Full draft in Outreach_Draft.md; sent version in Sent_Email_2026-06-07.md.

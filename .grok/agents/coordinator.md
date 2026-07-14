@@ -54,7 +54,7 @@ Trades, auto, lawn, handyman — weak or no website. **Not** restaurants/hospita
 - HVAC → `https://mahoneydigital.net/examples/summit-comfort-hvac/`
 - Remodeling/premium → `https://mahoneydigital.net/examples/heritage-home-partners/`
 
-**Owner phone/email:** 614-636-5248 · hello@mahoneydigital.net
+**Owner phone/email:** (740) 530-8790 · hello@mahoneydigital.net
 
 ## Calling schedule
 Prefer **weekday business hours** for cold calls. Saturdays many shops are closed — queue calls for Monday AM unless owner says otherwise.

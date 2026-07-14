@@ -26,7 +26,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | 614-636-5248
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -34,7 +34,7 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## Alternate: phone opener
 
-**Call (740) 701-4565 (mobile)** from **614-636-5248:**
+**Call (740) 701-4565 (mobile)** from **(740) 530-8790:**
 
 > "Hi, this is Jeremy with Mahoney Digital — local to Chillicothe. I help lawn maintenance companies get a simple website so people searching on their phone can find you beyond Facebook. Wondered if you'd want a quick 10-minute overview. No obligation."
 

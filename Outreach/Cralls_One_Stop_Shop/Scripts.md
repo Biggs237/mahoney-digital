@@ -14,7 +14,7 @@ I came across Crall's One Stop Shop and like the setup you have. I was wondering
 
 ## Voicemail Script
 
-"Hi, this is Jeremy Mahoney with Mahoney Digital in Chillicothe. I help independent auto repair shops like Crall's get a simple website that brings in new customers. I saw your shop and wanted to see if you'd be open to a short 10-minute chat with no pressure. You can call or text me back at 614-636-5248 (my business line) or just reply to hello@mahoneydigital.net. Thanks, and have a good one."
+"Hi, this is Jeremy Mahoney with Mahoney Digital in Chillicothe. I help independent auto repair shops like Crall's get a simple website that brings in new customers. I saw your shop and wanted to see if you'd be open to a short 10-minute chat with no pressure. You can call or text me back at (740) 530-8790 (my business line) or just reply to hello@mahoneydigital.net. Thanks, and have a good one."
 
 ## Facebook Messenger Version (Backup)
 

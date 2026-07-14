@@ -16,4 +16,4 @@
 
 ---
 
-**Next action:** Verify email on Yelp/Nextdoor. Send `Outreach_Draft.md` from hello@mahoneydigital.net when ready. Use 614-636-5248 for calls.
+**Next action:** Verify email on Yelp/Nextdoor. Send `Outreach_Draft.md` from hello@mahoneydigital.net when ready. Use (740) 530-8790 for calls.
