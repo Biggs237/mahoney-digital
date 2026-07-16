@@ -51,7 +51,7 @@ Open this file when you sit down to work. Everything else in the repo supports w
 
 | Website **build** (one-time project) | Demo example | Ongoing **support** (monthly) |
 |-----------------------------------|--------------|-------------------------------|
-| **Essential** ($1,450–$1,950) | Riverside Lawn (lawn) → `/examples/riverside-lawn/` (clean live Essential reference) · tailored auto (Casto's) on hold per owner | **Essential Care** → `site/plans/essential-care.html` |
+| **Essential** ($1,450–$1,950) | Riverside Lawn (lawn) → `/examples/riverside-lawn/` (clean live Essential reference) · Casto's concept demo local-only (`Outreach/Castos_Auto_Repair/demo-site/`) — no public link | **Essential Care** → `site/plans/essential-care.html` |
 | **Growth** ($2,650–$3,450) | Summit Comfort HVAC → `/examples/summit-comfort-hvac/` | **Growth Partner** → `site/plans/growth-partner.html` |
 | **Signature** ($4,850–$6,850) | Heritage Home Partners → `/examples/heritage-home-partners/` | **Signature Alliance** → `site/plans/signature-alliance.html` |
 

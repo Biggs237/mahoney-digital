@@ -2,7 +2,7 @@
 
 **Call:** **(740) 637-3099** · **From:** (740) 492-8601  
 **Address:** 3364 US Highway 23 S, Chillicothe, OH 45601  
-**Tier:** Essential · **Demo to text/show:** https://mahoneydigital.net/examples/riverside-lawn/ (Casto's concept demo offline until after first conversation)
+**Tier:** Essential · **Demo to text/show:** https://mahoneydigital.net/examples/riverside-lawn/
 
 ---
 

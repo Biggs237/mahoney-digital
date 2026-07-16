@@ -20,7 +20,7 @@
 
 ---
 
-**Next action:** **In-person visit** — 3364 US-23 S. Bring card; demo on phone: https://mahoneydigital.net/examples/castos-auto-repair. Log outcome here + `Activity_Log.md` after. **Hours: Mon–Fri 9:30 AM–6 PM — closed Sat/Sun.**
+**Next action:** **In-person visit** — 3364 US-23 S. Bring card. Use Riverside Lawn demo if needed: https://mahoneydigital.net/examples/riverside-lawn/ (no Casto's-specific link until after first conversation). Log outcome here + `Activity_Log.md` after. **Hours: Mon–Fri 9:30 AM–6 PM — closed Sat/Sun.**
 
 **2026-06-08 (Telegram):** Owner: "Let's hold off on deploying. Let me sleep on it." Deploy of tailored Casto's demo + site updates (homepage integrations, etc.) paused. Local files intact. Will decide after review.
 
@@ -30,4 +30,6 @@
 
 **2026-06-07 (prep):** WebsiteBuilder tailored build complete. Demo integrated locally to site/ (portfolio + Essential tier card now feature Casto's as the real Essential auto example with US-23 copy). Redirects + docs + outreach files updated.
 
-**2026-07-10:** Demo deployed live on Vercel. Fixed redirect loop (removed trailing-slash redirects, added rewrites to index.html). Mobile click-to-call bar + concept banner on all 4 pages. Link verified: https://mahoneydigital.net/examples/castos-auto-repair
+**2026-07-10:** Demo briefly deployed live on Vercel (later removed).
+
+**2026-07-15:** Owner request — Casto's demo taken offline from mahoneydigital.net (homepage, `/examples/castos-auto-repair/`, sitemap, rewrites). Concept files kept locally only: `Outreach/Castos_Auto_Repair/demo-site/`. Do not share a Casto's-specific URL until after first conversation.
