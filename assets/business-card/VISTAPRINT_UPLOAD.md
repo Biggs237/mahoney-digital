@@ -12,7 +12,7 @@
 **Regenerate PNGs** (after any edit):
 
 ```powershell
-cd "C:\Users\Jeremy Mahoney\Projects\MahoneyDigital\assets\business-card"
+cd "C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite\assets\business-card"
 powershell -ExecutionPolicy Bypass -File .\generate-business-cards.ps1
 ```
 
