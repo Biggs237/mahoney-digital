@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article | Mahoney Digital Blog</title>
+    <meta name="description" content="Mahoney Digital blog article">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; background-color: #f8f6f1; }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
+        .nav-link:hover { color: #0d9488; }
+        .blog-prose { color: #334155; line-height: 1.75; font-size: 1.05rem; }
+        .blog-prose h2, .blog-prose h3 { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; color: #0b1120; margin-top: 2rem; margin-bottom: 0.75rem; font-weight: 600; }
+        .blog-prose h2 { font-size: 1.5rem; }
+        .blog-prose h3 { font-size: 1.2rem; }
+        .blog-prose p { margin-bottom: 1.25rem; }
+        .blog-prose a { color: #0f766e; text-decoration: underline; }
+        .blog-prose ul, .blog-prose ol { margin: 1rem 0 1.25rem 1.25rem; }
+        .blog-prose li { margin-bottom: 0.5rem; }
+        .blog-prose img { border-radius: 1rem; margin: 1.5rem 0; max-width: 100%; height: auto; }
+        .blog-prose blockquote { border-left: 4px solid #0d9488; padding-left: 1rem; margin: 1.5rem 0; color: #475569; font-style: italic; }
+    </style>
+</head>
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col">
+    <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-5 md:px-6 h-16 flex justify-between items-center">
+            <a href="/blog/" class="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-brand-dark"><i class="fas fa-arrow-left text-xs"></i> All articles</a>
+            <a href="/#contact" class="text-sm font-semibold text-brand-dark hover:underline">Get in touch</a>
+        </div>
+    </nav>
+
+    <main class="flex-1 max-w-3xl mx-auto px-5 md:px-6 py-10 md:py-14 w-full">
+        <article>
+            <header class="mb-8">
+                <time id="post-date" class="text-xs font-medium text-slate-500 uppercase tracking-wide"></time>
+                <h1 id="post-title" class="heading-font text-3xl md:text-4xl font-semibold text-ink mt-2 mb-4">Loading…</h1>
+            </header>
+            <div id="post-content" class="blog-prose bg-white border border-cream-dark rounded-3xl p-6 md:p-10"></div>
+        </article>
+
+        <div class="mt-12 rounded-3xl bg-ink text-white p-8 text-center">
+            <h2 class="heading-font text-xl font-semibold mb-2">Need a site that actually helps your business?</h2>
+            <p class="text-slate-400 text-sm mb-5">Honest pricing for contractors, trades, and local shops in southern Ohio.</p>
+            <a href="/#contact" class="btn-primary inline-flex px-6 py-3 rounded-2xl text-white font-semibold text-sm">Start a conversation</a>
+        </div>
+    </main>
+
+    <footer class="bg-ink text-slate-400 text-sm py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-5 text-center">
+            <a href="/" class="hover:text-white transition-colors">© 2026 Mahoney Digital</a>
+        </div>
+    </footer>
+
+    <script src="/assets/blog-config.js"></script>
+    <script src="/assets/blog.js"></script>
+    <script>
+        (async function () {
+            const parts = window.location.pathname.replace(/\/$/, '').split('/');
+            const slug = parts[parts.length - 1] === 'post.html' ? null : decodeURIComponent(parts[parts.length - 1] || '');
+
+            const titleEl = document.getElementById('post-title');
+            const dateEl = document.getElementById('post-date');
+            const contentEl = document.getElementById('post-content');
+
+            if (!slug || slug === 'blog') {
+                titleEl.textContent = 'Article not found';
+                contentEl.innerHTML = '<p class="text-slate-600">This link does not match a published post. <a href="/blog/">Back to the blog</a>.</p>';
+                return;
+            }
+
+            try {
+                const post = await fetchBlogPost(slug);
+                if (!post) {
+                    titleEl.textContent = 'Article not found';
+                    contentEl.innerHTML = '<p class="text-slate-600">This post may not be published yet. <a href="/blog/">Back to the blog</a>.</p>';
+                    return;
+                }
+
+                document.title = stripHtml(post.title) + ' | Mahoney Digital Blog';
+                titleEl.textContent = stripHtml(post.title);
+                if (post.date) {
+                    dateEl.dateTime = post.date;
+                    dateEl.textContent = formatDate(post.date);
+                }
+                contentEl.innerHTML = post.content || '';
+            } catch (err) {
+                titleEl.textContent = 'Could not load article';
+                contentEl.innerHTML = '<p class="text-slate-600">Please try again later or <a href="/blog/">return to the blog</a>.</p>';
+            }
+        })();
+    </script>
+    <script defer src="/assets/vercel-insights.js"></script>
+</body>
+</html>
