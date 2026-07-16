@@ -2,7 +2,7 @@
 
 **Call:** **(740) 637-3099** · **From:** (740) 492-8601  
 **Address:** 3364 US Highway 23 S, Chillicothe, OH 45601  
-**Tier:** Essential · **Demo to text/show:** https://mahoneydigital.net/examples/riverside-lawn/
+**Tier:** Essential · **Demo to text/show (unlisted — share only after warm conversation):** https://mahoneydigital.net/examples/castos-auto-repair · **Public Essential reference:** https://mahoneydigital.net/examples/riverside-lawn/
 
 ---
 
@@ -52,6 +52,6 @@
 
 Text:
 
-> Jeremy – Mahoney Digital. Here's an example of what an Essential package looks like on a phone: https://mahoneydigital.net/examples/riverside-lawn/ · Packages: https://mahoneydigital.net/#tiers · No pressure — (740) 492-8601.
+> Jeremy – Mahoney Digital. I put together a quick concept for Casto's so you can see what an Essential package looks like on a phone: https://mahoneydigital.net/examples/castos-auto-repair · Packages: https://mahoneydigital.net/#tiers · No pressure — (740) 492-8601.
 
 Log in `Notes.md` and `Activity_Log.md`.

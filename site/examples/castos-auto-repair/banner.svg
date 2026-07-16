@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 909 353" role="img" aria-label="Casto's Auto Repair — Specializing in Engine Repair. Monday-Friday 9:30am-6:00pm. Financing available.">
+  <defs>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="18%" stop-color="#f4f4f4"/>
+      <stop offset="45%" stop-color="#bdbdbd"/>
+      <stop offset="72%" stop-color="#6e6e6e"/>
+      <stop offset="100%" stop-color="#1f1f1f"/>
+    </linearGradient>
+    <linearGradient id="redRibbon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b40"/>
+      <stop offset="55%" stop-color="#e31e24"/>
+      <stop offset="100%" stop-color="#a91519"/>
+    </linearGradient>
+    <linearGradient id="blackRibbon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="chromeShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="ribbonShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="901" height="345" fill="#ffffff" stroke="#6b8f3a" stroke-width="2"/>
+  <rect x="8" y="8" width="893" height="337" fill="#ffffff" stroke="#111111" stroke-width="5"/>
+  <text x="454" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#111111">Specializing in Engine Repair</text>
+  <g transform="translate(52 54)">
+    <text x="138" y="74" text-anchor="middle" font-family="'Brush Script MT', 'Segoe Script', 'Pacifico', cursive" font-size="72" font-weight="700" fill="url(#chrome)" stroke="#111111" stroke-width="1.8" filter="url(#chromeShadow)">Casto's</text>
+    <g filter="url(#ribbonShadow)">
+      <path d="M 6 90 C 24 76, 52 76, 72 82 L 204 82 C 224 76, 252 76, 270 90 L 270 110 C 252 124, 224 124, 204 118 L 72 118 C 52 124, 24 124, 6 110 Z" fill="url(#redRibbon)" stroke="#7a1013" stroke-width="1"/>
+      <path d="M 6 90 L 16 96 L 16 104 L 6 110 Z" fill="#8f1418"/>
+      <path d="M 270 90 L 260 96 L 260 104 L 270 110 Z" fill="#8f1418"/>
+    </g>
+    <text x="138" y="106" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="4" fill="#ffffff">AUTO REPAIR</text>
+    <g filter="url(#ribbonShadow)">
+      <path d="M 22 126 C 72 154, 204 154, 254 126 C 264 132, 270 140, 270 148 C 204 176, 72 176, 6 148 C 6 140, 12 132, 22 126 Z" fill="url(#blackRibbon)" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text x="138" y="154" text-anchor="middle" font-family="'Brush Script MT', 'Segoe Script', cursive" font-size="24" font-weight="700" fill="#ffffff">Fueled by Faith</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111111">
+    <text x="620" y="118" font-size="24" font-weight="800" letter-spacing="1">MONDAY- FRIDAY</text>
+    <text x="620" y="152" font-size="24" font-weight="800">9:30am - 6:00pm</text>
+  </g>
+  <text x="454" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#E31E24">FINANCING AVAILABLE*</text>
+  <text x="760" y="318" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#111111">Terms and Conditions Apply*</text>
+</svg>
