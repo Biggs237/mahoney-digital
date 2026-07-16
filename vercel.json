@@ -25,30 +25,6 @@
       "destination": "/blog/post.html"
     },
     {
-      "source": "/work",
-      "destination": "/work/index.html"
-    },
-    {
-      "source": "/work/",
-      "destination": "/work/index.html"
-    },
-    {
-      "source": "/packages",
-      "destination": "/packages/index.html"
-    },
-    {
-      "source": "/packages/",
-      "destination": "/packages/index.html"
-    },
-    {
-      "source": "/how-it-works",
-      "destination": "/how-it-works/index.html"
-    },
-    {
-      "source": "/how-it-works/",
-      "destination": "/how-it-works/index.html"
-    },
-    {
       "source": "/examples/castos-auto-repair",
       "destination": "/examples/castos-auto-repair/index.html"
     },
