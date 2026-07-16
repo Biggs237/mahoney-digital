@@ -24,7 +24,10 @@
         .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
         .nav-link { transition: color 0.2s ease; }
         .nav-link:hover { color: var(--brand); }
-        .btn-primary { background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%); }
+        .btn-primary {
+            background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%);
+            box-shadow: 0 4px 6px -1px rgb(13 148 136 / 0.2);
+        }
         .btn-primary:hover { background: linear-gradient(135deg, var(--ink) 0%, var(--brand-dark) 100%); }
         .hero-mesh {
             background:
@@ -38,10 +41,10 @@
 <body class="bg-cream text-ink-muted min-h-screen flex flex-col">
     <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-5 md:px-6 h-16 md:h-20 flex justify-between items-center">
-            <a href="/" class="flex items-center gap-x-3">
-                <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9" aria-hidden="true">
+            <a href="/" class="flex items-center gap-x-3 leading-none">
+                <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9 block shrink-0" aria-hidden="true">
                     <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
-                    <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
+                    <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.06em">M</text>
                 </svg>
                 <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
             </a>
@@ -49,8 +52,9 @@
                 <a href="/#work" class="nav-link font-medium text-slate-600">Work</a>
                 <a href="/#tiers" class="nav-link font-medium text-slate-600">Packages</a>
                 <a href="/#how" class="nav-link font-medium text-slate-600">How it works</a>
-                <a href="/blog/" class="font-medium text-brand">Blog</a>
+                <a href="/blog/" class="font-medium text-brand-dark">Blog</a>
                 <a href="/#contact" class="inline-flex px-4 py-2 text-sm font-semibold rounded-2xl border border-slate-300 hover:bg-cream transition-colors">Get in touch</a>
+                <a href="/plans/" class="btn-primary inline-flex px-4 py-2 text-sm font-semibold rounded-2xl text-white transition-all">See Support Plans</a>
             </div>
             <a href="/" class="md:hidden text-sm font-medium text-slate-600">Home</a>
         </div>
@@ -59,7 +63,7 @@
     <header class="hero-mesh relative overflow-hidden text-white">
         <div class="relative max-w-6xl mx-auto px-5 md:px-6 py-14 md:py-20">
             <a href="/" class="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-white mb-6 transition-colors"><i class="fas fa-arrow-left text-xs"></i> Mahoney Digital</a>
-            <p class="text-brand-light text-xs font-semibold tracking-[0.2em] uppercase mb-3">For local trades &amp; shops</p>
+            <p class="text-brand text-xs font-semibold tracking-[0.2em] uppercase mb-3">For local trades &amp; shops</p>
             <h1 class="heading-font text-3xl md:text-5xl font-semibold tracking-tight mb-4">Practical notes on looking legit online.</h1>
             <p class="text-slate-400 text-lg max-w-2xl leading-relaxed">Short, honest articles about websites, visibility, and what actually helps small businesses in Ross County and southern Ohio get found — without the agency fluff.</p>
         </div>
@@ -74,7 +78,7 @@
         <section id="blog-placeholder-note" class="hidden mt-12 rounded-3xl border border-cream-dark bg-white p-8 md:p-10 text-center max-w-2xl mx-auto">
             <h2 class="heading-font text-2xl font-semibold text-ink mb-3">First posts are on the way.</h2>
             <p class="text-slate-600 mb-6">We're setting up the blog for a contributor who'll write about local trades, websites, and getting your first real customers from search.</p>
-            <a href="/#contact" class="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-white font-semibold text-sm">Start a conversation</a>
+            <a href="/#contact" class="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-white font-semibold text-sm transition-all">Start a conversation</a>
         </section>
     </main>
 

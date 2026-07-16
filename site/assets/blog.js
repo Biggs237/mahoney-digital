@@ -49,7 +49,7 @@ function renderPostCard(post) {
   const date = formatDate(post.date);
   const img = post.featured_image
     ? `<img src="${post.featured_image}" alt="" class="w-full h-44 object-cover" loading="lazy">`
-    : `<div class="h-44 bg-gradient-to-br from-brand-light/25 to-brand/15 flex items-center justify-center"><i class="fas fa-wrench text-brand/50 text-3xl" aria-hidden="true"></i></div>`;
+    : `<div class="h-44 bg-gradient-to-br from-brand-dark/20 to-brand/10 flex items-center justify-center"><i class="fas fa-wrench text-brand-dark/40 text-3xl" aria-hidden="true"></i></div>`;
 
   return `
     <article class="blog-card group bg-white border border-cream-dark rounded-3xl overflow-hidden hover:border-brand/30 transition-colors">
@@ -57,9 +57,9 @@ function renderPostCard(post) {
         ${img}
         <div class="p-6">
           ${date ? `<time class="text-xs font-medium text-slate-500 uppercase tracking-wide" datetime="${post.date}">${date}</time>` : ''}
-          <h2 class="heading-font text-xl font-semibold text-ink mt-2 mb-2 group-hover:text-brand transition-colors">${title}</h2>
+          <h2 class="heading-font text-xl font-semibold text-ink mt-2 mb-2 group-hover:text-brand-dark transition-colors">${title}</h2>
           <p class="text-sm text-slate-600 leading-relaxed line-clamp-3">${excerpt}</p>
-          <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand mt-4">Read article <i class="fas fa-arrow-right text-[10px]"></i></span>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-dark mt-4">Read article <i class="fas fa-arrow-right text-[10px]"></i></span>
         </div>
       </a>
     </article>
@@ -86,7 +86,7 @@ function renderPlaceholderCards() {
     .map(
       (t) => `
     <article class="bg-white border border-dashed border-slate-200 rounded-3xl p-6">
-      <span class="inline-block text-[10px] font-bold tracking-[0.2em] uppercase text-brand bg-brand-light/20 px-2.5 py-1 rounded-full mb-3">Coming soon</span>
+      <span class="inline-block text-[10px] font-bold tracking-[0.2em] uppercase text-brand-dark bg-brand/10 px-2.5 py-1 rounded-full mb-3">Coming soon</span>
       <h2 class="heading-font text-lg font-semibold text-ink mb-2">${t.title}</h2>
       <p class="text-sm text-slate-600 leading-relaxed">${t.excerpt}</p>
     </article>
