@@ -20,7 +20,7 @@
 
 ---
 
-**Next action:** **In-person visit** — 3364 US-23 S. Bring card. **Unlisted demo** (noindex, not on homepage/sitemap): https://mahoneydigital.net/examples/castos-auto-repair — share only after warm conversation. Log outcome here + `Activity_Log.md` after. **Hours: Mon–Fri 9:30 AM–6 PM — closed Sat/Sun.**
+**Next action:** **In-person visit** — 3364 US-23 S. Bring card. **Unlisted demo** (password + noindex, not on homepage/sitemap): https://mahoneydigital.net/examples/castos-auto-repair — share login only after warm conversation. Log outcome here + `Activity_Log.md` after. **Hours: Mon–Fri 9:30 AM–6 PM — closed Sat/Sun.**
 
 **2026-06-08 (Telegram):** Owner: "Let's hold off on deploying. Let me sleep on it." Deploy of tailored Casto's demo + site updates (homepage integrations, etc.) paused. Local files intact. Will decide after review.
 
@@ -35,3 +35,5 @@
 **2026-07-15:** Owner request — Casto's demo briefly fully offline (homepage link removed).
 
 **2026-07-15 (later):** Demo restored as **unlisted** at https://mahoneydigital.net/examples/castos-auto-repair — `noindex` on pages, `X-Robots-Tag` header, `robots.txt` Disallow, not in sitemap or homepage. Direct-link only; share after first conversation. Source copy also in `Outreach/Castos_Auto_Repair/demo-site/`.
+
+**2026-07-15 (auth):** HTTP Basic Auth via Vercel Edge Middleware. Username: `castos` (env `CASTOS_DEMO_USER`). Password in Vercel env `CASTOS_DEMO_PASSWORD` — not stored in git.
