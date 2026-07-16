@@ -8,38 +8,56 @@
     <meta property="og:title" content="Mahoney Digital Blog">
     <meta property="og:description" content="Practical tips for local trades and shops building a real web presence.">
     <meta property="og:type" content="website">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 letter-spacing=%22-0.06em%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
-        body { font-family: 'Inter', system-ui, sans-serif; background-color: #f8f6f1; }
+        :root {
+            --ink: #0b1120;
+            --brand: #0d9488;
+            --brand-dark: #0f766e;
+            --brand-light: #5eead4;
+            --cream: #f8f6f1;
+        }
+        body { font-family: 'Inter', system-ui, sans-serif; background-color: var(--cream); }
         .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
-        .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
-        .btn-primary:hover { background: linear-gradient(135deg, #0b1120 0%, #0f766e 100%); }
-        .nav-link:hover { color: #0d9488; }
+        .nav-link { transition: color 0.2s ease; }
+        .nav-link:hover { color: var(--brand); }
+        .btn-primary { background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%); }
+        .btn-primary:hover { background: linear-gradient(135deg, var(--ink) 0%, var(--brand-dark) 100%); }
+        .hero-mesh {
+            background:
+                radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13, 148, 136, 0.22), transparent 55%),
+                radial-gradient(ellipse 50% 40% at 100% 50%, rgba(217, 119, 6, 0.08), transparent 50%),
+                radial-gradient(ellipse 40% 50% at 0% 80%, rgba(13, 148, 136, 0.1), transparent 45%),
+                var(--ink);
+        }
     </style>
 </head>
 <body class="bg-cream text-ink-muted min-h-screen flex flex-col">
     <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-5 md:px-6 h-16 md:h-20 flex justify-between items-center">
             <a href="/" class="flex items-center gap-x-3">
-                <svg width="32" height="32" viewBox="0 0 256 256" aria-hidden="true"><rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/><text x="128" y="168" font-family="Inter, system-ui, sans-serif" font-size="128" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="-0.06em">M</text></svg>
-                <span class="font-semibold text-lg tracking-tighter text-ink">Mahoney Digital</span>
+                <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9" aria-hidden="true">
+                    <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
+                    <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
+                </svg>
+                <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
             </a>
             <div class="hidden md:flex items-center gap-x-6 text-sm">
                 <a href="/#work" class="nav-link font-medium text-slate-600">Work</a>
                 <a href="/#tiers" class="nav-link font-medium text-slate-600">Packages</a>
                 <a href="/#how" class="nav-link font-medium text-slate-600">How it works</a>
-                <a href="/blog/" class="font-medium text-brand-dark">Blog</a>
+                <a href="/blog/" class="font-medium text-brand">Blog</a>
                 <a href="/#contact" class="inline-flex px-4 py-2 text-sm font-semibold rounded-2xl border border-slate-300 hover:bg-cream transition-colors">Get in touch</a>
             </div>
             <a href="/" class="md:hidden text-sm font-medium text-slate-600">Home</a>
         </div>
     </nav>
 
-    <header class="bg-ink text-white">
-        <div class="max-w-6xl mx-auto px-5 md:px-6 py-14 md:py-20">
+    <header class="hero-mesh relative overflow-hidden text-white">
+        <div class="relative max-w-6xl mx-auto px-5 md:px-6 py-14 md:py-20">
             <a href="/" class="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-white mb-6 transition-colors"><i class="fas fa-arrow-left text-xs"></i> Mahoney Digital</a>
             <p class="text-brand-light text-xs font-semibold tracking-[0.2em] uppercase mb-3">For local trades &amp; shops</p>
             <h1 class="heading-font text-3xl md:text-5xl font-semibold tracking-tight mb-4">Practical notes on looking legit online.</h1>
