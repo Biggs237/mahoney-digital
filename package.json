@@ -2,5 +2,11 @@
   "name": "mahoney-digital",
   "private": true,
   "version": "1.0.0",
-  "description": "Mahoney Digital marketing site (static files in site/)"
+  "description": "Mahoney Digital marketing site (static files in site/)",
+  "scripts": {
+    "build:css": "tailwindcss -i ./site/assets/tailwind-input.css -o ./site/assets/site.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }
