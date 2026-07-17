@@ -38,10 +38,20 @@ Review specialist output before it goes to the owner or a prospect.
 | Weekly focus | `START_HERE.md` |
 | Business model | `VISION_AND_SCOPE.md` |
 | Agency site + demos | `site/` |
+| **Push site live** | **`docs/DEPLOY.md`** — edit `site/`, then `git push origin master` |
 | Build & care processes | `docs/Essential/` |
 | New lead research (agent output) | `Outreach/Leads/` |
 
+**Repo root (cwd for all work):** `C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite`
+
 **Client contracts & delivery** live outside this repo in `Clients/<BusinessName>/` on the owner's machine.
+
+## Site deploys (critical)
+- **Always** ship site changes with: `git add` → `git commit` → `git push origin master`.
+- Vercel auto-deploys production from GitHub `master` to mahoneydigital.net.
+- **Never** use `deploy_to_vercel` MCP with a partial file tree (that broke earlier deploys).
+- **Never** rely on `scripts/vercel-deploy.mjs` for API file upload — it only prints the git instructions now.
+- Full rules: `docs/DEPLOY.md`.
 
 ## Sales focus (Lane A — now)
 Trades, auto, lawn, handyman — weak or no website. **Not** restaurants/hospitality until Lane A has momentum.
@@ -66,7 +76,7 @@ When the owner messages via Telegram, treat it like a direct instruction. After 
 When the owner asks you to run LeadGenerator, Sales, or WebsiteBuilder, **do not say you cannot** — spawn them via shell from this repo root:
 
 ```powershell
-grok --agent leadgenerator -p "TASK HERE" --cwd "C:\Users\Jeremy Mahoney\.grok\worktrees\projects-mahoneydigital\mahoney-digital" --always-approve
+grok --agent leadgenerator -p "TASK HERE" --cwd "C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite" --always-approve
 ```
 
 Replace `leadgenerator` with `sales` or `websitebuilder` as needed. Use a **small test task** if they say "test" (e.g. 3 prospects, summary only).

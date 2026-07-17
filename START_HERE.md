@@ -31,7 +31,8 @@ Open this file when you sit down to work. Everything else in the repo supports w
 | What | Where |
 |------|--------|
 | Live site | https://mahoneydigital.net |
-| Deploy / forms | `vercel.json` (Vercel) · contact form via FormSubmit.co |
+| **How to deploy site updates** | **`docs/DEPLOY.md`** — commit + `git push origin master` (GitHub → Vercel). Do not use MCP file upload. |
+| Deploy config / forms | `vercel.json` (Vercel) · contact form via FormSubmit.co |
 | Business model (source of truth) | `VISION_AND_SCOPE.md` |
 | Outreach pipeline | `Outreach/README.md` |
 | Activity log | `Outreach/Activity_Log.md` |
