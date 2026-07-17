@@ -41,7 +41,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const key = process.env.XAI_API_KEY;
+  const key = (process.env.XAI_API_KEY || '').trim();
   if (!key) {
     return res.status(503).json({
       error: 'not_configured',
@@ -50,15 +50,23 @@ export default async function handler(req, res) {
   }
 
   let body = req.body;
-  if (typeof body === 'string') {
+  if (body == null || typeof body === 'string') {
     try {
-      body = JSON.parse(body);
+      const raw =
+        typeof body === 'string'
+          ? body
+          : typeof req.body === 'string'
+            ? req.body
+            : '';
+      // Vercel sometimes leaves body unparsed
+      if (raw) body = JSON.parse(raw);
+      else if (body == null) body = {};
     } catch {
       return res.status(400).json({ error: 'Invalid JSON' });
     }
   }
 
-  const userMessage = (body?.message || '').toString().trim().slice(0, 2000);
+  const userMessage = (body?.message || body?.content || '').toString().trim().slice(0, 2000);
   const history = Array.isArray(body?.history) ? body.history.slice(-8) : [];
 
   if (!userMessage) {
@@ -95,9 +103,13 @@ export default async function handler(req, res) {
 
     if (!upstream.ok) {
       console.error('xAI error', upstream.status, data);
+      const detail = data?.error || data?.message || '';
+      // 401/invalid key → tell client to fall back (don't pretend Grok answered)
       return res.status(502).json({
         error: 'upstream',
-        message: 'I could not reach the assistant just now. Call or text (740) 530-8790 or use the contact form.',
+        detail: typeof detail === 'string' ? detail : JSON.stringify(detail),
+        message:
+          'Assistant temporarily unavailable. Call or text (740) 530-8790 or use the contact form.',
       });
     }
 

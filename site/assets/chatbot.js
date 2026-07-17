@@ -179,6 +179,7 @@
       messagesEl.appendChild(typing);
       messagesEl.scrollTop = messagesEl.scrollHeight;
 
+      // Always have a solid local answer; only replace if Grok API succeeds
       let answer = localAnswer(text);
 
       try {
@@ -191,12 +192,10 @@
           }),
         });
         const data = await res.json().catch(() => ({}));
-        if (res.ok && data.reply) {
-          answer = data.reply;
-        } else if (data.message && res.status !== 503) {
-          answer = data.message;
+        if (res.ok && data.reply && String(data.reply).trim()) {
+          answer = String(data.reply).trim();
         }
-        // 503 not_configured → keep localAnswer
+        // Any error (missing key, bad key, network) → keep localAnswer
       } catch {
         // offline / no API → localAnswer already set
       }
