@@ -1,6 +1,6 @@
 # Mahoney Digital — Business cards for VistaPrint
 
-**Status:** Cards ordered (user confirmed) with prior number **(740) 530-8790**. Business line is now **(740) 530-8790** (Marblism receptionist). Regenerate PNGs and reorder when ready, or hand-write the new number on cards until then.
+**Status:** Business line is **(740) 530-8790** (Grok Voice). Cards / PNGs should match this number. Regenerate with `generate-business-cards.ps1` if printed stock still shows an old number.
 
 ## Files (upload these)
 
