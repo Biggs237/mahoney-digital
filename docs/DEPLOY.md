@@ -11,17 +11,29 @@
 
 GitHub is connected to Vercel. **Commit + push = production.**
 
+### For AI agents (Grok / Composer / Cursor)
+
+**You can and must run these commands yourself** via the shell/terminal tool. Do **not** tell the owner you “can’t” push, and do **not** only paste commands for them to run.
+
+1. Working directory must be: `C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite`
+2. Request full permissions if the tool asks (`git_write` / network / `all`) — push needs network + write.
+3. Then run:
+
 ```powershell
 cd "C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite"
-
-# After editing files under site/ (or vercel.json, middleware, etc.)
-npm run build:css   # only if Tailwind/source CSS changed
-
-git add -A
 git status
+git pull origin master
+# after your edits:
+git add -A
 git commit -m "Describe the site change clearly"
 git push origin master
 ```
+
+4. Confirm: `git status -sb` shows `master...origin/master` with no “ahead”.
+
+### Manual (owner)
+
+Same commands in PowerShell from that folder.
 
 Wait ~30–60 seconds, then hard-refresh https://mahoneydigital.net (Ctrl+F5).
 

@@ -41,8 +41,9 @@ Read **`docs/Essential/Essential_Website_Build_Checklist.md`** (or Growth/Signat
 ## Agency site
 Do not confuse client builds with **`site/`** (mahoneydigital.net marketing site). Client sites are separate projects.
 
-To update the **agency** site: edit `site/`, then `git push origin master` from  
-`C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite` (details in `docs/DEPLOY.md`).
+To update the **agency** site: edit `site/`, then **you** run `git push origin master` from  
+`C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite` (details in `docs/DEPLOY.md`).  
+Do not claim you cannot push — use the shell tool with network/`git_write` if prompted.
 
 ## Skills
 Use implement/review loop for non-trivial work. Keep diffs focused.

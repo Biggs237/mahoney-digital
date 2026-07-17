@@ -49,6 +49,8 @@ Review specialist output before it goes to the owner or a prospect.
 ## Site deploys (critical)
 - **Always** ship site changes with: `git add` → `git commit` → `git push origin master`.
 - Vercel auto-deploys production from GitHub `master` to mahoneydigital.net.
+- **You have shell access — run git yourself.** Never say you cannot `git pull` / `git push` when the owner asked you to deploy. If a permission prompt appears, request `git_write` + network (or `all`) and continue.
+- **Never** only paste git commands for the owner to run when you can execute them.
 - **Never** use `deploy_to_vercel` MCP with a partial file tree (that broke earlier deploys).
 - **Never** rely on `scripts/vercel-deploy.mjs` for API file upload — it only prints the git instructions now.
 - Full rules: `docs/DEPLOY.md`.
