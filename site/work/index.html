@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work &amp; Examples | Mahoney Digital</title>
+    <meta name="description" content="Browse Essential, Growth, and Signature package demos for local trades — lawn, HVAC, and remodeling examples.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; background: #f8f6f1; }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
+        .nav-link:hover { color: #0d9488; }
+        .portfolio-card { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+        .portfolio-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px -12px rgb(11 17 32 / 0.2); }
+        .portfolio-preview { aspect-ratio: 16 / 10; }
+        .hero-mesh { background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13,148,136,0.22), transparent 55%), #0b1120; }
+    </style>
+</head>
+<body class="bg-cream min-h-screen flex flex-col">
+    <nav class="bg-white/95 border-b border-cream-dark sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-5 h-16 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-x-3 leading-none">
+                <svg width="32" height="32" viewBox="0 0 256 256" class="block" aria-hidden="true"><rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/><text x="128" y="168" font-family="Inter, system-ui, sans-serif" font-size="128" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="-0.06em">M</text></svg>
+                <span class="font-semibold text-lg tracking-tighter text-ink">Mahoney Digital</span>
+            </a>
+            <div class="hidden md:flex items-center gap-x-5 text-sm">
+                <a href="/websites/" class="nav-link font-medium text-slate-600">Websites</a>
+                <a href="/work/" class="font-medium text-brand-dark">Work</a>
+                <a href="/care-plans/" class="nav-link font-medium text-slate-600">Care plans</a>
+                <a href="/contact/" class="btn-primary px-4 py-2 rounded-2xl text-white text-sm font-semibold">Get in touch</a>
+            </div>
+            <a href="/" class="md:hidden text-sm text-slate-600">Home</a>
+        </div>
+    </nav>
+
+    <header class="hero-mesh text-white">
+        <div class="max-w-6xl mx-auto px-5 py-12 md:py-16">
+            <a href="/" class="text-sm text-slate-400 hover:text-white inline-flex items-center gap-2 mb-6"><i class="fas fa-arrow-left text-xs"></i> Home</a>
+            <p class="text-brand-light text-xs font-semibold tracking-[0.2em] uppercase mb-3">Package examples</p>
+            <h1 class="heading-font text-3xl md:text-5xl font-semibold tracking-tight mb-4">See what each tier looks like.</h1>
+            <p class="text-slate-400 text-lg max-w-2xl">Demo sites for Essential, Growth, and Signature — custom layouts for trades, not generic templates. Your project would be tailored to your business.</p>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-6xl mx-auto px-5 py-12 w-full">
+        <div class="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
+            <a href="/examples/heritage-home-partners/" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream">
+                <div class="portfolio-preview relative" style="background-image:url('/assets/images/heritage-kitchen.jpg');background-size:cover;background-position:center;">
+                    <div class="absolute inset-0 bg-gradient-to-br from-stone-950/85 via-stone-900/60 to-black/50"></div>
+                    <div class="absolute inset-0 p-5 flex flex-col justify-end">
+                        <div class="text-amber-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Remodeling</div>
+                        <div class="text-white font-semibold text-lg heading-font">Heritage Home Partners</div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <p class="text-sm text-slate-600 mb-3">7-page Signature — projects, process, reviews, consultation framing.</p>
+                    <span class="text-xs font-semibold text-amber-900 bg-amber-100/80 px-3 py-1 rounded-full">Signature</span>
+                </div>
+            </a>
+            <a href="/examples/summit-comfort-hvac/" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream">
+                <div class="portfolio-preview relative" style="background-image:url('/assets/images/summit-hvac.jpg');background-size:cover;background-position:center;">
+                    <div class="absolute inset-0 bg-gradient-to-br from-sky-950/85 via-slate-900/60 to-black/50"></div>
+                    <div class="absolute inset-0 p-5 flex flex-col justify-end">
+                        <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">HVAC</div>
+                        <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <p class="text-sm text-slate-600 mb-3">8-page Growth — AC, heating, areas, reviews, FAQ, contact.</p>
+                    <span class="text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Growth</span>
+                </div>
+            </a>
+            <a href="/examples/riverside-lawn/" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream">
+                <div class="portfolio-preview relative" style="background-image:url('/assets/images/riverside-lawn.jpg');background-size:cover;background-position:center;">
+                    <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/85 via-stone-900/60 to-black/40"></div>
+                    <div class="absolute inset-0 p-5 flex flex-col justify-end">
+                        <div class="text-emerald-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Lawn &amp; landscape</div>
+                        <div class="text-white font-semibold text-lg heading-font">Riverside Lawn</div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <p class="text-sm text-slate-600 mb-3">4-page Essential — home, services, about, contact + click-to-call.</p>
+                    <span class="text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Essential</span>
+                </div>
+            </a>
+        </div>
+        <div class="text-center mt-12">
+            <a href="/websites/" class="inline-flex items-center text-brand-dark font-semibold mr-6 hover:underline">View packages →</a>
+            <a href="/contact/" class="btn-primary inline-flex px-7 py-3.5 rounded-2xl text-white font-semibold">Discuss your project</a>
+        </div>
+    </main>
+
+    <footer class="bg-ink text-slate-400 text-sm py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-5 flex justify-between">
+            <span class="text-white font-semibold">Mahoney Digital</span>
+            <a href="/contact/" class="hover:text-white">Contact</a>
+        </div>
+    </footer>
+    <script defer src="/assets/vercel-insights.js"></script>
+</body>
+</html>

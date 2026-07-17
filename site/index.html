@@ -3,84 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahoney Digital | Websites for Small Local Businesses</title>
-    <meta name="description" content="Professional, fast, mobile-first websites for contractors, trades, and small local service businesses. Clear pricing. No hype.">
-    <meta property="og:title" content="Mahoney Digital | Websites for Small Local Businesses">
-    <meta property="og:description" content="Professional websites built for overlooked small businesses. Honest pricing. Real results.">
+    <title>Mahoney Digital | Websites &amp; Digital Help for Local Businesses</title>
+    <meta name="description" content="Websites, practical AI tools, and care plans for contractors, trades, and local shops in Ross County and southern Ohio. Clear pricing. No hype.">
+    <meta property="og:title" content="Mahoney Digital | Local websites that look legit">
+    <meta property="og:description" content="Pick what you need — websites, care plans, practical AI, or see our work. Chillicothe, Ohio.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/assets/images/og-image.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="/assets/images/og-image.jpg">
-    
-    <!-- Favicon (matches assets/brand/logo-mark.svg) -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 letter-spacing=%22-0.06em%22>M</text></svg>">
-    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
-        
-        :root {
-            --ink: #0b1120;
-            --ink-light: #151d32;
-            --cream: #f8f6f1;
-            --brand: #0d9488;
-            --brand-dark: #0f766e;
-            --brand-warm: #d97706;
-            --text: #1e293b;
-            --text-muted: #64748b;
-        }
-        
-        body {
-            font-family: 'Inter', system-ui, sans-serif;
-            background-color: var(--cream);
-        }
-        
-        .heading-font {
-            font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
-            font-weight: 600;
-            letter-spacing: -0.025em;
-        }
-
-        .section {
-            scroll-margin-top: 88px;
-        }
-
-        .tier-card {
-            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            text-decoration: none;
-            color: inherit;
-        }
-        
-        .tier-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 25px 30px -8px rgb(11 17 32 / 0.12), 0 10px 12px -6px rgb(11 17 32 / 0.08);
-        }
-
-        .tier-card:focus-visible {
-            outline: 2px solid var(--brand);
-            outline-offset: 2px;
-        }
-
-        .nav-link {
-            transition: color 0.2s ease;
-        }
-        
-        .nav-link:hover {
-            color: var(--brand);
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%);
-        }
-
-        .btn-primary:hover {
-            background: linear-gradient(135deg, var(--ink) 0%, var(--brand-dark) 100%);
-        }
-
-        /* Hero */
+        :root { --ink: #0b1120; --brand: #0d9488; --brand-dark: #0f766e; --cream: #f8f6f1; }
+        body { font-family: 'Inter', system-ui, sans-serif; background-color: var(--cream); }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .nav-link { transition: color 0.2s ease; }
+        .nav-link:hover { color: var(--brand); }
+        .btn-primary { background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%); }
+        .btn-primary:hover { background: linear-gradient(135deg, var(--ink) 0%, var(--brand-dark) 100%); }
         .hero-mesh {
             background:
                 radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13, 148, 136, 0.22), transparent 55%),
@@ -88,115 +29,31 @@
                 radial-gradient(ellipse 40% 50% at 0% 80%, rgba(13, 148, 136, 0.1), transparent 45%),
                 var(--ink);
         }
-
-        .hero-grid {
-            background-image:
-                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-            background-size: 48px 48px;
-            mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
-        }
-
-        .hero-glow {
-            animation: heroPulse 8s ease-in-out infinite;
-        }
-
-        @keyframes heroPulse {
-            0%, 100% { opacity: 0.5; transform: scale(1); }
-            50% { opacity: 0.75; transform: scale(1.05); }
-        }
-
         .text-gradient {
             background: linear-gradient(135deg, #5eead4 0%, #0d9488 50%, #fbbf24 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
         }
-
-        /* Portfolio */
-        .serve-card {
-            min-height: 11.5rem;
+        .offer-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-decoration: none; color: inherit;
         }
-
-        .portfolio-card {
-            cursor: pointer;
-            transition: transform 0.25s ease, box-shadow 0.25s ease;
-        }
-
-        .portfolio-card:hover {
+        .offer-card:hover {
             transform: translateY(-6px);
-            box-shadow: 0 20px 40px -12px rgb(11 17 32 / 0.2);
+            box-shadow: 0 25px 40px -12px rgb(11 17 32 / 0.15);
         }
-
-        .portfolio-preview {
-            aspect-ratio: 16 / 10;
-        }
-
-        .portfolio-scroll {
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
-        }
-
-        .portfolio-scroll > * {
-            scroll-snap-align: start;
-        }
-
-        html, body {
-            max-width: 100%;
-            overflow-x: hidden;
-        }
-
+        .offer-card:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
         @media (max-width: 767px) {
-            .safe-bottom {
-                padding-bottom: max(12px, env(safe-area-inset-bottom));
-            }
-
-            body.has-mobile-cta {
-                padding-bottom: 5.5rem;
-            }
-            
-            a:active, button:active {
-                opacity: 0.88;
-            }
-            
-            .hero-title {
-                font-size: clamp(2.25rem, 9vw, 3.5rem);
-                letter-spacing: -0.04em;
-                line-height: 1.05;
-            }
-
-            .portfolio-scroll {
-                padding-left: 1.25rem;
-                padding-right: 1.25rem;
-                margin-left: -1.25rem;
-                margin-right: -1.25rem;
-            }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            .hero-glow, .tier-card, .portfolio-card {
-                animation: none;
-                transition: none;
-            }
-        }
-
-        #mobile-menu {
-            animation: fadeIn 0.15s ease-out forwards;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            body.has-mobile-cta { padding-bottom: 5.5rem; }
+            .hero-title { font-size: clamp(2.1rem, 8vw, 3rem); letter-spacing: -0.04em; line-height: 1.08; }
+            .safe-bottom { padding-bottom: max(12px, env(safe-area-inset-bottom)); }
         }
     </style>
-
-    <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Mahoney Digital",
-        "description": "Professional, fast, mobile-first websites for contractors, trades, and small local service businesses. Clear pricing. No hype.",
+        "description": "Websites, care plans, and practical digital help for small local businesses.",
         "url": "https://mahoneydigital.net",
         "email": "hello@mahoneydigital.net",
         "telephone": "+1-740-492-8601",
@@ -204,789 +61,209 @@
             { "@type": "AdministrativeArea", "name": "Ross County, Ohio" },
             { "@type": "State", "name": "Ohio" }
         ],
-        "serviceType": ["Website Design", "Web Development", "Local SEO", "Ongoing Website Support"],
-        "knowsAbout": ["Small Business Websites", "Trades Websites", "Contractor Websites"]
+        "serviceType": ["Website Design", "Web Development", "Local SEO", "Website Support"]
     }
     </script>
-    <!-- deploy-marker: 2026-07-16 redesign-live -->
 </head>
-<body class="bg-cream text-ink-muted overflow-x-hidden has-mobile-cta">
-    <!-- Navigation -->
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col has-mobile-cta">
     <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-5 md:px-6">
-            <div class="flex justify-between items-center h-16 md:h-20">
-                <!-- Logo (inline SVG matches official assets/brand/logo-mark.svg + wordmark) -->
-                <a href="index.html" class="flex items-center gap-x-3 leading-none">
-                    <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9 block shrink-0" aria-hidden="true">
-                        <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
-                        <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.06em">M</text>
-                    </svg>
-                    <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
-                </a>
-                
-                <!-- Desktop Navigation -->
-                <div class="hidden md:flex items-center gap-x-8 text-sm">
-                    <a href="#work" class="nav-link font-medium text-slate-600 hover:text-ink">Work</a>
-                    <a href="#tiers" class="nav-link font-medium text-slate-600 hover:text-ink">Packages</a>
-                    <a href="#how" class="nav-link font-medium text-slate-600 hover:text-ink">How it works</a>
-                    <a href="blog/" class="nav-link font-medium text-slate-600 hover:text-ink">Blog</a>
-                </div>
-                
-                <!-- Desktop CTAs -->
-                <div class="hidden md:flex items-center gap-x-3">
-                    <a href="#contact" 
-                       class="inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-2xl border border-slate-300 hover:bg-cream hover:border-slate-400 transition-colors">
-                        Get in touch
-                    </a>
-                    <a href="plans/" 
-                       class="btn-primary inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-2xl text-white shadow-md shadow-brand/20 transition-all">
-                        See Support Plans
-                    </a>
-                </div>
-
-                <!-- Mobile Hamburger -->
-                <button type="button" id="mobile-menu-button"
-                        class="md:hidden flex items-center justify-center w-10 h-10 text-slate-700 hover:text-slate-900"
-                        aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon" aria-hidden="true"></i>
-                </button>
+        <div class="max-w-6xl mx-auto px-5 md:px-6 h-16 md:h-20 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-x-3 leading-none">
+                <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9 block shrink-0" aria-hidden="true">
+                    <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
+                    <text x="128" y="168" font-family="Inter, system-ui, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.06em">M</text>
+                </svg>
+                <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
+            </a>
+            <div class="hidden md:flex items-center gap-x-6 text-sm">
+                <a href="/websites/" class="nav-link font-medium text-slate-600">Websites</a>
+                <a href="/work/" class="nav-link font-medium text-slate-600">Work</a>
+                <a href="/care-plans/" class="nav-link font-medium text-slate-600">Care plans</a>
+                <a href="/ai-services/" class="nav-link font-medium text-slate-600">AI tools</a>
+                <a href="/blog/" class="nav-link font-medium text-slate-600">Blog</a>
+                <a href="/contact/" class="btn-primary inline-flex px-4 py-2 text-sm font-semibold rounded-2xl text-white shadow-md shadow-brand/20">Get in touch</a>
             </div>
+            <button type="button" id="mobile-menu-button" class="md:hidden w-10 h-10 flex items-center justify-center text-slate-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                <i class="fas fa-bars text-xl" id="menu-icon"></i>
+            </button>
         </div>
     </nav>
 
-    <!-- Mobile Menu (outside nav so fixed positioning is not trapped by backdrop-blur) -->
-    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-[100]" role="dialog" aria-modal="true" aria-label="Main menu">
-        <button type="button" id="mobile-menu-backdrop" class="absolute inset-0 bg-black/40" aria-label="Close menu" tabindex="-1"></button>
-        <div class="relative bg-white w-full shadow-xl border-b border-cream-dark" style="margin-top: 4rem;">
-            <div class="px-5 py-6 flex flex-col gap-y-1 text-[15px] max-w-7xl mx-auto">
-                <a href="#work" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Work</a>
-                <a href="#tiers" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Packages</a>
-                <a href="#how" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">How it works</a>
-                <a href="blog/" class="mobile-nav-link block font-medium text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream">Blog</a>
-
-                <div class="pt-4 mt-2 border-t border-slate-100 flex flex-col gap-y-3">
-                    <a href="#contact"
-                       class="mobile-nav-link block font-semibold text-slate-700 py-3.5 px-2 rounded-xl min-h-[44px] flex items-center active:bg-cream hover:bg-cream">
-                        Get in touch
-                    </a>
-                    <a href="plans/"
-                       class="btn-primary mt-1 inline-flex items-center justify-center px-5 py-3.5 min-h-[48px] text-sm font-semibold rounded-2xl text-white shadow-sm">
-                        See Plans
-                    </a>
-                </div>
+    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-[100]" role="dialog" aria-modal="true">
+        <button type="button" id="mobile-menu-backdrop" class="absolute inset-0 bg-black/40" aria-label="Close menu"></button>
+        <div class="relative bg-white w-full shadow-xl border-b border-cream-dark mt-16">
+            <div class="px-5 py-5 flex flex-col gap-1 text-[15px] max-w-6xl mx-auto">
+                <a href="/websites/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Websites</a>
+                <a href="/work/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Work</a>
+                <a href="/care-plans/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Care plans</a>
+                <a href="/ai-services/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">AI tools</a>
+                <a href="/blog/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Blog</a>
+                <a href="/contact/" class="btn-primary mt-3 text-center py-3.5 rounded-2xl text-white font-semibold">Get in touch</a>
             </div>
         </div>
     </div>
 
-    <!-- Hero -->
-    <section class="hero-mesh relative overflow-hidden">
-        <div class="hero-grid absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[min(600px,90vw)] h-[300px] bg-brand/20 rounded-full blur-[100px] hero-glow pointer-events-none" aria-hidden="true"></div>
-
-        <div class="relative max-w-7xl mx-auto px-5 md:px-6 pt-12 pb-16 md:pt-20 md:pb-24">
-            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-                <div class="text-center lg:text-left">
-                    <div class="inline-flex items-center gap-x-2 bg-white/10 border border-white/15 rounded-full px-4 py-2 mb-6 md:mb-8 backdrop-blur-sm">
-                        <span class="relative flex h-2 w-2">
-                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-light opacity-75"></span>
-                            <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-light"></span>
-                        </span>
-                        <span class="text-sm font-medium text-slate-300">Serving Ross County &amp; southern Ohio</span>
-                    </div>
-
-                    <h1 class="hero-title heading-font text-white font-semibold mb-5 md:mb-6 md:text-[3.75rem] lg:text-[4.25rem] md:leading-[1.02] md:tracking-[-0.04em]">
-                        Websites that make<br>
-                        <span class="text-gradient">local businesses</span><br>
-                        look legit.
-                    </h1>
-
-                    <p class="text-lg md:text-xl text-slate-400 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                        Based in Chillicothe. Stop overpaying for slow templates — get a fast, mobile-first site with honest pricing, built for contractors, trades, and shops everyone else overlooks.
-                    </p>
-
-                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-                        <a href="#contact"
-                           class="btn-primary inline-flex items-center justify-center gap-x-2 px-8 py-4 min-h-[52px] text-base md:text-lg font-semibold rounded-2xl text-white shadow-lg shadow-brand/25 transition-all">
-                            Start a conversation
-                            <i class="fas fa-arrow-right text-sm"></i>
-                        </a>
-                        <a href="#work"
-                           class="inline-flex items-center justify-center gap-x-2 px-8 py-4 min-h-[52px] text-base md:text-lg font-semibold rounded-2xl border border-white/25 text-white hover:bg-white/10 transition-colors">
-                            See our work
-                        </a>
-                    </div>
-
-                    <p class="text-sm text-slate-500 mt-6">Clear pricing · No pressure · No surprises</p>
-                </div>
-
-                <!-- Hero visual: browser mockup -->
-                <div class="hidden sm:block relative lg:pl-4">
-                    <div class="relative mx-auto max-w-md lg:max-w-none">
-                        <div class="absolute -inset-4 bg-gradient-to-br from-brand/30 to-brand-warm/20 rounded-3xl blur-2xl opacity-60" aria-hidden="true"></div>
-                        <div class="relative bg-ink-light border border-white/10 rounded-2xl shadow-2xl overflow-hidden">
-                            <div class="flex items-center gap-2 px-4 py-3 bg-ink border-b border-white/5">
-                                <div class="flex gap-1.5">
-                                    <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
-                                    <span class="w-3 h-3 rounded-full bg-amber-500/80"></span>
-                                    <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
-                                </div>
-                                <div class="flex-1 mx-3 h-7 bg-white/5 rounded-lg flex items-center justify-center">
-                                    <span class="text-[10px] text-slate-500 tracking-wide">yourbusiness.com</span>
-                                </div>
-                            </div>
-                            <div class="p-5 space-y-4">
-                                <div class="h-24 rounded-xl bg-gradient-to-br from-brand-dark/40 to-brand/20 border border-brand/20 flex items-end p-4">
-                                    <div>
-                                        <div class="h-2 w-32 bg-white/40 rounded mb-2"></div>
-                                        <div class="h-2 w-48 bg-white/20 rounded"></div>
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-3 gap-2">
-                                    <div class="h-14 rounded-lg bg-white/5"></div>
-                                    <div class="h-14 rounded-lg bg-white/5"></div>
-                                    <div class="h-14 rounded-lg bg-white/5"></div>
-                                </div>
-                                <div class="flex gap-2">
-                                    <div class="h-9 flex-1 rounded-lg bg-brand/40"></div>
-                                    <div class="h-9 w-20 rounded-lg bg-white/10"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="absolute -bottom-4 -left-2 md:-left-6 bg-white rounded-2xl shadow-xl px-4 py-3 border border-cream-dark">
-                            <div class="flex items-center gap-3">
-                                <div class="w-10 h-10 rounded-xl bg-brand/10 flex items-center justify-center text-brand">
-                                    <i class="fas fa-mobile-screen text-lg"></i>
-                                </div>
-                                <div>
-                                    <div class="text-xs font-bold text-ink uppercase tracking-wide">Mobile-first</div>
-                                    <div class="text-xs text-slate-500">Looks great on every phone</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="absolute -top-2 -right-2 md:-right-4 bg-white rounded-2xl shadow-xl px-4 py-3 border border-cream-dark">
-                            <div class="flex items-center gap-3">
-                                <div class="w-10 h-10 rounded-xl bg-brand-warm/10 flex items-center justify-center text-brand-warm">
-                                    <i class="fas fa-bolt text-lg"></i>
-                                </div>
-                                <div>
-                                    <div class="text-xs font-bold text-ink uppercase tracking-wide">Fast loading</div>
-                                    <div class="text-xs text-slate-500">Built for real customers</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <header class="hero-mesh text-white">
+        <div class="max-w-6xl mx-auto px-5 md:px-6 pt-12 pb-14 md:pt-16 md:pb-20 text-center md:text-left">
+            <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 rounded-full px-4 py-2 mb-6 backdrop-blur-sm">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-light opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-light"></span>
+                </span>
+                <span class="text-sm font-medium text-slate-300">Chillicothe · Ross County · southern Ohio</span>
             </div>
-
-            <!-- Stats strip -->
-            <div class="mt-14 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-4xl mx-auto lg:mx-0 lg:max-w-none">
-                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
-                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">3</div>
-                    <div class="text-xs text-slate-400 mt-1">Live package demos to browse</div>
-                </div>
-                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
-                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">2–4 wks</div>
-                    <div class="text-xs text-slate-400 mt-1">Typical build timeline</div>
-                </div>
-                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
-                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">Sub-1s</div>
-                    <div class="text-xs text-slate-400 mt-1">Static builds, fast on modern hosting</div>
-                </div>
-                <div class="text-center lg:text-left bg-white/5 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm">
-                    <div class="text-2xl md:text-3xl font-semibold text-white heading-font">$1,450+</div>
-                    <div class="text-xs text-slate-400 mt-1">Transparent starting price</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Problem -->
-    <section class="bg-white border-y border-slate-200 py-16 md:py-20">
-        <div class="max-w-4xl mx-auto px-5 md:px-6 text-center">
-            <h2 class="heading-font text-4xl font-semibold tracking-tight mb-6">Most small businesses are getting screwed on websites.</h2>
-            <p class="text-xl text-slate-600 max-w-2xl mx-auto">
-                You pay $2,500–$4,000+ and end up with a slow, generic template site that doesn’t bring in customers. 
-                It looks cheap, it’s hard to update, and it doesn’t actually help your business grow.
+            <h1 class="hero-title heading-font text-4xl md:text-5xl lg:text-[3.5rem] font-semibold tracking-tight mb-5 max-w-3xl">
+                Websites and digital help that make <span class="text-gradient">local businesses</span> look legit.
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0">
+                Pick what you need — a new site, ongoing care, practical AI tools, or a quick look at examples. Honest pricing. No agency fluff.
             </p>
-            <p class="mt-6 text-lg font-medium text-slate-700">You’re not asking for anything fancy. You just want a professional site that makes you look legit and makes it easy for people to hire you.</p>
+            <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                <a href="#offer" class="btn-primary inline-flex items-center justify-center gap-2 px-7 py-3.5 min-h-[48px] rounded-2xl text-white font-semibold shadow-lg shadow-brand/25">
+                    See what we offer <i class="fas fa-arrow-down text-xs"></i>
+                </a>
+                <a href="tel:7404928601" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 min-h-[48px] rounded-2xl border border-white/25 text-white font-semibold hover:bg-white/10">
+                    <i class="fas fa-phone text-sm"></i> (740) 492-8601
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust strip -->
+    <section class="bg-white border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-5 md:px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-center md:text-left">
+            <div>
+                <div class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-1">Based in</div>
+                <div class="font-semibold text-ink">Chillicothe, Ohio</div>
+            </div>
+            <div>
+                <div class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-1">Typical build</div>
+                <div class="font-semibold text-ink">2–4 weeks</div>
+            </div>
+            <div>
+                <div class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-1">Sites from</div>
+                <div class="font-semibold text-ink">$1,450</div>
+            </div>
+            <div>
+                <div class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-1">Call or text</div>
+                <a href="tel:7404928601" class="font-semibold text-brand-dark hover:underline">(740) 492-8601</a>
+            </div>
         </div>
     </section>
 
-    <!-- Who We Serve -->
-    <section class="py-20 md:py-28">
+    <!-- Offer boxes -->
+    <main id="offer" class="flex-1 max-w-6xl mx-auto px-5 md:px-6 py-14 md:py-20 w-full">
+        <div class="text-center mb-10 md:mb-12">
+            <p class="text-xs font-semibold tracking-[0.2em] uppercase text-brand-dark mb-3">What we offer</p>
+            <h2 class="heading-font text-3xl md:text-4xl font-semibold text-ink tracking-tight mb-3">Pick what you need.</h2>
+            <p class="text-slate-600 max-w-xl mx-auto">Four clear paths. Tap a box for full details — no long scroll required.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-5 md:gap-6">
+            <a href="/websites/" class="offer-card group bg-white border border-cream-dark rounded-3xl p-7 md:p-8 flex flex-col min-h-[240px] hover:border-brand/30">
+                <div class="w-12 h-12 rounded-2xl bg-brand/10 text-brand-dark flex items-center justify-center text-xl mb-5">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3 class="heading-font text-2xl font-semibold text-ink mb-2 group-hover:text-brand-dark transition-colors">Websites</h3>
+                <p class="text-slate-600 text-[15px] leading-relaxed flex-1 mb-5">Essential, Growth, and Signature packages — mobile-first sites built for trades and local shops.</p>
+                <div class="flex items-center justify-between gap-3 pt-4 border-t border-slate-100">
+                    <span class="text-sm font-semibold text-brand-dark">From $1,450</span>
+                    <span class="text-sm font-semibold text-slate-500 group-hover:text-brand-dark">View packages <i class="fas fa-arrow-right text-[10px] ml-0.5"></i></span>
+                </div>
+            </a>
+
+            <a href="/work/" class="offer-card group bg-white border border-cream-dark rounded-3xl p-7 md:p-8 flex flex-col min-h-[240px] hover:border-brand/30">
+                <div class="w-12 h-12 rounded-2xl bg-brand-warm/10 text-brand-warm flex items-center justify-center text-xl mb-5">
+                    <i class="fas fa-images"></i>
+                </div>
+                <h3 class="heading-font text-2xl font-semibold text-ink mb-2 group-hover:text-brand-dark transition-colors">Work</h3>
+                <p class="text-slate-600 text-[15px] leading-relaxed flex-1 mb-5">Live package demos — lawn, HVAC, remodeling — so you can see what each tier looks like on a phone.</p>
+                <div class="flex items-center justify-between gap-3 pt-4 border-t border-slate-100">
+                    <span class="text-sm font-semibold text-brand-dark">3 examples</span>
+                    <span class="text-sm font-semibold text-slate-500 group-hover:text-brand-dark">Browse demos <i class="fas fa-arrow-right text-[10px] ml-0.5"></i></span>
+                </div>
+            </a>
+
+            <a href="/care-plans/" class="offer-card group bg-white border border-cream-dark rounded-3xl p-7 md:p-8 flex flex-col min-h-[240px] hover:border-brand/30">
+                <div class="w-12 h-12 rounded-2xl bg-sky-100 text-sky-800 flex items-center justify-center text-xl mb-5">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+                <h3 class="heading-font text-2xl font-semibold text-ink mb-2 group-hover:text-brand-dark transition-colors">Care plans</h3>
+                <p class="text-slate-600 text-[15px] leading-relaxed flex-1 mb-5">Security, backups, small updates, and optional Google Business + local SEO help — month to month.</p>
+                <div class="flex items-center justify-between gap-3 pt-4 border-t border-slate-100">
+                    <span class="text-sm font-semibold text-brand-dark">From $59/mo</span>
+                    <span class="text-sm font-semibold text-slate-500 group-hover:text-brand-dark">Compare plans <i class="fas fa-arrow-right text-[10px] ml-0.5"></i></span>
+                </div>
+            </a>
+
+            <a href="/ai-services/" class="offer-card group bg-white border border-cream-dark rounded-3xl p-7 md:p-8 flex flex-col min-h-[240px] hover:border-brand/30">
+                <div class="w-12 h-12 rounded-2xl bg-violet-100 text-violet-800 flex items-center justify-center text-xl mb-5">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3 class="heading-font text-2xl font-semibold text-ink mb-2 group-hover:text-brand-dark transition-colors">AI tools</h3>
+                <p class="text-slate-600 text-[15px] leading-relaxed flex-1 mb-5">Practical add-ons only — simple site chat, content help, light automation. No “AI agency” hype.</p>
+                <div class="flex items-center justify-between gap-3 pt-4 border-t border-slate-100">
+                    <span class="text-sm font-semibold text-brand-dark">Optional add-ons</span>
+                    <span class="text-sm font-semibold text-slate-500 group-hover:text-brand-dark">See options <i class="fas fa-arrow-right text-[10px] ml-0.5"></i></span>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Founder + CTA -->
+    <section class="bg-white border-y border-slate-200 py-14 md:py-16">
         <div class="max-w-6xl mx-auto px-5 md:px-6">
-            <div class="rounded-[2rem] md:rounded-[3rem] border border-slate-200/70 bg-cream-dark/50 py-12 md:py-16 px-5 sm:px-8 md:px-10">
-                <div class="text-center mb-10 md:mb-12">
-                    <div class="inline-block mb-3 px-4 py-1 bg-white rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">WHO WE SERVE</div>
-                    <h2 class="heading-font text-4xl font-semibold tracking-tight max-w-3xl mx-auto">Built for the businesses everyone else overlooks.</h2>
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-3 flex justify-center md:justify-start">
+                    <img src="/assets/images/jeremy-mahoney.png" alt="Jeremy Mahoney" width="200" height="200"
+                         class="w-36 h-36 md:w-full md:h-auto rounded-2xl border border-slate-200 shadow-sm object-cover aspect-square" loading="lazy">
                 </div>
-
-                <div class="flex flex-wrap justify-center gap-4">
-                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
-                        <div class="text-3xl mb-4 leading-none">🔧</div>
-                        <h3 class="font-semibold text-lg mb-2 w-full">Contractors &amp; Trades</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Plumbers, electricians, HVAC, general contractors, and handymen</p>
-                    </div>
-                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
-                        <div class="text-3xl mb-4 leading-none">🚗</div>
-                        <h3 class="font-semibold text-lg mb-2 w-full">Mechanics &amp; Auto Shops</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Shade tree mechanics, small auto repair, and mobile mechanics</p>
-                    </div>
-                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
-                        <div class="text-3xl mb-4 leading-none">🌿</div>
-                        <h3 class="font-semibold text-lg mb-2 w-full">Service Businesses</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Landscapers, pressure washers, pest control, and similar trades</p>
-                    </div>
-                    <div class="serve-card w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] lg:max-w-[15.5rem] bg-white border border-slate-200 rounded-3xl p-6 text-center flex flex-col items-center">
-                        <div class="text-3xl mb-4 leading-none">🏠</div>
-                        <h3 class="font-semibold text-lg mb-2 w-full">Local Operators</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Small, independent businesses doing honest work in their community</p>
-                    </div>
+                <div class="md:col-span-9 text-center md:text-left">
+                    <p class="text-xs font-semibold tracking-widest text-slate-500 uppercase mb-2">Founder · Chillicothe</p>
+                    <h2 class="heading-font text-2xl md:text-3xl font-semibold text-ink mb-3">Hi, I’m Jeremy.</h2>
+                    <p class="text-slate-600 max-w-2xl mb-6 leading-relaxed">I build clean, fast sites for contractors, mechanics, and local operators who are tired of overpaying for templates that don’t help. No pressure — just a real conversation about what you need.</p>
+                    <a href="/contact/" class="btn-primary inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl text-white font-semibold shadow-md">
+                        Start a conversation <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About -->
-    <section class="bg-white border-y border-slate-200 py-20 md:py-24">
-        <div class="max-w-4xl mx-auto px-5 md:px-6">
-            <div class="grid md:grid-cols-12 gap-x-10 gap-y-8 items-center">
-                <div class="md:col-span-4 flex justify-center md:justify-start">
-                    <img
-                        src="/assets/images/jeremy-mahoney.png"
-                        alt="Jeremy Mahoney, founder of Mahoney Digital"
-                        width="320"
-                        height="320"
-                        class="w-full max-w-[280px] md:max-w-none rounded-2xl border border-slate-200 shadow-md object-cover aspect-square"
-                        loading="lazy"
-                    >
-                </div>
-                <div class="md:col-span-8">
-                    <div class="inline-block mb-4 px-4 py-1 bg-slate-100 rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">MEET THE FOUNDER</div>
-                    <h2 class="heading-font text-4xl md:text-[42px] font-semibold tracking-[-1.8px] leading-none mb-4">Hi, I’m Jeremy.</h2>
-                    <p class="text-brand-dark font-medium text-sm tracking-wide mb-6">— Owner &amp; Lead Designer · Chillicothe, Ohio</p>
-                    <div class="text-[15.5px] md:text-[15.8px] text-slate-700 leading-relaxed">
-                        <p>After seeing too many contractors, mechanics, and tradespeople pay thousands for websites that didn’t actually help their business, I decided to do things differently.</p>
-                        <p class="mt-4">I focus on clean, fast, mobile-first sites with honest pricing and real support. No fluff. No pressure. Just work that makes you look professional and makes it easier for customers to find and hire you.</p>
-                        <p class="mt-4">If you’re a small business doing good work and you’re tired of overpaying for results that don’t show up, I’d like to help.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio / Gallery -->
-    <section id="work" class="section bg-white border-y border-cream-dark py-16 md:py-24">
-        <div class="max-w-7xl mx-auto px-5 md:px-6">
-            <div class="text-center mb-10 md:mb-14">
-                <div class="inline-block mb-3 px-4 py-1 bg-cream rounded-full text-xs font-semibold tracking-widest text-slate-600 border border-cream-dark">PACKAGE EXAMPLES</div>
-                <h2 class="heading-font text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-ink mb-4">See what each tier looks like.</h2>
-                <p class="text-lg text-slate-600 max-w-2xl mx-auto">These are demo sites built to show Essential, Growth, and Signature — custom layouts for trades, not generic templates. Your project would be tailored to your business.</p>
-            </div>
-
-            <!-- Desktop grid -->
-            <div class="hidden md:grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
-                <a href="examples/heritage-home-partners/" aria-label="View Signature example — Heritage Home Partners" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
-                    <div class="portfolio-preview relative overflow-hidden" style="background-image: url('/assets/images/heritage-kitchen.jpg'); background-size: cover; background-position: center;">
-                        <div class="absolute inset-0 bg-gradient-to-br from-stone-950/85 via-stone-900/60 to-black/50"></div>
-                        <div class="absolute inset-0 p-5 flex flex-col justify-end">
-                            <div class="text-amber-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Remodeling · Ross County</div>
-                            <div class="text-white font-semibold text-lg heading-font">Heritage Home Partners</div>
-                        </div>
-                        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
-                            View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-sm text-slate-600 mb-4">7-page site — services, narrative projects, process, reviews, and consultation. Premium custom typography and storytelling for high-trust work.</p>
-                        <span class="inline-block text-xs font-semibold text-amber-900 bg-amber-100/80 px-3 py-1 rounded-full">Signature package</span>
-                    </div>
-                </a>
-
-                <a href="examples/summit-comfort-hvac/" aria-label="View Growth example — Summit Comfort HVAC" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
-                    <div class="portfolio-preview relative overflow-hidden" style="background-image: url('/assets/images/summit-hvac.jpg'); background-size: cover; background-position: center;">
-                        <div class="absolute inset-0 bg-gradient-to-br from-sky-950/85 via-slate-900/60 to-black/50"></div>
-                        <div class="absolute inset-0 p-5 flex flex-col justify-end">
-                            <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">HVAC · Ross County</div>
-                            <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
-                        </div>
-                        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
-                            View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-sm text-slate-600 mb-4">8-page site — separate pages for AC, heating, areas, reviews, FAQ, and contact. Built to capture leads.</p>
-                        <span class="inline-block text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Growth package</span>
-                    </div>
-                </a>
-
-                <a href="examples/riverside-lawn/" aria-label="View Essential example — Riverside Lawn" class="portfolio-card group block rounded-3xl overflow-hidden border border-cream-dark bg-cream hover:border-brand/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">
-                    <div class="portfolio-preview relative overflow-hidden" style="background-image: url('/assets/images/riverside-lawn.jpg'); background-size: cover; background-position: center;">
-                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/85 via-stone-900/60 to-black/40"></div>
-                        <div class="absolute inset-0 p-5 flex flex-col justify-end">
-                            <div class="text-emerald-300/90 text-[10px] font-bold tracking-[0.2em] uppercase mb-1">Lawn &amp; Landscape · Ross County</div>
-                            <div class="text-white font-semibold text-lg heading-font">Riverside Lawn</div>
-                        </div>
-                        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
-                            View example <i class="fas fa-arrow-right text-[10px] ml-0.5"></i>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-sm text-slate-600 mb-4">4-page site — home, services, about, contact. Clean Essential scope with prominent click-to-call. Built for local service businesses that need to look professional and be reachable.</p>
-                        <span class="inline-block text-xs font-semibold text-brand-dark bg-brand/10 px-3 py-1 rounded-full">Essential package</span>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Mobile: horizontal scroll -->
-            <div class="md:hidden portfolio-scroll flex gap-4 overflow-x-auto pb-4 -mx-5 px-5 snap-x">
-                <a href="examples/heritage-home-partners/" aria-label="View Signature example — Heritage Home Partners" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
-                    <div class="portfolio-preview relative p-5 flex flex-col justify-end min-h-[180px]" style="background-image: url('/assets/images/heritage-kitchen.jpg'); background-size: cover; background-position: center;">
-                        <div class="absolute inset-0 bg-gradient-to-br from-stone-950/85 via-stone-900/60 to-black/50 rounded-3xl"></div>
-                        <div class="relative z-10">
-                            <div class="text-amber-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Remodeling</div>
-                            <div class="text-white font-semibold text-lg heading-font">Heritage Home Partners</div>
-                        </div>
-                    </div>
-                    <div class="p-4">
-                        <p class="text-sm text-slate-600 mb-2">7 pages — projects, process, reviews. Premium narrative pages + serif typography.</p>
-                        <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
-                    </div>
-                </a>
-                <a href="examples/summit-comfort-hvac/" aria-label="View Growth example — Summit Comfort HVAC" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
-                    <div class="portfolio-preview relative p-5 flex flex-col justify-end min-h-[180px]" style="background-image: url('/assets/images/summit-hvac.jpg'); background-size: cover; background-position: center;">
-                        <div class="absolute inset-0 bg-gradient-to-br from-sky-950/85 via-slate-900/60 to-black/50 rounded-3xl"></div>
-                        <div class="relative z-10">
-                            <div class="text-cyan-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">HVAC</div>
-                            <div class="text-white font-semibold text-lg heading-font">Summit Comfort HVAC</div>
-                        </div>
-                    </div>
-                    <div class="p-4">
-                        <p class="text-sm text-slate-600 mb-2">8 pages — AC, areas, FAQ, contact.</p>
-                        <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
-                    </div>
-                </a>
-                <a href="examples/riverside-lawn/" aria-label="View Essential example — Riverside Lawn" class="portfolio-card flex-shrink-0 w-[min(85vw,320px)] block rounded-3xl overflow-hidden border border-cream-dark bg-cream snap-start active:scale-[0.98] transition-transform">
-                    <div class="portfolio-preview relative p-5 flex flex-col justify-end min-h-[180px]" style="background-image: url('/assets/images/riverside-lawn.jpg'); background-size: cover; background-position: center;">
-                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/85 via-stone-900/60 to-black/40 rounded-3xl"></div>
-                        <div class="relative z-10">
-                            <div class="text-emerald-300/90 text-[10px] font-bold tracking-[0.2em] uppercase">Lawn &amp; Landscape</div>
-                            <div class="text-white font-semibold text-lg heading-font">Riverside Lawn</div>
-                        </div>
-                    </div>
-                    <div class="p-4">
-                        <p class="text-sm text-slate-600 mb-2">4 pages — home, services, about, contact. Clean Essential with click-to-call.</p>
-                        <span class="text-xs font-semibold text-brand-dark">Tap to view example →</span>
-                    </div>
-                </a>
-            </div>
-            <p class="md:hidden text-center text-xs text-slate-400 mt-3">Swipe to browse · tap a card to open the example</p>
-
-            <div class="text-center mt-10 md:mt-12">
-                <p class="text-slate-600 mb-4">Your business could be next.</p>
-                <a href="#contact" class="btn-primary inline-flex items-center gap-x-2 px-8 py-3.5 min-h-[48px] text-sm font-semibold rounded-2xl text-white shadow-md transition-all">
-                    Discuss your project
-                    <i class="fas fa-arrow-right text-xs"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Tiers -->
-    <section id="tiers" class="section max-w-7xl mx-auto px-5 md:px-6 py-20 md:py-24">
-        <div class="text-center mb-12">
-            <div class="inline-block mb-3 px-4 py-1 bg-slate-100 rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">PACKAGES</div>
-            <h2 class="heading-font text-5xl font-semibold tracking-[-2.5px] mb-4">Three straightforward packages.</h2>
-            <p class="text-xl text-slate-600 max-w-sm mx-auto">Honest pricing. Quality work. No fluff.</p>
-            <p class="text-sm text-slate-500 max-w-md mx-auto mt-3">Essential is clean and narrow in scope. Growth adds dedicated service pages, reviews, and stronger lead capture. Signature brings custom serif typography, narrative projects/process pages, and consultation framing.</p>
-        </div>
-
-        <!-- Trust signals -->
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-600 mb-10 bg-white border border-slate-200 rounded-3xl py-4 px-8 max-w-fit mx-auto">
-            <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-brand"></i>
-                <span class="font-medium">30–90 days of edits included</span>
-            </div>
-            <div class="hidden sm:block w-px h-3.5 bg-slate-200 self-center"></div>
-            <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-brand"></i>
-                <span class="font-medium">No long-term contracts</span>
-            </div>
-            <div class="hidden sm:block w-px h-3.5 bg-slate-200 self-center"></div>
-            <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-brand"></i>
-                <span class="font-medium">Clear pricing upfront</span>
-            </div>
-            <div class="hidden sm:block w-px h-3.5 bg-slate-200 self-center"></div>
-            <div class="flex items-center gap-x-2">
-                <i class="fas fa-check text-brand"></i>
-                <span class="font-medium">Hosting included · you keep your domain</span>
-            </div>
-        </div>
-
-        <div class="grid lg:grid-cols-3 gap-6">
-            
-            <!-- Essential → Riverside Lawn example (live clean Essential) -->
-            <a href="examples/riverside-lawn/" aria-label="View Essential package example — Riverside Lawn" class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
-                <div class="flex-1">
-                    <div class="flex items-baseline justify-between mb-2">
-                        <h3 class="text-2xl font-semibold tracking-tight">Essential</h3>
-                    </div>
-                    <div class="flex items-baseline gap-x-1 mb-5">
-                        <span class="text-5xl font-semibold tracking-[-2.5px]">$1,450</span>
-                        <span class="text-slate-400 text-lg">– $1,950</span>
-                    </div>
-                    <p class="text-[15px] text-slate-600 leading-snug mb-7">Clean, fast, mobile-first site with the fundamentals done right.</p>
-                    
-                    <div class="space-y-[13px] text-[14.5px]">
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Mobile-first professional design</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Homepage + up to 4 pages</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Contact form + business details</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Fast loading + basic SEO</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">30 days of edits after launch</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mt-8 pt-6 border-t border-slate-100">
-                    <div class="text-xs uppercase tracking-[0.5px] text-slate-500 mb-2">Most projects land at</div>
-                    <div class="font-semibold text-slate-800 mb-4">$1,650 – $1,750</div>
-                    <span class="block w-full text-center border border-slate-300 group-hover:border-slate-400 group-hover:bg-cream font-semibold py-3.5 rounded-2xl text-sm transition-colors">
-                        View Essential example
-                        <i class="fas fa-arrow-right text-[10px] ml-1 opacity-70 group-hover:opacity-100"></i>
-                    </span>
-                </div>
-            </a>
-
-            <!-- Growth → Summit Comfort HVAC example -->
-            <a href="examples/summit-comfort-hvac/" aria-label="View Growth package example — Summit Comfort HVAC" class="tier-card group bg-white border-2 border-brand-dark rounded-3xl p-7 md:p-8 flex flex-col relative shadow-sm">
-                <div class="absolute -top-3 right-6 bg-brand-dark text-white text-[10px] font-bold tracking-[1px] px-4 py-1 rounded-3xl">MOST POPULAR</div>
-                
-                <div class="flex-1">
-                    <div class="flex items-baseline justify-between mb-2">
-                        <h3 class="text-2xl font-semibold tracking-tight">Growth</h3>
-                    </div>
-                    <div class="flex items-baseline gap-x-1 mb-5">
-                        <span class="text-5xl font-semibold tracking-[-2.5px]">$2,650</span>
-                        <span class="text-slate-400 text-lg">– $3,450</span>
-                    </div>
-                    <p class="text-[15px] text-slate-600 leading-snug mb-7">A website built to actually bring in more leads and customers.</p>
-                    
-                    <div class="space-y-[13px] text-[14.5px]">
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Conversion-focused design</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Homepage + 6–8 pages</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Strong messaging + lead forms</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Dedicated service pages</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Local SEO setup (service pages, meta, Google Business Profile)</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Analytics so you can see traffic and leads</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">60 days of edits after launch</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mt-8 pt-6 border-t border-brand-dark/20">
-                    <div class="text-xs uppercase tracking-[0.5px] text-brand-dark mb-2">Most projects land at</div>
-                    <div class="font-semibold text-brand-dark mb-4">$2,900 – $3,200</div>
-                    <span class="btn-primary block w-full text-center text-white font-semibold py-3.5 min-h-[44px] flex items-center justify-center gap-x-1.5 rounded-2xl text-sm transition-colors">
-                        View Growth example
-                        <i class="fas fa-arrow-right text-[10px]"></i>
-                    </span>
-                </div>
-            </a>
-
-            <!-- Signature → Heritage Home Partners example -->
-            <a href="examples/heritage-home-partners/" aria-label="View Signature package example — Heritage Home Partners" class="tier-card group bg-white border border-slate-200 hover:border-slate-300 rounded-3xl p-7 md:p-8 flex flex-col transition-all duration-200">
-                <div class="flex-1">
-                    <div class="flex items-baseline justify-between mb-2">
-                        <h3 class="text-2xl font-semibold tracking-tight">Signature</h3>
-                    </div>
-                    <div class="flex items-baseline gap-x-1 mb-5">
-                        <span class="text-5xl font-semibold tracking-[-2.5px]">$4,850</span>
-                        <span class="text-slate-400 text-lg">– $6,850</span>
-                    </div>
-                    <p class="text-[15px] text-slate-600 leading-snug mb-7">Fully custom, premium execution with white-glove service.</p>
-                    
-                    <div class="space-y-[13px] text-[14.5px]">
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Fully custom design</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Narrative projects + process pages + custom scope (no page cap)</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Deep strategy + custom work</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">Premium visuals &amp; UX</span>
-                        </div>
-                        <div class="flex items-start gap-x-3">
-                            <i class="fas fa-check text-brand mt-[3px] text-sm"></i>
-                            <span class="text-slate-700">90 days of edits + training</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mt-8 pt-6 border-t border-slate-100">
-                    <div class="text-xs uppercase tracking-[0.5px] text-slate-500 mb-2">Most projects land at</div>
-                    <div class="font-semibold text-slate-800 mb-4">$5,400 – $6,200</div>
-                    <span class="block w-full text-center border border-slate-300 group-hover:border-slate-400 group-hover:bg-cream font-semibold py-3.5 rounded-2xl text-sm transition-colors">
-                        View Signature example
-                        <i class="fas fa-arrow-right text-[10px] ml-1 opacity-70 group-hover:opacity-100"></i>
-                    </span>
-                </div>
-            </a>
-        </div>
-
-        <div class="max-w-2xl mx-auto mt-10 bg-cream border border-cream-dark rounded-2xl p-6 text-center">
-            <p class="font-semibold text-slate-800 mb-2">Don’t want to manage the site yourself?</p>
-            <p class="text-sm text-slate-600 leading-relaxed">Optional care plans from <strong>$59/mo</strong> — security, backups, and small text updates. <strong>Growth Partner</strong> adds Google Business Profile help and local SEO monitoring.</p>
-        </div>
-        
-        <p class="text-center text-sm text-slate-500 mt-6">Bundle a website + ongoing support and save 10–20% on your project.</p>
-
-        <div class="text-center mt-6">
-            <a href="plans/" class="inline-flex items-center text-brand-dark hover:text-brand-dark font-semibold">
-                See full support plan details and comparison →
-            </a>
-        </div>
-    </section>
-
-    <!-- How It Works -->
-    <section id="how" class="section bg-cream py-16 md:py-24">
-        <div class="max-w-5xl mx-auto px-5 md:px-6">
-            <div class="text-center mb-10">
-                <div class="inline-block mb-3 px-4 py-1 bg-white rounded-2xl text-xs font-semibold tracking-widest text-slate-600 border border-slate-200">HOW IT WORKS</div>
-                <h2 class="heading-font text-4xl font-semibold tracking-tight">Simple process. No surprises.</h2>
-            </div>
-            
-            <div class="grid md:grid-cols-4 gap-6">
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
-                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">01</div>
-                    <h4 class="font-semibold text-lg tracking-tight mb-2">Quick call or text</h4>
-                    <p class="text-sm text-slate-600 leading-snug">We talk about your business and what you actually need from a website.</p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
-                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">02</div>
-                    <h4 class="font-semibold text-lg tracking-tight mb-2">Clear proposal</h4>
-                    <p class="text-sm text-slate-600 leading-snug">You get a straightforward quote with exact pricing and timeline — no guessing.</p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
-                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">03</div>
-                    <h4 class="font-semibold text-lg tracking-tight mb-2">We build it together</h4>
-                    <p class="text-sm text-slate-600 leading-snug">You see progress and give feedback. No disappearing acts.</p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 hover:border-brand-dark/30 transition-colors">
-                    <div class="text-brand-dark text-xs font-bold tracking-[1.5px] mb-4">04</div>
-                    <h4 class="font-semibold text-lg tracking-tight mb-2">Site goes live</h4>
-                    <p class="text-sm text-slate-600 leading-snug">Full training included. Ongoing support available if you want it.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="bg-white border-y border-slate-200 py-20 md:py-24">
-        <div class="max-w-4xl mx-auto px-5 md:px-6">
-            <div class="text-center mb-12">
-                <div class="inline-block mb-3 px-4 py-1 bg-slate-100 rounded-2xl text-xs font-semibold tracking-[1px] text-slate-600 border border-slate-200">LET'S TALK</div>
-                <h2 class="heading-font text-4xl font-semibold tracking-tight mb-3">Ready to talk about your website?</h2>
-                <p class="text-xl text-slate-600 max-w-md mx-auto">No pressure. No sales calls. Just a real conversation about what you need.</p>
-            </div>
-
-            <div class="max-w-2xl mx-auto">
-                <!-- FormSubmit.co (works on Vercel static hosting) -->
-                <form name="contact" method="POST" action="https://formsubmit.co/hello@mahoneydigital.net" class="space-y-6">
-                    <input type="hidden" name="_subject" value="New lead — mahoneydigital.net contact form">
-                    <input type="hidden" name="_next" value="https://mahoneydigital.net/thank-you.html">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_captcha" value="false">
-
-                    <!-- Honeypot (spam bots) -->
-                    <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
-                    
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-2">Your Name</label>
-                            <input type="text" name="name" required autocomplete="name"
-                                   class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
-                            <input type="tel" name="phone" required autocomplete="tel"
-                                   class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
-                        <input type="email" name="email" required autocomplete="email"
-                               class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
-                    </div>
-                    
-                    <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">What kind of work do you do?</label>
-                        <input type="text" name="business-type" placeholder="Plumbing, Mechanic, HVAC, Landscaping..." 
-                               class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 transition-colors">
-                    </div>
-                    
-                    <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Tell me a bit about what you’re looking for</label>
-                        <textarea name="message" rows="5" required 
-                                  class="w-full px-5 py-3.5 rounded-2xl border border-slate-200 bg-white focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none text-[15px] placeholder:text-slate-400 resize-y transition-colors"></textarea>
-                    </div>
-                    
-                    <button type="submit" 
-                            class="btn-primary w-full mt-3 py-4 min-h-[52px] active:bg-ink transition-all text-white font-semibold text-base tracking-[0.5px] rounded-3xl shadow-sm hover:shadow">
-                        SEND MESSAGE
-                    </button>
-                </form>
-
-                <div class="mt-8 text-center text-sm text-slate-500 space-y-1">
-                    <div>Or email <a href="mailto:hello@mahoneydigital.net" class="underline hover:text-brand-dark">hello@mahoneydigital.net</a></div>
-                    <div>or call/text <a href="tel:7404928601" class="underline hover:text-brand-dark font-medium">(740) 492-8601</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-ink text-slate-400 text-sm py-12">
-        <div class="max-w-6xl mx-auto px-5 md:px-6">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-y-8">
-                <div>
-                    <div class="flex items-center gap-x-3 mb-3">
-                        <!-- Matches primary brand mark (assets/brand/logo-mark.svg) -->
-                        <svg width="32" height="32" viewBox="0 0 256 256" aria-hidden="true">
-                            <rect x="16" y="16" width="224" height="224" rx="44" fill="#ffffff"/>
-                            <text x="128" y="168" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="128" font-weight="700" fill="#0b1120" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.06em">M</text>
-                        </svg>
-                        <span class="text-white font-semibold text-xl tracking-tighter">Mahoney Digital</span>
-                    </div>
-                    <p class="text-xs text-slate-500">Professional websites for small local businesses.</p>
-                </div>
-                
-                <div class="flex flex-col md:flex-row gap-x-8 gap-y-2 text-sm">
-                    <a href="blog/" class="hover:text-white transition-colors">Blog</a>
-                    <a href="#contact" class="hover:text-white transition-colors">Contact</a>
-                    <a href="mailto:hello@mahoneydigital.net" class="hover:text-white transition-colors">hello@mahoneydigital.net</a>
-                    <a href="tel:7404928601" class="hover:text-white transition-colors">(740) 492-8601</a>
-                </div>
-            </div>
-            
-            <div class="mt-10 pt-6 border-t border-white/10 text-xs text-slate-500 flex flex-col md:flex-row md:items-center md:justify-between gap-y-2">
-                <div>© 2026 Mahoney Digital. Built with care for businesses that do real work.</div>
-                <div class="text-[10px] tracking-widest">MAHONEYDIGITAL.NET</div>
+    <footer class="bg-ink text-slate-400 text-sm py-10 mt-auto">
+        <div class="max-w-6xl mx-auto px-5 md:px-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <span class="text-white font-semibold">Mahoney Digital</span>
+            <div class="flex flex-wrap gap-5">
+                <a href="/websites/" class="hover:text-white">Websites</a>
+                <a href="/work/" class="hover:text-white">Work</a>
+                <a href="/care-plans/" class="hover:text-white">Care plans</a>
+                <a href="/contact/" class="hover:text-white">Contact</a>
+                <a href="mailto:hello@mahoneydigital.net" class="hover:text-white">hello@mahoneydigital.net</a>
             </div>
         </div>
     </footer>
 
-    <!-- Sticky Mobile CTA Bar -->
-    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 px-4 py-3.5 z-40 safe-bottom shadow-[0_-2px_10px_rgb(0,0,0,0.03)]">
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 px-4 py-3 z-40 safe-bottom shadow-[0_-2px_10px_rgb(0,0,0,0.03)]">
         <div class="flex gap-3">
-            <a href="#contact" 
-               class="flex-1 text-center py-3 min-h-[44px] flex items-center justify-center text-sm font-semibold rounded-2xl border border-slate-300 text-slate-700 active:bg-cream transition-colors hover:bg-cream">
-                Get in touch
-            </a>
-            <a href="plans/" 
-               class="btn-primary flex-1 text-center py-3 min-h-[44px] flex items-center justify-center text-sm font-semibold rounded-2xl text-white transition-colors shadow-sm">
-                See Plans
-            </a>
+            <a href="tel:7404928601" class="flex-1 text-center py-3 min-h-[44px] flex items-center justify-center text-sm font-semibold rounded-2xl border border-slate-300">Call</a>
+            <a href="/contact/" class="btn-primary flex-1 text-center py-3 min-h-[44px] flex items-center justify-center text-sm font-semibold rounded-2xl text-white">Get in touch</a>
         </div>
     </div>
 
     <script>
-        // Mobile menu toggle
         const menuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        const menuBackdrop = document.getElementById('mobile-menu-backdrop');
         const menuIcon = document.getElementById('menu-icon');
-
-        function setMobileMenuOpen(open) {
-            if (!mobileMenu || !menuButton || !menuIcon) return;
+        function setOpen(open) {
             mobileMenu.classList.toggle('hidden', !open);
             menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
-            menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
             menuIcon.classList.toggle('fa-bars', !open);
             menuIcon.classList.toggle('fa-times', open);
-            document.body.classList.toggle('overflow-hidden', open);
         }
-
-        function closeMobileMenu() {
-            setMobileMenuOpen(false);
-        }
-
-        if (menuButton && mobileMenu) {
-            menuButton.addEventListener('click', () => {
-                setMobileMenuOpen(mobileMenu.classList.contains('hidden'));
-            });
-
-            menuBackdrop?.addEventListener('click', closeMobileMenu);
-
-            document.querySelectorAll('.mobile-nav-link').forEach(link => {
-                link.addEventListener('click', closeMobileMenu);
-            });
-
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
-                    closeMobileMenu();
-                }
-            });
-        }
-
-        // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                const href = this.getAttribute('href');
-                if (!href || href === '#') return;
-                const target = document.querySelector(href);
-                if (target) {
-                    e.preventDefault();
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    closeMobileMenu();
-                }
-            });
-        });
+        menuButton?.addEventListener('click', () => setOpen(mobileMenu.classList.contains('hidden')));
+        document.getElementById('mobile-menu-backdrop')?.addEventListener('click', () => setOpen(false));
+        document.querySelectorAll('.mobile-nav-link').forEach(a => a.addEventListener('click', () => setOpen(false)));
     </script>
-
-    <!-- Vercel Web Analytics + Speed Insights -->
     <script defer src="/assets/vercel-insights.js"></script>
 </body>
 </html>

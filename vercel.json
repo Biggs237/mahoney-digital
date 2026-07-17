@@ -6,11 +6,62 @@
   "framework": null,
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [],
+  "redirects": [
+    {
+      "source": "/plans",
+      "destination": "/care-plans",
+      "permanent": false
+    },
+    {
+      "source": "/plans/",
+      "destination": "/care-plans",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/thank-you/",
       "destination": "/thank-you.html"
+    },
+    {
+      "source": "/websites",
+      "destination": "/websites/index.html"
+    },
+    {
+      "source": "/websites/",
+      "destination": "/websites/index.html"
+    },
+    {
+      "source": "/work",
+      "destination": "/work/index.html"
+    },
+    {
+      "source": "/work/",
+      "destination": "/work/index.html"
+    },
+    {
+      "source": "/care-plans",
+      "destination": "/care-plans/index.html"
+    },
+    {
+      "source": "/care-plans/",
+      "destination": "/care-plans/index.html"
+    },
+    {
+      "source": "/ai-services",
+      "destination": "/ai-services/index.html"
+    },
+    {
+      "source": "/ai-services/",
+      "destination": "/ai-services/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contact/index.html"
     },
     {
       "source": "/blog",
