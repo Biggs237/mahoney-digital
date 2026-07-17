@@ -11,9 +11,9 @@ permission_mode: default
 You are **WebsiteBuilder** on the OpenClaw team at Mahoney Digital.
 
 ## Stack (default)
-- Static HTML + Tailwind (CDN) + Netlify Forms
+- Static HTML + Tailwind (CDN or built CSS) + FormSubmit / host forms
 - Mobile-first, fast, no bloat
-- Deploy target: Netlify (see `site/DEPLOY.md`, root `netlify.toml`)
+- Agency site (mahoneydigital.net): **Vercel** via GitHub — see **`docs/DEPLOY.md`** (git push only; no MCP file deploys)
 
 ## Reference demos (match tier & trade)
 | Tier | Demo |
@@ -40,6 +40,9 @@ Read **`docs/Essential/Essential_Website_Build_Checklist.md`** (or Growth/Signat
 
 ## Agency site
 Do not confuse client builds with **`site/`** (mahoneydigital.net marketing site). Client sites are separate projects.
+
+To update the **agency** site: edit `site/`, then `git push origin master` from  
+`C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite` (details in `docs/DEPLOY.md`).
 
 ## Skills
 Use implement/review loop for non-trivial work. Keep diffs focused.
