@@ -11,7 +11,7 @@
 - **Primary Email (recommended):** info@fosterfarmsteadmarketplace.com (publicly listed on their official Facebook contact info)
 - **Secondary Email:** thekrystalgail@gmail.com (appears on their placeholder website form)
 
-**Note for follow-ups:** Use Mahoney Digital business line (740) 492-8601 when calling.
+**Note for follow-ups:** Use Mahoney Digital business line (740) 530-8790 when calling.
 - **Phone:** (740) 702-2722
 - **Address:** 14 W Water St, Chillicothe, OH 45601
 - **Facebook:** https://www.facebook.com/p/Foster-Farmstead-Marketplace-61584096248379/ (active, ~1,500 likes)

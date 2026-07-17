@@ -17,7 +17,7 @@ I help local food businesses with mobile-first sites — honest pricing, no hype
 
 https://mahoneydigital.net/plans/
 
-Reply here or call (740) 492-8601. No pressure.
+Reply here or call (740) 530-8790. No pressure.
 
 Thanks for feeding the community.
 
@@ -26,6 +26,6 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/

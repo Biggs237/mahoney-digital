@@ -28,7 +28,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -44,7 +44,7 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 Pull phone from Angi (logged-in) or Chamber: https://members.chillicotheohio.com/directory/Details/indoors-and-beyond-llc-4208282
 
-**Call from (740) 492-8601:**
+**Call from (740) 530-8790:**
 
 > "Hi, this is Jeremy with Mahoney Digital, local to Chillicothe. I help established handyman and painting companies get a professional website that matches their reviews online. Not selling anything today — wondered if you'd be open to a quick 10-minute overview. No pressure."
 

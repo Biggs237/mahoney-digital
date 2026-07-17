@@ -103,7 +103,7 @@ $gb.DrawString("Owner & Lead Designer", $roleF, $mutedBrush2, $left, ($top + 36)
 
 $y = $top + 88
 $gb.DrawString("hello@mahoneydigital.net", $bodyF, $brandBrush2, $left, $y)
-$gb.DrawString("(740) 492-8601", $bodyF, $brandBrush2, $left, ($y + 30))
+$gb.DrawString("(740) 530-8790", $bodyF, $brandBrush2, $left, ($y + 30))
 $gb.DrawString("mahoneydigital.net", $bodyF, $inkBrush2, $left, ($y + 60))
 $gb.DrawString("Chillicothe, Ohio - Ross and surrounding counties", $locF, $mutedBrush2, $left, ($BleedH - $Margin - 28))
 

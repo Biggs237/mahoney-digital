@@ -28,7 +28,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -36,7 +36,7 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ## Alternate: phone opener (no email)
 
-**Call (740) 637-3099** from **(740) 492-8601:**
+**Call (740) 637-3099** from **(740) 530-8790:**
 
 > "Hi, this is Jeremy with Mahoney Digital, local to Chillicothe. I help small auto shops get a simple mobile website so people searching on their phone can find you and call. Not selling anything today — wondered if you'd be open to a quick 10-minute chat or I can email details. No pressure."
 

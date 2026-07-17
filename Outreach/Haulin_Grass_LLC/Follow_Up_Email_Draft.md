@@ -14,7 +14,7 @@ Here's a quick example of the kind of clean, mobile-first site I build for lawn 
 
 https://mahoneydigital.net/examples/riverside-lawn/
 
-No pressure — if a 10-minute chat would help you see whether it's worth it, reply or call/text **(740) 492-8601**.
+No pressure — if a 10-minute chat would help you see whether it's worth it, reply or call/text **(740) 530-8790**.
 
 Thanks for the work you do locally.
 

@@ -24,9 +24,9 @@ Jeremy Mahoney
 Mahoney Digital
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 mahoneydigital.net | See plans →
 
 ---
 
-**Follow-up plan:** Monitor for reply. If no response in ~4-5 days, follow up by phone to (931) 698-9104 or FB. Use (740) 492-8601 business line. Consider a polite follow-up email if needed.
+**Follow-up plan:** Monitor for reply. If no response in ~4-5 days, follow up by phone to (931) 698-9104 or FB. Use (740) 530-8790 business line. Consider a polite follow-up email if needed.

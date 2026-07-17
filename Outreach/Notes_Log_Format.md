@@ -5,7 +5,7 @@ Paste this block at the bottom of **`Outreach/<Business>/Notes.md`** under **Con
 ```markdown
 ## Conversation log
 
-**YYYY-MM-DD — Call** ((740) 492-8601)
+**YYYY-MM-DD — Call** ((740) 530-8790)
 - **Reached:** Owner / employee / voicemail / no answer
 - **They said:** _(quote or paraphrase)_
 - **I said:** _(demo link sent? follow-up date?)_

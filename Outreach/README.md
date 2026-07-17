@@ -19,7 +19,7 @@ Each business folder contains:
 ## Daily workflow (calls & email)
 
 1. **Pick targets** — `Activity_Log.md` follow-up queue, prospect folders, or archived lists in `Archive/`.
-2. **Contact** — Use script in that folder’s `Outreach_Draft.md`; call from **(740) 492-8601**.
+2. **Contact** — Use script in that folder’s `Outreach_Draft.md`; call from **(740) 530-8790**.
 3. **Log twice** (takes 2 minutes):
    - Add a row to **`Activity_Log.md`** (master timeline + quick status table).
    - Add detail under **Conversation log** in that folder’s **`Notes.md`** — see **`Notes_Log_Format.md`** for the template.
@@ -39,11 +39,11 @@ Facebook group posts go in **`Activity_Log.md`** → “Facebook / groups” (no
 
 **New leads (June 2026):**
 5. **Haulin' Grass LLC** — Lawn care & landscaping (Chillicothe). Email sent to haulingrassllc4@gmail.com. Monitor for reply.
-6. **Hanes Lawn Care** — Family-owned lawn care (Chillicothe/Ross County). Email to isaiahhanes01@icloud.com bounced/returned. No valid email. Use FB https://www.facebook.com/61587378341344 (draft in FB_Message_Draft.md) or phone (931) 698-9104 (script in Phone_Script.md). Use (740) 492-8601 business line.
+6. **Hanes Lawn Care** — Family-owned lawn care (Chillicothe/Ross County). Email to isaiahhanes01@icloud.com bounced/returned. No valid email. Use FB https://www.facebook.com/61587378341344 (draft in FB_Message_Draft.md) or phone (931) 698-9104 (script in Phone_Script.md). Use (740) 530-8790 business line.
 7. **Chillicothe Comfort Heating & Air** — HVAC, heating, AC, plumbing. Email: ccs45601@outlook.com. Email sent 2026-06-02 (user confirmed "Sent!"). Sent_Email_2026-06-02.md created with full body and follow-up plan. Monitor for reply; follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ if needed.
 
 ## Business Phone
-**(740) 492-8601** — Use this number for all calls, voicemails, and when it appears on the website / signatures.
+**(740) 530-8790** — Use this number for all calls, voicemails, and when it appears on the website / signatures.
 
 Use the individual folders for all tracking. Update Notes.md after every interaction.
 
@@ -90,5 +90,5 @@ See `Chillicothe_Prospect_Rankings_2026-06-02.md` for full ranked list (#1 = wor
 **Current priorities:**
 - Monitor Chillicothe Comfort (sent 2026-06-02 to ccs45601@outlook.com) for reply. Follow up by phone (740) 774-2242 or FB https://www.facebook.com/ccs45601/ ~June 6-7 if needed.
 - Monitor all sent leads (Payless, Foster, Haulin') per their individual Notes.md and send polite follow-ups ~4-6 days out if needed.
-- Prep and start calls to Clemmons & Son Plumbing ((740) 775-3475) and Crall's One Stop Shop ((740) 774-3860) using the (740) 492-8601 business line.
+- Prep and start calls to Clemmons & Son Plumbing ((740) 775-3475) and Crall's One Stop Shop ((740) 774-3860) using the (740) 530-8790 business line.
 - Log every interaction promptly in the relevant Notes.md (date, what was said/sent, clear next action).

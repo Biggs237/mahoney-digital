@@ -22,6 +22,6 @@ Reply here if useful.
 Jeremy Mahoney  
 Mahoney Digital
 
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/

@@ -31,10 +31,10 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
 ---
 
-**Follow-up plan:** Monitor for reply. If no response by ~June 6-7, send polite follow-up email or call to (740) 774-2242 or via FB https://www.facebook.com/ccs45601/. Use (740) 492-8601 business line.
+**Follow-up plan:** Monitor for reply. If no response by ~June 6-7, send polite follow-up email or call to (740) 774-2242 or via FB https://www.facebook.com/ccs45601/. Use (740) 530-8790 business line.

@@ -1,6 +1,6 @@
 # Phone call list — Mahoney Digital outreach
 
-**Call from:** (740) 492-8601  
+**Call from:** (740) 530-8790  
 **Opener:** “Hi, this is Jeremy with Mahoney Digital — I’m local to Chillicothe. I help small businesses get a simple website so people can find you on their phone. Open to a quick 10-minute chat? No obligation.”
 
 Use the phone script in each folder’s `Outreach_Draft.md` when you want a custom hook.

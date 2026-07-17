@@ -22,4 +22,4 @@
 
 ---
 
-**Next action:** If no reply by ~Jun 10, call (740) 663-4090 from (740) 492-8601. Demo link for auto/trades: https://mahoneydigital.net/examples/riverside-lawn/ (or describe Essential). Full draft in Outreach_Draft.md; sent version in Sent_Email_2026-06-07.md.
+**Next action:** If no reply by ~Jun 10, call (740) 663-4090 from (740) 530-8790. Demo link for auto/trades: https://mahoneydigital.net/examples/riverside-lawn/ (or describe Essential). Full draft in Outreach_Draft.md; sent version in Sent_Email_2026-06-07.md.

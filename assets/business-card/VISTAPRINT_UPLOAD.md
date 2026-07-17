@@ -1,6 +1,6 @@
 # Mahoney Digital — Business cards for VistaPrint
 
-**Status:** Cards ordered (user confirmed) with prior number **(740) 530-8790**. Business line is now **(740) 492-8601** (Marblism receptionist). Regenerate PNGs and reorder when ready, or hand-write the new number on cards until then.
+**Status:** Cards ordered (user confirmed) with prior number **(740) 530-8790**. Business line is now **(740) 530-8790** (Marblism receptionist). Regenerate PNGs and reorder when ready, or hand-write the new number on cards until then.
 
 ## Files (upload these)
 

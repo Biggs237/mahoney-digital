@@ -22,7 +22,7 @@ Best,
 Jeremy Mahoney
 Mahoney Digital
 Professional websites for small local businesses.
-hello@mahoneydigital.net | (740) 492-8601
+hello@mahoneydigital.net | (740) 530-8790
 mahoneydigital.net | See plans →
 
 ---
@@ -31,6 +31,6 @@ mahoneydigital.net | See plans →
 - Keep it short for FB Messenger.
 - Attach or link to your site if possible.
 - If no reply, follow up with phone call (harvest phone from FB About if listed) using script from Phone_Script.md or Outreach_Draft.md.
-- Use your business line (740) 492-8601 if calling.
+- Use your business line (740) 530-8790 if calling.
 - FB About for any email/phone harvest (manual login required): https://www.facebook.com/p/Mizfits-garage-llc-61569619007654/about
 - Lane A auto/garage priority from FB tables.

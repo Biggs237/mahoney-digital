@@ -43,7 +43,7 @@ Open this file when you sit down to work. Everything else in the repo supports w
 | Email / signature setup | `Outreach/Email_Setup_Guide.md` |
 | OpenClaw agents + Telegram | `openclaw.ps1` · `.grok/agents/` · `tools/openclaw_telegram_bot.py` |
 
-**Phone (all outreach):** (740) 492-8601  
+**Phone (all outreach):** (740) 530-8790  
 **Email:** hello@mahoneydigital.net
 
 ---
