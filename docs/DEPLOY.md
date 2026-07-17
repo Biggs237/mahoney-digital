@@ -13,8 +13,15 @@ GitHub is connected to Vercel. **Commit + push = production.**
 
 ### For AI agents (Grok / Composer / Cursor)
 
-**You can and must run these commands yourself** via the shell/terminal tool. Do **not** tell the owner you “can’t” push, and do **not** only paste commands for them to run.
+**You can and must run these commands yourself** via the shell/terminal tool **when you are on the owner’s Windows machine** (Grok Desktop / local CLI / Cursor with full shell). Do **not** only paste commands for them to run.
 
+#### If you are in a cloud/Linux sandbox (no `C:\Users\...`)
+You **cannot** push the real site from there. Do this instead:
+1. **Do not** claim the work is “deployed.” Say clearly: *“Committed only in this sandbox; not on GitHub yet.”*
+2. Either: (a) write the full file contents the owner can save into `Projects\mdsite`, or (b) ask the owner to open a **local** agent session on Windows and apply the same changes, then `git push`.
+3. Never invent a “high-leverage path” that is just `git push` for the human unless you have verified the commits exist on their Windows repo (`git log` on that path).
+
+#### If you *do* have Windows path access
 1. Working directory must be: `C:\Users\Jeremy Mahoney\MahoneyDigital\Projects\mdsite`
 2. Request full permissions if the tool asks (`git_write` / network / `all`) — push needs network + write.
 3. Then run:
