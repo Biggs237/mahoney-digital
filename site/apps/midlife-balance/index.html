@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midlife Balance | Mahoney Digital Apps</title>
+    <meta name="description" content="Midlife Balance — private, local-first Android app for midlife and perimenopause awareness. Check-ins, patterns, visit prep. Not a medical device.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; background: #f8f6f1; }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
+        .nav-link:hover { color: #0d9488; }
+        .hero-mesh { background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(196,164,132,0.25), transparent 55%), #12101A; }
+        .prose-app h2 { font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 1.25rem; color: #0b1120; margin: 1.75rem 0 0.75rem; }
+        .prose-app p, .prose-app li { color: #475569; line-height: 1.65; }
+        .prose-app ul { list-style: disc; padding-left: 1.25rem; margin: 0.5rem 0 1rem; }
+    </style>
+</head>
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col">
+    <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-5 h-16 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-x-3 leading-none">
+                <svg width="32" height="32" viewBox="0 0 256 256" class="block" aria-hidden="true"><rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/><text x="128" y="168" font-family="Inter, system-ui, sans-serif" font-size="128" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="-0.06em">M</text></svg>
+                <span class="font-semibold text-lg tracking-tighter text-ink">Mahoney Digital</span>
+            </a>
+            <a href="/apps/" class="text-sm font-medium text-slate-600 hover:text-brand-dark">All apps</a>
+        </div>
+    </nav>
+
+    <header class="hero-mesh text-white">
+        <div class="max-w-3xl mx-auto px-5 py-12 md:py-16">
+            <a href="/apps/" class="text-sm text-slate-400 hover:text-white inline-flex items-center gap-2 mb-6"><i class="fas fa-arrow-left text-xs"></i> Apps</a>
+            <p class="text-xs font-semibold tracking-[0.2em] uppercase mb-3" style="color:#C4A484">Android · local-first</p>
+            <h1 class="heading-font text-3xl md:text-5xl font-semibold tracking-tight mb-4">Midlife Balance</h1>
+            <p class="text-slate-300 text-lg max-w-2xl">A private space to notice how you feel in midlife — check-ins, gentle patterns, and visit prep. Data stays on your phone.</p>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-3xl mx-auto px-5 py-12 w-full prose-app">
+        <div class="bg-white border border-slate-200 rounded-3xl p-6 md:p-8 mb-8">
+            <h2 class="!mt-0">What it is</h2>
+            <p>Midlife Balance helps women (and anyone tracking similar symptoms) log how days feel, spot personal patterns over time, and prepare for medical appointments with a private summary.</p>
+            <ul>
+                <li>Daily symptom check-ins (severity scale you choose)</li>
+                <li>History and simple patterns (last 14 days)</li>
+                <li>Visit prep talking points from your own logs</li>
+                <li>Optional PIN / fingerprint / face app lock</li>
+                <li>Encrypted storage on the device · no account required</li>
+            </ul>
+
+            <h2>What it is not</h2>
+            <p><strong>Not a medical device.</strong> Not for diagnosis or treatment. Wellness tracking only — not medical advice.</p>
+
+            <h2>Privacy</h2>
+            <p>Check-ins stay on your phone by design. We do not require a cloud account for core use. Read the full policy before installing from Google Play:</p>
+            <p class="mt-4">
+                <a href="/apps/midlife-balance/privacy/" class="btn-primary inline-flex px-5 py-3 rounded-2xl text-white font-semibold text-sm no-underline">Privacy policy →</a>
+            </p>
+        </div>
+
+        <p class="text-sm text-slate-500">
+            Package name (technical ID): <code class="text-slate-700 bg-slate-100 px-1.5 py-0.5 rounded">com.midlifebalance.app</code><br>
+            Publisher: Mahoney Digital · Support: <a href="mailto:hello@mahoneydigital.net" class="text-brand-dark font-medium">hello@mahoneydigital.net</a>
+        </p>
+    </main>
+
+    <footer class="bg-ink text-slate-400 text-sm py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-5 flex flex-wrap gap-4 justify-between">
+            <a href="/" class="text-white font-semibold hover:underline">Mahoney Digital</a>
+            <div class="flex gap-4">
+                <a href="/apps/" class="hover:text-white">Apps</a>
+                <a href="/apps/midlife-balance/privacy/" class="hover:text-white">Privacy</a>
+                <a href="/contact/" class="hover:text-white">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="/assets/chatbot.css">
+    <script defer src="/assets/chatbot.js"></script>
+    <script defer src="/assets/vercel-insights.js"></script>
+</body>
+</html>
