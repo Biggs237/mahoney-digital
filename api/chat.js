@@ -28,17 +28,42 @@ Demos: Riverside Lawn (Essential), Summit Comfort HVAC (Growth), Heritage Home P
 
 Never: invent discounts, guarantee rankings, collect card/SSN, pretend to be Jeremy, or close a custom deal. For ready-to-buy or complex questions: suggest calling/texting (740) 530-8790 or the contact form so Jeremy can follow up.`;
 
+const ALLOWED_ORIGINS = new Set([
+  'https://mahoneydigital.net',
+  'https://www.mahoneydigital.net',
+]);
+
+function isAllowedOrigin(origin) {
+  if (!origin) return false;
+  if (ALLOWED_ORIGINS.has(origin)) return true;
+  // Allow Vercel preview deployments for this project
+  if (/^https:\/\/[a-z0-9-]+-biggs237\.vercel\.app$/i.test(origin)) return true;
+  return false;
+}
+
 export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  const origin = req.headers.origin || '';
+  const allowed = isAllowedOrigin(origin);
+
+  if (allowed) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Vary', 'Origin');
+  }
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Max-Age', '86400');
 
   if (req.method === 'OPTIONS') {
-    return res.status(204).end();
+    return res.status(allowed ? 204 : 403).end();
   }
 
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
+  }
+
+  // Block obvious cross-origin abuse when Origin is present and not allowed
+  if (origin && !allowed) {
+    return res.status(403).json({ error: 'Forbidden' });
   }
 
   const key = (process.env.XAI_API_KEY || '').trim();
@@ -58,7 +83,6 @@ export default async function handler(req, res) {
           : typeof req.body === 'string'
             ? req.body
             : '';
-      // Vercel sometimes leaves body unparsed
       if (raw) body = JSON.parse(raw);
       else if (body == null) body = {};
     } catch {
@@ -104,7 +128,6 @@ export default async function handler(req, res) {
     if (!upstream.ok) {
       console.error('xAI error', upstream.status, data);
       const detail = data?.error || data?.message || '';
-      // 401/invalid key → tell client to fall back (don't pretend Grok answered)
       return res.status(502).json({
         error: 'upstream',
         detail: typeof detail === 'string' ? detail : JSON.stringify(detail),
