@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Home | Casto's Auto Repair</title>
     <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#E31E24">
     <script>
         tailwind.config = {
             theme: {
@@ -21,104 +22,161 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/examples/castos-auto-repair/castos.css">
 </head>
-<body class="bg-white text-zinc-900 font-sans pb-20 md:pb-0 overflow-x-hidden">
-    <div class="bg-black text-zinc-300 text-center text-xs py-2 px-4 leading-relaxed">
-        <strong class="text-white/90">Concept site for Casto's Auto Repair</strong> · Essential tier · click-to-call ·
-        <a href="/" class="underline font-semibold text-white">Mahoney Digital</a>
+<body class="bg-white text-zinc-900 font-sans pb-24 md:pb-0 overflow-x-hidden">
+    <div class="bg-black text-zinc-300 text-center text-[11px] sm:text-xs py-2 px-3 leading-snug">
+        <strong class="text-white/90">Concept site for Casto's Auto Repair</strong>
+        <span class="hidden sm:inline"> · Essential · click-to-call · </span>
+        <a href="/" class="underline font-semibold text-white sm:ml-0"> Mahoney Digital</a>
     </div>
 
-    <header class="border-b-2 border-black bg-white">
-        <div class="max-w-3xl mx-auto px-4 py-3 flex justify-between items-center gap-3">
-            <a href="/examples/castos-auto-repair" class="castos-brand-lockup min-w-0">
-                <img src="/examples/castos-auto-repair/badge.jpg" alt="" class="castos-badge w-11 h-11 sm:w-12 sm:h-12" width="48" height="48">
-                <img src="/examples/castos-auto-repair/wordmark.jpg" alt="Casto's Auto Repair — Fueled by Faith" class="castos-wordmark-header hidden sm:block" width="285" height="180">
+    <header class="border-b-2 border-black bg-white sticky top-0 z-40">
+        <div class="max-w-3xl mx-auto px-3 sm:px-4 py-2.5 flex justify-between items-center gap-2">
+            <a href="/examples/castos-auto-repair" class="castos-brand-lockup">
+                <img src="/examples/castos-auto-repair/badge.jpg" alt="" class="castos-badge w-10 h-10 sm:w-12 sm:h-12" width="48" height="48">
+                <img src="/examples/castos-auto-repair/wordmark.jpg" alt="Casto's Auto Repair" class="castos-wordmark-header" width="285" height="180">
             </a>
-            <button type="button" id="menu-btn" class="md:hidden p-2 text-black" aria-label="Open menu"><i class="fas fa-bars text-lg"></i></button>
-            <nav class="hidden md:flex gap-4 text-sm font-medium text-zinc-700">
+            <button type="button" id="menu-btn" class="md:hidden p-2 text-black" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+                <i class="fas fa-bars text-xl" aria-hidden="true"></i>
+            </button>
+            <nav class="hidden md:flex gap-5 text-sm font-medium text-zinc-700">
                 <a href="/examples/castos-auto-repair" class="castos-nav-active">Home</a>
                 <a href="/examples/castos-auto-repair/services" class="hover:text-castos-red">Services</a>
                 <a href="/examples/castos-auto-repair/about" class="hover:text-castos-red">About</a>
                 <a href="/examples/castos-auto-repair/contact" class="hover:text-castos-red">Contact</a>
             </nav>
         </div>
-        <nav id="mobile-nav" class="hidden md:hidden border-t border-zinc-200 px-4 py-3 flex flex-col gap-2 text-sm font-medium text-zinc-700">
+        <nav id="mobile-nav" class="hidden md:hidden border-t border-zinc-200 px-4 py-2 flex flex-col text-zinc-800 bg-white">
             <a href="/examples/castos-auto-repair" class="castos-nav-active">Home</a>
             <a href="/examples/castos-auto-repair/services">Services</a>
             <a href="/examples/castos-auto-repair/about">About</a>
             <a href="/examples/castos-auto-repair/contact">Contact</a>
         </nav>
+        <p class="md:hidden text-center text-[11px] text-zinc-600 py-1.5 px-3 border-t border-zinc-100 bg-zinc-50">
+            <strong>Mon–Fri</strong> 9:30–6 · Closed weekends · US-23 S
+        </p>
     </header>
 
-    <main class="max-w-3xl mx-auto px-4 py-6 md:py-8">
-        <!-- Facebook cover graphic -->
+    <main class="max-w-3xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
+        <!-- Mobile-first hero: real shop photo (not FB cover) -->
+        <section class="castos-hero-mobile mb-5" aria-label="Casto's Auto Repair shop">
+            <img src="/examples/castos-auto-repair/photos/shop-exterior.jpg" alt="Casto's Auto Repair on US Highway 23 in Chillicothe" width="768" height="1024">
+            <div class="castos-hero-mobile__shade" aria-hidden="true"></div>
+            <div class="castos-hero-mobile__copy">
+                <h1>Honest auto repair on US-23</h1>
+                <p>Chillicothe &amp; Ross County · Engine work you can trust</p>
+            </div>
+        </section>
+
+        <!-- Desktop only: original banner graphic -->
         <section class="castos-banner-wrap mb-8" aria-label="Casto's Auto Repair — shop info">
             <img src="/examples/castos-auto-repair/banner.jpg" alt="Casto's Auto Repair — Specializing in Engine Repair. Monday-Friday 9:30am-6:00pm. Financing available." class="castos-banner" width="909" height="353">
         </section>
 
-        <div class="text-center mb-8">
-            <h1 class="text-2xl md:text-3xl font-bold text-black mb-2">Honest auto repair on US-23</h1>
-            <p class="text-zinc-600 text-sm md:text-base max-w-md mx-auto">Chillicothe &amp; Ross County — Driven by faith. Fueled by service. Engine work, maintenance, and repairs you can trust.</p>
+        <div class="text-center mb-5 md:mb-8 md:block">
+            <h1 class="hidden md:block text-3xl font-bold text-black mb-2">Honest auto repair on US-23</h1>
+            <p class="text-zinc-600 text-[0.95rem] sm:text-base max-w-md mx-auto leading-relaxed px-1">
+                Driven by faith. Fueled by service. Engine repair, maintenance, and diagnostics for Chillicothe drivers.
+            </p>
         </div>
 
-        <div class="text-center mb-8">
-            <a href="tel:7406373099" class="inline-flex items-center gap-2 bg-castos-red hover:bg-castos-red-dark text-white font-bold text-lg px-8 py-4 rounded-full shadow-md">
-                <i class="fas fa-phone"></i> Call Now for Service
+        <div class="text-center mb-6 sm:mb-8">
+            <a href="tel:7406373099" class="castos-cta">
+                <i class="fas fa-phone" aria-hidden="true"></i> Call for service
             </a>
-            <p class="mt-4 text-sm text-zinc-600">Or <a href="/examples/castos-auto-repair/contact" class="text-castos-red font-semibold">request a callback</a></p>
+            <p class="mt-3 text-sm text-zinc-600">
+                <a href="tel:7406373099" class="font-bold text-black text-base tracking-tight">(740) 637-3099</a>
+            </p>
+            <p class="mt-1 text-sm text-zinc-500">Or <a href="/examples/castos-auto-repair/contact" class="text-castos-red font-semibold">request a callback</a></p>
         </div>
 
-        <section class="mb-8" aria-label="Customer reviews">
-            <p class="text-center text-sm font-bold uppercase tracking-wide text-black mb-1">What customers say</p>
-            <p class="text-center text-castos-red font-bold mb-4"><i class="fas fa-star text-sm" aria-hidden="true"></i> 4.4 on Google · 25 reviews</p>
-            <div class="space-y-3 text-sm max-w-md mx-auto">
+        <section class="mb-7 sm:mb-8" aria-label="Hours and location">
+            <div class="rounded-xl border-2 border-zinc-200 divide-y divide-zinc-100 text-sm overflow-hidden">
+                <div class="flex items-center gap-3 px-4 py-3.5">
+                    <i class="fas fa-clock text-castos-red w-5 text-center" aria-hidden="true"></i>
+                    <div>
+                        <strong class="block text-black">Hours</strong>
+                        <span class="text-zinc-600">Mon–Fri 9:30 AM – 6:00 PM · Closed Sat–Sun</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 px-4 py-3.5">
+                    <i class="fas fa-map-marker-alt text-castos-red w-5 text-center" aria-hidden="true"></i>
+                    <div>
+                        <strong class="block text-black">Location</strong>
+                        <span class="text-zinc-600">3364 US Highway 23 S, Chillicothe, OH</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 px-4 py-3.5">
+                    <i class="fas fa-wrench text-castos-red w-5 text-center" aria-hidden="true"></i>
+                    <div>
+                        <strong class="block text-black">Specialty</strong>
+                        <span class="text-zinc-600">Engine repair · Financing available</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-7 sm:mb-8" aria-label="Customer reviews">
+            <p class="text-center text-xs font-bold uppercase tracking-wider text-zinc-500 mb-1">What customers say</p>
+            <p class="text-center text-castos-red font-bold mb-3 text-sm">
+                <i class="fas fa-star text-xs" aria-hidden="true"></i> 4.4 on Google · 25 reviews
+            </p>
+            <div class="space-y-3 max-w-md mx-auto">
                 <blockquote class="castos-review">“Devin is a great mechanic — very thorough, polite, and takes his work seriously. Gave my van back in better shape than I brought it in.” <cite>— Verified customer</cite></blockquote>
                 <blockquote class="castos-review">“Great quick service. Friendly staff.” <cite>— Verified customer</cite></blockquote>
                 <blockquote class="castos-review">“Great service. Issue fixed. Back on the road!” <cite>— Verified customer</cite></blockquote>
             </div>
         </section>
 
-        <section class="mb-8" aria-label="Shop photos">
-            <p class="text-center text-sm font-bold uppercase tracking-wide text-black mb-3">Real work from the shop</p>
+        <section class="mb-7 sm:mb-8" aria-label="Shop photos">
+            <p class="text-center text-xs font-bold uppercase tracking-wider text-zinc-500 mb-3">Real work from the shop</p>
             <div class="castos-photo-grid">
                 <img src="/examples/castos-auto-repair/photos/engine-work.jpg" alt="Cylinder head engine work at Casto's Auto Repair" class="castos-photo" width="768" height="576" loading="lazy">
                 <img src="/examples/castos-auto-repair/photos/exhaust-work.jpg" alt="Exhaust repair work at Casto's Auto Repair" class="castos-photo" width="960" height="540" loading="lazy">
                 <img src="/examples/castos-auto-repair/photos/shop-1.jpg" alt="Engine diagnostics and machine work at Casto's Auto Repair" class="castos-photo" width="768" height="576" loading="lazy">
-                <img src="/examples/castos-auto-repair/photos/shop-exterior.jpg" alt="Casto's Auto Repair on US Highway 23 in Chillicothe" class="castos-photo" width="768" height="1024" loading="lazy">
             </div>
-            <p class="text-center text-xs text-zinc-500 mt-2">Engine repair is our specialty — honest diagnostics and quality machine work.</p>
+            <p class="text-center text-xs text-zinc-500 mt-2 px-2">Engine repair is our specialty — honest diagnostics and quality machine work.</p>
         </section>
 
-        <div class="grid sm:grid-cols-3 gap-3 text-left text-sm">
-            <a href="/examples/castos-auto-repair/services" class="castos-card p-4 rounded-lg border-2 border-zinc-200 transition-colors">
-                <strong class="block text-castos-red">Services</strong>Engine repair &amp; more
+        <div class="castos-link-cards grid gap-2.5 sm:grid-cols-3 sm:gap-3 text-left text-sm">
+            <a href="/examples/castos-auto-repair/services" class="castos-card p-4 rounded-xl border-2 border-zinc-200">
+                <strong class="block text-castos-red text-base mb-0.5">Services</strong>
+                <span class="text-zinc-600">Engine repair &amp; more</span>
             </a>
-            <a href="/examples/castos-auto-repair/about" class="castos-card p-4 rounded-lg border-2 border-zinc-200 transition-colors">
-                <strong class="block text-castos-red">About</strong>Faith &amp; integrity
+            <a href="/examples/castos-auto-repair/about" class="castos-card p-4 rounded-xl border-2 border-zinc-200">
+                <strong class="block text-castos-red text-base mb-0.5">About</strong>
+                <span class="text-zinc-600">Faith &amp; integrity</span>
             </a>
-            <a href="/examples/castos-auto-repair/contact" class="castos-card p-4 rounded-lg border-2 border-zinc-200 transition-colors">
-                <strong class="block text-castos-red">Contact</strong>Map &amp; form
+            <a href="/examples/castos-auto-repair/contact" class="castos-card p-4 rounded-xl border-2 border-zinc-200">
+                <strong class="block text-castos-red text-base mb-0.5">Contact</strong>
+                <span class="text-zinc-600">Map &amp; form</span>
             </a>
         </div>
     </main>
 
-    <footer class="bg-black text-zinc-300 text-center text-sm py-6 px-5">
+    <footer class="bg-black text-zinc-300 text-center text-sm py-8 px-5 mt-6">
         <img src="/examples/castos-auto-repair/badge.jpg" alt="" class="castos-badge w-14 h-14 mx-auto mb-3" width="56" height="56">
-        <p class="text-white font-semibold">Casto's Auto Repair</p>
+        <p class="text-white font-semibold text-base">Casto's Auto Repair</p>
         <p class="text-[#E31E24] italic text-xs mt-1">Driven by faith · fueled by service</p>
-        <p class="mt-3"><a href="tel:7406373099" class="text-white hover:text-castos-red font-medium text-base">(740) 637-3099</a></p>
-        <p class="text-xs mt-1 opacity-80">3364 US Highway 23 S · Chillicothe, OH 45601</p>
-        <p class="text-xs mt-2"><strong>Mon–Fri:</strong> 9:30 AM – 6:00 PM · Closed Sat–Sun</p>
-        <p class="text-[10px] mt-3 opacity-50">Concept demo · <a href="/" class="underline">Mahoney Digital</a></p>
+        <p class="mt-4">
+            <a href="tel:7406373099" class="text-white font-bold text-lg tracking-tight">(740) 637-3099</a>
+        </p>
+        <p class="text-xs mt-2 opacity-80 leading-relaxed">3364 US Highway 23 S<br>Chillicothe, OH 45601</p>
+        <p class="text-xs mt-3"><strong class="text-white/90">Mon–Fri:</strong> 9:30 AM – 6:00 PM · Closed Sat–Sun</p>
+        <p class="text-[10px] mt-4 opacity-50">Concept demo · <a href="/" class="underline">Mahoney Digital</a></p>
     </footer>
 
-    <div class="fixed bottom-0 inset-x-0 z-50 md:hidden border-t-2 border-black bg-castos-red shadow-lg" style="padding-bottom: max(12px, env(safe-area-inset-bottom));">
+    <div class="fixed bottom-0 inset-x-0 z-50 md:hidden border-t-2 border-black bg-castos-red shadow-lg" style="padding-bottom: max(10px, env(safe-area-inset-bottom));">
         <a href="tel:7406373099" class="flex items-center justify-center gap-2 text-white font-bold text-base py-3.5 min-h-[52px] active:opacity-90">
             <i class="fas fa-phone" aria-hidden="true"></i> Call (740) 637-3099
         </a>
     </div>
     <script>
-        document.getElementById('menu-btn')?.addEventListener('click', () => document.getElementById('mobile-nav')?.classList.toggle('hidden'));
+        document.getElementById('menu-btn')?.addEventListener('click', () => {
+            const nav = document.getElementById('mobile-nav');
+            const btn = document.getElementById('menu-btn');
+            const open = nav?.classList.toggle('hidden') === false;
+            btn?.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
     </script>
-    <script defer src="/assets/vercel-insights.js"></script>
 </body>
 </html>

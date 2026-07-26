@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Casto's Auto Repair demo — mobile-first */
 
 *,
 *::before,
@@ -6,11 +6,17 @@
     box-sizing: border-box;
 }
 
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
 html,
 body {
     overflow-x: hidden;
     max-width: 100%;
     width: 100%;
+    margin: 0;
 }
 
 img,
@@ -18,10 +24,7 @@ svg,
 video,
 iframe {
     max-width: 100%;
-}
-
-.font-castos-script {
-    font-family: 'Pacifico', 'Brush Script MT', cursive;
+    height: auto;
 }
 
 .text-castos-red { color: #E31E24; }
@@ -32,63 +35,114 @@ iframe {
 .castos-nav-active { color: #E31E24; font-weight: 600; }
 .castos-card:hover { border-color: #E31E24; }
 
-.castos-ribbon {
-    display: inline-block;
-    background-color: #E31E24;
-    color: #fff;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    padding: 0.25rem 0.625rem;
-    font-size: 0.7rem;
-    line-height: 1.2;
-    max-width: 100%;
-}
-
-.castos-faith {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-style: italic;
-    font-size: 0.875rem;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
-.castos-service-ribbon {
-    display: inline-block;
-    background-color: #E31E24;
-    color: #fff;
-    font-weight: 700;
-    font-size: 0.65rem;
-    padding: 0.3rem 0.75rem 0.35rem;
-    margin-top: 0.25rem;
-    border-radius: 0 0 999px 999px / 0 0 12px 12px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    max-width: 100%;
-}
-
-.castos-wordmark {
+/* Header brand — always show name mark on phones */
+.castos-brand-lockup {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     min-width: 0;
-    max-width: 100%;
+    flex: 1 1 auto;
+    max-width: calc(100% - 3rem);
 }
 
-.castos-wordmark--left {
-    align-items: center;
+.castos-badge {
+    display: block;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: #ffffff;
+    padding: 2px;
+    flex-shrink: 0;
+}
+
+.castos-wordmark-header {
+    display: block !important;
+    height: 2.25rem;
+    width: auto;
+    max-width: min(11rem, 48vw);
+    object-fit: contain;
+    object-position: left center;
 }
 
 @media (min-width: 640px) {
-    .castos-wordmark--left {
-        align-items: flex-start;
+    .castos-wordmark-header {
+        height: 2.75rem;
+        max-width: 14rem;
     }
 }
 
+.castos-badge--hero {
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+/* Mobile hero (shop photo + overlay) — primary above the fold on phones */
+.castos-hero-mobile {
+    position: relative;
+    width: 100%;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 2px solid #111;
+    aspect-ratio: 4 / 5;
+    max-height: min(70vh, 28rem);
+    background: #111;
+}
+
+.castos-hero-mobile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.castos-hero-mobile__shade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.88) 0%,
+        rgba(0, 0, 0, 0.45) 45%,
+        rgba(0, 0, 0, 0.2) 100%
+    );
+    pointer-events: none;
+}
+
+.castos-hero-mobile__copy {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.25rem 1rem 1.35rem;
+    color: #fff;
+    text-align: center;
+}
+
+.castos-hero-mobile__copy h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.02em;
+}
+
+.castos-hero-mobile__copy p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+/* FB cover only on larger screens — unreadable when shrunk on phones */
 .castos-banner-wrap {
+    display: none;
     width: 100%;
     max-width: 100%;
     overflow: hidden;
     line-height: 0;
+    border-radius: 0.5rem;
+    border: 2px solid #111;
 }
 
 .castos-banner {
@@ -98,45 +152,13 @@ iframe {
     max-width: 100%;
 }
 
-.castos-brand-lockup {
-    display: flex;
-    align-items: center;
-    gap: 0.625rem;
-    min-width: 0;
-    overflow: visible;
-}
-
-.castos-brand-lockup img {
-    flex-shrink: 0;
-}
-
-.castos-wordmark-header {
-    display: block;
-    height: 2.75rem;
-    width: auto;
-    max-width: none;
-    object-fit: contain;
-    object-position: left center;
-}
-
-.castos-badge {
-    display: block;
-    border-radius: 50%;
-    object-fit: contain;
-    background-color: #ffffff;
-    padding: 2px;
-}
-
-.castos-badge--hero {
-    border-radius: 50%;
-    object-fit: contain;
-    padding: 0.75rem;
-    background-color: #ffffff;
-    box-sizing: border-box;
-}
-
-header .max-w-3xl {
-    overflow: visible;
+@media (min-width: 768px) {
+    .castos-hero-mobile {
+        display: none;
+    }
+    .castos-banner-wrap {
+        display: block;
+    }
 }
 
 .castos-photo {
@@ -148,19 +170,27 @@ header .max-w-3xl {
     object-fit: cover;
 }
 
+/* Single column on phones = big, scannable images */
 .castos-photo-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.75rem;
     width: 100%;
     max-width: 100%;
 }
 
+@media (min-width: 640px) {
+    .castos-photo-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .castos-review {
     border-left: 3px solid #E31E24;
-    padding: 0.75rem 0 0.75rem 1rem;
+    padding: 0.85rem 0 0.85rem 1rem;
     color: #3f3f46;
-    line-height: 1.5;
+    line-height: 1.55;
+    font-size: 0.95rem;
 }
 
 .castos-review cite {
@@ -171,8 +201,62 @@ header .max-w-3xl {
     color: #71717a;
 }
 
-@media (max-width: 480px) {
-    .castos-photo-grid {
-        grid-template-columns: 1fr;
+/* Thumb-friendly primary CTA */
+.castos-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 3.25rem;
+    padding: 0.9rem 1.25rem;
+    border-radius: 9999px;
+    background-color: #E31E24;
+    color: #fff !important;
+    font-weight: 800;
+    font-size: 1.05rem;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(227, 30, 36, 0.35);
+}
+
+.castos-cta:active {
+    background-color: #C41A1F;
+}
+
+@media (min-width: 640px) {
+    .castos-cta {
+        width: auto;
+        display: inline-flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
+}
+
+/* Service list cards on mobile */
+.castos-link-cards a {
+    display: block;
+    min-height: 3.5rem;
+}
+
+/* Mobile menu links — larger tap targets */
+#mobile-nav a {
+    display: block;
+    padding: 0.75rem 0.25rem;
+    border-bottom: 1px solid #f4f4f5;
+    font-size: 1rem;
+}
+
+#mobile-nav a:last-child {
+    border-bottom: none;
+}
+
+#menu-btn {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
