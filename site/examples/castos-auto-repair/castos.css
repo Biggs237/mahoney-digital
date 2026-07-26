@@ -552,91 +552,251 @@ a {
     }
 }
 
-/* Inner pages */
-.page-main {
-    max-width: 28rem;
-    margin: 0 auto;
-    padding: 1.25rem 1.1rem calc(5rem + var(--safe-bottom));
+/* —— Inner pages: same visual language as home —— */
+
+/* Shorter heroes on Services / About / Contact */
+.hero--page {
+    aspect-ratio: 16 / 10;
+    max-height: 42vh;
+}
+
+.hero--page.hero--short {
+    aspect-ratio: 16 / 9;
+    max-height: 36vh;
+}
+
+.hero--page .hero__text h1 {
+    font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-    .page-main {
-        max-width: 40rem;
-        padding-bottom: 2rem;
+    .hero--page {
+        aspect-ratio: 21 / 9;
+        max-height: none;
+    }
+    .hero--page .hero__text h1 {
+        font-size: 1.85rem;
     }
 }
 
-.page-main h1 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    margin: 0 0 0.75rem;
-}
-
-/* Keep Tailwind color helpers used on other pages */
-.text-castos-red { color: var(--red); }
-.bg-castos-red { background-color: var(--red); }
-.hover\:bg-castos-red-dark:hover { background-color: var(--red-dark); }
-.castos-nav-active { color: var(--red); font-weight: 700; }
-.castos-card:hover { border-color: var(--red); }
-.castos-photo {
-    width: 100%;
-    border-radius: 0.75rem;
+/* Settings-style service rows */
+.svc-list {
+    margin: 0 1.1rem;
+    background: #fff;
     border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    overflow: hidden;
 }
-.castos-photo-grid {
-    display: grid;
-    gap: 0.65rem;
-}
-@media (min-width: 640px) {
-    .castos-photo-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-.castos-cta {
+
+.svc-row {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 100%;
-    min-height: 3.25rem;
-    padding: 0.85rem 1rem;
-    border-radius: 0.85rem;
-    background: var(--red);
-    color: #fff !important;
-    font-weight: 800;
-    font-size: 1.05rem;
-    text-decoration: none;
+    gap: 0.85rem;
+    align-items: flex-start;
+    padding: 0.95rem 1rem;
+    border-bottom: 1px solid var(--line);
 }
-.castos-review {
+
+.svc-row:last-child {
+    border-bottom: 0;
+}
+
+.svc-row > i {
+    color: var(--red);
+    width: 1.2rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+    font-size: 0.95rem;
+}
+
+.svc-row strong {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--ink);
+    margin-bottom: 0.15rem;
+    line-height: 1.25;
+}
+
+.svc-row span {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.4;
+}
+
+.svc-row--featured {
+    background: #fff8f8;
+}
+
+.svc-row--featured strong {
+    color: var(--red);
+}
+
+.financing-note {
+    margin: 1rem 1.1rem 0;
+    text-align: center;
     background: #fff;
     border: 1px solid var(--line);
     border-radius: 0.85rem;
-    padding: 0.95rem 1rem;
-    margin-bottom: 0.65rem;
-    font-size: 0.92rem;
-    color: #3f3f46;
+    padding: 0.9rem 1rem;
 }
-.castos-review cite {
+
+.financing-note strong {
     display: block;
-    margin-top: 0.45rem;
-    font-style: normal;
-    font-size: 0.75rem;
+    color: var(--red);
+    font-weight: 900;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+}
+
+.financing-note span {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
     color: #a1a1aa;
 }
-.castos-badge {
-    border-radius: 50%;
-    object-fit: cover;
+
+.prose {
+    margin: 0 1.1rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    padding: 1.05rem 1.1rem;
 }
-.castos-badge--hero {
-    margin: 0 auto;
+
+.prose p {
+    margin: 0 0 0.8rem;
+    font-size: 0.95rem;
+    color: #3f3f46;
+    line-height: 1.55;
 }
-.castos-brand-lockup {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+
+.prose p:last-child {
+    margin-bottom: 0;
+}
+
+.prose strong {
+    color: var(--ink);
+}
+
+/* Contact form — single white card */
+.contact-form {
+    margin: 0 1.1rem;
+    display: grid;
+    gap: 0.55rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    padding: 0.9rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--bg);
+    font: inherit;
+    font-size: 1rem;
+    color: var(--ink);
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.contact-form select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%2352525b' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.9rem center;
+    padding-right: 2.25rem;
+}
+
+.contact-form textarea {
+    min-height: 5.25rem;
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--red);
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(227, 30, 36, 0.15);
+}
+
+.contact-form button {
+    width: 100%;
+    min-height: 3.15rem;
+    margin-top: 0.15rem;
+    border: 0;
+    border-radius: 0.75rem;
+    background: var(--ink);
+    color: #fff;
+    font: inherit;
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:active {
+    background: #27272a;
+}
+
+.form-fine {
+    margin: 0.5rem 1.1rem 0;
+    text-align: center;
+    font-size: 0.72rem;
+    color: #a1a1aa;
+}
+
+.map-wrap {
+    margin: 0 1.1rem;
+    border-radius: 0.9rem;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #e4e4e7;
+    line-height: 0;
+}
+
+.map-wrap iframe {
+    display: block;
+    width: 100%;
+    height: 13.5rem;
+    border: 0;
+}
+
+.directions {
+    display: block;
+    text-align: center;
+    margin: 0.7rem 1.1rem 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--red);
     text-decoration: none;
 }
-.castos-wordmark-header {
-    display: none !important; /* text brand in app bar instead of wide JPG */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Stack section-label + first block spacing */
+.section-label + .svc-list,
+.section-label + .prose,
+.section-label + .info-list,
+.section-label + .contact-form,
+.section-label + .map-wrap,
+.section-label + .photo-rail {
+    margin-top: 0;
 }
