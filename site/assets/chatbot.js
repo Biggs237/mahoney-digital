@@ -25,7 +25,7 @@
     {
       keys: ['contact', 'call', 'phone', 'email', 'reach', 'talk', 'jeremy'],
       answer:
-        'Call or text ' +
+        'Call ' +
         PHONE +
         ', email hello@mahoneydigital.net, or use the form at mahoneydigital.net/contact. Jeremy usually follows up within one business day.',
     },
@@ -58,7 +58,7 @@
     }
     return (
       'I can help with packages, pricing ranges, care plans, demos, or how to reach Jeremy. ' +
-      'For a custom quote or project talk, call/text ' +
+      'For a custom quote or project talk, call ' +
       PHONE +
       ' or use mahoneydigital.net/contact.'
     );

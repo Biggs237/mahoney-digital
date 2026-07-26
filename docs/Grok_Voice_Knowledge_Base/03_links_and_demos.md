@@ -19,11 +19,11 @@ These are **demos** showing tier style — not necessarily live client brands un
 | Heritage Home Partners | Remodeling | Signature | https://mahoneydigital.net/examples/heritage-home-partners |
 
 ## Contact
-- **Phone / text:** (740) 530-8790
+- **Phone (voice only, no texts):** (740) 530-8790
 - **Email:** hello@mahoneydigital.net
 
 ## When callers ask “can you send me something?”
 Point them to:
 1. mahoneydigital.net/websites (pricing packages)
 2. mahoneydigital.net/work (demos)
-3. Or offer that Jeremy will text/email links after the call
+3. Or offer that Jeremy will email links after the call

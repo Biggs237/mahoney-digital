@@ -79,7 +79,7 @@
 - Higher monthly hours (up to about 8)
 - Fuller Google Business + local SEO execution
 - Monthly strategy calls
-- Direct phone/text access style partnership
+- Direct phone access style partnership
 - Annual planning / roadmap
 - **Best for:** High-touch digital partner
 
