@@ -66,7 +66,7 @@ Optional check via Vercel MCP: `list_deployments` for project `prj_Nyv2KNqvZ3MnW
 |------|---------|
 | `site/` | Everything public (HTML, assets, examples, blog) |
 | `vercel.json` | Rewrites, headers, static output (`outputDirectory: site`) |
-| `middleware.js` | Edge auth (e.g. Casto's demo) |
+| ~~`middleware.js`~~ | *(removed)* Casto demo is direct-link only (noindex), not password-gated |
 | `site/assets/site.css` | Built CSS — regenerate with `npm run build:css` |
 
 Outreach, docs, and notes do **not** need a deploy unless you also change `site/`.
