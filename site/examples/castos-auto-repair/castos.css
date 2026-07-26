@@ -400,6 +400,30 @@ a {
     font-weight: 600;
 }
 
+.review__stars {
+    display: block;
+    color: var(--red);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.4rem;
+}
+
+.review-more {
+    margin: 0.85rem 1.1rem 0;
+    text-align: center;
+}
+
+.review-more a {
+    color: var(--red);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.review-more a:hover {
+    text-decoration: underline;
+}
+
 /* Photo rail — horizontal scroll feels native on phones */
 .photo-rail {
     display: flex;
