@@ -1,4 +1,14 @@
-/* Casto's Auto Repair demo — mobile-first */
+/* Casto's Essential demo — phone-first (native app feel) */
+
+:root {
+    --red: #E31E24;
+    --red-dark: #C41A1F;
+    --ink: #0a0a0a;
+    --muted: #52525b;
+    --line: #e4e4e7;
+    --bg: #fafafa;
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
 
 *,
 *::before,
@@ -13,250 +23,620 @@ html {
 
 html,
 body {
-    overflow-x: hidden;
-    max-width: 100%;
-    width: 100%;
     margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.45;
 }
 
-img,
-svg,
-video,
-iframe {
+img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
-.text-castos-red { color: #E31E24; }
-.bg-castos-red { background-color: #E31E24; }
-.border-castos-red { border-color: #E31E24; }
-.hover\:bg-castos-red-dark:hover { background-color: #C41A1F; }
+a {
+    color: inherit;
+}
 
-.castos-nav-active { color: #E31E24; font-weight: 600; }
-.castos-card:hover { border-color: #E31E24; }
+/* —— Demo chip (tiny, not a full desktop banner) —— */
+.demo-chip {
+    background: var(--ink);
+    color: #a1a1aa;
+    font-size: 0.6875rem;
+    text-align: center;
+    padding: 0.4rem 0.75rem;
+    line-height: 1.3;
+}
 
-/* Header brand — always show name mark on phones */
-.castos-brand-lockup {
+.demo-chip a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* —— App-style top bar —— */
+.app-bar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 0.65rem 1rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    min-width: 0;
-    flex: 1 1 auto;
-    max-width: calc(100% - 3rem);
+    justify-content: space-between;
+    gap: 0.75rem;
 }
 
-.castos-badge {
-    display: block;
+.app-bar__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-width: 0;
+    text-decoration: none;
+}
+
+.app-bar__badge {
+    width: 2.25rem;
+    height: 2.25rem;
     border-radius: 50%;
-    object-fit: contain;
-    background-color: #ffffff;
-    padding: 2px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--line);
+}
+
+.app-bar__name {
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.app-bar__name span {
+    display: block;
+    font-weight: 500;
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+}
+
+.app-bar__menu {
+    border: 0;
+    background: transparent;
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
     flex-shrink: 0;
 }
 
-.castos-wordmark-header {
-    display: block !important;
-    height: 2.25rem;
-    width: auto;
-    max-width: min(11rem, 48vw);
-    object-fit: contain;
-    object-position: left center;
+.app-bar__menu:active {
+    background: #f4f4f5;
 }
 
-@media (min-width: 640px) {
-    .castos-wordmark-header {
-        height: 2.75rem;
-        max-width: 14rem;
-    }
+.app-nav-desktop {
+    display: none;
+    gap: 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--muted);
 }
 
-.castos-badge--hero {
-    border-radius: 50%;
-    object-fit: contain;
-    padding: 0.5rem;
-    background-color: #ffffff;
-    box-sizing: border-box;
+.app-nav-desktop a {
+    text-decoration: none;
 }
 
-/* Mobile hero (shop photo + overlay) — primary above the fold on phones */
-.castos-hero-mobile {
-    position: relative;
-    width: 100%;
-    border-radius: 0.75rem;
-    overflow: hidden;
-    border: 2px solid #111;
-    aspect-ratio: 4 / 5;
-    max-height: min(70vh, 28rem);
-    background: #111;
+.app-nav-desktop a.is-active,
+.app-nav-desktop a:hover {
+    color: var(--red);
 }
 
-.castos-hero-mobile img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.drawer {
+    display: none;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 0.25rem 1rem 0.75rem;
+}
+
+.drawer.is-open {
     display: block;
 }
 
-.castos-hero-mobile__shade {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.88) 0%,
-        rgba(0, 0, 0, 0.45) 45%,
-        rgba(0, 0, 0, 0.2) 100%
-    );
-    pointer-events: none;
+.drawer a {
+    display: block;
+    padding: 0.85rem 0.15rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    border-bottom: 1px solid #f4f4f5;
 }
 
-.castos-hero-mobile__copy {
+.drawer a:last-child {
+    border-bottom: 0;
+}
+
+.drawer a.is-active {
+    color: var(--red);
+}
+
+/* —— Page shell —— */
+.shell {
+    max-width: 28rem;
+    margin: 0 auto;
+    padding: 0 0 calc(4.75rem + var(--safe-bottom));
+}
+
+@media (min-width: 768px) {
+    .shell {
+        max-width: 40rem;
+        padding-bottom: 2rem;
+    }
+    .app-bar__menu {
+        display: none;
+    }
+    .app-nav-desktop {
+        display: flex;
+    }
+    .drawer {
+        display: none !important;
+    }
+}
+
+/* —— Hero —— */
+.hero {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    max-height: 58vh;
+    overflow: hidden;
+    background: #111;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero__fade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.9) 0%, rgba(0,0,0,.35) 50%, rgba(0,0,0,.15) 100%);
+}
+
+.hero__text {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.25rem 1rem 1.35rem;
+    padding: 1.5rem 1.15rem 1.35rem;
     color: #fff;
-    text-align: center;
 }
 
-.castos-hero-mobile__copy h1 {
-    font-size: 1.5rem;
-    line-height: 1.2;
+.hero__kicker {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    font-size: 0.65rem;
     font-weight: 800;
-    margin: 0 0 0.4rem;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.55rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.55rem;
 }
 
-.castos-hero-mobile__copy p {
+.hero__text h1 {
+    margin: 0 0 0.35rem;
+    font-size: 1.65rem;
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+.hero__text p {
     margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.4;
-    color: rgba(255, 255, 255, 0.92);
+    font-size: 0.95rem;
+    color: rgba(255,255,255,.9);
+    line-height: 1.35;
 }
 
-/* FB cover only on larger screens — unreadable when shrunk on phones */
-.castos-banner-wrap {
-    display: none;
+/* Desktop: shorter landscape hero */
+@media (min-width: 768px) {
+    .hero {
+        aspect-ratio: 21 / 9;
+        max-height: none;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .hero__text h1 {
+        font-size: 2rem;
+    }
+}
+
+/* —— Body blocks —— */
+.panel {
+    padding: 1.15rem 1.1rem 0;
+}
+
+.cta-block {
+    padding: 1.1rem 1.1rem 0.25rem;
+}
+
+.btn-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
     width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    border-radius: 0.5rem;
-    border: 2px solid #111;
+    min-height: 3.4rem;
+    padding: 0.9rem 1rem;
+    border-radius: 0.85rem;
+    background: var(--red);
+    color: #fff !important;
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(227, 30, 36, 0.28);
 }
 
-.castos-banner {
+.btn-call:active {
+    background: var(--red-dark);
+}
+
+.phone-link {
     display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+    text-align: center;
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: var(--ink);
+}
+
+.sub-link {
+    display: block;
+    text-align: center;
+    margin-top: 0.35rem;
+    font-size: 0.875rem;
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.sub-link a {
+    color: var(--red);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Info list — native settings-style rows */
+.info-list {
+    margin: 1rem 1.1rem 0;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    overflow: hidden;
+}
+
+.info-row {
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+    padding: 0.95rem 1rem;
+    border-bottom: 1px solid var(--line);
+}
+
+.info-row:last-child {
+    border-bottom: 0;
+}
+
+.info-row i {
+    color: var(--red);
+    width: 1.15rem;
+    text-align: center;
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+}
+
+.info-row strong {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 0.15rem;
+}
+
+.info-row span {
+    font-size: 0.95rem;
+    color: var(--ink);
+    line-height: 1.35;
+}
+
+/* Section titles */
+.section-label {
+    margin: 1.35rem 1.1rem 0.55rem;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+}
+
+.stars {
+    margin: 0 1.1rem 0.65rem;
+    color: var(--red);
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.review {
+    margin: 0 1.1rem 0.65rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    padding: 0.95rem 1rem;
+    font-size: 0.92rem;
+    color: #3f3f46;
+    line-height: 1.5;
+}
+
+.review cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-size: 0.75rem;
+    color: #a1a1aa;
+    font-weight: 600;
+}
+
+/* Photo rail — horizontal scroll feels native on phones */
+.photo-rail {
+    display: flex;
+    gap: 0.65rem;
+    overflow-x: auto;
+    padding: 0 1.1rem 0.25rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.photo-rail img {
+    flex: 0 0 78%;
+    max-width: 78%;
+    height: 11.5rem;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    border: 1px solid var(--line);
+    scroll-snap-align: start;
+    background: #e4e4e7;
 }
 
 @media (min-width: 768px) {
-    .castos-hero-mobile {
+    .photo-rail {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: visible;
+        gap: 0.75rem;
+    }
+    .photo-rail img {
+        flex: none;
+        max-width: none;
+        width: 100%;
+        height: 10rem;
+    }
+}
+
+/* Nav cards */
+.nav-cards {
+    margin: 1rem 1.1rem 0;
+    display: grid;
+    gap: 0.55rem;
+}
+
+.nav-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    min-height: 3.5rem;
+}
+
+.nav-card strong {
+    display: block;
+    color: var(--red);
+    font-size: 1rem;
+}
+
+.nav-card span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 0.1rem;
+}
+
+.nav-card i {
+    color: #d4d4d8;
+}
+
+/* Footer */
+.site-foot {
+    margin-top: 1.75rem;
+    background: var(--ink);
+    color: #a1a1aa;
+    text-align: center;
+    padding: 1.75rem 1.25rem 2rem;
+    font-size: 0.85rem;
+}
+
+.site-foot .name {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.05rem;
+}
+
+.site-foot .tag {
+    color: var(--red);
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+.site-foot a.tel {
+    display: inline-block;
+    margin-top: 0.85rem;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.site-foot .fine {
+    margin-top: 0.85rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    opacity: 0.85;
+}
+
+.site-foot .md {
+    margin-top: 1rem;
+    font-size: 0.65rem;
+    opacity: 0.5;
+}
+
+.site-foot .md a {
+    color: #fff;
+}
+
+/* Sticky call dock — always on phones */
+.call-dock {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    background: var(--red);
+    border-top: 1px solid #9f1217;
+    padding: 0.55rem 1rem calc(0.55rem + var(--safe-bottom));
+    box-shadow: 0 -4px 20px rgba(0,0,0,.15);
+}
+
+.call-dock a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.85rem;
+    color: #fff !important;
+    font-weight: 800;
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .call-dock {
         display: none;
     }
-    .castos-banner-wrap {
-        display: block;
+}
+
+/* Inner pages */
+.page-main {
+    max-width: 28rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.1rem calc(5rem + var(--safe-bottom));
+}
+
+@media (min-width: 768px) {
+    .page-main {
+        max-width: 40rem;
+        padding-bottom: 2rem;
     }
 }
 
-.castos-photo {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 2px solid #111111;
-    border-radius: 0.5rem;
-    object-fit: cover;
+.page-main h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.75rem;
 }
 
-/* Single column on phones = big, scannable images */
+/* Keep Tailwind color helpers used on other pages */
+.text-castos-red { color: var(--red); }
+.bg-castos-red { background-color: var(--red); }
+.hover\:bg-castos-red-dark:hover { background-color: var(--red-dark); }
+.castos-nav-active { color: var(--red); font-weight: 700; }
+.castos-card:hover { border-color: var(--red); }
+.castos-photo {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: 1px solid var(--line);
+}
 .castos-photo-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.75rem;
-    width: 100%;
-    max-width: 100%;
+    gap: 0.65rem;
 }
-
 @media (min-width: 640px) {
     .castos-photo-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-.castos-review {
-    border-left: 3px solid #E31E24;
-    padding: 0.85rem 0 0.85rem 1rem;
-    color: #3f3f46;
-    line-height: 1.55;
-    font-size: 0.95rem;
-}
-
-.castos-review cite {
-    display: block;
-    margin-top: 0.5rem;
-    font-style: normal;
-    font-size: 0.75rem;
-    color: #71717a;
-}
-
-/* Thumb-friendly primary CTA */
 .castos-cta {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     width: 100%;
-    max-width: 22rem;
-    margin-left: auto;
-    margin-right: auto;
     min-height: 3.25rem;
-    padding: 0.9rem 1.25rem;
-    border-radius: 9999px;
-    background-color: #E31E24;
+    padding: 0.85rem 1rem;
+    border-radius: 0.85rem;
+    background: var(--red);
     color: #fff !important;
     font-weight: 800;
     font-size: 1.05rem;
     text-decoration: none;
-    box-shadow: 0 4px 14px rgba(227, 30, 36, 0.35);
 }
-
-.castos-cta:active {
-    background-color: #C41A1F;
+.castos-review {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    padding: 0.95rem 1rem;
+    margin-bottom: 0.65rem;
+    font-size: 0.92rem;
+    color: #3f3f46;
 }
-
-@media (min-width: 640px) {
-    .castos-cta {
-        width: auto;
-        display: inline-flex;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-}
-
-/* Service list cards on mobile */
-.castos-link-cards a {
+.castos-review cite {
     display: block;
-    min-height: 3.5rem;
+    margin-top: 0.45rem;
+    font-style: normal;
+    font-size: 0.75rem;
+    color: #a1a1aa;
 }
-
-/* Mobile menu links — larger tap targets */
-#mobile-nav a {
-    display: block;
-    padding: 0.75rem 0.25rem;
-    border-bottom: 1px solid #f4f4f5;
-    font-size: 1rem;
+.castos-badge {
+    border-radius: 50%;
+    object-fit: cover;
 }
-
-#mobile-nav a:last-child {
-    border-bottom: none;
+.castos-badge--hero {
+    margin: 0 auto;
 }
-
-#menu-btn {
-    min-width: 2.75rem;
-    min-height: 2.75rem;
-    display: inline-flex;
+.castos-brand-lockup {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+.castos-wordmark-header {
+    display: none !important; /* text brand in app bar instead of wide JPG */
 }
