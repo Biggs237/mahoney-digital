@@ -1,6 +1,19 @@
 User-agent: *
 Allow: /
 
+# AI crawlers — explicit allow for visibility in AI answers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 # Unlisted concept demo — direct link only, not for search indexing
 Disallow: /examples/castos-auto-repair
 
