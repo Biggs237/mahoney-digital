@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-desk Chat Example | Mahoney Digital</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Example of a calm front-desk chat agent for local businesses.">
+    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; background: #f8f6f1; }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
+        .bubble { max-width: 85%; }
+        .bubble-user { background: #0f766e; color: white; border-radius: 18px 18px 4px 18px; }
+        .bubble-bot { background: white; border: 1px solid #e2e8f0; border-radius: 18px 18px 18px 4px; }
+    </style>
+</head>
+<body class="bg-cream min-h-screen flex flex-col">
+    <div class="bg-violet-900 text-violet-100 text-center text-xs py-2.5 px-3">
+        <strong class="text-white/90">AI add-on example</strong> · Front-desk chat &amp; site agent · <a href="/ai-services/" class="underline font-semibold">Back to AI tools</a>
+    </div>
+
+    <main class="flex-1 max-w-lg mx-auto px-5 py-10 w-full">
+        <p class="text-xs font-semibold uppercase tracking-wide text-violet-700 mb-2">Optional add-on</p>
+        <h1 class="heading-font text-2xl font-semibold text-ink mb-2">Front-desk chat agent</h1>
+        <p class="text-sm text-slate-600 mb-8 leading-relaxed">A calm on-site chat that answers common questions and captures the lead when the owner is busy or closed. This is what a visitor would see.</p>
+
+        <div class="bg-white border border-slate-200 rounded-3xl p-5 shadow-sm">
+            <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                <div class="w-9 h-9 rounded-full bg-violet-100 text-violet-700 flex items-center justify-center">
+                    <i class="fas fa-robot text-sm"></i>
+                </div>
+                <div>
+                    <p class="text-sm font-semibold text-ink">Riverside Lawn</p>
+                    <p class="text-[11px] text-slate-500">Usually replies in a few seconds</p>
+                </div>
+            </div>
+
+            <div class="space-y-3 mb-5">
+                <div class="bubble bubble-bot p-3.5 text-sm text-slate-700">
+                    Hi — thanks for stopping by. Looking for mowing, mulch, or a one-time cleanup?
+                </div>
+                <div class="bubble bubble-user p-3.5 text-sm ml-auto">
+                    Do you do weekly mowing in Chillicothe?
+                </div>
+                <div class="bubble bubble-bot p-3.5 text-sm text-slate-700">
+                    Yes. We cover most of Ross County including Chillicothe. Weekly mowing starts at $45 depending on lot size. Want me to have the owner call you back with an exact quote?
+                </div>
+                <div class="bubble bubble-user p-3.5 text-sm ml-auto">
+                    Yeah, my number is 740-555-0199
+                </div>
+                <div class="bubble bubble-bot p-3.5 text-sm text-slate-700">
+                    Got it. I’ll pass your number and the weekly mowing request to the owner. They usually call the same day.
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <input type="text" placeholder="Type a message..." class="flex-1 text-sm px-4 py-2.5 rounded-full border border-slate-200 bg-slate-50" disabled>
+                <button class="w-10 h-10 rounded-full bg-violet-600 text-white flex items-center justify-center" disabled>
+                    <i class="fas fa-paper-plane text-xs"></i>
+                </button>
+            </div>
+        </div>
+
+        <p class="mt-6 text-xs text-slate-500 leading-relaxed text-center">
+            This is a static example of the conversation flow. On a live site the chat is interactive and the lead is sent to the owner automatically.
+        </p>
+
+        <div class="mt-8 text-center">
+            <a href="/ai-services/" class="text-sm font-semibold text-violet-700 hover:underline">← Back to AI tools</a>
+        </div>
+    </main>
+
+    <footer class="bg-ink text-slate-400 text-sm py-6 mt-auto">
+        <div class="max-w-lg mx-auto px-5 text-center">
+            <p class="text-white font-semibold">Mahoney Digital</p>
+            <p class="text-[11px] mt-1 opacity-70">Optional AI add-on — not included in website packages</p>
+        </div>
+    </footer>
+    <script defer src="/assets/vercel-insights.js"></script>
+</body>
+</html>
