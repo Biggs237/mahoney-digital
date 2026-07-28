@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Mahoney Digital</title>
-    <meta name="description" content="Get in touch with Mahoney Digital — websites and digital help for local businesses. Call (740) 530-8790 or send a message.">
+    <meta name="description" content="Get in touch with Mahoney Digital — websites and digital help for local businesses. Call (740) 530-8790 or send a message. I usually reply within one business day.">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
     <link rel="stylesheet" href="/assets/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -15,7 +15,7 @@
         .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
         .nav-link:hover { color: #0d9488; }
         .hero-mesh { background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13,148,136,0.22), transparent 55%), #0b1120; }
-        input, textarea { font-family: inherit; }
+        input, textarea, select { font-family: inherit; }
     </style>
 </head>
 <body class="bg-cream min-h-screen flex flex-col">
@@ -33,11 +33,30 @@
         <div class="max-w-3xl mx-auto px-5 py-12 md:py-16 text-center">
             <a href="/" class="text-sm text-slate-400 hover:text-white inline-flex items-center gap-2 mb-6"><i class="fas fa-arrow-left text-xs"></i> Home</a>
             <h1 class="heading-font text-3xl md:text-4xl font-semibold tracking-tight mb-3">Ready to talk?</h1>
-            <p class="text-slate-400 text-lg">No pressure. No sales script. Tell me what you need.</p>
+            <p class="text-slate-400 text-lg mb-4">No pressure. No sales script. Tell me what you need.</p>
+            <p class="text-brand-light text-sm font-medium">I usually reply within one business day.</p>
         </div>
     </header>
 
     <main class="flex-1 max-w-xl mx-auto px-5 py-12 w-full">
+        <!-- Prominent contact options -->
+        <div class="grid sm:grid-cols-2 gap-4 mb-8">
+            <a href="tel:7405308790" class="flex items-center gap-3 bg-white border border-cream-dark rounded-2xl p-4 hover:border-brand/40 transition">
+                <div class="w-10 h-10 rounded-xl bg-brand/10 text-brand-dark flex items-center justify-center"><i class="fas fa-phone"></i></div>
+                <div>
+                    <div class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Call</div>
+                    <div class="font-semibold text-ink">(740) 530-8790</div>
+                </div>
+            </a>
+            <a href="mailto:hello@mahoneydigital.net" class="flex items-center gap-3 bg-white border border-cream-dark rounded-2xl p-4 hover:border-brand/40 transition">
+                <div class="w-10 h-10 rounded-xl bg-brand/10 text-brand-dark flex items-center justify-center"><i class="fas fa-envelope"></i></div>
+                <div>
+                    <div class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Email</div>
+                    <div class="font-semibold text-ink text-sm">hello@mahoneydigital.net</div>
+                </div>
+            </a>
+        </div>
+
         <form name="contact" method="POST" action="https://formsubmit.co/hello@mahoneydigital.net" class="space-y-5 bg-white border border-cream-dark rounded-3xl p-6 md:p-8">
             <input type="hidden" name="_subject" value="New lead — mahoneydigital.net contact form">
             <input type="hidden" name="_next" value="https://mahoneydigital.net/thank-you.html">
@@ -61,18 +80,49 @@
             </div>
             <div>
                 <label class="block text-sm font-semibold text-slate-700 mb-1.5">What kind of work do you do?</label>
-                <input type="text" name="business-type" placeholder="Plumbing, HVAC, lawn..." class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none">
+                <input type="text" name="business-type" placeholder="Plumbing, HVAC, lawn care, remodeling..." class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none">
+            </div>
+
+            <!-- Practical intake questions -->
+            <div>
+                <label class="block text-sm font-semibold text-slate-700 mb-1.5">Current website situation</label>
+                <select name="website-situation" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none bg-white">
+                    <option value="">Select one</option>
+                    <option value="No website yet">No website yet</option>
+                    <option value="Have a site but it looks outdated">Have a site but it looks outdated</option>
+                    <option value="Have a site but it does not get calls">Have a site but it does not get calls</option>
+                    <option value="Need help with Google / local search">Need help with Google / local search</option>
+                    <option value="Just exploring options">Just exploring options</option>
+                </select>
             </div>
             <div>
-                <label class="block text-sm font-semibold text-slate-700 mb-1.5">What are you looking for?</label>
-                <textarea name="message" rows="5" required class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none resize-y"></textarea>
+                <label class="block text-sm font-semibold text-slate-700 mb-1.5">Main goal</label>
+                <select name="main-goal" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none bg-white">
+                    <option value="">Select one</option>
+                    <option value="More phone calls / booked jobs">More phone calls / booked jobs</option>
+                    <option value="Look more professional / trustworthy">Look more professional / trustworthy</option>
+                    <option value="Show up better on Google">Show up better on Google</option>
+                    <option value="Replace an old or broken site">Replace an old or broken site</option>
+                    <option value="Not sure yet">Not sure yet</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-semibold text-slate-700 mb-1.5">Timeline</label>
+                <select name="timeline" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none bg-white">
+                    <option value="">Select one</option>
+                    <option value="ASAP / this month">ASAP / this month</option>
+                    <option value="Next 1–2 months">Next 1–2 months</option>
+                    <option value="Just gathering info for now">Just gathering info for now</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-sm font-semibold text-slate-700 mb-1.5">Anything else I should know?</label>
+                <textarea name="message" rows="4" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-brand-dark focus:ring-1 focus:ring-brand/30 outline-none resize-y" placeholder="Optional — current site URL, specific problems, budget range, etc."></textarea>
             </div>
             <button type="submit" class="btn-primary w-full py-4 rounded-2xl text-white font-semibold">Send message</button>
+            <p class="text-center text-xs text-slate-500">I usually reply within one business day. No pressure either way.</p>
         </form>
-        <p class="text-center text-sm text-slate-500 mt-6">
-            Or call <a href="tel:7405308790" class="font-semibold text-brand-dark hover:underline">(740) 530-8790</a>
-            · <a href="mailto:hello@mahoneydigital.net" class="hover:underline">hello@mahoneydigital.net</a>
-        </p>
     </main>
 
     <footer class="bg-ink text-slate-400 text-sm py-8 mt-auto">
