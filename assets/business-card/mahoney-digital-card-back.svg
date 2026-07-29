@@ -17,9 +17,15 @@
   <text x="64" y="130" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#64748b">Founder</text>
   
   <!-- Contact block -->
-  <text x="64" y="210" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#0f766e">(740) 530-8790</text>
-  <text x="64" y="245" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#0f766e">hello@mahoneydigital.net</text>
-  <text x="64" y="280" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#0b1120">mahoneydigital.net</text>
+  <text x="64" y="200" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#0f766e">(740) 530-8790</text>
+  <text x="64" y="235" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#0f766e">hello@mahoneydigital.net</text>
+  <text x="64" y="270" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#0b1120">mahoneydigital.net</text>
+  
+  <!-- QR code placeholder (similar size to logo ~110px) -->
+  <!-- Replace this square with a real QR code image linking to https://mahoneydigital.net -->
+  <rect x="64" y="340" width="110" height="110" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="119" y="400" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">QR</text>
+  <text x="119" y="418" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#94a3b8">Code</text>
   
   <!-- Location -->
   <text x="64" y="560" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#64748b">Chillicothe, Ohio</text>
