@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="3.61in" height="2.11in" viewBox="0 0 1083 633">
-  <!-- Background -->
-  <rect width="1083" height="633" fill="#f8f6f1"/>
+  <!-- Background - pure white to match back -->
+  <rect width="1083" height="633" fill="#ffffff"/>
   
   <!-- Bottom accent bar -->
   <rect y="617" width="1083" height="16" fill="#0d9488"/>
