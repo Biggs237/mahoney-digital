@@ -16,8 +16,13 @@ Deployed / merged into site chat 2026-08-01
 - Does **not** hard-lock a calendar
 - Jeremy confirms and finishes setup on a call / in writing
 
+## Notifications
+See **[notifications.md](./notifications.md)**
+- Phone push: ntfy topic `md-softbook-jwm-7f3a9c2e1b84`
+- Email: hello@mahoneydigital.net (FormSubmit; activate once)
+
 ## Daily
-1. Check notification texts / email for hot leads
+1. Check ntfy / email for hot leads
 2. Confirm any soft-booked call windows
 3. Flag bad AI replies → update FAQs / system prompt in `api/chat.js`
 
@@ -31,4 +36,4 @@ Deployed / merged into site chat 2026-08-01
 - Hours: Mon–Fri 8am–5pm
 - Service area: Chillicothe, OH and surrounding areas
 - Chat: `site/assets/chatbot.js` + `/api/chat` (xAI when key set)
-- Soft-book notify: optional `LEAD_WEBHOOK_URL` env → Make/Zapier/SMS
+- Soft-book: `/api/lead`
