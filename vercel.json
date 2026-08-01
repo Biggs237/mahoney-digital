@@ -16,6 +16,16 @@
       "source": "/plans/",
       "destination": "/care-plans",
       "permanent": false
+    },
+    {
+      "source": "/apps",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/apps/",
+      "destination": "/",
+      "permanent": false
     }
   ],
   "rewrites": [
