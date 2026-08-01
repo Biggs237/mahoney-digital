@@ -1,6 +1,7 @@
 /**
  * Mahoney Digital site chat widget.
- * Uses /api/chat (xAI) when configured; otherwise local FAQ answers.
+ * - FAQ + /api/chat (xAI) when configured
+ * - Instant Lead Response soft-book: name/phone/time windows → /api/lead
  */
 (function () {
   const PHONE = '(740) 530-8790';
@@ -10,7 +11,7 @@
     {
       keys: ['price', 'cost', 'how much', 'pricing', 'package', 'essential', 'growth', 'signature'],
       answer:
-        'Website packages (ranges — Jeremy confirms exact quotes in writing):\n\n• Essential: $1,450–$1,950 (most ~$1,650–$1,750)\n• Growth: $2,650–$3,450 (most ~$2,900–$3,200)\n• Signature: $4,850–$6,850\n\nDetails: mahoneydigital.net/websites',
+        'Website packages (ranges — Jeremy confirms exact quotes in writing):\n\n• Essential: $1,450–$1,950 (most ~$1,650–$1,750)\n• Growth: $2,650–$3,450 (most ~$2,900–$3,200)\n• Signature: $4,850–$6,850\n\nDetails: mahoneydigital.net/websites\n\nWant Jeremy to follow up? Share your name, best phone, and two times that work this week.',
     },
     {
       keys: ['care', 'support', 'monthly', 'maintenance', 'hosting plan'],
@@ -27,7 +28,7 @@
       answer:
         'Call ' +
         PHONE +
-        ', email hello@mahoneydigital.net, or use the form at mahoneydigital.net/contact. Jeremy usually follows up within one business day.',
+        ' (voice only — no texts on that line), email hello@mahoneydigital.net, or use the form at mahoneydigital.net/contact. You can also soft-book here: name + phone + two time windows and Jeremy will confirm.',
     },
     {
       keys: ['where', 'location', 'chillicothe', 'ohio', 'area', 'ross'],
@@ -40,16 +41,43 @@
         'Most Essential and Growth builds take about 2–4 weeks. Signature can take longer because of custom design and content depth.',
     },
     {
-      keys: ['ai', 'chatbot', 'bot'],
+      keys: ['ai', 'chatbot', 'bot', 'agent', 'profitagent'],
       answer:
-        'Websites are the core. Optional practical AI add-ons are listed at mahoneydigital.net/ai-services — no heavy “AI agency” hype. This chat is a simple helper for site questions.',
+        'Websites are the core. Optional practical AI add-ons (lead response, after-hours soft-book) are at mahoneydigital.net/ai-services. This chat answers site questions and can soft-book a call with Jeremy.',
     },
     {
       keys: ['seo', 'google', 'rank'],
       answer:
         'We do solid on-page and local SEO setup (especially with Growth and care plans). We don’t promise “#1 on Google.” Happy to have Jeremy discuss what fits your shop.',
     },
+    {
+      keys: ['schedule', 'book', 'appointment', 'availability', 'meeting', 'call me'],
+      answer:
+        'I can soft-book a discovery chat — no calendar lock. Share your name, best phone number, and two time windows (day + morning/afternoon). Jeremy confirms during business hours (Mon–Fri 8–5).',
+    },
   ];
+
+  function extractPhone(text) {
+    const m = text.match(/(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}/);
+    return m ? m[0] : '';
+  }
+
+  function looksLikeName(text) {
+    const t = text.trim();
+    if (t.length < 2 || t.length > 60) return false;
+    if (extractPhone(t)) return false;
+    if (/\d{3}/.test(t)) return false;
+    if (/\b(yes|no|ok|thanks|thank|hi|hello|hey)\b/i.test(t) && t.split(/\s+/).length < 2)
+      return false;
+    return /^[a-zA-Z][a-zA-Z\s.'-]{1,58}$/.test(t);
+  }
+
+  function isBuyingIntent(text) {
+    const q = text.toLowerCase();
+    return /price|cost|how much|package|website|site|quote|proposal|start|hire|build|need a site|want a site|interested|schedule|book|call me|talk to jeremy|get started/.test(
+      q,
+    );
+  }
 
   function localAnswer(text) {
     const q = text.toLowerCase();
@@ -57,10 +85,10 @@
       if (item.keys.some((k) => q.includes(k))) return item.answer;
     }
     return (
-      'I can help with packages, pricing ranges, care plans, demos, or how to reach Jeremy. ' +
-      'For a custom quote or project talk, call ' +
+      'I can help with packages, pricing ranges, care plans, demos, or soft-booking a call with Jeremy. ' +
+      'For a custom quote: share your name, phone, and two times that work — or call ' +
       PHONE +
-      ' or use mahoneydigital.net/contact.'
+      ' / mahoneydigital.net/contact.'
     );
   }
 
@@ -91,7 +119,7 @@
 
     panel.innerHTML =
       '<div class="md-chat-header">' +
-      '<div><h2>Mahoney Digital</h2><p>Quick answers · or call ' +
+      '<div><h2>Mahoney Digital</h2><p>Quick answers · soft-book a call · ' +
       PHONE +
       '</p></div>' +
       '<button type="button" class="md-chat-close" aria-label="Close chat">&times;</button>' +
@@ -118,11 +146,106 @@
     let busy = false;
     let welcomed = false;
 
+    // Soft-book state (Instant Lead Response style)
+    const lead = { name: '', phone: '', windows: '', intent: '' };
+    let softStep = null; // null | 'name' | 'phone' | 'windows' | 'done'
+
     function addBubble(role, text) {
       const b = el('div', 'md-chat-bubble ' + (role === 'user' ? 'user' : 'bot'));
       b.textContent = text;
       messagesEl.appendChild(b);
       messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    async function submitLead() {
+      try {
+        await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: lead.name,
+            phone: lead.phone,
+            windows: lead.windows,
+            intent: lead.intent,
+            page: location.pathname,
+          }),
+        });
+      } catch {
+        /* still confirm to user */
+      }
+      try {
+        const prev = JSON.parse(localStorage.getItem('md-softbook-leads') || '[]');
+        prev.unshift({
+          ...lead,
+          at: new Date().toISOString(),
+          page: location.pathname,
+        });
+        localStorage.setItem('md-softbook-leads', JSON.stringify(prev.slice(0, 20)));
+      } catch {
+        /* ignore */
+      }
+    }
+
+    function startSoftBook(seedIntent) {
+      if (seedIntent) lead.intent = seedIntent;
+      if (!lead.name) {
+        softStep = 'name';
+        return 'Happy to soft-book a short call with Jeremy (no hard calendar lock). What’s your name?';
+      }
+      if (!lead.phone) {
+        softStep = 'phone';
+        return 'Thanks' + (lead.name ? ', ' + lead.name : '') + '. What’s the best phone number to reach you?';
+      }
+      if (!lead.windows) {
+        softStep = 'windows';
+        return 'Got it. Two time windows that work this week? (e.g. “Tue afternoon or Wed morning”)';
+      }
+      return null;
+    }
+
+    async function handleSoftBook(text) {
+      if (softStep === 'name') {
+        if (!looksLikeName(text) && text.trim().split(/\s+/).length > 4) {
+          // maybe they pasted a full message — try phone
+          const p = extractPhone(text);
+          if (p) {
+            lead.phone = p;
+            softStep = lead.windows ? null : 'windows';
+            if (!lead.windows) {
+              return 'Thanks. Two time windows that work this week? (day + morning/afternoon)';
+            }
+          }
+        }
+        lead.name = text.trim().slice(0, 80);
+        softStep = 'phone';
+        return 'Thanks, ' + lead.name + '. Best phone number?';
+      }
+      if (softStep === 'phone') {
+        const p = extractPhone(text);
+        if (!p) {
+          return 'I need a 10-digit phone number so Jeremy can confirm. What’s the best number?';
+        }
+        lead.phone = p;
+        softStep = 'windows';
+        return 'Perfect. Two preferred time windows this week? (e.g. “Mon morning or Thu after 2”)';
+      }
+      if (softStep === 'windows') {
+        lead.windows = text.trim().slice(0, 200);
+        softStep = 'done';
+        await submitLead();
+        return (
+          'Soft-booked. I’ve logged:\n• ' +
+          (lead.name || '—') +
+          '\n• ' +
+          lead.phone +
+          '\n• ' +
+          lead.windows +
+          '\n\nJeremy will confirm during business hours (Mon–Fri 8–5). You can also call ' +
+          PHONE +
+          ' anytime (voice only).'
+        );
+      }
+      return null;
     }
 
     function openPanel() {
@@ -132,9 +255,9 @@
         welcomed = true;
         addBubble(
           'bot',
-          'Hi — I can help with website packages, pricing ranges, care plans, and demos. What are you looking for?\n\nFor Jeremy directly: ' +
+          'Hi — I can help with website packages, pricing ranges, care plans, and demos. I can also soft-book a call with Jeremy.\n\nWhat are you looking for?\n\nDirect line: ' +
             PHONE +
-            ' or the contact form.'
+            ' (voice) · mahoneydigital.net/contact',
         );
       }
       setTimeout(() => input.focus(), 50);
@@ -151,14 +274,14 @@
     });
     closeBtn.addEventListener('click', closePanel);
 
-    ['Pricing', 'Packages', 'Care plans', 'Talk to Jeremy'].forEach((label) => {
+    ['Pricing', 'Packages', 'Care plans', 'Book a call'].forEach((label) => {
       const chip = el('button', 'md-chat-chip');
       chip.type = 'button';
       chip.textContent = label;
       chip.addEventListener('click', () => {
         input.value =
-          label === 'Talk to Jeremy'
-            ? 'How do I contact Jeremy?'
+          label === 'Book a call'
+            ? 'I want to soft-book a call with Jeremy'
             : label === 'Care plans'
               ? 'Tell me about care plans'
               : label === 'Packages'
@@ -179,25 +302,63 @@
       messagesEl.appendChild(typing);
       messagesEl.scrollTop = messagesEl.scrollHeight;
 
-      // Always have a solid local answer; only replace if Grok API succeeds
-      let answer = localAnswer(text);
+      let answer = null;
 
-      try {
-        const res = await fetch('/api/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            message: text,
-            history: history.slice(0, -1),
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.reply && String(data.reply).trim()) {
-          answer = String(data.reply).trim();
+      // Soft-book flow takes priority when active
+      if (softStep && softStep !== 'done') {
+        answer = await handleSoftBook(text);
+      } else {
+        const phoneInMsg = extractPhone(text);
+        const wantsBook =
+          /soft-?book|book a call|schedule|call with jeremy|get started|want a (website|site)|hire you|talk to jeremy/i.test(
+            text,
+          );
+
+        if (phoneInMsg && !lead.phone) {
+          lead.phone = phoneInMsg;
+          lead.intent = lead.intent || text;
+          if (!lead.name) {
+            softStep = 'name';
+            answer = 'Thanks — I have your number. What’s your name so Jeremy can soft-book a follow-up?';
+          } else if (!lead.windows) {
+            softStep = 'windows';
+            answer = 'Got your number. Two time windows that work this week?';
+          }
+        } else if (wantsBook || (isBuyingIntent(text) && softStep !== 'done' && !lead.phone)) {
+          lead.intent = text;
+          answer = startSoftBook(text);
         }
-        // Any error (missing key, bad key, network) → keep localAnswer
-      } catch {
-        // offline / no API → localAnswer already set
+      }
+
+      if (!answer) {
+        answer = localAnswer(text);
+        try {
+          const res = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: text,
+              history: history.slice(0, -1),
+            }),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (res.ok && data.reply && String(data.reply).trim()) {
+            answer = String(data.reply).trim();
+          }
+        } catch {
+          /* keep localAnswer */
+        }
+
+        // After a pricing answer, nudge soft-book once
+        if (
+          softStep !== 'done' &&
+          !lead.phone &&
+          isBuyingIntent(text) &&
+          !/soft-book|phone|time window/i.test(answer)
+        ) {
+          answer +=
+            '\n\nIf you want, I can soft-book Jeremy to call you — just say “book a call” or send your name and phone.';
+        }
       }
 
       typing.remove();
