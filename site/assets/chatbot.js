@@ -1,17 +1,37 @@
 /**
  * Mahoney Digital site chat widget.
- * - FAQ + /api/chat (xAI) when configured
- * - Instant Lead Response soft-book: name/phone/time windows → /api/lead
+ * - Local FAQ first (works without XAI_API_KEY)
+ * - Optional /api/chat (xAI) when configured
+ * - Soft-book only on explicit book intent → /api/lead + ntfy
  */
 (function () {
   const PHONE = '(740) 530-8790';
-  const PHONE_TEL = 'tel:7405308790';
 
   const FAQ = [
     {
-      keys: ['price', 'cost', 'how much', 'pricing', 'package', 'essential', 'growth', 'signature'],
+      keys: [
+        'price',
+        'cost',
+        'how much',
+        'pricing',
+        'package',
+        'essential',
+        'growth',
+        'signature',
+        'quote',
+      ],
       answer:
-        'Website packages (ranges — Jeremy confirms exact quotes in writing):\n\n• Essential: $1,450–$1,950 (most ~$1,650–$1,750)\n• Growth: $2,650–$3,450 (most ~$2,900–$3,200)\n• Signature: $4,850–$6,850\n\nDetails: mahoneydigital.net/websites\n\nWant Jeremy to follow up? Share your name, best phone, and two times that work this week.',
+        'Website packages (ranges — Jeremy confirms exact quotes in writing):\n\n• Essential: $1,450–$1,950 (most ~$1,650–$1,750)\n• Growth: $2,650–$3,450 (most ~$2,900–$3,200)\n• Signature: $4,850–$6,850\n\nDetails: mahoneydigital.net/websites\n\nWant a callback? Tap “Book a call” or say book a call.',
+    },
+    {
+      keys: ['website', 'web site', 'site build', 'build a site', 'new site', 'redesign', 'what do you', 'services', 'offer', 'help with', 'what can you'],
+      answer:
+        'Mahoney Digital builds practical websites for local service businesses (plus tune-ups, care plans, and optional AI helpers).\n\n• Site Builds — Essential / Growth / Signature packages\n• Site Tune-Ups — improve an existing site\n• Care Plans — monthly updates & support\n• AI Helpers — lead response & soft-book (optional)\n\nBrowse: mahoneydigital.net/websites · mahoneydigital.net/ai-services',
+    },
+    {
+      keys: ['tune', 'tune-up', 'fix', 'slow', 'mobile'],
+      answer:
+        'Site Tune-Ups are for businesses that already have a site but need it clearer, faster, or more mobile-friendly. See mahoneydigital.net/tune-ups or book a short call with Jeremy.',
     },
     {
       keys: ['care', 'support', 'monthly', 'maintenance', 'hosting plan'],
@@ -19,41 +39,51 @@
         'Optional care plans (month-to-month style):\n\n• Essential Care: about $59–$99/mo\n• Growth Partner: about $179–$279/mo\n• Signature Alliance: $399+/mo\n\nMore: mahoneydigital.net/care-plans',
     },
     {
-      keys: ['example', 'demo', 'work', 'portfolio', 'sample'],
+      keys: ['example', 'demo', 'work', 'portfolio', 'sample', 'riverside', 'summit', 'heritage'],
       answer:
-        'See package demos at mahoneydigital.net/work — Riverside Lawn (Essential), Summit Comfort HVAC (Growth), and Heritage Home Partners (Signature).',
+        'Package demos: mahoneydigital.net/work\n\n• Riverside Lawn — Essential\n• Summit Comfort HVAC — Growth\n• Heritage Home Partners — Signature',
     },
     {
-      keys: ['contact', 'call', 'phone', 'email', 'reach', 'talk', 'jeremy'],
+      keys: ['hours', 'open', 'when are you', 'business hours'],
+      answer:
+        'Jeremy is typically available Mon–Fri 8am–5pm (Chillicothe / eastern time). This chat can soft-book a call anytime — he confirms during business hours.',
+    },
+    {
+      keys: ['contact', 'email', 'reach', 'phone number', 'call you'],
       answer:
         'Call ' +
         PHONE +
-        ' (voice only — no texts on that line), email hello@mahoneydigital.net, or use the form at mahoneydigital.net/contact. You can also soft-book here: name + phone + two time windows and Jeremy will confirm.',
+        ' (voice only — no texts on that line), email hello@mahoneydigital.net, or use mahoneydigital.net/contact.\n\nOr soft-book here: say “book a call.”',
     },
     {
-      keys: ['where', 'location', 'chillicothe', 'ohio', 'area', 'ross'],
+      keys: ['where', 'location', 'chillicothe', 'ohio', 'area', 'ross', 'serve'],
       answer:
-        'Mahoney Digital is based in Chillicothe, Ohio, and serves Ross County, southern Ohio, and similar local service businesses.',
+        'Mahoney Digital is based in Chillicothe, Ohio, and serves Ross County, southern Ohio, and similar local service businesses (remote-friendly for many projects).',
     },
     {
-      keys: ['how long', 'timeline', 'weeks', 'fast'],
+      keys: ['how long', 'timeline', 'weeks', 'fast', 'how soon'],
       answer:
         'Most Essential and Growth builds take about 2–4 weeks. Signature can take longer because of custom design and content depth.',
     },
     {
-      keys: ['ai', 'chatbot', 'bot', 'agent', 'profitagent'],
+      keys: ['ai', 'chatbot', 'bot', 'agent', 'profitagent', 'after hours', 'lead response'],
       answer:
-        'Websites are the core. Optional practical AI add-ons (lead response, after-hours soft-book) are at mahoneydigital.net/ai-services. This chat answers site questions and can soft-book a call with Jeremy.',
+        'Websites are the core. Optional practical AI add-ons (instant lead response, after-hours soft-book) are at mahoneydigital.net/ai-services.\n\nThis chat answers questions and can soft-book a call with Jeremy — it does not hard-lock a calendar.',
     },
     {
-      keys: ['seo', 'google', 'rank'],
+      keys: ['seo', 'google', 'rank', 'search'],
       answer:
-        'We do solid on-page and local SEO setup (especially with Growth and care plans). We don’t promise “#1 on Google.” Happy to have Jeremy discuss what fits your shop.',
+        'We do solid on-page and local SEO setup (especially with Growth and care plans). We don’t promise “#1 on Google.” Jeremy can discuss what fits your shop on a short call.',
     },
     {
-      keys: ['schedule', 'book', 'appointment', 'availability', 'meeting', 'call me'],
+      keys: ['facebook', 'ads', 'marketing', 'traffic'],
       answer:
-        'I can soft-book a discovery chat — no calendar lock. Share your name, best phone number, and two time windows (day + morning/afternoon). Jeremy confirms during business hours (Mon–Fri 8–5).',
+        'We focus on the website and conversion (clear contact, mobile, optional lead chat). Ads and Facebook boosts can send traffic — the site’s job is to turn visits into calls and soft-books. Happy to talk fit on a call.',
+    },
+    {
+      keys: ['veteran', 'military'],
+      answer:
+        'Mahoney Digital is veteran-owned, based in Chillicothe. Glad to help local shops with straightforward web work.',
     },
   ];
 
@@ -72,23 +102,39 @@
     return /^[a-zA-Z][a-zA-Z\s.'-]{1,58}$/.test(t);
   }
 
+  /** Soft nudge only — does NOT start soft-book by itself */
   function isBuyingIntent(text) {
     const q = text.toLowerCase();
-    return /price|cost|how much|package|website|site|quote|proposal|start|hire|build|need a site|want a site|interested|schedule|book|call me|talk to jeremy|get started/.test(
+    return /price|cost|how much|package|website|site|quote|proposal|interested|hire|build|need a site|want a site|get a site/.test(
       q,
+    );
+  }
+
+  /** Only these start the name/phone/windows flow */
+  function wantsSoftBook(text) {
+    return /soft-?book|book a call|schedule a call|call with jeremy|talk to jeremy|hire you|get started|book jeremy|i want to book|set up a call|request a call|callback|call me back/i.test(
+      text,
     );
   }
 
   function localAnswer(text) {
     const q = text.toLowerCase();
+    // Prefer longer key matches first (already ordered roughly)
+    let best = null;
+    let bestLen = 0;
     for (const item of FAQ) {
-      if (item.keys.some((k) => q.includes(k))) return item.answer;
+      for (const k of item.keys) {
+        if (q.includes(k) && k.length >= bestLen) {
+          best = item.answer;
+          bestLen = k.length;
+        }
+      }
     }
+    if (best) return best;
     return (
-      'I can help with packages, pricing ranges, care plans, demos, or soft-booking a call with Jeremy. ' +
-      'For a custom quote: share your name, phone, and two times that work — or call ' +
+      'I can help with:\n• Website packages & pricing ranges\n• Care plans & tune-ups\n• Demos / examples\n• Soft-booking a call with Jeremy\n\nTry a chip below, or ask a specific question. Direct line: ' +
       PHONE +
-      ' / mahoneydigital.net/contact.'
+      ' (voice) · mahoneydigital.net/contact'
     );
   }
 
@@ -146,7 +192,6 @@
     let busy = false;
     let welcomed = false;
 
-    // Soft-book state (Instant Lead Response style)
     const lead = { name: '', phone: '', windows: '', intent: '' };
     let softStep = null; // null | 'name' | 'phone' | 'windows' | 'done'
 
@@ -206,7 +251,6 @@
     async function handleSoftBook(text) {
       if (softStep === 'name') {
         if (!looksLikeName(text) && text.trim().split(/\s+/).length > 4) {
-          // maybe they pasted a full message — try phone
           const p = extractPhone(text);
           if (p) {
             lead.phone = p;
@@ -255,7 +299,7 @@
         welcomed = true;
         addBubble(
           'bot',
-          'Hi — I can help with website packages, pricing ranges, care plans, and demos. I can also soft-book a call with Jeremy.\n\nWhat are you looking for?\n\nDirect line: ' +
+          'Hi — ask me about packages, pricing, care plans, or demos. When you’re ready, tap “Book a call” to soft-book time with Jeremy.\n\nDirect line: ' +
             PHONE +
             ' (voice) · mahoneydigital.net/contact',
         );
@@ -274,7 +318,7 @@
     });
     closeBtn.addEventListener('click', closePanel);
 
-    ['Pricing', 'Packages', 'Care plans', 'Book a call'].forEach((label) => {
+    ['Pricing', 'Packages', 'Care plans', 'Demos', 'Book a call'].forEach((label) => {
       const chip = el('button', 'md-chat-chip');
       chip.type = 'button';
       chip.textContent = label;
@@ -286,7 +330,9 @@
               ? 'Tell me about care plans'
               : label === 'Packages'
                 ? 'What website packages do you offer?'
-                : 'How much does a website cost?';
+                : label === 'Demos'
+                  ? 'Show me demo examples'
+                  : 'How much does a website cost?';
         form.requestSubmit();
       });
       chipsEl.appendChild(chip);
@@ -304,17 +350,14 @@
 
       let answer = null;
 
-      // Soft-book flow takes priority when active
+      // Soft-book flow only when already in progress OR explicit book intent
       if (softStep && softStep !== 'done') {
         answer = await handleSoftBook(text);
       } else {
         const phoneInMsg = extractPhone(text);
-        const wantsBook =
-          /soft-?book|book a call|schedule|call with jeremy|get started|want a (website|site)|hire you|talk to jeremy/i.test(
-            text,
-          );
+        const bookNow = wantsSoftBook(text);
 
-        if (phoneInMsg && !lead.phone) {
+        if (phoneInMsg && !lead.phone && bookNow) {
           lead.phone = phoneInMsg;
           lead.intent = lead.intent || text;
           if (!lead.name) {
@@ -324,13 +367,14 @@
             softStep = 'windows';
             answer = 'Got your number. Two time windows that work this week?';
           }
-        } else if (wantsBook || (isBuyingIntent(text) && softStep !== 'done' && !lead.phone)) {
+        } else if (bookNow) {
           lead.intent = text;
           answer = startSoftBook(text);
         }
       }
 
       if (!answer) {
+        // Always answer from local FAQ first (AI is optional)
         answer = localAnswer(text);
         try {
           const res = await fetch('/api/chat', {
@@ -349,15 +393,15 @@
           /* keep localAnswer */
         }
 
-        // After a pricing answer, nudge soft-book once
+        // Light nudge after buying questions — do not force phone collection
         if (
           softStep !== 'done' &&
           !lead.phone &&
           isBuyingIntent(text) &&
-          !/soft-book|phone|time window/i.test(answer)
+          !/book a call|soft-book|phone number/i.test(answer)
         ) {
           answer +=
-            '\n\nIf you want, I can soft-book Jeremy to call you — just say “book a call” or send your name and phone.';
+            '\n\nWant Jeremy to call you? Tap “Book a call” or say book a call.';
         }
       }
 
