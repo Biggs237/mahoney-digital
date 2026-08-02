@@ -1,6 +1,6 @@
 /**
  * Vercel serverless chat — SpaceXAI / xAI (OpenAI-compatible).
- * Set XAI_API_KEY in Vercel → Project → Environment Variables.
+ * Set XAI_API_KEY (or XaiAPI) in Vercel → Project → Environment Variables.
  */
 
 const SYSTEM = `You are the website chat assistant for Mahoney Digital (mahoneydigital.net), Jeremy Mahoney's solo website consulting business in Chillicothe, Ohio (Ross County / southern Ohio).
@@ -66,7 +66,14 @@ export default async function handler(req, res) {
     return res.status(403).json({ error: 'Forbidden' });
   }
 
-  const key = (process.env.XAI_API_KEY || '').trim();
+  // Accept common names (Vercel env rename is awkward)
+  const key = (
+    process.env.XAI_API_KEY ||
+    process.env.XaiAPI ||
+    process.env.XAI_KEY ||
+    process.env.GROK_API_KEY ||
+    ''
+  ).trim();
   if (!key) {
     return res.status(503).json({
       error: 'not_configured',
