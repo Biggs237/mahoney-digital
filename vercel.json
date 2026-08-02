@@ -74,6 +74,22 @@
       "destination": "/contact/index.html"
     },
     {
+      "source": "/privacy",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/privacy/",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy/index.html"
+    },
+    {
       "source": "/blog",
       "destination": "/blog/index.html"
     },
