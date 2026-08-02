@@ -14,14 +14,18 @@
 
 Contact form already posts to FormSubmit with `_next` → thank-you page. That redirect is the success signal.
 
-## Set your Pixel ID
+## Pixel ID
 
-1. Meta Events Manager → your Pixel → copy **Pixel ID** (digits only).
-2. Vercel → **mahoney-digital** (or this project) → **Settings → Environment Variables**:
-   - Name: `NEXT_PUBLIC_META_PIXEL_ID`
-   - Value: your ID
-   - Environments: Production (and Preview if you want)
-3. **Redeploy** the site so `/api/meta-config` sees the variable.
+**Active pixel:** `914276838392424`
+
+Built into `meta-pixel.js` / `api/meta-config.js` as a fallback (pixel IDs are public in the browser).
+
+Optional: still set in Vercel → **Settings → Environment Variables**:
+- Name: `NEXT_PUBLIC_META_PIXEL_ID`
+- Value: `914276838392424`
+- Environments: Production (+ Preview if you want)
+
+Redeploy after changing env.
 
 ## Test with Meta Pixel Helper
 

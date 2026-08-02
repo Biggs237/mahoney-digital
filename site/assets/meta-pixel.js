@@ -4,6 +4,7 @@
  * Pixel ID from (first match wins):
  *   1. window.META_PIXEL_ID (manual override)
  *   2. GET /api/meta-config  → Vercel env NEXT_PUBLIC_META_PIXEL_ID | META_PIXEL_ID
+ *   3. Built-in fallback (Mahoney Digital pixel)
  *
  * Lead fires only on successful contact form completion (thank-you page after FormSubmit).
  * Does NOT fire Lead on /contact page load.
@@ -11,6 +12,7 @@
 (function () {
   "use strict";
 
+  var FALLBACK_PIXEL_ID = "914276838392424";
   var LEAD_PATH = /\/thank-you(\.html)?\/?$/i;
 
   function initFbq() {
@@ -78,15 +80,16 @@
     }
     return fetch("/api/meta-config", { credentials: "same-origin" })
       .then(function (r) {
-        return r.ok ? r.json() : { pixelId: "" };
+        return r.ok ? r.json() : { pixelId: FALLBACK_PIXEL_ID };
       })
       .then(function (data) {
-        return (data && data.pixelId) || "";
+        return (data && data.pixelId) || FALLBACK_PIXEL_ID;
       })
       .catch(function () {
-        return "";
+        return FALLBACK_PIXEL_ID;
       });
   }
 
   resolveId().then(boot);
 })();
+

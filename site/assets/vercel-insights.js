@@ -13,5 +13,5 @@
 
   load('/_vercel/insights/script.js');
   load('/_vercel/speed-insights/script.js');
-  load('/assets/meta-pixel.js');
+  load('/assets/meta-pixel.js?v=914276838392424');
 })();
