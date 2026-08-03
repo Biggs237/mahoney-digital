@@ -1,8 +1,6 @@
 Mahoney Digital - Final Email Signature (Recommended)
 
-**SUCCESS: Implemented in Porkbun Webmail (HTML mode) on [current date]. Looks great per user confirmation.**
-
-See Email_Setup_Guide.md first for important notes on using Porkbun Webmail vs Gmail (Gmail "check mail from other accounts" is deprecated).
+**Updated August 3, 2026 — new Google Voice number (740) 208-2576**
 
 === 1. BEST PLAIN TEXT VERSION (copy/paste this - most reliable) ===
 
@@ -11,39 +9,19 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 530-8790
+hello@mahoneydigital.net | (740) 208-2576
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
-=== 2. RECOMMENDED VERSION FOR GMAIL (rich text - looks better) ===
-
-**Note:** Since you're using Porkbun Webmail (not Gmail), you can ignore the Gmail-specific rich text formatting below unless you also use Gmail's "Send mail as". For Webmail, use the HTML version in section 3.
-
-(For reference only:)
-Copy the block below into Gmail's signature editor, then use the toolbar:
-- Bold "Jeremy Mahoney"
-- Make the contact lines clickable links
-
-Jeremy Mahoney
-Mahoney Digital
-
-Professional websites for small local businesses.
-
-hello@mahoneydigital.net | (740) 530-8790
-
-mahoneydigital.net | https://mahoneydigital.net/plans/
-
-=== 3. FULL HTML VERSION (paste this in Porkbun Webmail) ===
-
-**You're in the right place (Porkbun Webmail).** Porkbun's webmail supports full HTML signatures.
+=== 2. FULL HTML VERSION (paste this in Porkbun Webmail) ===
 
 **Exact steps for Porkbun Webmail:**
 1. Log in at https://webmail.porkbun.com with hello@mahoneydigital.net.
 2. Click the **Settings** gear icon on the left sidebar.
 3. Click **Identities** in the menu.
-4. Select your hello@mahoneydigital.net address (it should be the default).
+4. Select your hello@mahoneydigital.net address.
 5. Scroll down to the **Signature** section.
-6. **Important:** Click the **HTML** icon (it looks like < > or "HTML" above the signature text box) to switch to HTML editing mode. This allows real HTML instead of plain text.
+6. Click the **HTML** icon to switch to HTML editing mode.
 7. Delete anything currently in the box.
 8. Paste the entire block below exactly:
 ```
@@ -52,37 +30,19 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
   Mahoney Digital<br>
   <span style="color: #64748b;">Professional websites for small local businesses.</span>
   <br><br>
-  <a href="mailto:hello@mahoneydigital.net" style="color: #166534; text-decoration: none;">hello@mahoneydigital.net</a> | <a href="tel:7405308790" style="color: #166534; text-decoration: none;">(740) 530-8790</a>
+  <a href="mailto:hello@mahoneydigital.net" style="color: #166534; text-decoration: none;">hello@mahoneydigital.net</a> | <a href="tel:7402082576" style="color: #166534; text-decoration: none;">(740) 208-2576</a>
   <br>
   <a href="https://mahoneydigital.net" style="color: #166534; text-decoration: none;">mahoneydigital.net</a> | <a href="https://mahoneydigital.net/plans/" style="color: #166534; text-decoration: none;">See plans →</a>
 </div>
 ```
 9. Click **Save** at the bottom.
 
-**What it should look like after saving and composing a new email:**
-It should render cleanly (no HTML tags visible) like this:
+**What it should look like:**
 
 **Jeremy Mahoney**  
 Mahoney Digital  
 *Professional websites for small local businesses.*  
 
-hello@mahoneydigital.net | (740) 530-8790  
+hello@mahoneydigital.net | (740) 208-2576  
 
 mahoneydigital.net | See plans →
-
-- Name bold and dark.
-- Tagline in lighter gray/italic.
-- Links in the site's dark green color (#166534), clickable (email opens mail client, phone works on mobile, websites open).
-- Clean spacing, professional look matching your website.
-
-If it still shows raw code/tags after saving:
-- Make sure you clicked the HTML icon (step 6) before pasting.
-- Delete the signature, save, then repeat the steps.
-- Test by clicking "Compose" or "New message" — the signature should auto-attach at the bottom.
-
-**Plain text fallback (if HTML mode doesn't behave):**
-Use the plain text from section 1 above. It will work but won't have bold or colored links.
-
-This is the version all your outreach drafts are now using.
-
-Once it's set and looks good when you compose a test email, let me know (or if you want tweaks like adding your location or changing colors). I'll update the file and any drafts.
