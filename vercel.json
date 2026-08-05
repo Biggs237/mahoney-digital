@@ -74,6 +74,14 @@
       "destination": "/contact/index.html"
     },
     {
+      "source": "/tech-help",
+      "destination": "/tech-help/index.html"
+    },
+    {
+      "source": "/tech-help/",
+      "destination": "/tech-help/index.html"
+    },
+    {
       "source": "/privacy",
       "destination": "/privacy/index.html"
     },

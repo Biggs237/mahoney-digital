@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Help | Patient Setup &amp; Troubleshooting | Mahoney Digital</title>
+    <meta name="description" content="Patient tech setup and troubleshooting in Chillicothe and Ross County. Computers, phones, Wi‑Fi, email, printers, and common apps — plain English, no jargon.">
+    <meta property="og:title" content="Tech Help — Setup &amp; troubleshooting">
+    <meta property="og:description" content="Patient one-on-one help with computers, phones, Wi‑Fi, email, and more. Chillicothe, Ohio.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/images/og-image.jpg">
+    <link rel="canonical" href="https://mahoneydigital.net/tech-help/">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        :root { --ink: #0b1120; --brand: #0d9488; --brand-dark: #0f766e; --cream: #f8f6f1; }
+        body { font-family: 'Inter', system-ui, sans-serif; background-color: var(--cream); }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .nav-link { transition: color 0.2s ease; }
+        .nav-link:hover { color: var(--brand); }
+        .btn-primary { background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%); }
+        .btn-primary:hover { background: linear-gradient(135deg, var(--ink) 0%, var(--brand-dark) 100%); }
+    </style>
+</head>
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col">
+    <nav class="bg-white/95 backdrop-blur-md border-b border-cream-dark sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-5 md:px-6 h-16 md:h-20 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-x-3 leading-none">
+                <svg width="36" height="36" viewBox="0 0 256 256" class="w-8 h-8 md:w-9 md:h-9 block shrink-0" aria-hidden="true">
+                    <rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/>
+                    <text x="128" y="168" font-family="Inter, system-ui, sans-serif" font-size="128" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.06em">M</text>
+                </svg>
+                <span class="font-semibold text-xl md:text-2xl tracking-tighter text-ink">Mahoney Digital</span>
+            </a>
+            <div class="hidden md:flex items-center gap-x-5 text-sm">
+                <a href="/websites/" class="nav-link font-medium text-slate-600">Site Builds</a>
+                <a href="/tune-ups/" class="nav-link font-medium text-slate-600">Site Tune-Ups</a>
+                <a href="/care-plans/" class="nav-link font-medium text-slate-600">Care Plans</a>
+                <a href="/tech-help/" class="nav-link font-medium text-brand-dark">Tech Help</a>
+                <a href="/contact/" class="btn-primary inline-flex px-4 py-2 text-sm font-semibold rounded-2xl text-white shadow-md shadow-brand/20">Get in touch</a>
+            </div>
+            <button type="button" id="mobile-menu-button" class="md:hidden w-10 h-10 flex items-center justify-center text-slate-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                <i class="fas fa-bars text-xl" id="menu-icon"></i>
+            </button>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-[100]" role="dialog" aria-modal="true">
+        <button type="button" id="mobile-menu-backdrop" class="absolute inset-0 bg-black/40" aria-label="Close menu"></button>
+        <div class="relative bg-white w-full shadow-xl border-b border-cream-dark mt-16">
+            <div class="px-5 py-5 flex flex-col gap-1 text-[15px] max-w-6xl mx-auto">
+                <a href="/websites/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Site Builds</a>
+                <a href="/tune-ups/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Site Tune-Ups</a>
+                <a href="/care-plans/" class="mobile-nav-link py-3.5 px-2 font-medium text-slate-700 rounded-xl">Care Plans</a>
+                <a href="/tech-help/" class="mobile-nav-link py-3.5 px-2 font-medium text-brand-dark rounded-xl">Tech Help</a>
+                <a href="/contact/?need=tech-help" class="btn-primary mt-3 text-center py-3.5 rounded-2xl text-white font-semibold">Get in touch</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="flex-1">
+        <section class="max-w-3xl mx-auto px-5 md:px-6 py-14 md:py-20">
+            <p class="text-xs font-semibold tracking-[0.2em] uppercase text-brand-dark mb-3">Tech Help</p>
+            <h1 class="heading-font text-3xl md:text-4xl font-semibold text-ink tracking-tight mb-5">Patient tech setup &amp; one-on-one help</h1>
+            <p class="text-lg text-slate-600 leading-relaxed mb-8">
+                Computers, phones, Wi‑Fi, email, printers, and everyday apps — explained in plain English. No jargon. No pressure. Whether it’s a new device, a stuck login, or “it just stopped working,” we’ll get it sorted together.
+            </p>
+
+            <div class="bg-white border border-cream-dark rounded-3xl p-7 md:p-8 mb-8">
+                <h2 class="heading-font text-xl font-semibold text-ink mb-4">What I can help with</h2>
+                <ul class="space-y-2.5 text-slate-600">
+                    <li class="flex gap-2"><i class="fas fa-check text-brand-dark mt-1 shrink-0"></i> New computer or phone setup (accounts, email, photos, backups)</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-brand-dark mt-1 shrink-0"></i> Wi‑Fi, printers, and common home-network hiccups</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-brand-dark mt-1 shrink-0"></i> Email that won’t send, password resets, two-factor headaches</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-brand-dark mt-1 shrink-0"></i> Facebook, Zoom, banking apps, photo sharing — at your pace</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-brand-dark mt-1 shrink-0"></i> Simple security check: updates, scams to watch for, safer habits</li>
+                    <li class="flex gap-2"><i class="fas fa-check text-brand-dark mt-1 shrink-0"></i> Remote help when that works — or in-home visits in the Chillicothe area</li>
+                </ul>
+            </div>
+
+            <div class="bg-white border border-cream-dark rounded-3xl p-7 md:p-8 mb-8">
+                <h2 class="heading-font text-xl font-semibold text-ink mb-4">How it works</h2>
+                <ol class="space-y-4 text-slate-600 list-none">
+                    <li class="flex gap-3">
+                        <span class="w-8 h-8 rounded-full bg-brand/10 text-brand-dark font-bold text-sm flex items-center justify-center shrink-0">1</span>
+                        <span><strong class="text-ink">Tell me what’s going on</strong> — call, text isn’t needed; use the form or phone. A short description is enough.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span class="w-8 h-8 rounded-full bg-brand/10 text-brand-dark font-bold text-sm flex items-center justify-center shrink-0">2</span>
+                        <span><strong class="text-ink">We pick remote or in-home</strong> — many fixes work over a screen share; some are easier at your kitchen table.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span class="w-8 h-8 rounded-full bg-brand/10 text-brand-dark font-bold text-sm flex items-center justify-center shrink-0">3</span>
+                        <span><strong class="text-ink">We fix it and write down what we did</strong> — so you have simple notes, not a mystery next time.</span>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4 mb-10">
+                <div class="bg-white border border-cream-dark rounded-3xl p-6">
+                    <div class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2">Remote session</div>
+                    <div class="heading-font text-2xl font-semibold text-ink mb-1">From $75</div>
+                    <p class="text-sm text-slate-600">About 45–60 minutes. Great for email, software, and most phone issues.</p>
+                </div>
+                <div class="bg-white border border-cream-dark rounded-3xl p-6">
+                    <div class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2">In-home visit</div>
+                    <div class="heading-font text-2xl font-semibold text-ink mb-1">From $125</div>
+                    <p class="text-sm text-slate-600">Chillicothe / Ross County. Wi‑Fi, printers, multi-device setup, hands-on help.</p>
+                </div>
+            </div>
+
+            <div class="bg-ink text-white rounded-3xl p-7 md:p-8 mb-8">
+                <h2 class="heading-font text-xl font-semibold mb-3">New device day</h2>
+                <p class="text-slate-300 text-[15px] leading-relaxed mb-4">
+                    New laptop or phone? I’ll set up accounts, email, photos, backups, and the apps you actually use — so you’re not staring at a blank screen for a week.
+                </p>
+                <p class="text-sm text-brand-light font-semibold">Packages from $150 · ask for a quote</p>
+            </div>
+
+            <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+                <strong class="text-ink">What this isn’t:</strong> data recovery from dead drives, corporate network design, or open-ended free support for every neighbor. Clear scope, clear price — then we help.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-3">
+                <a href="/contact/?need=tech-help" class="btn-primary inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl text-white font-semibold">
+                    Request tech help <i class="fas fa-arrow-right text-xs"></i>
+                </a>
+                <a href="tel:7405308790" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl border border-slate-300 font-semibold text-ink hover:bg-white">
+                    <i class="fas fa-phone text-sm"></i> (740) 530-8790
+                </a>
+            </div>
+
+            <p class="text-sm text-slate-500 mt-8">
+                Based in Chillicothe. Serving Ross County and nearby southern Ohio. Need a website for a business instead? <a href="/websites/" class="text-brand-dark font-semibold hover:underline">See Site Builds</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-ink text-slate-400 text-sm py-10 mt-auto">
+        <div class="max-w-6xl mx-auto px-5 md:px-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <span class="text-white font-semibold">Mahoney Digital · Veteran-Owned</span>
+            <div class="flex flex-wrap gap-5">
+                <a href="/websites/" class="hover:text-white">Site Builds</a>
+                <a href="/tech-help/" class="hover:text-white">Tech Help</a>
+                <a href="/contact/" class="hover:text-white">Contact</a>
+                <a href="/privacy/" class="hover:text-white">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+        function setOpen(open) {
+            mobileMenu.classList.toggle('hidden', !open);
+            menuButton?.setAttribute('aria-expanded', open ? 'true' : 'false');
+            menuIcon?.classList.toggle('fa-bars', !open);
+            menuIcon?.classList.toggle('fa-times', open);
+        }
+        menuButton?.addEventListener('click', () => setOpen(mobileMenu.classList.contains('hidden')));
+        document.getElementById('mobile-menu-backdrop')?.addEventListener('click', () => setOpen(false));
+        document.querySelectorAll('.mobile-nav-link').forEach(a => a.addEventListener('click', () => setOpen(false)));
+    </script>
+    <script defer src="/assets/vercel-insights.js"></script>
+</body>
+</html>
