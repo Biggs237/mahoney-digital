@@ -14,7 +14,6 @@
         .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
         .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
         .nav-link:hover { color: #0d9488; }
-        .hero-mesh { background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13,148,136,0.22), transparent 55%), #0b1120; }
         .ai-card { transition: transform 0.2s ease, box-shadow 0.2s ease; text-decoration: none; color: inherit; display: block; }
         .ai-card:hover { transform: translateY(-4px); box-shadow: 0 20px 35px -12px rgb(11 17 32 / 0.12); }
     </style>
@@ -33,7 +32,7 @@
     }
     </script>
 </head>
-<body class="bg-cream min-h-screen flex flex-col">
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col">
     <nav class="bg-white/95 border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-5 h-16 flex justify-between items-center">
             <a href="/" class="flex items-center gap-x-3 leading-none">
@@ -41,24 +40,23 @@
                 <span class="font-semibold text-lg tracking-tighter text-ink">Mahoney Digital</span>
             </a>
             <div class="hidden md:flex items-center gap-x-5 text-sm">
-                <a href="/websites/" class="nav-link font-medium text-slate-600">Websites</a>
-                <a href="/ai-services/" class="font-medium text-brand-dark">AI tools</a>
+                <a href="/websites/" class="nav-link font-medium text-slate-600">Site Builds</a>
+                <a href="/ai-services/" class="font-medium text-brand-dark">AI Helpers</a>
                 <a href="/contact/" class="btn-primary px-4 py-2 rounded-2xl text-white text-sm font-semibold">Get in touch</a>
             </div>
             <a href="/" class="md:hidden text-sm text-slate-600">Home</a>
         </div>
     </nav>
 
-    <header class="hero-mesh text-white">
-        <div class="max-w-6xl mx-auto px-5 py-12 md:py-16">
-            <a href="/" class="text-sm text-slate-400 hover:text-white inline-flex items-center gap-2 mb-6"><i class="fas fa-arrow-left text-xs"></i> Home</a>
-            <p class="text-brand-light text-xs font-semibold tracking-[0.2em] uppercase mb-3">Optional add-ons</p>
-            <h1 class="heading-font text-3xl md:text-5xl font-semibold tracking-tight mb-4">Practical AI that recovers leads and saves hours.</h1>
-            <p class="text-slate-400 text-lg max-w-2xl">Most local shops lose calls after hours and drop the ball on follow-up. These tools fix that without turning your business into a science project. They sit on top of any website package — never included in the base price.</p>
+    <main class="flex-1 max-w-6xl mx-auto px-5 md:px-6 py-12 md:py-16 w-full">
+        <div class="max-w-3xl mb-10 md:mb-12">
+            <p class="text-xs font-semibold tracking-[0.2em] uppercase text-brand-dark mb-3">AI Helpers</p>
+            <h1 class="heading-font text-3xl md:text-4xl font-semibold text-ink tracking-tight mb-5">Practical AI that recovers leads and saves hours.</h1>
+            <p class="text-lg text-slate-600 leading-relaxed">
+                Most local shops lose calls after hours and drop the ball on follow-up. These tools fix that without turning your business into a science project. They sit on top of any website package — never included in the base price.
+            </p>
         </div>
-    </header>
 
-    <main class="flex-1 max-w-6xl mx-auto px-5 py-12 w-full">
         <div class="grid md:grid-cols-3 gap-6 mb-12">
             <a href="/examples/front-desk-agent/" class="ai-card bg-white border border-slate-200 rounded-3xl p-7 hover:border-violet-300">
                 <div class="w-11 h-11 rounded-2xl bg-violet-100 text-violet-800 flex items-center justify-center mb-4"><i class="fas fa-comments"></i></div>

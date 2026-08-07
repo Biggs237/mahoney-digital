@@ -14,12 +14,11 @@
         .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
         .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
         .nav-link:hover { color: #0d9488; }
-        .hero-mesh { background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13,148,136,0.22), transparent 55%), #0b1120; }
         .plan-card { transition: transform 0.2s ease; }
         .plan-card:hover { transform: translateY(-3px); }
     </style>
 </head>
-<body class="bg-cream min-h-screen flex flex-col">
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col">
     <nav class="bg-white/95 border-b border-cream-dark sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-5 h-16 flex justify-between items-center">
             <a href="/" class="flex items-center gap-x-3 leading-none">
@@ -27,25 +26,23 @@
                 <span class="font-semibold text-lg tracking-tighter text-ink">Mahoney Digital</span>
             </a>
             <div class="hidden md:flex items-center gap-x-5 text-sm">
-                <a href="/websites/" class="nav-link font-medium text-slate-600">Websites</a>
-                <a href="/work/" class="nav-link font-medium text-slate-600">Work</a>
-                <a href="/care-plans/" class="font-medium text-brand-dark">Care plans</a>
+                <a href="/websites/" class="nav-link font-medium text-slate-600">Site Builds</a>
+                <a href="/care-plans/" class="font-medium text-brand-dark">Care Plans</a>
                 <a href="/contact/" class="btn-primary px-4 py-2 rounded-2xl text-white text-sm font-semibold">Get in touch</a>
             </div>
             <a href="/" class="md:hidden text-sm text-slate-600">Home</a>
         </div>
     </nav>
 
-    <header class="hero-mesh text-white">
-        <div class="max-w-6xl mx-auto px-5 py-12 md:py-16">
-            <a href="/" class="text-sm text-slate-400 hover:text-white inline-flex items-center gap-2 mb-6"><i class="fas fa-arrow-left text-xs"></i> Home</a>
-            <p class="text-brand-light text-xs font-semibold tracking-[0.2em] uppercase mb-3">Ongoing support</p>
-            <h1 class="heading-font text-3xl md:text-5xl font-semibold tracking-tight mb-4">Care plans that fit how you work.</h1>
-            <p class="text-slate-400 text-lg max-w-2xl">Security, backups, and small updates — or a real partner for Google Business and local visibility. Month to month. No lock-in drama.</p>
+    <main class="flex-1 max-w-6xl mx-auto px-5 md:px-6 py-12 md:py-16 w-full">
+        <div class="max-w-3xl mb-10 md:mb-12">
+            <p class="text-xs font-semibold tracking-[0.2em] uppercase text-brand-dark mb-3">Care Plans</p>
+            <h1 class="heading-font text-3xl md:text-4xl font-semibold text-ink tracking-tight mb-5">Care plans that fit how you work.</h1>
+            <p class="text-lg text-slate-600 leading-relaxed">
+                Security, backups, and small updates — or a real partner for Google Business and local visibility. Month to month. No lock-in drama.
+            </p>
         </div>
-    </header>
 
-    <main class="flex-1 max-w-6xl mx-auto px-5 py-12 w-full">
         <div class="grid md:grid-cols-3 gap-6">
             <div class="plan-card bg-white border border-slate-200 rounded-3xl p-7">
                 <h2 class="heading-font text-xl font-semibold mb-1">Essential Care</h2>
