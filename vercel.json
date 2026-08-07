@@ -16,7 +16,7 @@
       "source": "/plans/",
       "destination": "/care-plans",
       "permanent": false
-    },
+    }
   ],
   "rewrites": [
     {
