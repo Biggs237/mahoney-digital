@@ -17,18 +17,48 @@
       "destination": "/care-plans",
       "permanent": false
     },
+  ],
+  "rewrites": [
     {
       "source": "/apps",
-      "destination": "/",
-      "permanent": false
+      "destination": "/apps/index.html"
     },
     {
       "source": "/apps/",
-      "destination": "/",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
+      "destination": "/apps/index.html"
+    },
+    {
+      "source": "/apps/milemark",
+      "destination": "/apps/milemark/index.html"
+    },
+    {
+      "source": "/apps/milemark/",
+      "destination": "/apps/milemark/index.html"
+    },
+    {
+      "source": "/apps/milemark/privacy",
+      "destination": "/apps/milemark/privacy/index.html"
+    },
+    {
+      "source": "/apps/milemark/privacy/",
+      "destination": "/apps/milemark/privacy/index.html"
+    },
+    {
+      "source": "/apps/midlife-balance",
+      "destination": "/apps/midlife-balance/index.html"
+    },
+    {
+      "source": "/apps/midlife-balance/",
+      "destination": "/apps/midlife-balance/index.html"
+    },
+    {
+      "source": "/apps/midlife-balance/privacy",
+      "destination": "/apps/midlife-balance/privacy/index.html"
+    },
+    {
+      "source": "/apps/midlife-balance/privacy/",
+      "destination": "/apps/midlife-balance/privacy/index.html"
+    },
     {
       "source": "/thank-you/",
       "destination": "/thank-you.html"

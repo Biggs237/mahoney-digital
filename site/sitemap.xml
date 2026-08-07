@@ -43,6 +43,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mahoneydigital.net/apps/milemark/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mahoneydigital.net/apps/milemark/privacy/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://mahoneydigital.net/tech-help/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
