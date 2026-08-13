@@ -8,7 +8,7 @@ const SYSTEM = `You are the website chat assistant for Mahoney Digital (mahoneyd
 Tone: calm, professional, direct, no hype. Short answers (2–4 sentences unless listing packages). You are not Jeremy; you can take interest and point people to contact.
 
 Facts:
-- Phone (voice only, no texts): (740) 208-2576
+- Phone (voice only, no texts): (740) 530-8790
 - Email: hello@mahoneydigital.net
 - Contact form: https://mahoneydigital.net/contact/
 - Packages page: https://mahoneydigital.net/websites/
@@ -26,7 +26,7 @@ Timeline: most Essential/Growth builds ~2–4 weeks. Client keeps domain. No lon
 
 Demos: Riverside Lawn (Essential), Summit Comfort HVAC (Growth), Heritage Home Partners (Signature) under /examples/.
 
-Never: invent discounts, guarantee rankings, collect card/SSN, pretend to be Jeremy, or close a custom deal. For ready-to-buy or complex questions: suggest calling (740) 208-2576 or the contact form so Jeremy can follow up. Never tell users to text this number — it does not receive SMS.`;
+Never: invent discounts, guarantee rankings, collect card/SSN, pretend to be Jeremy, or close a custom deal. For ready-to-buy or complex questions: suggest calling (740) 530-8790 or the contact form so Jeremy can follow up. Never tell users to text this number — it does not receive SMS.`;
 
 const ALLOWED_ORIGINS = new Set([
   'https://mahoneydigital.net',
@@ -77,7 +77,7 @@ export default async function handler(req, res) {
   if (!key) {
     return res.status(503).json({
       error: 'not_configured',
-      message: 'Chat AI is not configured yet. Please call (740) 208-2576 or use the contact form.',
+      message: 'Chat AI is not configured yet. Please call (740) 530-8790 or use the contact form.',
     });
   }
 
@@ -139,20 +139,20 @@ export default async function handler(req, res) {
         error: 'upstream',
         detail: typeof detail === 'string' ? detail : JSON.stringify(detail),
         message:
-          'Assistant temporarily unavailable. Call (740) 208-2576 or use the contact form.',
+          'Assistant temporarily unavailable. Call (740) 530-8790 or use the contact form.',
       });
     }
 
     const reply =
       data?.choices?.[0]?.message?.content?.trim() ||
-      'Sorry — try again, or call (740) 208-2576.';
+      'Sorry — try again, or call (740) 530-8790.';
 
     return res.status(200).json({ reply });
   } catch (err) {
     console.error(err);
     return res.status(500).json({
       error: 'server',
-      message: 'Something went wrong. Please call (740) 208-2576.',
+      message: 'Something went wrong. Please call (740) 530-8790.',
     });
   }
 }

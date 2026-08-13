@@ -5,7 +5,7 @@
  * - Soft-book only on explicit book intent → /api/lead + ntfy
  */
 (function () {
-  const PHONE = '(740) 208-2576';
+  const PHONE = '(740) 530-8790';
 
   const FAQ = [
     {
