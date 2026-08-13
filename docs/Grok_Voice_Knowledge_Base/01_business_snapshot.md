@@ -5,7 +5,7 @@
 - **Owner:** Jeremy Mahoney
 - **Website:** https://mahoneydigital.net
 - **Email:** hello@mahoneydigital.net
-- **Phone (voice only, no texts):** (740) 530-8790
+- **Phone (voice only, no texts):** (740) 208-2576
 - **Location:** Chillicothe, Ohio
 - **Service area:** Ross County and southern Ohio (and similar local service businesses)
 

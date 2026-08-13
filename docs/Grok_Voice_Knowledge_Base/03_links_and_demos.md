@@ -19,7 +19,7 @@ These are **demos** showing tier style — not necessarily live client brands un
 | Heritage Home Partners | Remodeling | Signature | https://mahoneydigital.net/examples/heritage-home-partners |
 
 ## Contact
-- **Phone (voice only, no texts):** (740) 530-8790
+- **Phone (voice only, no texts):** (740) 208-2576
 - **Email:** hello@mahoneydigital.net
 
 ## When callers ask “can you send me something?”

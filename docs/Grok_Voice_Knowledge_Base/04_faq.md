@@ -9,7 +9,7 @@ Chillicothe, Ohio. We serve Ross County, southern Ohio, and similar local servic
 Jeremy Mahoney.
 
 **What’s your phone number?**  
-(740) 530-8790 — callers can call this line (voice only; this number does not receive texts).
+(740) 208-2576 — callers can call this line (voice only; this number does not receive texts).
 
 **What’s your email?**  
 hello@mahoneydigital.net

@@ -17,4 +17,4 @@ Use with the **v1 receptionist playbook** (instructions in chat / Voice Agent Bu
 - When prices or URLs change, update these files and re-upload (or replace in the console).
 - Do **not** upload Outreach prospect folders or personal notes.
 
-**Public contact line:** (740) 530-8790 · hello@mahoneydigital.net
+**Public contact line:** (740) 208-2576 · hello@mahoneydigital.net
