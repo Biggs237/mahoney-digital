@@ -17,4 +17,7 @@ Allow: /
 # Unlisted concept demo — direct link only, not for search indexing
 Disallow: /examples/castos-auto-repair
 
+# Unlisted concept demo — direct link only, not for search indexing
+Disallow: /examples/the-drain-doctor
+
 Sitemap: https://mahoneydigital.net/sitemap.xml
