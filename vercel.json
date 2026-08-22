@@ -88,14 +88,6 @@
       "destination": "/care-plans/index.html"
     },
     {
-      "source": "/local-seo",
-      "destination": "/local-seo/index.html"
-    },
-    {
-      "source": "/local-seo/",
-      "destination": "/local-seo/index.html"
-    },
-    {
       "source": "/ai-services",
       "destination": "/ai-services/index.html"
     },
