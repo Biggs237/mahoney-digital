@@ -36,7 +36,7 @@ function isAllowedOrigin(origin) {
   if (!origin) return false;
   if (ALLOWED_ORIGINS.has(origin)) return true;
   // Allow Vercel preview deployments for this project
-  if (/^https:\\/\\/[a-z0-9-]+-biggs237\\.vercel\\.app$/i.test(origin)) return true;
+  if (/^https:\/\/[a-z0-9-]+-biggs237\.vercel\.app$/i.test(origin)) return true;
   return false;
 }
 
