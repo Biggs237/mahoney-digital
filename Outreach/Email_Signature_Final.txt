@@ -1,6 +1,6 @@
 Mahoney Digital - Final Email Signature (Recommended)
 
-**Updated August 3, 2026 — new Google Voice number (740) 208-2576**
+**Updated September 9, 2026 — public line is Grok Voice (740) 530-8790 (voice only, no texts)**
 
 === 1. BEST PLAIN TEXT VERSION (copy/paste this - most reliable) ===
 
@@ -9,7 +9,7 @@ Mahoney Digital
 
 Professional websites for small local businesses.
 
-hello@mahoneydigital.net | (740) 208-2576
+hello@mahoneydigital.net | (740) 530-8790
 
 mahoneydigital.net | https://mahoneydigital.net/plans/
 
@@ -30,7 +30,7 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
   Mahoney Digital<br>
   <span style="color: #64748b;">Professional websites for small local businesses.</span>
   <br><br>
-  <a href="mailto:hello@mahoneydigital.net" style="color: #166534; text-decoration: none;">hello@mahoneydigital.net</a> | <a href="tel:7402082576" style="color: #166534; text-decoration: none;">(740) 208-2576</a>
+  <a href="mailto:hello@mahoneydigital.net" style="color: #166534; text-decoration: none;">hello@mahoneydigital.net</a> | <a href="tel:7405308790" style="color: #166534; text-decoration: none;">(740) 530-8790</a>
   <br>
   <a href="https://mahoneydigital.net" style="color: #166534; text-decoration: none;">mahoneydigital.net</a> | <a href="https://mahoneydigital.net/plans/" style="color: #166534; text-decoration: none;">See plans →</a>
 </div>
@@ -43,6 +43,6 @@ mahoneydigital.net | https://mahoneydigital.net/plans/
 Mahoney Digital  
 *Professional websites for small local businesses.*  
 
-hello@mahoneydigital.net | (740) 208-2576  
+hello@mahoneydigital.net | (740) 530-8790  
 
 mahoneydigital.net | See plans →
