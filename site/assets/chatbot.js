@@ -5,7 +5,7 @@
  * - Soft-book only on explicit book intent → /api/lead + ntfy
  */
 (function () {
-  const PHONE = '(740) 208-2576';
+  const EMAIL = 'hello@mahoneydigital.net';
 
   const FAQ = [
     {
@@ -51,9 +51,7 @@
     {
       keys: ['contact', 'email', 'reach', 'phone number', 'call you'],
       answer:
-        'Call ' +
-        PHONE +
-        ' (voice only — no texts on that line), email hello@mahoneydigital.net, or use mahoneydigital.net/contact.\n\nOr soft-book here: say “book a call.”',
+        'Email hello@mahoneydigital.net or use mahoneydigital.net/contact.\n\nOr soft-book here: say “book a call.”',
     },
     {
       keys: ['where', 'location', 'chillicothe', 'ohio', 'area', 'ross', 'serve'],
@@ -119,7 +117,6 @@
 
   function localAnswer(text) {
     const q = text.toLowerCase();
-    // Prefer longer key matches first (already ordered roughly)
     let best = null;
     let bestLen = 0;
     for (const item of FAQ) {
@@ -132,9 +129,9 @@
     }
     if (best) return best;
     return (
-      'I can help with:\n• Website packages & pricing ranges\n• Care plans & tune-ups\n• Demos / examples\n• Soft-booking a call with Jeremy\n\nTry a chip below, or ask a specific question. Direct line: ' +
-      PHONE +
-      ' (voice) · mahoneydigital.net/contact'
+      'I can help with:\n• Website packages & pricing ranges\n• Care plans & tune-ups\n• Demos / examples\n• Soft-booking a call with Jeremy\n\nTry a chip below, or ask a specific question. Email: ' +
+      EMAIL +
+      ' · mahoneydigital.net/contact'
     );
   }
 
@@ -166,7 +163,7 @@
     panel.innerHTML =
       '<div class="md-chat-header">' +
       '<div><h2>Mahoney Digital</h2><p>Quick answers · soft-book a call · ' +
-      PHONE +
+      EMAIL +
       '</p></div>' +
       '<button type="button" class="md-chat-close" aria-label="Close chat">&times;</button>' +
       '</div>' +
@@ -193,7 +190,7 @@
     let welcomed = false;
 
     const lead = { name: '', phone: '', windows: '', intent: '' };
-    let softStep = null; // null | 'name' | 'phone' | 'windows' | 'done'
+    let softStep = null;
 
     function addBubble(role, text) {
       const b = el('div', 'md-chat-bubble ' + (role === 'user' ? 'user' : 'bot'));
@@ -284,9 +281,9 @@
           lead.phone +
           '\n• ' +
           lead.windows +
-          '\n\nJeremy will confirm during business hours (Mon–Fri 8–5). You can also call ' +
-          PHONE +
-          ' anytime (voice only).'
+          '\n\nJeremy will confirm during business hours (Mon–Fri 8–5). You can also email ' +
+          EMAIL +
+          '.'
         );
       }
       return null;
@@ -299,9 +296,9 @@
         welcomed = true;
         addBubble(
           'bot',
-          'Hi — ask me about packages, pricing, care plans, or demos. When you’re ready, tap “Book a call” to soft-book time with Jeremy.\n\nDirect line: ' +
-            PHONE +
-            ' (voice) · mahoneydigital.net/contact',
+          'Hi — ask me about packages, pricing, care plans, or demos. When you’re ready, tap “Book a call” to soft-book time with Jeremy.\n\nEmail: ' +
+            EMAIL +
+            ' · mahoneydigital.net/contact',
         );
       }
       setTimeout(() => input.focus(), 50);
@@ -350,7 +347,6 @@
 
       let answer = null;
 
-      // Soft-book flow only when already in progress OR explicit book intent
       if (softStep && softStep !== 'done') {
         answer = await handleSoftBook(text);
       } else {
@@ -374,7 +370,6 @@
       }
 
       if (!answer) {
-        // Always answer from local FAQ first (AI is optional)
         answer = localAnswer(text);
         try {
           const res = await fetch('/api/chat', {
@@ -393,7 +388,6 @@
           /* keep localAnswer */
         }
 
-        // Light nudge after buying questions — do not force phone collection
         if (
           softStep !== 'done' &&
           !lead.phone &&
