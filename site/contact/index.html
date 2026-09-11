@@ -151,6 +151,12 @@
             if (!sel || !need) return;
             if (need === 'tech-help') {
                 sel.value = 'Tech setup or troubleshooting';
+            } else if (need === 'tune-up') {
+                sel.value = 'Website / site build or tune-up';
+                var sit = document.querySelector('select[name="website-situation"]');
+                if (sit) sit.value = 'Have a site but it looks outdated';
+                var goal = document.querySelector('select[name="main-goal"]');
+                if (goal) goal.value = 'More phone calls / booked jobs';
             }
         })();
     </script>
