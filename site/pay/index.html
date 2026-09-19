@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay a start deposit | Mahoney Digital</title>
+    <meta name="description" content="Pay the 50% start deposit for an Essential, Growth, or Signature website after we agree on the package.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2217%22 fill=%22%230b1120%22/><text x=%2250%22 y=%2265%22 font-size=%2258%22 font-family=%22Inter, system-ui, sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>M</text></svg>">
+    <link rel="stylesheet" href="/assets/site.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; background: #f8f6f1; }
+        .heading-font { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+        .btn-primary { background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%); }
+        .btn-primary:hover { background: linear-gradient(135deg, #0b1120 0%, #0f766e 100%); }
+    </style>
+</head>
+<body class="bg-cream text-ink-muted min-h-screen flex flex-col">
+    <nav class="bg-white/95 border-b border-cream-dark sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-5 h-16 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-x-3 leading-none">
+                <svg width="32" height="32" viewBox="0 0 256 256" class="block" aria-hidden="true"><rect x="16" y="16" width="224" height="224" rx="44" fill="#0b1120"/><text x="128" y="168" font-family="Inter, system-ui, sans-serif" font-size="128" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="-0.06em">M</text></svg>
+                <span class="font-semibold text-lg tracking-tighter text-ink">Mahoney Digital</span>
+            </a>
+            <div class="hidden md:flex items-center gap-x-5 text-sm">
+                <a href="/websites/" class="font-medium text-slate-600 hover:text-brand-dark">Site Builds</a>
+                <a href="/contact/" class="btn-primary px-4 py-2 rounded-2xl text-white text-sm font-semibold">Get in touch</a>
+            </div>
+            <a href="/" class="md:hidden text-sm text-slate-600">Home</a>
+        </div>
+    </nav>
+    <main class="flex-1 max-w-5xl mx-auto px-5 md:px-6 py-12 md:py-16 w-full">
+        <p class="text-xs font-semibold tracking-[0.2em] uppercase text-brand-dark mb-3">Payments</p>
+        <h1 class="heading-font text-3xl md:text-4xl font-semibold text-ink tracking-tight mb-4">Pay the start deposit.</h1>
+        <p class="text-lg text-slate-600 leading-relaxed max-w-2xl mb-6">Use this page after we agree on a package. These are 50% start deposits on the published starting prices. The rest is invoiced before launch.</p>
+        <p class="text-sm text-slate-600 bg-white border border-slate-200 rounded-2xl p-4 max-w-2xl mb-10">Have not talked yet? Do not pay first. <a href="/contact/" class="text-brand-dark font-semibold hover:underline">Start a conversation</a> so the scope matches what you need.</p>
+        <div class="grid md:grid-cols-3 gap-6">
+            <article class="bg-white border border-slate-200 rounded-3xl p-7 flex flex-col">
+                <h2 class="heading-font text-xl font-semibold text-ink mb-1">Essential</h2>
+                <p class="text-sm text-slate-500 mb-4">Starting package $1,450</p>
+                <div class="text-3xl font-semibold tracking-tight text-ink mb-2">$725</div>
+                <p class="text-sm text-slate-600 mb-6 flex-1">50% start deposit. Balance due before the site goes live.</p>
+                <a class="btn-primary text-center text-white py-3 rounded-2xl text-sm font-semibold" href="https://buy.stripe.com/9B69ATdxM5mi8I54Fw38400">Pay Essential deposit</a>
+            </article>
+            <article class="bg-white border-2 border-brand-dark rounded-3xl p-7 flex flex-col relative">
+                <div class="absolute -top-3 right-5 bg-brand-dark text-white text-[10px] font-bold tracking-wide px-3 py-1 rounded-full">MOST POPULAR</div>
+                <h2 class="heading-font text-xl font-semibold text-ink mb-1">Growth</h2>
+                <p class="text-sm text-slate-500 mb-4">Starting package $2,650</p>
+                <div class="text-3xl font-semibold tracking-tight text-brand-dark mb-2">$1,325</div>
+                <p class="text-sm text-slate-600 mb-6 flex-1">50% start deposit. Balance due before the site goes live.</p>
+                <a class="btn-primary text-center text-white py-3 rounded-2xl text-sm font-semibold" href="https://buy.stripe.com/7sYcN52T8aGCcYleg638401">Pay Growth deposit</a>
+            </article>
+            <article class="bg-white border border-slate-200 rounded-3xl p-7 flex flex-col">
+                <h2 class="heading-font text-xl font-semibold text-ink mb-1">Signature</h2>
+                <p class="text-sm text-slate-500 mb-4">Starting package $4,850</p>
+                <div class="text-3xl font-semibold tracking-tight text-ink mb-2">$2,425</div>
+                <p class="text-sm text-slate-600 mb-6 flex-1">50% start deposit. Balance due before the site goes live.</p>
+                <a class="btn-primary text-center text-white py-3 rounded-2xl text-sm font-semibold" href="https://buy.stripe.com/00w9ATbpE9CycYl9ZQ38402">Pay Signature deposit</a>
+            </article>
+        </div>
+        <ul class="mt-10 text-sm text-slate-600 space-y-2 max-w-2xl">
+            <li>Card payments run on Stripe. Mahoney Digital never sees the card number.</li>
+            <li>A paid deposit emails hello@mahoneydigital.net and sends a phone push.</li>
+            <li>Need a custom amount or a care-plan subscription? Email hello@mahoneydigital.net and I will send a one-off link.</li>
+        </ul>
+    </main>
+    <footer class="bg-ink text-slate-400 text-sm py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-5 flex flex-wrap gap-4 justify-between">
+            <span class="text-white font-semibold">Mahoney Digital</span>
+            <a href="/websites/" class="hover:text-white">Site Builds</a>
+            <a href="/contact/" class="hover:text-white">Contact</a>
+            <a href="/privacy/" class="hover:text-white">Privacy Policy</a>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="/assets/chatbot.css">
+    <script defer src="/assets/chatbot.js"></script>
+    <script defer src="/assets/vercel-insights.js"></script>
+</body>
+</html>
