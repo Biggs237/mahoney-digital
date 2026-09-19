@@ -64,6 +64,22 @@
       "destination": "/thank-you.html"
     },
     {
+      "source": "/pay",
+      "destination": "/pay/index.html"
+    },
+    {
+      "source": "/pay/",
+      "destination": "/pay/index.html"
+    },
+    {
+      "source": "/pay/thanks",
+      "destination": "/pay/thanks/index.html"
+    },
+    {
+      "source": "/pay/thanks/",
+      "destination": "/pay/thanks/index.html"
+    },
+    {
       "source": "/websites",
       "destination": "/websites/index.html"
     },
